@@ -64,30 +64,6 @@ mode="Global">
 			id="6bf5386c-c260-4121-a8ea-c35c86bc50b3">
 			</arguments>
 		</invokeactionrecorditem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="500ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="5da4549e-fde3-4a9e-bab2-07c01ca88357"
-		sx="0"
-		sy="0"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="1f0978c1-d36d-43c3-9ee0-882790d308f4"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[#'txtPassword']
-				</path>
-			</info>
-		</mouseitem>
 	</recorditems>
 	<repository
 	id="d8c4034f-596c-4755-95c6-cc2d7e4fcd20"
