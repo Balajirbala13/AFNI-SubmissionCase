@@ -89,6 +89,10 @@ namespace SubmissionCase_E2E
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TxtPassword' at Center.", repo.ApplicationUnderTest.TxtPasswordInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.TxtPassword.Click();
+            Delay.Milliseconds(200);
+            
         }
 
 #region Image Feature Data
