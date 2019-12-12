@@ -572,7 +572,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			name="AdverseType_AddAdverseInfo"
 			refimgid="5305ba44-9f1b-4093-b3c8-7c353cc82ea9"
 			searchtimeout="30000ms">
-				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//button[@name='AddOrUpdateAdverseInfo_pyWorkPage_29']
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//button[@name='AddOrUpdateAdverseInfo_pyWorkPage_12']
 			</item>
 			<item
 			addcaps="unknown,webelement,selecttag"
@@ -1013,7 +1013,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			name="Adverse_Driver_Insurance_Header"
 			refimgid="2808de9e-43e3-4178-ad99-00a2fd5a9aab"
 			searchtimeout="30000ms">
-				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//h2[@innertext='Adverse Driver Insurance']
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//h2[@innertext='Adverse Driver Insurance' and @class='header-title']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -1103,7 +1103,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			name="AD1_LI_PhoneUseType"
 			refimgid="a25af102-2f81-4557-999a-ebc26f9116fd"
 			searchtimeout="30000ms">
-				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@id='d32a0c12' and @name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pPhoneInfo$l1$pPhoneUseType']
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pPhoneInfo$l1$pPhoneUseType']
 			</item>
 			<item
 			addcaps="unknown,webelement,selecttag"
@@ -1112,7 +1112,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			name="AD1_LI_PhoneType"
 			refimgid="e14a3e4c-5f2a-4bce-9964-42871ea3dadc"
 			searchtimeout="30000ms">
-				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@id='ea959631' and @name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pPhoneInfo$l1$pPhoneType']
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pPhoneInfo$l1$pPhoneType']
 			</item>
 			<item
 			addcaps="unknown,webelement,selecttag"
@@ -1121,7 +1121,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			name="AD1_LI_PhoneSource"
 			refimgid="822ed8ff-e9b7-4b40-9015-ea02ec397c8b"
 			searchtimeout="30000ms">
-				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@id='31f27347' and @name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pPhoneInfo$l1$pPhoneSource']
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pPhoneInfo$l1$pPhoneSource']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -1130,7 +1130,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			name="AD1_LI_PhoneNumber"
 			refimgid="59370578-8172-4151-b728-aee08f313fe2"
 			searchtimeout="30000ms">
-				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@id='f8e81360' and @name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pPhoneInfo$l1$pPhoneNumber']
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pPhoneInfo$l1$pPhoneNumber']
 			</item>
 			<item
 			addcaps="unknown,webelement,selecttag"
@@ -3188,15 +3188,6 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
-			capname="labeltag"
-			id="82e7a244-081d-45d3-9f59-21633badb21b"
-			name="EmailID_Header"
-			refimgid="ea284370-68c5-4e5f-8dee-1c721e9e1347"
-			searchtimeout="30000ms">
-				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//label[@innertext='Email ID']
-			</item>
-			<item
-			addcaps="unknown,webelement,inputtag"
 			capname="selecttag"
 			id="d8d65f90-5160-4842-829a-f66cb5a81137"
 			name="ID_CI_EmailSource"
@@ -3212,6 +3203,15 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			refimgid="ea284370-68c5-4e5f-8dee-1c721e9e1347"
 			searchtimeout="30000ms">
 				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pEmailInfo$l1$ppyEmail']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="h2tag"
+			id="82e7a244-081d-45d3-9f59-21633badb21b"
+			name="EmailID_Header"
+			refimgid="ea284370-68c5-4e5f-8dee-1c721e9e1347"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//h2[@innertext='Email Information' and @class='header-title']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -4315,10 +4315,10 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			addcaps="unknown,webelement,h2tag"
 			capname="h2tag"
 			id="8976d355-d18a-490b-9893-97f0e7102206"
-			name="Toyota__2019_MH15_HJ_1001"
+			name="Adverse_Information___AD1_PI_FirstName_AD1_PI_LastName"
 			refimgid="a1550ee0-7dbc-412b-9cc7-98ba18073a93"
 			searchtimeout="30000ms">
-				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//h2[@innertext&gt;'Toyota Corolla 2019-MH15 HJ 1001']
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//h2[@class='header-title' and @innertext='Adverse Information - AD1_PI_FirstName AD1_PI_LastName']
 			</item>
 			<item
 			addcaps="unknown,webelement,h2tag"
@@ -4606,7 +4606,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			name="FooterMappingAD1PIPersonal"
 			refimgid="6445aae4-f63b-4365-8e07-f4f37a1d8aae"
 			searchtimeout="30000ms">
-				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='Personal']
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[text()='Personal']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -4621,10 +4621,10 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			addcaps="unknown,webelement,spantag"
 			capname="spantag"
 			id="c1b52e15-0ef8-4da5-9096-64843a5e81b2"
-			name="FooterMappingAO1_PI_PhoneType_LandLine"
+			name="FooterMappingAD1_PI_PhoneType_LandLine"
 			refimgid="438cfa4d-f5f5-47b8-b085-542d3e3aa7b9"
 			searchtimeout="30000ms">
-				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='Land Line']
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[text()='Land Line']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -4642,7 +4642,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			name="FooterMappingAD1PIDirect"
 			refimgid="3fde5c43-6ea7-46dc-9715-1825cf012db7"
 			searchtimeout="30000ms">
-				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='Direct']
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[text()='Direct']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -4658,9 +4658,63 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			capname="spantag"
 			id="31ebf13b-c620-4b61-b718-7558840f409d"
 			name="FooterMappingAD1PIPhoneNumber_Value"
+			refimgid="74170846-f98d-440d-bc9d-374d389b4f2d"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[text()='(950) 009-5000']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="62d81e61-1a59-4d8d-a88c-abed2b6ac27c"
+			name="FooterMappingAD1PIEmail_UseType_Value"
+			refimgid="74170846-f98d-440d-bc9d-374d389b4f2d"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//div[3]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[text()='Personal']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="2823ef47-2a1e-49b0-8b21-c20433f605f4"
+			name="FooterMappingAD1PIEmail_Source_Value"
+			refimgid="74170846-f98d-440d-bc9d-374d389b4f2d"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//div[3]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[text()='Direct']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="atag"
+			id="54362071-7624-4c63-8328-416170a0bea3"
+			name="FooterMappingAD1PIEmail_EmailID_Value"
+			refimgid="74170846-f98d-440d-bc9d-374d389b4f2d"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//a[@innertext='ad1PIemail@gmail.com']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="7fa99369-1d09-49e4-a1a1-1ab1024ae868"
+			name="FooterMappingAD1ADPhoneNumber_Value"
 			refimgid="e2e6d58b-e0f8-4972-b895-690b0e7b3532"
 			searchtimeout="30000ms">
-				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='(950) 009-5000']
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='(950) 009-5002']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="d1d59d89-4367-4ff9-bc9d-b36b7017cd04"
+			name="FooterMappingAO1PIPhoneNumber_Value"
+			refimgid="e2e6d58b-e0f8-4972-b895-690b0e7b3532"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='(950) 009-5004']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="7ea6eee4-95e4-478f-8819-0c02a9a013a9"
+			name="FooterMappingAO1ADPhoneNumber_Value"
+			refimgid="e2e6d58b-e0f8-4972-b895-690b0e7b3532"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='(950) 009-5006']
 			</item>
 			<item
 			addcaps="unknown,webelement,h2tag"
@@ -4840,7 +4894,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			name="FooterMappingAD1LIBusiness"
 			refimgid="3a58e541-65bc-4b14-b3d6-9e40ce4291e8"
 			searchtimeout="30000ms">
-				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Business']
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Business']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -4858,7 +4912,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			name="FooterMappingAD1LICell"
 			refimgid="5ca500c5-4dc7-4f7d-a562-7377d5ac1d20"
 			searchtimeout="30000ms">
-				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Cell']
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='VOIP']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -4876,7 +4930,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			name="FooterMappingAD1LISkipTrace"
 			refimgid="8e51c61b-2b41-4fce-a276-b22468a30a65"
 			searchtimeout="30000ms">
-				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Skip Trace']
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Skip Trace']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -4895,6 +4949,33 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			refimgid="357c2765-d59d-4319-a9ed-29ea4298949c"
 			searchtimeout="30000ms">
 				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='(950) 009-5001']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="7993e4d2-ef65-42f8-bd80-1ad60453bc9e"
+			name="FooterMappingAD1LIEmail_UseType_Value"
+			refimgid="74170846-f98d-440d-bc9d-374d389b4f2d"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBB_1']//div[4]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Business']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="b87cc21b-c55b-4af7-8418-013dffb71978"
+			name="FooterMappingAD1LIEmail_Source_Value"
+			refimgid="74170846-f98d-440d-bc9d-374d389b4f2d"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBB_1']//div[4]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Skip Trace']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="atag"
+			id="09c1f3cd-4eac-4fde-ad91-aa4faaaf3825"
+			name="FooterMappingAD1LIEmail_Value"
+			refimgid="74170846-f98d-440d-bc9d-374d389b4f2d"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//a[@innertext='AD1LIEmail@gmail.com']
 			</item>
 			<item
 			addcaps="unknown,webelement,h2tag"
@@ -4946,6 +5027,15 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			capname="spantag"
 			id="f8bc6234-f789-410c-965b-ea28f4a1d7d4"
 			name="FooterMappingEmail"
+			refimgid="fd156fb5-6371-46ed-a49a-66817eedbdd4"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Email ID']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="2eebeed3-8a33-45b1-99ac-7c6d34f176d4"
+			name="Email_Information_Footer"
 			refimgid="fd156fb5-6371-46ed-a49a-66817eedbdd4"
 			searchtimeout="30000ms">
 				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Email ID']
@@ -5039,6 +5129,69 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			refimgid="c616f6c3-8537-4288-a6fb-18b8bc3c0e6f"
 			searchtimeout="30000ms">
 				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//h2[@innertext='Phone/Fax Information']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="c3e16c12-6cc1-436d-9abd-a1f0c92039e0"
+			name="FooterMappingAD1ADPhone_UseType_Value"
+			refimgid="74170846-f98d-440d-bc9d-374d389b4f2d"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Personal']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="01a87559-16ea-4e65-9e8c-00c2f5f014f9"
+			name="FooterMappingAD1ADPhone_PhoneType_Value"
+			refimgid="74170846-f98d-440d-bc9d-374d389b4f2d"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Cell']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="c20ec275-8dd3-4a74-bef4-3cd953f9598a"
+			name="FooterMappingAD1ADPhone_Source_Value"
+			refimgid="74170846-f98d-440d-bc9d-374d389b4f2d"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Caller ID']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="eed89e41-dfe5-4ece-9b51-ea8c0d29509a"
+			name="FooterMappingAD1ADPhone_PhoneNumber"
+			refimgid="74170846-f98d-440d-bc9d-374d389b4f2d"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='(950) 009-5002']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="3cd4c6c9-0e2c-4f2a-b8fd-3cef16d928ea"
+			name="FooterMappingAD1ADEmail_UseType_Value"
+			refimgid="74170846-f98d-440d-bc9d-374d389b4f2d"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[4]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Business']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="9c7efd44-73c1-4bfe-86e0-61469eeed44a"
+			name="FooterMappingAD1ADEmail_Source_Value"
+			refimgid="74170846-f98d-440d-bc9d-374d389b4f2d"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[4]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Direct']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="atag"
+			id="06e5d743-ef7b-49ca-97bb-22db8d890d95"
+			name="FooterMappingAD1ADEmail_EmailID_Value"
+			refimgid="74170846-f98d-440d-bc9d-374d389b4f2d"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[4]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//a[@innertext='attorney1@gmail.com']
 			</item>
 			<item
 			addcaps="unknown,webelement,h2tag"
@@ -5606,6 +5759,24 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 			refimgid="36df0888-de70-4d39-abf4-0e6476ad49b0"
 			searchtimeout="30000ms">
 				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Personal']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="3ee3e096-2519-40f1-8266-f8024387291a"
+			name="Copy_of_FooterMappingAO1_AttorneyPersonal"
+			refimgid="36df0888-de70-4d39-abf4-0e6476ad49b0"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//span[@data-test-id='201801040250510263390925' and text()='AD1_PI_FirstName']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="615c1976-bb21-4673-b4d3-45b015c8fa99"
+			name="Copy_of_Copy_of_FooterMappingAO1_AttorneyPersonal"
+			refimgid="36df0888-de70-4d39-abf4-0e6476ad49b0"
+			searchtimeout="30000ms">
+				/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//div[3]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[text()='Personal']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -7008,45 +7179,6 @@ lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
 zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
 8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
 F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
-			</icon>
-		</appfolder>
-		<appfolder
-		addcaps="host,nativewindow"
-		capname="host"
-		id="dc1cca4e-5096-467f-b9f7-38c8256a2d72"
-		isrooted="True"
-		name="SBRLT045"
-		refimgid="67040521-e19c-40f0-ac79-53ed92653424"
-		refpath=""
-		searchtimeout="30000ms"
-		usecache="True">
-			<item
-			addcaps="host,nativewindow"
-			capname="host"
-			id="e43feca9-5243-48ba-bab6-df0e3f19e3d1"
-			name="SBRLT045"
-			refimgid="a478aedc-219a-4852-bc16-934d1851769a"
-			refpath=""
-			searchtimeout="30000ms">
-			</item>
-			<basepath>
-			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
-dC5ORVQgdjMuMzE3g3eGAAACtUlEQVQ4T62S6zOUYRiH9w/qYzM1o5moMUyNShmHpISUNhIrHRxW
-DjmXpcah2Ky1TcsSa5ZQ0u62csxxMI4p6URGWFlXz6rGNPu1e+b98sx7Xc/v996v5L/N4OgcPYPT
-WPomaH8zSotpGENbP3UtvVQbutDUWVDVmCjVtlOsaeMPtjNd/VNcfwwyNVwuh4ulEFoMQfchQGHj
-5B0rPlkreN1eRKFsdBQYO8eIroAHz6GgCbLqQa6DqxoIV0JIoV20iU/mCndKDY6CFuMQ4WWgEHCG
-gBOrIKYSpOIsWMCn8n7inbHM0VvzZBfXOwr0rX2cL4H0OkjQQrSoIhU1zooK/nc38MpY4oj8Pe6x
-o6QXPnUUVBk6t1+OewJRKgh78Bu2d7f39kh8h/vVEVwiOki9p3MUqGvN2x2viA94QcCBBeCXu86J
-tG94xM/iFjOES7iFfeeaSVJoHQVlYj2+OWuEihpn8rfwzV7leOoXDsdN4yobwFlqxinkGXtP15KQ
-+9hRUFT5HK/07wTk2/DJ/oFn8mcO3ZzENfqtgI04BTeyJ0DHbj8NN7IqHAUKZRNzn6xMza8zPrfG
-yMwqA5M/6B1bobXzI7UvJijWWgjtCkWWpvxXkJLz8KBG/3pTqXtJYWWz2HM9afe0xOeokKWUII0v
-IEiWjd+lFI4Fx+HmL9u8lFAU+QeXSDQNFv7Opm2LNauNpZWfzH+1MikS2dN0iySmwWVae5aoaZvl
-gHfkTgp1nXkbjjXFsm7d4oNhFwuLG8wsWGl8NUjFU6NIped6porYDBUlugH2n4jYEZTXGrGJm6sG
-9AxPLDA7VE579zRNpnFqWkdQN/RTUt2NQt1BziMzmWVG9nlKdwRFmma5eMhT6sVfVo38biXX0suI
-TCok7EYegVGZ+EqTt/u7+8fg7BVhF8glEonkF6m1M1/+IilrAAAAAElFTkSuQmCC
 			</icon>
 		</appfolder>
 		<basepath>

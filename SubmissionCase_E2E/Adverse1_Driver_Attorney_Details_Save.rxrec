@@ -24,68 +24,68 @@ mode="Global">
 	</codegen>
 	<variables>
 		<var
-		id="bf1b19f0-4377-4e33-9352-b2ec3cfce70a"
-		name="AD1_Attorney_FirmName_getValue">
+		id="10741fbc-e54d-4de9-b9d5-467c215aedaf"
+		name="AD1_AD_EmailSource">
 		</var>
 		<var
-		id="a9cdc641-3245-4a9b-891e-97c5755a91d5"
-		name="AD1_Attorney_FirstName_getValue">
+		id="ecef9adc-d3ab-4dab-9e4d-bbdbb9a1273f"
+		name="AD1_AD_EmailUseType">
 		</var>
 		<var
-		id="034ebd01-90bf-4fa7-a75f-63a9add2f3e8"
-		name="AD1_Attorney_LastName_getValue">
+		id="6a8a744e-c6d5-44b3-846b-d697837eab23"
+		name="AD1_AD_Phone">
 		</var>
 		<var
-		id="9ff374a7-8817-4641-80c5-7ecaf1532382"
-		name="AD1_Attorney_Address1_getValue">
+		id="31d001e6-5976-4daf-a867-56949d55f9cb"
+		name="AD1_AD_Source">
 		</var>
 		<var
-		id="7597a7ab-30ed-4686-b5f8-eb9ea5729a38"
-		name="AD1_Attorney_Address2_getValue">
+		id="a6dbbd1b-6c0c-4e5b-ba94-f4c73031e0dd"
+		name="AD1_AD_PhoneType">
 		</var>
 		<var
-		id="af595d0f-37d2-4a20-a51c-c17a13046312"
-		name="AD1_Attorney_City_getValue">
+		id="aacad5b1-0f92-43bb-93b4-fca02967d834"
+		name="AD1_AD_UseType">
 		</var>
 		<var
-		id="4e44a6c7-af6d-45fe-ad9c-0f8548ed78fa"
-		name="AD1_Attorney_State_getValue">
+		id="8d05cab7-e748-4ecd-92ae-d94a44998d2b"
+		name="AD1_Attorney_RepDate">
 		</var>
 		<var
-		id="5094a1c5-e7ef-472f-b674-d5c7353afc9f"
-		name="AD1_Attorney_Zip_getValue">
+		id="8ddaf5fa-7de0-452c-82e7-63f3a82e5ae3"
+		name="AD1_AD_EmailID">
 		</var>
 		<var
-		id="c56e9be5-ba65-4552-946c-ed124b789ab5"
-		name="AD1_AD_Email_getValue">
+		id="c58a6e74-459b-4364-9426-cac5921ab8b1"
+		name="AD1_AD_Zip">
 		</var>
 		<var
-		id="b5816266-bd4a-41b2-9db7-c3376bc1830c"
-		name="AD1_AD_UseType_getValue">
+		id="09208e6c-6f92-41b1-ab38-c73c68bca6cf"
+		name="AD1_AD_State">
 		</var>
 		<var
-		id="7e1fbecb-58cd-49a3-acf8-9ec01336bd8c"
-		name="AD1_AD_PhoneType_getValue">
+		id="ddf1ba6b-b24e-45b8-a10f-b6f94fde7b5d"
+		name="AD1_Attorney_City">
 		</var>
 		<var
-		id="1fd2d584-b670-4913-a91c-f77ac86de856"
-		name="AD1_AD_Source_getValue">
+		id="73fc8b62-15e1-4ee2-bdc6-4988f45ea3eb"
+		name="AD1_AD_Address2">
 		</var>
 		<var
-		id="fe553a6a-e651-4403-9470-eef14a5734d0"
-		name="AD1_AD_PhoneNumber_getValue">
+		id="1de464ef-928a-409b-a407-5a1624d5188e"
+		name="AD1_AD_Address1">
 		</var>
 		<var
-		id="bc1a3312-4570-4c11-9f54-f366298904c5"
-		name="AD1_Attorney_RepDate_getValue">
+		id="672df4c3-c53f-4ca3-b10d-007740f28da1"
+		name="AD1_AD_LastName">
 		</var>
 		<var
-		id="757dfd87-c304-47ae-8821-3ddd7c1f7d27"
-		name="AD1_AD_EmailUseType_getValue">
+		id="13722b4c-51a8-45cc-a4fa-813c96fec387"
+		name="AD1_AD_FirstName">
 		</var>
 		<var
-		id="cc328106-82bc-44de-aa4c-8b89dcadd7e9"
-		name="AD1_AD_EmailSource_getValue">
+		id="eecfe4c4-6ce3-427e-9058-f2ca16ca2561"
+		name="AD1_AD_FirmName">
 		</var>
 	</variables>
 	<recorditems>
@@ -202,40 +202,6 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="bf0d275c-1fb8-4e42-8273-b5e4a73c57ae"
-		varname="AD1_Attorney_FirmName_getValue">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="930f1729-1bd5-49a8-bead-d521cb11c8a8"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@data-test-id='20190403081623013471309']
-				</path>
-			</info>
-		</getvaluerecorditem>
-		<loggingrecorditem
-		category="User"
-		enabled="True"
-		message=""
-		optional="False"
-		reportlevel="Info;20"
-		searchpropertyid="31fc441b-9b53-4fb6-8f4c-26d671dcc3d3">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="Message"
-				variable="AD1_Attorney_FirmName_getValue">
-				</binding>
-			</bindings>
-		</loggingrecorditem>
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
@@ -247,7 +213,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_Attorney_FirmName_getValue">
+				variable="AD1_AD_FirmName">
 				</binding>
 			</bindings>
 			<info
@@ -264,24 +230,6 @@ mode="Global">
 				AD1_Attorney_FirmName
 			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="bf0d275c-1fb8-4e42-8273-b5e4a73c57ae"
-		varname="AD1_Attorney_FirstName_getValue">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="2f03b209-753e-4d80-aba8-07dc23e9a5b1"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pAttorneyDetails$pFirstName']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -294,7 +242,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD1_Attorney_FirstName_getValue">
+				variable="AD1_AD_FirmName">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -309,7 +257,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_Attorney_FirstName_getValue">
+				variable="AD1_AD_FirstName">
 				</binding>
 			</bindings>
 			<info
@@ -322,28 +270,7 @@ mode="Global">
 			<matchname>
 				TagValue
 			</matchname>
-			<matchvalue>
-				AD1_Attorney_FirstName
-			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="bf0d275c-1fb8-4e42-8273-b5e4a73c57ae"
-		varname="AD1_Attorney_LastName_getValue">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="9c4676be-dd2d-478b-a51d-550a9d114a4d"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pAttorneyDetails$pLastName']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -356,7 +283,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD1_Attorney_LastName_getValue">
+				variable="AD1_AD_FirstName">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -371,7 +298,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_Attorney_LastName_getValue">
+				variable="AD1_AD_LastName">
 				</binding>
 			</bindings>
 			<info
@@ -384,28 +311,7 @@ mode="Global">
 			<matchname>
 				TagValue
 			</matchname>
-			<matchvalue>
-				AD1_Attorney_LastName
-			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="bf0d275c-1fb8-4e42-8273-b5e4a73c57ae"
-		varname="AD1_Attorney_Address1_getValue">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="2d1ce498-94d0-4213-a7fe-d5ef11e1d12c"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pAttorneyDetails$pAddressInfo$pAddressLine1']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -418,7 +324,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD1_Attorney_Address1_getValue">
+				variable="AD1_AD_LastName">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -433,7 +339,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_Attorney_Address1_getValue">
+				variable="AD1_AD_Address1">
 				</binding>
 			</bindings>
 			<info
@@ -446,28 +352,7 @@ mode="Global">
 			<matchname>
 				TagValue
 			</matchname>
-			<matchvalue>
-				AD1_Attorney_Address1
-			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="bf0d275c-1fb8-4e42-8273-b5e4a73c57ae"
-		varname="AD1_Attorney_Address2_getValue">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="697d1b3e-a628-4bf2-9797-c87b4bfaf3a4"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pAttorneyDetails$pAddressInfo$pAddressLine2']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -480,7 +365,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD1_Attorney_Address2_getValue">
+				variable="AD1_AD_Address1">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -495,7 +380,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_Attorney_Address2_getValue">
+				variable="AD1_AD_Address2">
 				</binding>
 			</bindings>
 			<info
@@ -508,28 +393,7 @@ mode="Global">
 			<matchname>
 				TagValue
 			</matchname>
-			<matchvalue>
-				AD1_Attorney_Address2
-			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="bf0d275c-1fb8-4e42-8273-b5e4a73c57ae"
-		varname="AD1_Attorney_City_getValue">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="cd8d9877-a3d8-4029-b8ea-8edfc6f78242"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pAttorneyDetails$pAddressInfo$pcity']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -542,7 +406,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD1_Attorney_City_getValue">
+				variable="AD1_AD_Address2">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -557,7 +421,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_Attorney_City_getValue">
+				variable="AD1_Attorney_City">
 				</binding>
 			</bindings>
 			<info
@@ -570,28 +434,7 @@ mode="Global">
 			<matchname>
 				TagValue
 			</matchname>
-			<matchvalue>
-				AD1_Attorney_City
-			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="bf0d275c-1fb8-4e42-8273-b5e4a73c57ae"
-		varname="AD1_Attorney_State_getValue">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="e032ea6a-d603-48b1-bb48-09058409b3d0"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pAttorneyDetails$pAddressInfo$pUSStateCode']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -602,10 +445,6 @@ mode="Global">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="Message"
-				variable="AD1_Attorney_State_getValue">
-				</binding>
 			</bindings>
 		</loggingrecorditem>
 		<validationitem
@@ -619,7 +458,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_Attorney_State_getValue">
+				variable="AD1_AD_State">
 				</binding>
 			</bindings>
 			<info
@@ -632,28 +471,7 @@ mode="Global">
 			<matchname>
 				TagValue
 			</matchname>
-			<matchvalue>
-				LA
-			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="bf0d275c-1fb8-4e42-8273-b5e4a73c57ae"
-		varname="AD1_Attorney_Zip_getValue">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="dd28713c-ac09-4413-8169-b43353368d4d"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pAttorneyDetails$pAddressInfo$pZipCode']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -666,7 +484,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD1_Attorney_Zip_getValue">
+				variable="AD1_AD_State">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -681,7 +499,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_Attorney_Zip_getValue">
+				variable="AD1_AD_Zip">
 				</binding>
 			</bindings>
 			<info
@@ -694,28 +512,7 @@ mode="Global">
 			<matchname>
 				TagValue
 			</matchname>
-			<matchvalue>
-				12345-5432
-			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="bf0d275c-1fb8-4e42-8273-b5e4a73c57ae"
-		varname="AD1_AD_Email_getValue">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="92b304bb-1e74-43f9-8a68-832f5fe9fa01"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pEmailInfo$l1$ppyEmail']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -728,7 +525,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD1_AD_Email_getValue">
+				variable="AD1_AD_Zip">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -743,69 +540,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_AD_Email_getValue">
-				</binding>
-			</bindings>
-			<info
-			id="92b304bb-1e74-43f9-8a68-832f5fe9fa01"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pAttorneyDetails$ppyEmail']
-				</path>
-			</info>
-			<matchname>
-				TagValue
-			</matchname>
-			<matchvalue>
-				attorney1@gmail.com
-			</matchvalue>
-		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="bf0d275c-1fb8-4e42-8273-b5e4a73c57ae"
-		varname="AD1_Attorney_RepDate_getValue">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="365ebb74-9cf2-4a79-bafe-23bed2f969db"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@data-test-id='201903270805270511343383']
-				</path>
-			</info>
-		</getvaluerecorditem>
-		<loggingrecorditem
-		category="User"
-		enabled="True"
-		message=""
-		optional="False"
-		reportlevel="Info;20"
-		searchpropertyid="31fc441b-9b53-4fb6-8f4c-26d671dcc3d3">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="Message"
-				variable="AD1_Attorney_RepDate_getValue">
-				</binding>
-			</bindings>
-		</loggingrecorditem>
-		<validationitem
-		action="AttributeEqual"
-		duration="100ms"
-		enabled="True"
-		optional="False"
-		searchpropertyid="4ea690ee-2072-4756-9b7c-83a4b4c6c44f">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="MatchValue"
-				variable="AD1_Attorney_RepDate_getValue">
+				variable="AD1_Attorney_RepDate">
 				</binding>
 			</bindings>
 			<info
@@ -818,28 +553,7 @@ mode="Global">
 			<matchname>
 				TagValue
 			</matchname>
-			<matchvalue>
-				02/02/19
-			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="7316ee75-189a-4a7b-968a-d2380e599572"
-		varname="AD1_AD_UseType_getValue">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="e6733234-36cf-4269-8e4c-e10b5f5faa0c"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//select[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pAttorneyDetails$pPhoneInfo$l1$pPhoneUseType']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -852,10 +566,34 @@ mode="Global">
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD1_AD_UseType_getValue">
+				variable="AD1_Attorney_RepDate">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="063324d1-f15f-4e39-97bb-b9589db7cf97"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="92b304bb-1e74-43f9-8a68-832f5fe9fa01"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pAttorneyDetails$pEmailInfo$l1$ppyEmail']
+				</path>
+			</info>
+		</mouseitem>
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
@@ -867,7 +605,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_AD_UseType_getValue">
+				variable="AD1_AD_UseType">
 				</binding>
 			</bindings>
 			<info
@@ -880,28 +618,7 @@ mode="Global">
 			<matchname>
 				TagValue
 			</matchname>
-			<matchvalue>
-				Personal
-			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="bf0d275c-1fb8-4e42-8273-b5e4a73c57ae"
-		varname="AD1_AD_PhoneType_getValue">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="41a515c3-c592-4498-a208-88f32262dcaf"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//select[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pAttorneyDetails$pPhoneInfo$l1$pPhoneType']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -914,7 +631,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD1_AD_PhoneType_getValue">
+				variable="AD1_AD_UseType">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -929,7 +646,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_AD_PhoneType_getValue">
+				variable="AD1_AD_PhoneType">
 				</binding>
 			</bindings>
 			<info
@@ -942,28 +659,7 @@ mode="Global">
 			<matchname>
 				TagValue
 			</matchname>
-			<matchvalue>
-				Cell
-			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="bf0d275c-1fb8-4e42-8273-b5e4a73c57ae"
-		varname="AD1_AD_Source_getValue">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="86bc8722-24b9-4c5a-a923-9e9664ded6ca"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//select[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pAttorneyDetails$pPhoneInfo$l1$pPhoneSource']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -976,7 +672,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD1_AD_Source_getValue">
+				variable="AD1_AD_PhoneType">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -991,7 +687,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_AD_Source_getValue">
+				variable="AD1_AD_Source">
 				</binding>
 			</bindings>
 			<info
@@ -1004,28 +700,7 @@ mode="Global">
 			<matchname>
 				TagValue
 			</matchname>
-			<matchvalue>
-				Caller ID
-			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="bf0d275c-1fb8-4e42-8273-b5e4a73c57ae"
-		varname="AD1_AD_PhoneNumber_getValue">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="cdda6e67-6af0-4f43-9370-60c1624a34ab"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pPhoneInfo$l1$pPhoneNumber']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -1038,7 +713,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD1_AD_PhoneNumber_getValue">
+				variable="AD1_AD_Source">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -1053,7 +728,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_AD_PhoneNumber_getValue">
+				variable="AD1_AD_Phone">
 				</binding>
 			</bindings>
 			<info
@@ -1066,41 +741,20 @@ mode="Global">
 			<matchname>
 				TagValue
 			</matchname>
-			<matchvalue>
-				(950) 009-5002
-			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="315eda62-50f3-49bb-ac03-1f22aaac5358"
-		varname="AD1_AD_EmailUseType_getValue">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="3e76099a-3f3c-4099-aae4-bed2da6168f7"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//select[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pAttorneyDetails$pEmailInfo$l1$pEmailUseType']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
 		message=""
 		optional="False"
 		reportlevel="Info;20"
-		searchpropertyid="cd8fafc1-0f87-45c3-ae04-34edcafd6dd5">
+		searchpropertyid="31fc441b-9b53-4fb6-8f4c-26d671dcc3d3">
 			<comment>
 			</comment>
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD1_AD_EmailUseType_getValue">
+				variable="AD1_AD_Phone">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -1114,7 +768,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_AD_EmailUseType_getValue">
+				variable="AD1_AD_EmailUseType">
 				</binding>
 			</bindings>
 			<info
@@ -1127,28 +781,7 @@ mode="Global">
 			<matchname>
 				TagValue
 			</matchname>
-			<matchvalue>
-				yourtext
-			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="315eda62-50f3-49bb-ac03-1f22aaac5358"
-		varname="AD1_AD_EmailSource_getValue">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="c0632821-681a-4024-8915-213aa2cfbab3"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//select[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pAttorneyDetails$pEmailInfo$l1$pEmailSource']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -1161,7 +794,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD1_AD_EmailSource_getValue">
+				variable="AD1_AD_EmailUseType">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -1175,7 +808,7 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_AD_EmailSource_getValue">
+				variable="AD1_AD_EmailSource">
 				</binding>
 			</bindings>
 			<info
@@ -1188,28 +821,7 @@ mode="Global">
 			<matchname>
 				TagValue
 			</matchname>
-			<matchvalue>
-				yourtext
-			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="315eda62-50f3-49bb-ac03-1f22aaac5358"
-		varname="AD1_AD_Email_getValue">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="92b304bb-1e74-43f9-8a68-832f5fe9fa01"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pEmailInfo$l1$ppyEmail']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -1220,39 +832,49 @@ mode="Global">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="Message"
-				variable="AD1_AD_Email_getValue">
-				</binding>
 			</bindings>
 		</loggingrecorditem>
 		<validationitem
 		action="AttributeEqual"
+		duration="100ms"
 		enabled="True"
 		optional="False"
-		searchpropertyid="5a5051b2-523e-4586-a3e9-07bd175dc9a0">
+		searchpropertyid="4ea690ee-2072-4756-9b7c-83a4b4c6c44f">
 			<comment>
 			</comment>
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_AD_Email_getValue">
+				variable="AD1_AD_EmailID">
 				</binding>
 			</bindings>
 			<info
 			id="92b304bb-1e74-43f9-8a68-832f5fe9fa01"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pEmailInfo$l1$ppyEmail']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pAttorneyDetails$ppyEmail']
 				</path>
 			</info>
 			<matchname>
 				TagValue
 			</matchname>
-			<matchvalue>
-				yourtext
-			</matchvalue>
 		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="31fc441b-9b53-4fb6-8f4c-26d671dcc3d3">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AD1_AD_EmailID">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
 		<loggingrecorditem
 		action="Screenshot"
 		category="User"

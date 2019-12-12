@@ -103,6 +103,11 @@ mode="Global">
 		id="915179b5-ce7a-4a87-a1e0-c7f9620e849e"
 		name="AD1_PI_Email">
 		</var>
+		<var
+		id="66b85ec6-4d51-4a15-8548-67a42ffbbe1d"
+		name="Test">
+			AD1_PI_BankruptcyCaseNo
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -1976,6 +1981,41 @@ FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB/9k=
 				</binding>
 			</bindings>
 		</loggingrecorditem>
+		<mousewheelitem
+		delta="12000"
+		duration="500ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2d7950e2-eac2-49e6-bc47-07bbf8b41f77"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="de98d5b0-75f8-40de-97e9-50e97b01ceba"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pPersonalInfo$pEmailInfo$l1$ppyEmail']
+				</path>
+			</info>
+		</mouseitem>
 		<validationitem
 		action="AttributeEqual"
 		enabled="True"

@@ -398,155 +398,159 @@ namespace SubmissionCase_E2E
             
             Report.Log(ReportLevel.Info, "User", AO_PI_ZipCode, new RecordItemIndex(18));
             
-            //Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_Email' and assigning its value to variable 'AO_PI_Email_getValue'.", repo.ApplicationUnderTest.AO_PI_EmailInfo, new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AO_PI_PhoneUseType' at Center.", repo.ApplicationUnderTest.AO_PI_PhoneUseTypeInfo, new RecordItemIndex(19));
+            repo.ApplicationUnderTest.AO_PI_PhoneUseType.Click();
+            Delay.Milliseconds(200);
+            
+            //Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_Email' and assigning its value to variable 'AO_PI_Email_getValue'.", repo.ApplicationUnderTest.AO_PI_EmailInfo, new RecordItemIndex(20));
             //AO_PI_Email_getValue = repo.ApplicationUnderTest.AO_PI_Email.Element.GetAttributeValueText("TagValue");
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "User", AO_PI_Email_getValue, new RecordItemIndex(20));
+            //Report.Log(ReportLevel.Info, "User", AO_PI_Email_getValue, new RecordItemIndex(21));
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(21));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(22));
             
-            //Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_Email_getValue) on item 'ApplicationUnderTest.AO_PI_Email'.", repo.ApplicationUnderTest.AO_PI_EmailInfo, new RecordItemIndex(22));
+            //Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_Email_getValue) on item 'ApplicationUnderTest.AO_PI_Email'.", repo.ApplicationUnderTest.AO_PI_EmailInfo, new RecordItemIndex(23));
             //Validate.AttributeEqual(repo.ApplicationUnderTest.AO_PI_EmailInfo, "TagValue", AO_PI_Email_getValue);
             //Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'ApplicationUnderTest.OAT_PI_Returned_Mail'.", repo.ApplicationUnderTest.OAT_PI_Returned_MailInfo, new RecordItemIndex(23));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'ApplicationUnderTest.OAT_PI_Returned_Mail'.", repo.ApplicationUnderTest.OAT_PI_Returned_MailInfo, new RecordItemIndex(24));
             Validate.AttributeEqual(repo.ApplicationUnderTest.OAT_PI_Returned_MailInfo, "Checked", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value='true') on item 'ApplicationUnderTest.OAT_PI_Returned_Mail'.", repo.ApplicationUnderTest.OAT_PI_Returned_MailInfo, new RecordItemIndex(24));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value='true') on item 'ApplicationUnderTest.OAT_PI_Returned_Mail'.", repo.ApplicationUnderTest.OAT_PI_Returned_MailInfo, new RecordItemIndex(25));
             Validate.AttributeEqual(repo.ApplicationUnderTest.OAT_PI_Returned_MailInfo, "Value", "true");
             Delay.Milliseconds(100);
             
-            //Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_BankruptcyCounty' and assigning its value to variable 'AO_PI_BankruptcyCounty'.", repo.ApplicationUnderTest.AO_PI_BankruptcyCountyInfo, new RecordItemIndex(25));
+            //Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_BankruptcyCounty' and assigning its value to variable 'AO_PI_BankruptcyCounty'.", repo.ApplicationUnderTest.AO_PI_BankruptcyCountyInfo, new RecordItemIndex(26));
             //AO_PI_BankruptcyCounty = repo.ApplicationUnderTest.AO_PI_BankruptcyCounty.Element.GetAttributeValueText("TagValue");
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_BankruptcyCounty) on item 'ApplicationUnderTest.AO_PI_BankruptcyCounty'.", repo.ApplicationUnderTest.AO_PI_BankruptcyCountyInfo, new RecordItemIndex(26));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_BankruptcyCounty) on item 'ApplicationUnderTest.AO_PI_BankruptcyCounty'.", repo.ApplicationUnderTest.AO_PI_BankruptcyCountyInfo, new RecordItemIndex(27));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_PI_BankruptcyCountyInfo, "TagValue", AO_PI_BankruptcyCounty);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AO_PI_BankruptcyCounty, new RecordItemIndex(27));
+            Report.Log(ReportLevel.Info, "User", AO_PI_BankruptcyCounty, new RecordItemIndex(28));
             
-            //Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_BankruptcyDistrict' and assigning its value to variable 'AO_PI_BankruptcyDistrict'.", repo.ApplicationUnderTest.AO_PI_BankruptcyDistrictInfo, new RecordItemIndex(28));
+            //Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_BankruptcyDistrict' and assigning its value to variable 'AO_PI_BankruptcyDistrict'.", repo.ApplicationUnderTest.AO_PI_BankruptcyDistrictInfo, new RecordItemIndex(29));
             //AO_PI_BankruptcyDistrict = repo.ApplicationUnderTest.AO_PI_BankruptcyDistrict.Element.GetAttributeValueText("TagValue");
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_BankruptcyDistrict) on item 'ApplicationUnderTest.AO_PI_BankruptcyDistrict'.", repo.ApplicationUnderTest.AO_PI_BankruptcyDistrictInfo, new RecordItemIndex(29));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_BankruptcyDistrict) on item 'ApplicationUnderTest.AO_PI_BankruptcyDistrict'.", repo.ApplicationUnderTest.AO_PI_BankruptcyDistrictInfo, new RecordItemIndex(30));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_PI_BankruptcyDistrictInfo, "TagValue", AO_PI_BankruptcyDistrict);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AO_PI_BankruptcyDistrict, new RecordItemIndex(30));
+            Report.Log(ReportLevel.Info, "User", AO_PI_BankruptcyDistrict, new RecordItemIndex(31));
             
-            //Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_BankruptcyChapter' and assigning its value to variable 'AO_PI_BankruptcyChapter'.", repo.ApplicationUnderTest.AO_PI_BankruptcyChapterInfo, new RecordItemIndex(31));
+            //Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_BankruptcyChapter' and assigning its value to variable 'AO_PI_BankruptcyChapter'.", repo.ApplicationUnderTest.AO_PI_BankruptcyChapterInfo, new RecordItemIndex(32));
             //AO_PI_BankruptcyChapter = repo.ApplicationUnderTest.AO_PI_BankruptcyChapter.Element.GetAttributeValueText("TagValue");
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_BankruptcyChapter) on item 'ApplicationUnderTest.AO_PI_BankruptcyChapter'.", repo.ApplicationUnderTest.AO_PI_BankruptcyChapterInfo, new RecordItemIndex(32));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_BankruptcyChapter) on item 'ApplicationUnderTest.AO_PI_BankruptcyChapter'.", repo.ApplicationUnderTest.AO_PI_BankruptcyChapterInfo, new RecordItemIndex(33));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_PI_BankruptcyChapterInfo, "TagValue", AO_PI_BankruptcyChapter);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AO_PI_BankruptcyChapter, new RecordItemIndex(33));
+            Report.Log(ReportLevel.Info, "User", AO_PI_BankruptcyChapter, new RecordItemIndex(34));
             
-            //Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_BankruptcyCaseNo' and assigning its value to variable 'AO_PI_BankruptcyCaseNo'.", repo.ApplicationUnderTest.AO_PI_BankruptcyCaseNoInfo, new RecordItemIndex(34));
+            //Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_BankruptcyCaseNo' and assigning its value to variable 'AO_PI_BankruptcyCaseNo'.", repo.ApplicationUnderTest.AO_PI_BankruptcyCaseNoInfo, new RecordItemIndex(35));
             //AO_PI_BankruptcyCaseNo = repo.ApplicationUnderTest.AO_PI_BankruptcyCaseNo.Element.GetAttributeValueText("TagValue");
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_BankruptcyCaseNo) on item 'ApplicationUnderTest.AO_PI_BankruptcyCaseNo'.", repo.ApplicationUnderTest.AO_PI_BankruptcyCaseNoInfo, new RecordItemIndex(35));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_BankruptcyCaseNo) on item 'ApplicationUnderTest.AO_PI_BankruptcyCaseNo'.", repo.ApplicationUnderTest.AO_PI_BankruptcyCaseNoInfo, new RecordItemIndex(36));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_PI_BankruptcyCaseNoInfo, "TagValue", AO_PI_BankruptcyCaseNo);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AO_PI_BankruptcyCaseNo, new RecordItemIndex(36));
+            Report.Log(ReportLevel.Info, "User", AO_PI_BankruptcyCaseNo, new RecordItemIndex(37));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_PhoneUseType' and assigning its value to variable 'AO_PI_PhoneUseType_getValue'.", repo.ApplicationUnderTest.AO_PI_PhoneUseTypeInfo, new RecordItemIndex(37));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_PhoneUseType' and assigning its value to variable 'AO_PI_PhoneUseType_getValue'.", repo.ApplicationUnderTest.AO_PI_PhoneUseTypeInfo, new RecordItemIndex(38));
             AO_PI_PhoneUseType_getValue = repo.ApplicationUnderTest.AO_PI_PhoneUseType.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_PhoneUseType_getValue) on item 'ApplicationUnderTest.AO_PI_PhoneUseType'.", repo.ApplicationUnderTest.AO_PI_PhoneUseTypeInfo, new RecordItemIndex(38));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_PhoneUseType_getValue) on item 'ApplicationUnderTest.AO_PI_PhoneUseType'.", repo.ApplicationUnderTest.AO_PI_PhoneUseTypeInfo, new RecordItemIndex(39));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_PI_PhoneUseTypeInfo, "TagValue", AO_PI_PhoneUseType_getValue);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AO_PI_PhoneUseType_getValue, new RecordItemIndex(39));
+            Report.Log(ReportLevel.Info, "User", AO_PI_PhoneUseType_getValue, new RecordItemIndex(40));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_PhoneType' and assigning its value to variable 'AO_PI_PhoneType_getValue'.", repo.ApplicationUnderTest.AO_PI_PhoneTypeInfo, new RecordItemIndex(40));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_PhoneType' and assigning its value to variable 'AO_PI_PhoneType_getValue'.", repo.ApplicationUnderTest.AO_PI_PhoneTypeInfo, new RecordItemIndex(41));
             AO_PI_PhoneType_getValue = repo.ApplicationUnderTest.AO_PI_PhoneType.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_PhoneType_getValue) on item 'ApplicationUnderTest.AO_PI_PhoneType'.", repo.ApplicationUnderTest.AO_PI_PhoneTypeInfo, new RecordItemIndex(41));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_PhoneType_getValue) on item 'ApplicationUnderTest.AO_PI_PhoneType'.", repo.ApplicationUnderTest.AO_PI_PhoneTypeInfo, new RecordItemIndex(42));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_PI_PhoneTypeInfo, "TagValue", AO_PI_PhoneType_getValue);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AO_PI_PhoneType_getValue, new RecordItemIndex(42));
+            Report.Log(ReportLevel.Info, "User", AO_PI_PhoneType_getValue, new RecordItemIndex(43));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_PhoneSource' and assigning its value to variable 'AO_PI_PhoneSource_getValue'.", repo.ApplicationUnderTest.AO_PI_PhoneSourceInfo, new RecordItemIndex(43));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_PhoneSource' and assigning its value to variable 'AO_PI_PhoneSource_getValue'.", repo.ApplicationUnderTest.AO_PI_PhoneSourceInfo, new RecordItemIndex(44));
             AO_PI_PhoneSource_getValue = repo.ApplicationUnderTest.AO_PI_PhoneSource.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_PhoneSource_getValue) on item 'ApplicationUnderTest.AO_PI_PhoneSource'.", repo.ApplicationUnderTest.AO_PI_PhoneSourceInfo, new RecordItemIndex(44));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_PhoneSource_getValue) on item 'ApplicationUnderTest.AO_PI_PhoneSource'.", repo.ApplicationUnderTest.AO_PI_PhoneSourceInfo, new RecordItemIndex(45));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_PI_PhoneSourceInfo, "TagValue", AO_PI_PhoneSource_getValue);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AO_PI_PhoneSource_getValue, new RecordItemIndex(45));
+            Report.Log(ReportLevel.Info, "User", AO_PI_PhoneSource_getValue, new RecordItemIndex(46));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_PhoneNumber' and assigning its value to variable 'AO_PI_PhoneNumber_getValue'.", repo.ApplicationUnderTest.AO_PI_PhoneNumberInfo, new RecordItemIndex(46));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_PhoneNumber' and assigning its value to variable 'AO_PI_PhoneNumber_getValue'.", repo.ApplicationUnderTest.AO_PI_PhoneNumberInfo, new RecordItemIndex(47));
             AO_PI_PhoneNumber_getValue = repo.ApplicationUnderTest.AO_PI_PhoneNumber.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_PhoneNumber_getValue) on item 'ApplicationUnderTest.AO_PI_PhoneNumber'.", repo.ApplicationUnderTest.AO_PI_PhoneNumberInfo, new RecordItemIndex(47));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_PhoneNumber_getValue) on item 'ApplicationUnderTest.AO_PI_PhoneNumber'.", repo.ApplicationUnderTest.AO_PI_PhoneNumberInfo, new RecordItemIndex(48));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_PI_PhoneNumberInfo, "TagValue", AO_PI_PhoneNumber_getValue);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AO_PI_PhoneNumber_getValue, new RecordItemIndex(48));
+            Report.Log(ReportLevel.Info, "User", AO_PI_PhoneNumber_getValue, new RecordItemIndex(49));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_EmailUseType' and assigning its value to variable 'AO_PI_EmailUseType_getValue'.", repo.ApplicationUnderTest.AO_PI_EmailUseTypeInfo, new RecordItemIndex(49));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_EmailUseType' and assigning its value to variable 'AO_PI_EmailUseType_getValue'.", repo.ApplicationUnderTest.AO_PI_EmailUseTypeInfo, new RecordItemIndex(50));
             AO_PI_EmailUseType_getValue = repo.ApplicationUnderTest.AO_PI_EmailUseType.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_EmailUseType_getValue) on item 'ApplicationUnderTest.AO_PI_EmailUseType'.", repo.ApplicationUnderTest.AO_PI_EmailUseTypeInfo, new RecordItemIndex(50));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_EmailUseType_getValue) on item 'ApplicationUnderTest.AO_PI_EmailUseType'.", repo.ApplicationUnderTest.AO_PI_EmailUseTypeInfo, new RecordItemIndex(51));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_PI_EmailUseTypeInfo, "TagValue", AO_PI_EmailUseType_getValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO_PI_FirstName, new RecordItemIndex(51));
+            Report.Log(ReportLevel.Info, "User", AO_PI_FirstName, new RecordItemIndex(52));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_EmailSource' and assigning its value to variable 'AO_PI_EmailSource_getValue'.", repo.ApplicationUnderTest.AO_PI_EmailSourceInfo, new RecordItemIndex(52));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_EmailSource' and assigning its value to variable 'AO_PI_EmailSource_getValue'.", repo.ApplicationUnderTest.AO_PI_EmailSourceInfo, new RecordItemIndex(53));
             AO_PI_EmailSource_getValue = repo.ApplicationUnderTest.AO_PI_EmailSource.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_EmailSource_getValue) on item 'ApplicationUnderTest.AO_PI_EmailSource'.", repo.ApplicationUnderTest.AO_PI_EmailSourceInfo, new RecordItemIndex(53));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_EmailSource_getValue) on item 'ApplicationUnderTest.AO_PI_EmailSource'.", repo.ApplicationUnderTest.AO_PI_EmailSourceInfo, new RecordItemIndex(54));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_PI_EmailSourceInfo, "TagValue", AO_PI_EmailSource_getValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO_PI_EmailSource_getValue, new RecordItemIndex(54));
+            Report.Log(ReportLevel.Info, "User", AO_PI_EmailSource_getValue, new RecordItemIndex(55));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_EmailID' and assigning its value to variable 'AO_PI_EmailID_getValue'.", repo.ApplicationUnderTest.AO_PI_EmailIDInfo, new RecordItemIndex(55));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_PI_EmailID' and assigning its value to variable 'AO_PI_EmailID_getValue'.", repo.ApplicationUnderTest.AO_PI_EmailIDInfo, new RecordItemIndex(56));
             AO_PI_EmailID_getValue = repo.ApplicationUnderTest.AO_PI_EmailID.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_EmailID_getValue) on item 'ApplicationUnderTest.AO_PI_EmailID'.", repo.ApplicationUnderTest.AO_PI_EmailIDInfo, new RecordItemIndex(56));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_PI_EmailID_getValue) on item 'ApplicationUnderTest.AO_PI_EmailID'.", repo.ApplicationUnderTest.AO_PI_EmailIDInfo, new RecordItemIndex(57));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_PI_EmailIDInfo, "TagValue", AO_PI_EmailID_getValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO_PI_EmailID_getValue, new RecordItemIndex(57));
+            Report.Log(ReportLevel.Info, "User", AO_PI_EmailID_getValue, new RecordItemIndex(58));
             
-            //Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$AO_PI_PhoneUseType_getValue' on item 'ApplicationUnderTest.AO_PI_PhoneUseType'.", repo.ApplicationUnderTest.AO_PI_PhoneUseTypeInfo, new RecordItemIndex(58));
+            //Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$AO_PI_PhoneUseType_getValue' on item 'ApplicationUnderTest.AO_PI_PhoneUseType'.", repo.ApplicationUnderTest.AO_PI_PhoneUseTypeInfo, new RecordItemIndex(59));
             //repo.ApplicationUnderTest.AO_PI_PhoneUseType.Element.SetAttributeValue("TagValue", AO_PI_PhoneUseType_getValue);
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$AO_PI_PhoneType_getValue' on item 'ApplicationUnderTest.AO_PI_PhoneType'.", repo.ApplicationUnderTest.AO_PI_PhoneTypeInfo, new RecordItemIndex(59));
+            //Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$AO_PI_PhoneType_getValue' on item 'ApplicationUnderTest.AO_PI_PhoneType'.", repo.ApplicationUnderTest.AO_PI_PhoneTypeInfo, new RecordItemIndex(60));
             //repo.ApplicationUnderTest.AO_PI_PhoneType.Element.SetAttributeValue("TagValue", AO_PI_PhoneType_getValue);
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$AO_PI_PhoneSource_getValue' on item 'ApplicationUnderTest.AO_PI_PhoneSource'.", repo.ApplicationUnderTest.AO_PI_PhoneSourceInfo, new RecordItemIndex(60));
+            //Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$AO_PI_PhoneSource_getValue' on item 'ApplicationUnderTest.AO_PI_PhoneSource'.", repo.ApplicationUnderTest.AO_PI_PhoneSourceInfo, new RecordItemIndex(61));
             //repo.ApplicationUnderTest.AO_PI_PhoneSource.Element.SetAttributeValue("TagValue", AO_PI_PhoneSource_getValue);
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$AO_PI_PhoneNumber_getValue' with focus on 'ApplicationUnderTest.AO_PI_PhoneNumber'.", repo.ApplicationUnderTest.AO_PI_PhoneNumberInfo, new RecordItemIndex(61));
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$AO_PI_PhoneNumber_getValue' with focus on 'ApplicationUnderTest.AO_PI_PhoneNumber'.", repo.ApplicationUnderTest.AO_PI_PhoneNumberInfo, new RecordItemIndex(62));
             //repo.ApplicationUnderTest.AO_PI_PhoneNumber.PressKeys(AO_PI_PhoneNumber_getValue);
             //Delay.Milliseconds(0);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(62));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(63));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubmitButton1' at 46;15.", repo.ApplicationUnderTest.SubmitButton1Info, new RecordItemIndex(63));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubmitButton1' at 46;15.", repo.ApplicationUnderTest.SubmitButton1Info, new RecordItemIndex(64));
             repo.ApplicationUnderTest.SubmitButton1.Click("46;15");
             Delay.Milliseconds(0);
             

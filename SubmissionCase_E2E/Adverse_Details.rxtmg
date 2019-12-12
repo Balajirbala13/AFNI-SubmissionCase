@@ -860,6 +860,57 @@ rxversion="9.2">
 						variableref="6d2f08de-9138-44b8-8dcb-07339ea2172c">
 						</modulevariable>
 					</groupvariable>
+					<groupvariable
+					id="799e67a3-95da-4692-a202-c00b52ad2af2"
+					name="ID_PI_EmailUseType">
+						<modulevariable
+						moduleref="74d77d42-1b39-40c5-9aea-3895d1210bc5"
+						name="ID_PI_EmailUseType"
+						variableref="0a601a93-6de6-4c59-a1dc-d74d6c8330aa">
+						</modulevariable>
+						<modulevariable
+						moduleref="858799f8-25a3-49cf-9293-fc21ed2a30ec"
+						name="ID_PI_EmailUseType"
+						variableref="34682a3c-de15-49e6-980d-d19a85caa8e2">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="8e6cd00b-946a-424f-9e55-56f7c1417550"
+					name="ID_PI_EmailSource">
+						<modulevariable
+						moduleref="74d77d42-1b39-40c5-9aea-3895d1210bc5"
+						name="ID_PI_EmailSource"
+						variableref="aef69426-cc33-4518-98aa-135d6b3541b0">
+						</modulevariable>
+						<modulevariable
+						moduleref="858799f8-25a3-49cf-9293-fc21ed2a30ec"
+						name="ID_PI_EmailSource"
+						variableref="7509ae38-646d-44e2-9a81-ec9bd6ce0475">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="301d451d-4d50-4d1c-8da1-f6b4fa048322"
+					name="ID_PI_EmailID">
+						<modulevariable
+						moduleref="74d77d42-1b39-40c5-9aea-3895d1210bc5"
+						name="ID_PI_EmailID"
+						variableref="8165e14c-f90a-4c01-9cac-a4f84c9554c7">
+						</modulevariable>
+						<modulevariable
+						moduleref="858799f8-25a3-49cf-9293-fc21ed2a30ec"
+						name="ID_PI_EmailID"
+						variableref="393a29f5-787b-4cc8-8114-278158332778">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="c1123edb-5e52-4764-aef6-58fae8b21fa5"
+					name="ID_AI_SearchAttorney">
+						<modulevariable
+						moduleref="f7537492-2420-40ba-99b3-af90299667e6"
+						name="ID_AI_SearchAttorney"
+						variableref="a2ca2631-9909-4d9b-a849-38d60b193a0e">
+						</modulevariable>
+					</groupvariable>
 				</groupvariables>
 			</modulegroupdef>
 			<modulegroupdef
@@ -1629,6 +1680,11 @@ rxversion="9.2">
 						name="AD1_PI_EmailUseType"
 						variableref="89e3a87b-3b52-487f-a1e0-6493fb2f4131">
 						</modulevariable>
+						<modulevariable
+						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
+						name="AD1_PI_EmailUseType"
+						variableref="d5164675-9ea5-412b-9723-20e624db77df">
+						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="0f38a46f-3d11-4651-8080-3beac16e1a2b"
@@ -1643,6 +1699,11 @@ rxversion="9.2">
 						name="AD1_PI_EmailSource"
 						variableref="1d64c4c2-f0cc-485c-ae6a-7cec64974884">
 						</modulevariable>
+						<modulevariable
+						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
+						name="AD1_PI_EmailSource"
+						variableref="ab011f52-03a3-4f4b-a1a7-c3fb12806800">
+						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="7a696cd1-23c9-4a62-89c5-3234ecf8fdb0"
@@ -1656,6 +1717,11 @@ rxversion="9.2">
 						moduleref="503e3712-c429-47d9-a249-2f1388e65ab6"
 						name="AD1_PI_Email"
 						variableref="915179b5-ce7a-4a87-a1e0-c7f9620e849e">
+						</modulevariable>
+						<modulevariable
+						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
+						name="AD1_PI_Email"
+						variableref="a07c36a7-29d4-4a9f-8392-7ded07faa206">
 						</modulevariable>
 					</groupvariable>
 					<groupvariable
@@ -2194,6 +2260,16 @@ rxversion="9.2">
 						name="AD1_AD_UseType"
 						variableref="94c45ff4-2686-4cfd-9285-aabd2c2f5f38">
 						</modulevariable>
+						<modulevariable
+						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
+						name="AD1_AD_UseType"
+						variableref="8b2fc1e4-87a5-4b2f-ab73-7e7dbca113c8">
+						</modulevariable>
+						<modulevariable
+						moduleref="159676cd-333a-425a-884c-2325b551d90e"
+						name="AD1_AD_UseType"
+						variableref="aacad5b1-0f92-43bb-93b4-fca02967d834">
+						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="a90aa806-53a2-4189-8d6e-7a8a34fba709"
@@ -2202,6 +2278,16 @@ rxversion="9.2">
 						moduleref="7aaf2fed-eb8b-4be5-acfd-60eac3b509d0"
 						name="AD1_AD_PhoneType"
 						variableref="8084257d-bf21-4c9d-8c4e-301dcad39baa">
+						</modulevariable>
+						<modulevariable
+						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
+						name="AD1_AD_PhoneType"
+						variableref="b2ae1a5c-89e4-4ee0-acff-e42bfe0b8b42">
+						</modulevariable>
+						<modulevariable
+						moduleref="159676cd-333a-425a-884c-2325b551d90e"
+						name="AD1_AD_PhoneType"
+						variableref="a6dbbd1b-6c0c-4e5b-ba94-f4c73031e0dd">
 						</modulevariable>
 					</groupvariable>
 					<groupvariable
@@ -2212,6 +2298,16 @@ rxversion="9.2">
 						name="AD1_AD_Source"
 						variableref="261ae719-2f40-47eb-903e-cefd5972b9d8">
 						</modulevariable>
+						<modulevariable
+						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
+						name="AD1_AD_Source"
+						variableref="179d8fd0-31a6-41cd-8147-c92d79f72c65">
+						</modulevariable>
+						<modulevariable
+						moduleref="159676cd-333a-425a-884c-2325b551d90e"
+						name="AD1_AD_Source"
+						variableref="31d001e6-5976-4daf-a867-56949d55f9cb">
+						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="50cf1af7-712c-4a41-b690-51b3a4368fe1"
@@ -2221,6 +2317,16 @@ rxversion="9.2">
 						name="AD1_AD_EmailUseType"
 						variableref="cfb7fefe-1905-4837-a696-83c129b815c9">
 						</modulevariable>
+						<modulevariable
+						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
+						name="AD1_AD_EmailUseType"
+						variableref="a6a66f19-1750-4b04-bc19-bb83db326fa2">
+						</modulevariable>
+						<modulevariable
+						moduleref="159676cd-333a-425a-884c-2325b551d90e"
+						name="AD1_AD_EmailUseType"
+						variableref="ecef9adc-d3ab-4dab-9e4d-bbdbb9a1273f">
+						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="9a38dd24-6c72-4b40-bd47-fbec2dafb673"
@@ -2229,6 +2335,16 @@ rxversion="9.2">
 						moduleref="7aaf2fed-eb8b-4be5-acfd-60eac3b509d0"
 						name="AD1_AD_EmailSource"
 						variableref="f8bb0976-df48-43ba-80ee-613f6cfc8187">
+						</modulevariable>
+						<modulevariable
+						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
+						name="AD1_AD_EmailSource"
+						variableref="aa5e2b4e-74b4-4834-8e5e-c2645d7447c8">
+						</modulevariable>
+						<modulevariable
+						moduleref="159676cd-333a-425a-884c-2325b551d90e"
+						name="AD1_AD_EmailSource"
+						variableref="10741fbc-e54d-4de9-b9d5-467c215aedaf">
 						</modulevariable>
 					</groupvariable>
 					<groupvariable
@@ -2241,8 +2357,18 @@ rxversion="9.2">
 						</modulevariable>
 						<modulevariable
 						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
-						name="AD1_Attorney_RepDate"
+						name="AD1_AD_RepDate"
 						variableref="42358da7-bca8-46c3-8405-636b5de90ce4">
+						</modulevariable>
+						<modulevariable
+						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
+						name="AD1_Attorney_RepDate"
+						variableref="c3b03acf-b49e-4525-8ba5-b98a483a5539">
+						</modulevariable>
+						<modulevariable
+						moduleref="159676cd-333a-425a-884c-2325b551d90e"
+						name="AD1_Attorney_RepDate"
+						variableref="8d05cab7-e748-4ecd-92ae-d94a44998d2b">
 						</modulevariable>
 					</groupvariable>
 					<groupvariable
@@ -2258,11 +2384,6 @@ rxversion="9.2">
 					id="b1a92d80-5ec0-4e97-87d9-2761d6362259"
 					name="AD1_Attorney_FirmName_getValue">
 						<modulevariable
-						moduleref="159676cd-333a-425a-884c-2325b551d90e"
-						name="AD1_Attorney_FirmName_getValue"
-						variableref="bf1b19f0-4377-4e33-9352-b2ec3cfce70a">
-						</modulevariable>
-						<modulevariable
 						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
 						name="AD1_Attorney_FirmName_getValue"
 						variableref="f1e81127-3524-4b45-8075-66f61ee0fa03">
@@ -2271,137 +2392,62 @@ rxversion="9.2">
 					<groupvariable
 					id="59ca4cef-361f-418a-a355-0ba5734b1e96"
 					name="AD1_Attorney_FirstName_getValue">
-						<modulevariable
-						moduleref="159676cd-333a-425a-884c-2325b551d90e"
-						name="AD1_Attorney_FirstName_getValue"
-						variableref="a9cdc641-3245-4a9b-891e-97c5755a91d5">
-						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="b4805d55-ca2d-4644-87c5-9e73b7e5d6b3"
 					name="AD1_Attorney_LastName_getValue">
-						<modulevariable
-						moduleref="159676cd-333a-425a-884c-2325b551d90e"
-						name="AD1_Attorney_LastName_getValue"
-						variableref="034ebd01-90bf-4fa7-a75f-63a9add2f3e8">
-						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="fe2dbdfa-7b27-4d7c-9391-89c62f29029e"
 					name="AD1_Attorney_Address1_getValue">
-						<modulevariable
-						moduleref="159676cd-333a-425a-884c-2325b551d90e"
-						name="AD1_Attorney_Address1_getValue"
-						variableref="9ff374a7-8817-4641-80c5-7ecaf1532382">
-						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="e873cf8f-54bf-47e4-96e5-bd5352f81ec4"
 					name="AD1_Attorney_Address2_getValue">
-						<modulevariable
-						moduleref="159676cd-333a-425a-884c-2325b551d90e"
-						name="AD1_Attorney_Address2_getValue"
-						variableref="7597a7ab-30ed-4686-b5f8-eb9ea5729a38">
-						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="24597420-22b9-45d1-b949-5c0e415c5774"
 					name="AD1_Attorney_City_getValue">
-						<modulevariable
-						moduleref="159676cd-333a-425a-884c-2325b551d90e"
-						name="AD1_Attorney_City_getValue"
-						variableref="af595d0f-37d2-4a20-a51c-c17a13046312">
-						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="9b987af2-223b-4a91-bb0d-9d02f626fce1"
 					name="AD1_Attorney_State_getValue">
-						<modulevariable
-						moduleref="159676cd-333a-425a-884c-2325b551d90e"
-						name="AD1_Attorney_State_getValue"
-						variableref="4e44a6c7-af6d-45fe-ad9c-0f8548ed78fa">
-						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="88f772d7-356b-4a13-a135-2c10be475403"
 					name="AD1_Attorney_Zip_getValue">
-						<modulevariable
-						moduleref="159676cd-333a-425a-884c-2325b551d90e"
-						name="AD1_Attorney_Zip_getValue"
-						variableref="5094a1c5-e7ef-472f-b674-d5c7353afc9f">
-						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="16b1ba54-bf41-47b6-88d3-51247e947d12"
 					name="AD1_AD_Email_getValue">
-						<modulevariable
-						moduleref="159676cd-333a-425a-884c-2325b551d90e"
-						name="AD1_AD_Email_getValue"
-						variableref="c56e9be5-ba65-4552-946c-ed124b789ab5">
-						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="f5687475-8d5f-4c8d-8f67-cf204347eb7e"
 					name="AD1_AD_UseType_getValue">
-						<modulevariable
-						moduleref="159676cd-333a-425a-884c-2325b551d90e"
-						name="AD1_AD_UseType_getValue"
-						variableref="b5816266-bd4a-41b2-9db7-c3376bc1830c">
-						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="3bd38c8b-7a5f-4833-acae-ff9525c5e025"
 					name="AD1_AD_PhoneType_getValue">
-						<modulevariable
-						moduleref="159676cd-333a-425a-884c-2325b551d90e"
-						name="AD1_AD_PhoneType_getValue"
-						variableref="7e1fbecb-58cd-49a3-acf8-9ec01336bd8c">
-						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="73854a90-7950-4d93-852b-e127a00bc948"
 					name="AD1_AD_Source_getValue">
-						<modulevariable
-						moduleref="159676cd-333a-425a-884c-2325b551d90e"
-						name="AD1_AD_Source_getValue"
-						variableref="1fd2d584-b670-4913-a91c-f77ac86de856">
-						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="a193569b-9833-48b0-a255-184c5b63aabe"
 					name="AD1_AD_PhoneNumber_getValue">
-						<modulevariable
-						moduleref="159676cd-333a-425a-884c-2325b551d90e"
-						name="AD1_AD_PhoneNumber_getValue"
-						variableref="fe553a6a-e651-4403-9470-eef14a5734d0">
-						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="79f865ed-ae1b-4475-9e7c-29b56bd73961"
 					name="AD1_Attorney_RepDate_getValue">
-						<modulevariable
-						moduleref="159676cd-333a-425a-884c-2325b551d90e"
-						name="AD1_Attorney_RepDate_getValue"
-						variableref="bc1a3312-4570-4c11-9f54-f366298904c5">
-						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="c6c6b914-1c1c-4c63-94a8-b53cd532cb8f"
 					name="AD1_AD_EmailUseType_getValue">
-						<modulevariable
-						moduleref="159676cd-333a-425a-884c-2325b551d90e"
-						name="AD1_AD_EmailUseType_getValue"
-						variableref="757dfd87-c304-47ae-8821-3ddd7c1f7d27">
-						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="8ece43f8-8370-443f-a22b-58d08b076961"
 					name="AD1_AD_EmailSource_getValue">
-						<modulevariable
-						moduleref="159676cd-333a-425a-884c-2325b551d90e"
-						name="AD1_AD_EmailSource_getValue"
-						variableref="cc328106-82bc-44de-aa4c-8b89dcadd7e9">
-						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="fba98234-907d-4f43-91e7-930f4c7c125a"
@@ -2658,6 +2704,11 @@ rxversion="9.2">
 						name="AO_PI_PhoneUseType"
 						variableref="0a16d5d5-8152-47c2-a4c2-ee6883854ac8">
 						</modulevariable>
+						<modulevariable
+						moduleref="572aa670-3aa1-4628-9842-46db84a96c8f"
+						name="AO_PI_PhoneUseType"
+						variableref="070524ff-97c6-4ba1-af9d-390e2be7af76">
+						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="3cda5a56-9ab0-4962-b2e0-1a8007d18811"
@@ -2685,6 +2736,11 @@ rxversion="9.2">
 						moduleref="0253be39-2128-4c3d-95a9-aa4afc0005c1"
 						name="AO_PI_PhoneSource"
 						variableref="492d6d9e-3d79-4d51-9c67-853591e4eebb">
+						</modulevariable>
+						<modulevariable
+						moduleref="572aa670-3aa1-4628-9842-46db84a96c8f"
+						name="AO_PI_PhoneSource"
+						variableref="a99f8aef-d0d8-4d02-b42b-dfa00f2793f9">
 						</modulevariable>
 					</groupvariable>
 					<groupvariable
@@ -3087,6 +3143,11 @@ rxversion="9.2">
 						name="AO_LI_PhoneUseType"
 						variableref="f0e30abd-16a8-4e41-932b-6003ddf2178c">
 						</modulevariable>
+						<modulevariable
+						moduleref="572aa670-3aa1-4628-9842-46db84a96c8f"
+						name="AO_LI_PhoneUseType"
+						variableref="f6f5e413-53eb-4db0-921b-484b6fcbe870">
+						</modulevariable>
 					</groupvariable>
 					<groupvariable
 					id="553d0029-f6a1-426b-94c2-a62fab182909"
@@ -3114,6 +3175,11 @@ rxversion="9.2">
 						moduleref="f656999c-02b1-4d5c-91cf-000097669ab0"
 						name="AO_LI_PhoneSource"
 						variableref="55964cf9-e641-497d-9db6-d9804fd6a5f5">
+						</modulevariable>
+						<modulevariable
+						moduleref="572aa670-3aa1-4628-9842-46db84a96c8f"
+						name="AO_LI_PhoneSource"
+						variableref="e7c5fbed-ea65-4e3e-8ab7-02a611fff089">
 						</modulevariable>
 					</groupvariable>
 					<groupvariable
@@ -3512,7 +3578,7 @@ rxversion="9.2">
 						</modulevariable>
 						<modulevariable
 						moduleref="572aa670-3aa1-4628-9842-46db84a96c8f"
-						name="AO1_Attorney_PhoneType"
+						name="AO_AD_PhoneType"
 						variableref="aa48783e-03d3-461d-b8da-c7179d5ebb96">
 						</modulevariable>
 					</groupvariable>
@@ -3531,7 +3597,7 @@ rxversion="9.2">
 						</modulevariable>
 						<modulevariable
 						moduleref="572aa670-3aa1-4628-9842-46db84a96c8f"
-						name="AO1_Attorney_Source"
+						name="AO_AD_Source"
 						variableref="cf042d6e-d251-4ea9-9273-a6c6e1a5e8b5">
 						</modulevariable>
 					</groupvariable>
@@ -3569,7 +3635,7 @@ rxversion="9.2">
 						</modulevariable>
 						<modulevariable
 						moduleref="572aa670-3aa1-4628-9842-46db84a96c8f"
-						name="AO1_Attorney_EmailUseType"
+						name="AO_AD_EmailUseType"
 						variableref="c01da0ee-f1af-46c4-894c-3ee81aa04df8">
 						</modulevariable>
 					</groupvariable>
@@ -3588,7 +3654,7 @@ rxversion="9.2">
 						</modulevariable>
 						<modulevariable
 						moduleref="572aa670-3aa1-4628-9842-46db84a96c8f"
-						name="AO1_Attorney_EmailSource"
+						name="AO_AD_EmailSource"
 						variableref="73299edf-913d-4584-a2b5-088a05d152d5">
 						</modulevariable>
 					</groupvariable>
@@ -3731,7 +3797,7 @@ rxversion="9.2">
 					name="AD1_Attorney_FirmName">
 						<modulevariable
 						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
-						name="AD1_Attorney_FirmName"
+						name="AD1_AD_FirmName"
 						variableref="d11a45d9-5a7a-4443-bbfb-08b3204eb30b">
 						</modulevariable>
 					</groupvariable>
@@ -3740,7 +3806,7 @@ rxversion="9.2">
 					name="AD1_Attorney_FirstName">
 						<modulevariable
 						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
-						name="AD1_Attorney_FirstName"
+						name="AD1_AD_FirstName"
 						variableref="dc95d870-de36-41ca-a191-179a0dc8363d">
 						</modulevariable>
 					</groupvariable>
@@ -3749,7 +3815,7 @@ rxversion="9.2">
 					name="AD1_Attorney_LastName">
 						<modulevariable
 						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
-						name="AD1_Attorney_LastName"
+						name="AD1_AD_LastName"
 						variableref="6924457a-2b31-4615-8539-04702b17979f">
 						</modulevariable>
 					</groupvariable>
@@ -3794,7 +3860,7 @@ rxversion="9.2">
 					name="AD1_Attorney_Email">
 						<modulevariable
 						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
-						name="AD1_Attorney_Email"
+						name="AD1_AD_Email"
 						variableref="fedcd47c-6f05-4241-bf23-a96d7fdb188b">
 						</modulevariable>
 					</groupvariable>
@@ -3803,7 +3869,7 @@ rxversion="9.2">
 					name="AD1_Attorney_Address1">
 						<modulevariable
 						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
-						name="AD1_Attorney_Address1"
+						name="AD1_AD_Address1"
 						variableref="57a46ca1-7c84-4c99-9264-7d8fb4f63ee2">
 						</modulevariable>
 					</groupvariable>
@@ -3812,7 +3878,7 @@ rxversion="9.2">
 					name="AD1_Attorney_Address2">
 						<modulevariable
 						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
-						name="AD1_Attorney_Address2"
+						name="AD1_AD_Address2"
 						variableref="5fce2dc2-df5c-4768-aaa3-e9f986b0936a">
 						</modulevariable>
 					</groupvariable>
@@ -3821,8 +3887,13 @@ rxversion="9.2">
 					name="AD1_Attorney_City">
 						<modulevariable
 						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
-						name="AD1_Attorney_City"
+						name="AD1_AD_City"
 						variableref="97896acc-9c38-45c8-9281-4c91972c1278">
+						</modulevariable>
+						<modulevariable
+						moduleref="159676cd-333a-425a-884c-2325b551d90e"
+						name="AD1_Attorney_City"
+						variableref="ddf1ba6b-b24e-45b8-a10f-b6f94fde7b5d">
 						</modulevariable>
 					</groupvariable>
 					<groupvariable
@@ -3830,7 +3901,7 @@ rxversion="9.2">
 					name="AD1_Attorney_State">
 						<modulevariable
 						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
-						name="AD1_Attorney_State"
+						name="AD1_AD_State"
 						variableref="d0b30729-4119-4a74-af75-26fb94197491">
 						</modulevariable>
 					</groupvariable>
@@ -3839,7 +3910,7 @@ rxversion="9.2">
 					name="AD1_Attorney_Zip">
 						<modulevariable
 						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
-						name="AD1_Attorney_Zip"
+						name="AD1_AD_Zip"
 						variableref="1b2b3569-7148-4003-9fb6-ac616ef44206">
 						</modulevariable>
 					</groupvariable>
@@ -3918,7 +3989,7 @@ rxversion="9.2">
 						</modulevariable>
 						<modulevariable
 						moduleref="572aa670-3aa1-4628-9842-46db84a96c8f"
-						name="AO1_Attorney_UseType1"
+						name="AO_AD_UseType"
 						variableref="a75d3adf-f447-47ca-9806-4594037f9a57">
 						</modulevariable>
 					</groupvariable>
@@ -3962,6 +4033,106 @@ rxversion="9.2">
 						moduleref="572aa670-3aa1-4628-9842-46db84a96c8f"
 						name="AO_LI_Company_Name"
 						variableref="1b86930a-74c3-4537-b4ac-68f0ebfec246">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="88993907-52be-485f-b079-26132c4455fa"
+					name="Test">
+						<modulevariable
+						moduleref="503e3712-c429-47d9-a249-2f1388e65ab6"
+						name="Test"
+						variableref="66b85ec6-4d51-4a15-8548-67a42ffbbe1d">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="25f213ef-dee0-491b-85c1-2b5c45bf9358"
+					name="AD1_AD_Phone">
+						<modulevariable
+						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
+						name="AD1_AD_Phone"
+						variableref="e18d171e-c04b-4638-aabc-c3356e9f35b7">
+						</modulevariable>
+						<modulevariable
+						moduleref="159676cd-333a-425a-884c-2325b551d90e"
+						name="AD1_AD_Phone"
+						variableref="6a8a744e-c6d5-44b3-846b-d697837eab23">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="93fba9c5-d675-4355-978c-551f038e6459"
+					name="AD1_AD_EmailID">
+						<modulevariable
+						moduleref="647c6dfe-51c5-404f-965b-473b2c8e5d55"
+						name="AD1_AD_EmailID"
+						variableref="dcb6f5f9-bf60-451c-81d0-25803592e088">
+						</modulevariable>
+						<modulevariable
+						moduleref="159676cd-333a-425a-884c-2325b551d90e"
+						name="AD1_AD_EmailID"
+						variableref="8ddaf5fa-7de0-452c-82e7-63f3a82e5ae3">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="0c63f6dc-e585-4802-9814-74218479512f"
+					name="AD1_AD_Zip">
+						<modulevariable
+						moduleref="159676cd-333a-425a-884c-2325b551d90e"
+						name="AD1_AD_Zip"
+						variableref="c58a6e74-459b-4364-9426-cac5921ab8b1">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="db5f6003-d6d9-40e6-8591-ca3da6c41df2"
+					name="AD1_AD_State">
+						<modulevariable
+						moduleref="159676cd-333a-425a-884c-2325b551d90e"
+						name="AD1_AD_State"
+						variableref="09208e6c-6f92-41b1-ab38-c73c68bca6cf">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="371ae194-19dd-4bd1-90a6-18a755d2ebc7"
+					name="AD1_AD_Address2">
+						<modulevariable
+						moduleref="159676cd-333a-425a-884c-2325b551d90e"
+						name="AD1_AD_Address2"
+						variableref="73fc8b62-15e1-4ee2-bdc6-4988f45ea3eb">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="d8043c3b-767e-4871-a571-97e570568ad1"
+					name="AD1_AD_Address1">
+						<modulevariable
+						moduleref="159676cd-333a-425a-884c-2325b551d90e"
+						name="AD1_AD_Address1"
+						variableref="1de464ef-928a-409b-a407-5a1624d5188e">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="81d4e431-6934-4dae-963a-1ed58e0acef2"
+					name="AD1_AD_LastName">
+						<modulevariable
+						moduleref="159676cd-333a-425a-884c-2325b551d90e"
+						name="AD1_AD_LastName"
+						variableref="672df4c3-c53f-4ca3-b10d-007740f28da1">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="402c261c-28e1-4bf4-bb7b-2af2a8b552d9"
+					name="AD1_AD_FirstName">
+						<modulevariable
+						moduleref="159676cd-333a-425a-884c-2325b551d90e"
+						name="AD1_AD_FirstName"
+						variableref="13722b4c-51a8-45cc-a4fa-813c96fec387">
+						</modulevariable>
+					</groupvariable>
+					<groupvariable
+					id="c9d36e8e-a976-423e-a9e6-deab0e56c0ce"
+					name="AD1_AD_FirmName">
+						<modulevariable
+						moduleref="159676cd-333a-425a-884c-2325b551d90e"
+						name="AD1_AD_FirmName"
+						variableref="eecfe4c4-6ce3-427e-9058-f2ca16ca2561">
 						</modulevariable>
 					</groupvariable>
 				</groupvariables>

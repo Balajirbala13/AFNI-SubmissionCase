@@ -29,7 +29,6 @@ namespace SubmissionCase_E2E
         static SubmissionCase_E2ERepository instance = new SubmissionCase_E2ERepository();
         SubmissionCase_E2ERepositoryFolders.PegaCaseManagerPortalGoogleChromeAppFolder _pegacasemanagerportalgooglechrome;
         SubmissionCase_E2ERepositoryFolders.ApplicationUnderTestAppFolder _applicationundertest;
-        SubmissionCase_E2ERepositoryFolders.SBRLT045AppFolder _sbrlt045;
 
         /// <summary>
         /// Gets the singleton class instance representing the SubmissionCase_E2ERepository element repository.
@@ -48,7 +47,6 @@ namespace SubmissionCase_E2E
         {
             _pegacasemanagerportalgooglechrome = new SubmissionCase_E2ERepositoryFolders.PegaCaseManagerPortalGoogleChromeAppFolder(this);
             _applicationundertest = new SubmissionCase_E2ERepositoryFolders.ApplicationUnderTestAppFolder(this);
-            _sbrlt045 = new SubmissionCase_E2ERepositoryFolders.SBRLT045AppFolder(this);
         }
 
 #region Variables
@@ -83,15 +81,6 @@ namespace SubmissionCase_E2E
         public virtual SubmissionCase_E2ERepositoryFolders.ApplicationUnderTestAppFolder ApplicationUnderTest
         {
             get { return _applicationundertest; }
-        }
-
-        /// <summary>
-        /// The SBRLT045 folder.
-        /// </summary>
-        [RepositoryFolder("dc1cca4e-5096-467f-b9f7-38c8256a2d72")]
-        public virtual SubmissionCase_E2ERepositoryFolders.SBRLT045AppFolder SBRLT045
-        {
-            get { return _sbrlt045; }
         }
     }
 
@@ -546,9 +535,9 @@ namespace SubmissionCase_E2E
             RepoItemInfo _id_ci_sourceInfo;
             RepoItemInfo _id_ci_phonenumberInfo;
             RepoItemInfo _id_ci_emailusetypeInfo;
-            RepoItemInfo _emailid_headerInfo;
             RepoItemInfo _id_ci_emailsourceInfo;
             RepoItemInfo _id_ci_emailidInfo;
+            RepoItemInfo _emailid_headerInfo;
             RepoItemInfo _oat_pi_usetypeInfo;
             RepoItemInfo _oat_pi_phonetypeInfo;
             RepoItemInfo _oat_pi_sourceInfo;
@@ -669,7 +658,7 @@ namespace SubmissionCase_E2E
             RepoItemInfo _labeltagno2Info;
             RepoItemInfo _copy_of_claiminfo_clientnameInfo;
             RepoItemInfo _adverseinformation1Info;
-            RepoItemInfo _toyota__2019_mh15_hj_1001Info;
+            RepoItemInfo _adverse_information___ad1_pi_firstname_ad1_pi_lastnameInfo;
             RepoItemInfo _suzuki_civic_2016_mh15_hj_1002Info;
             RepoItemInfo _footermappingad1pidriverinformation1Info;
             RepoItemInfo _footermappingad1piadverse_driver_informationInfo;
@@ -703,11 +692,17 @@ namespace SubmissionCase_E2E
             RepoItemInfo _footermappingad1piusetypeInfo;
             RepoItemInfo _footermappingad1pipersonalInfo;
             RepoItemInfo _footermappingad1piphonetypeInfo;
-            RepoItemInfo _footermappingao1_pi_phonetype_landlineInfo;
+            RepoItemInfo _footermappingad1_pi_phonetype_landlineInfo;
             RepoItemInfo _footermappingad1pisourceInfo;
             RepoItemInfo _footermappingad1pidirectInfo;
             RepoItemInfo _footermappingad1piphonenumberInfo;
             RepoItemInfo _footermappingad1piphonenumber_valueInfo;
+            RepoItemInfo _footermappingad1piemail_usetype_valueInfo;
+            RepoItemInfo _footermappingad1piemail_source_valueInfo;
+            RepoItemInfo _footermappingad1piemail_emailid_valueInfo;
+            RepoItemInfo _footermappingad1adphonenumber_valueInfo;
+            RepoItemInfo _footermappingao1piphonenumber_valueInfo;
+            RepoItemInfo _footermappingao1adphonenumber_valueInfo;
             RepoItemInfo _footermappinginsuranceinformation2Info;
             RepoItemInfo _footermappinginsurance_companyInfo;
             RepoItemInfo _footermappingtransguardinsuranceInfo;
@@ -734,12 +729,16 @@ namespace SubmissionCase_E2E
             RepoItemInfo _footermappingad1liskiptraceInfo;
             RepoItemInfo _footermappingad1liphonenumber1Info;
             RepoItemInfo _footermappingad1liphonenumberInfo;
+            RepoItemInfo _footermappingad1liemail_usetype_valueInfo;
+            RepoItemInfo _footermappingad1liemail_source_valueInfo;
+            RepoItemInfo _footermappingad1liemail_valueInfo;
             RepoItemInfo _footermappingattorneyinformationInfo;
             RepoItemInfo _footermappingfirm_nameInfo;
             RepoItemInfo _footermappingad1attorneyfirmnameInfo;
             RepoItemInfo _footermappingad1attorneyfirstnameInfo;
             RepoItemInfo _footermappingad1attorneylastnameInfo;
             RepoItemInfo _footermappingemailInfo;
+            RepoItemInfo _email_information_footerInfo;
             RepoItemInfo _footermappingattorney1atgmailcomInfo;
             RepoItemInfo _footermappingrepresentationdateInfo;
             RepoItemInfo _footermappingad1attorneyrepresentation_dateInfo;
@@ -750,6 +749,13 @@ namespace SubmissionCase_E2E
             RepoItemInfo _footermappingad1attorneystateInfo;
             RepoItemInfo _footermappingad1attorneyzipInfo;
             RepoItemInfo _footermappingphoneinformation2Info;
+            RepoItemInfo _footermappingad1adphone_usetype_valueInfo;
+            RepoItemInfo _footermappingad1adphone_phonetype_valueInfo;
+            RepoItemInfo _footermappingad1adphone_source_valueInfo;
+            RepoItemInfo _footermappingad1adphone_phonenumberInfo;
+            RepoItemInfo _footermappingad1ademail_usetype_valueInfo;
+            RepoItemInfo _footermappingad1ademail_source_valueInfo;
+            RepoItemInfo _footermappingad1ademail_emailid_valueInfo;
             RepoItemInfo _licenseinformation2Info;
             RepoItemInfo _footermappingdrivers_license_numberInfo;
             RepoItemInfo _footermappingad1lilicensenumberInfo;
@@ -813,6 +819,8 @@ namespace SubmissionCase_E2E
             RepoItemInfo _footermappingao1_phoneinformation2Info;
             RepoItemInfo _footermappingao1_attorneyusetypeInfo;
             RepoItemInfo _footermappingao1_attorneypersonalInfo;
+            RepoItemInfo _copy_of_footermappingao1_attorneypersonalInfo;
+            RepoItemInfo _copy_of_copy_of_footermappingao1_attorneypersonalInfo;
             RepoItemInfo _footermappingao1_attorneyphonetypeInfo;
             RepoItemInfo _footermappingao1_attorneycellInfo;
             RepoItemInfo _footermappingao1_attorneyemailInfo;
@@ -1029,7 +1037,7 @@ namespace SubmissionCase_E2E
                 _pending_claiminformationInfo = new RepoItemInfo(this, "Pending_ClaimInformation", ".//iframe[#'PegaGadget1Ifr']//span[@data-test-id='2019061009472306203819']", 30000, null, "b4428f6c-d034-4bdc-a43d-554105d7195a");
                 _entry_wbInfo = new RepoItemInfo(this, "Entry_WB", ".//iframe[#'PegaGadget1Ifr']//span[text()='Entry WB']", 30000, null, "602f3c85-aa2a-4e12-a2d2-4ad5e5f731e0");
                 _pendingadverseinformationInfo = new RepoItemInfo(this, "PendingAdverseInformation", ".//iframe[#'PegaGadget1Ifr']//span[@innertext>'Pending-AdverseInformation']", 30000, null, "81b4ed23-ba6a-4281-9342-e0168006a606");
-                _adversetype_addadverseinfoInfo = new RepoItemInfo(this, "AdverseType_AddAdverseInfo", ".//iframe[#'PegaGadget1Ifr']//button[@name='AddOrUpdateAdverseInfo_pyWorkPage_29']", 30000, null, "cf0a16b6-188b-4a93-8f62-999d59fa4386");
+                _adversetype_addadverseinfoInfo = new RepoItemInfo(this, "AdverseType_AddAdverseInfo", ".//iframe[#'PegaGadget1Ifr']//button[@name='AddOrUpdateAdverseInfo_pyWorkPage_12']", 30000, null, "cf0a16b6-188b-4a93-8f62-999d59fa4386");
                 _adversetype_otherInfo = new RepoItemInfo(this, "AdverseType_Other", ".//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l3$pAdverseType' and @data-test-id='2019012902062002708103']", 30000, null, "3dd9c940-d592-42f1-a20b-b02090a8cc92");
                 _adverseinformationvehicleInfo = new RepoItemInfo(this, "AdverseInformationVehicle", ".//p[@name='$PpyWorkPage$pAdverseInfo$l1$pDisplayLabel']", 30000, null, "d3d3b5e2-c019-4735-9bbd-b344c85842dd");
                 _adverseinformationvehicle_2Info = new RepoItemInfo(this, "AdverseInformationVehicle_2", ".//p[@name='$PpyWorkPage$pAdverseInfo$l2$pDisplayLabel']", 30000, null, "4e306b3a-87c9-4673-a8e8-84a0fcdfb0da");
@@ -1078,7 +1086,7 @@ namespace SubmissionCase_E2E
                 _ad2_li_dobInfo = new RepoItemInfo(this, "AD2_LI_DOB", ".//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pPersonalInfo$pDateOfBirth']", 30000, null, "e2d615b6-8ed5-4bbc-bc94-40114dd298bc");
                 _insuranceinformationInfo = new RepoItemInfo(this, "InsuranceInformation", ".//iframe[#'PegaGadget1Ifr']//h3[text()='Insurance Information' and @class='layout-group-item-title']", 30000, null, "720c8937-2d69-46b1-a451-30b0ee7a8024");
                 _ad1_li_companynameInfo = new RepoItemInfo(this, "AD1_LI_CompanyName", ".//iframe[#'PegaGadget1Ifr']//select[@data-test-id='20190109012445036117962']", 30000, null, "231e0d6b-152a-42a7-8485-a036b0f57b06");
-                _adverse_driver_insurance_headerInfo = new RepoItemInfo(this, "Adverse_Driver_Insurance_Header", ".//iframe[#'PegaGadget1Ifr']//h2[@innertext='Adverse Driver Insurance']", 30000, null, "42eb6512-640c-4c78-82eb-e8a0ab340d14");
+                _adverse_driver_insurance_headerInfo = new RepoItemInfo(this, "Adverse_Driver_Insurance_Header", ".//iframe[#'PegaGadget1Ifr']//h2[@innertext='Adverse Driver Insurance' and @class='header-title']", 30000, null, "42eb6512-640c-4c78-82eb-e8a0ab340d14");
                 _ad1_li_policynumberInfo = new RepoItemInfo(this, "AD1_LI_PolicyNumber", ".//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pPolicyNumber']", 30000, null, "527ba78b-fb15-462c-84f6-bc6a96c23da1");
                 _ad1_li_claimnumberInfo = new RepoItemInfo(this, "AD1_LI_ClaimNumber", ".//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pClaimNumber']", 30000, null, "7175a077-bf2d-4b89-9145-eaf70098719c");
                 _ad1_li_contactnameInfo = new RepoItemInfo(this, "AD1_LI_ContactName", ".//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pName']", 30000, null, "d1e8918f-ba89-4388-b0c6-7701b4b6d204");
@@ -1088,10 +1096,10 @@ namespace SubmissionCase_E2E
                 _ad1_li_cityInfo = new RepoItemInfo(this, "AD1_LI_City", ".//iframe[#'PegaGadget1Ifr']//input[@data-test-id='20190306021653054219726']", 30000, null, "d0b4db3b-2af5-4aa1-9773-5ff4bb4be42e");
                 _ad1_li_zipcodeInfo = new RepoItemInfo(this, "AD1_LI_ZipCode", ".//iframe[#'PegaGadget1Ifr']//input[@data-test-id='20190306021700067220646']", 30000, null, "a3d3c1db-291f-4426-bade-b918bfd692b1");
                 _ad1_li_additem1Info = new RepoItemInfo(this, "AD1_LI_AddItem1", ".//iframe[#'PegaGadget1Ifr']//div[#'pyFlowActionHTML']/div/div[1]/div/div/div[7]/div[2]/div/div[4]/div[2]/div/div/div[1]/table//div/div/div/div/div[1]/div/div/div/div[2]/?/?/a[@innertext='Add item']", 30000, null, "b44a2a4c-3631-4648-b53b-93e01330483f");
-                _ad1_li_phoneusetypeInfo = new RepoItemInfo(this, "AD1_LI_PhoneUseType", ".//iframe[#'PegaGadget1Ifr']//select[@id='d32a0c12' and @name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pPhoneInfo$l1$pPhoneUseType']", 30000, null, "4bd163e3-a173-41fc-be41-3fd18130d3ac");
-                _ad1_li_phonetypeInfo = new RepoItemInfo(this, "AD1_LI_PhoneType", ".//iframe[#'PegaGadget1Ifr']//select[@id='ea959631' and @name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pPhoneInfo$l1$pPhoneType']", 30000, null, "a1c6c85c-76c3-4065-8da7-f6fcc2277e85");
-                _ad1_li_phonesourceInfo = new RepoItemInfo(this, "AD1_LI_PhoneSource", ".//iframe[#'PegaGadget1Ifr']//select[@id='31f27347' and @name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pPhoneInfo$l1$pPhoneSource']", 30000, null, "10a01de5-4a23-4e37-8074-920d8561e383");
-                _ad1_li_phonenumberInfo = new RepoItemInfo(this, "AD1_LI_PhoneNumber", ".//iframe[#'PegaGadget1Ifr']//input[@id='f8e81360' and @name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pPhoneInfo$l1$pPhoneNumber']", 30000, null, "6a1503ed-7848-4487-8dea-a6b34e1fe5b8");
+                _ad1_li_phoneusetypeInfo = new RepoItemInfo(this, "AD1_LI_PhoneUseType", ".//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pPhoneInfo$l1$pPhoneUseType']", 30000, null, "4bd163e3-a173-41fc-be41-3fd18130d3ac");
+                _ad1_li_phonetypeInfo = new RepoItemInfo(this, "AD1_LI_PhoneType", ".//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pPhoneInfo$l1$pPhoneType']", 30000, null, "a1c6c85c-76c3-4065-8da7-f6fcc2277e85");
+                _ad1_li_phonesourceInfo = new RepoItemInfo(this, "AD1_LI_PhoneSource", ".//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pPhoneInfo$l1$pPhoneSource']", 30000, null, "10a01de5-4a23-4e37-8074-920d8561e383");
+                _ad1_li_phonenumberInfo = new RepoItemInfo(this, "AD1_LI_PhoneNumber", ".//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pPhoneInfo$l1$pPhoneNumber']", 30000, null, "6a1503ed-7848-4487-8dea-a6b34e1fe5b8");
                 _ad1_li_emailusetypeInfo = new RepoItemInfo(this, "AD1_LI_EmailUseType", ".//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pEmailInfo$l1$pEmailUseType']", 30000, null, "23434e6a-c54e-43a9-8e93-c6cd68f54f41");
                 _copy_of_ad1_li_emailusetypeInfo = new RepoItemInfo(this, "Copy_of_AD1_LI_EmailUseType", ".//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pEmailInfo$l1$pEmailUseType']", 30000, null, "c8aba0d8-fa83-4d59-a3eb-6c4624840242");
                 _ad1_li_emailsourceInfo = new RepoItemInfo(this, "AD1_LI_EmailSource", ".//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pEmailInfo$l1$pEmailSource']", 30000, null, "744f8f03-e9fe-4e45-a321-164f4d4b03e9");
@@ -1320,9 +1328,9 @@ namespace SubmissionCase_E2E
                 _id_ci_sourceInfo = new RepoItemInfo(this, "ID_CI_Source", ".//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pPhoneInfo$l1$pPhoneSource']", 30000, null, "e12fadbc-b310-4708-96ff-7f22f6bf5258");
                 _id_ci_phonenumberInfo = new RepoItemInfo(this, "ID_CI_PhoneNumber", ".//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pPhoneInfo$l1$pPhoneNumber']", 30000, null, "60d1d2a8-06b3-4c4e-9f8c-70301295aada");
                 _id_ci_emailusetypeInfo = new RepoItemInfo(this, "ID_CI_EmailUseType", ".//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pEmailInfo$l1$pEmailUseType']", 30000, null, "798b2cde-57ac-491f-a0da-602033d6581a");
-                _emailid_headerInfo = new RepoItemInfo(this, "EmailID_Header", ".//label[@innertext='Email ID']", 30000, null, "82e7a244-081d-45d3-9f59-21633badb21b");
                 _id_ci_emailsourceInfo = new RepoItemInfo(this, "ID_CI_EmailSource", ".//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pEmailInfo$l1$pEmailSource']", 30000, null, "d8d65f90-5160-4842-829a-f66cb5a81137");
                 _id_ci_emailidInfo = new RepoItemInfo(this, "ID_CI_EmailID", ".//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pEmailInfo$l1$ppyEmail']", 30000, null, "17b4be69-d083-4ed4-a10d-d731ca787a73");
+                _emailid_headerInfo = new RepoItemInfo(this, "EmailID_Header", ".//h2[@innertext='Email Information' and @class='header-title']", 30000, null, "82e7a244-081d-45d3-9f59-21633badb21b");
                 _oat_pi_usetypeInfo = new RepoItemInfo(this, "OAT_PI_UseType", ".//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l3$pOtherInfo$pPersonalInfo$pPhoneInfo$l1$pPhoneUseType']", 30000, null, "2c48ea77-41d6-44ef-b017-d22a49355d60");
                 _oat_pi_phonetypeInfo = new RepoItemInfo(this, "OAT_PI_PhoneType", ".//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l3$pOtherInfo$pPersonalInfo$pPhoneInfo$l1$pPhoneType']", 30000, null, "c5a942b6-b857-4ca0-adf8-f80d9359d084");
                 _oat_pi_sourceInfo = new RepoItemInfo(this, "OAT_PI_Source", ".//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l3$pOtherInfo$pPersonalInfo$pPhoneInfo$l1$pPhoneSource']", 30000, null, "73791fa6-3a4f-4ac8-932b-bdf03f774c4e");
@@ -1443,7 +1451,7 @@ namespace SubmissionCase_E2E
                 _labeltagno2Info = new RepoItemInfo(this, "LabelTagNo2", ".//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pInsuredInfo$pVehicleInfo$pHaveVINNumber']", 30000, null, "60bf6509-eb52-401a-9e8d-a5cd7d2fcfb9");
                 _copy_of_claiminfo_clientnameInfo = new RepoItemInfo(this, "Copy_of_ClaimInfo_ClientName", ".//iframe[#'PegaGadget1Ifr']//span[@data-test-id='2019031909131904288414']", 30000, null, "87da626b-0052-47af-acd6-e88f6c9f2b6a");
                 _adverseinformation1Info = new RepoItemInfo(this, "AdverseInformation1", ".//iframe[#'PegaGadget1Ifr']//h2[@class='layout-group-item-title' and text()='Adverse Information']", 30000, null, "5e2d971d-9d54-4cb1-b6e8-1ea935ba019d");
-                _toyota__2019_mh15_hj_1001Info = new RepoItemInfo(this, "Toyota__2019_MH15_HJ_1001", ".//h2[@innertext>'Toyota Corolla 2019-MH15 HJ 1001']", 30000, null, "8976d355-d18a-490b-9893-97f0e7102206");
+                _adverse_information___ad1_pi_firstname_ad1_pi_lastnameInfo = new RepoItemInfo(this, "Adverse_Information___AD1_PI_FirstName_AD1_PI_LastName", ".//h2[@class='header-title' and @innertext='Adverse Information - AD1_PI_FirstName AD1_PI_LastName']", 30000, null, "8976d355-d18a-490b-9893-97f0e7102206");
                 _suzuki_civic_2016_mh15_hj_1002Info = new RepoItemInfo(this, "Suzuki_Civic_2016_MH15_HJ_1002", ".//h2[@innertext>'Suzuki Civic 2016-MH15 HJ 1002']", 30000, null, "1361e455-b3fb-43f8-b660-30e3e794e9fa");
                 _footermappingad1pidriverinformation1Info = new RepoItemInfo(this, "FooterMappingAD1PIDriverInformation1", ".//h2[text()='Driver Information']", 30000, null, "a8c5d25c-857c-41ba-a43a-2af825843968");
                 _footermappingad1piadverse_driver_informationInfo = new RepoItemInfo(this, "FooterMappingAD1PIAdverse_Driver_Information", ".//h2[text()='Adverse Driver Information']", 30000, null, "a53b89da-14af-4a60-b262-7c5891cb7e6d");
@@ -1475,13 +1483,19 @@ namespace SubmissionCase_E2E
                 _footermappingad1_pi_bankruptcycasenoInfo = new RepoItemInfo(this, "FooterMappingAD1_PI_BankruptcyCaseNo", ".//span[@innertext='AD1_PI_BankruptcyCaseNo']", 30000, null, "f454e843-50c1-4647-9e53-f85d60f445d2");
                 _footermappingad1piphoneinformationInfo = new RepoItemInfo(this, "FooterMappingAD1PIPhoneInformation", ".//h2[@innertext='Phone/Fax Information']", 30000, null, "6ff27b1d-bf8a-4847-b2e5-f0cf49b61a4b");
                 _footermappingad1piusetypeInfo = new RepoItemInfo(this, "FooterMappingAD1PIUseType", ".//span[@innertext='Use Type']", 30000, null, "9647a2de-107e-4740-9c3f-27c8e572f736");
-                _footermappingad1pipersonalInfo = new RepoItemInfo(this, "FooterMappingAD1PIPersonal", ".//span[text()='Personal']", 30000, null, "e6f89c14-1596-484c-a26f-38dee5a7fc9b");
+                _footermappingad1pipersonalInfo = new RepoItemInfo(this, "FooterMappingAD1PIPersonal", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[text()='Personal']", 30000, null, "e6f89c14-1596-484c-a26f-38dee5a7fc9b");
                 _footermappingad1piphonetypeInfo = new RepoItemInfo(this, "FooterMappingAD1PIPhoneType", ".//span[text()='Phone Type']", 30000, null, "f1c0e213-fe4b-40b4-99b5-b1a325ef8f56");
-                _footermappingao1_pi_phonetype_landlineInfo = new RepoItemInfo(this, "FooterMappingAO1_PI_PhoneType_LandLine", ".//span[text()='Land Line']", 30000, null, "c1b52e15-0ef8-4da5-9096-64843a5e81b2");
+                _footermappingad1_pi_phonetype_landlineInfo = new RepoItemInfo(this, "FooterMappingAD1_PI_PhoneType_LandLine", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[text()='Land Line']", 30000, null, "c1b52e15-0ef8-4da5-9096-64843a5e81b2");
                 _footermappingad1pisourceInfo = new RepoItemInfo(this, "FooterMappingAD1PISource", ".//span[text()='Source']", 30000, null, "7e061d8b-7043-4d0e-9234-b3e3c43c891b");
-                _footermappingad1pidirectInfo = new RepoItemInfo(this, "FooterMappingAD1PIDirect", ".//span[text()='Direct']", 30000, null, "a07533be-0fca-44c5-a225-4ed0a8a62915");
+                _footermappingad1pidirectInfo = new RepoItemInfo(this, "FooterMappingAD1PIDirect", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[text()='Direct']", 30000, null, "a07533be-0fca-44c5-a225-4ed0a8a62915");
                 _footermappingad1piphonenumberInfo = new RepoItemInfo(this, "FooterMappingAD1PIPhoneNumber", ".//span[text()='Phone number']", 30000, null, "c50032c0-abc6-4497-98eb-b0f6afb86ad5");
-                _footermappingad1piphonenumber_valueInfo = new RepoItemInfo(this, "FooterMappingAD1PIPhoneNumber_Value", ".//span[text()='(950) 009-5000']", 30000, null, "31ebf13b-c620-4b61-b718-7558840f409d");
+                _footermappingad1piphonenumber_valueInfo = new RepoItemInfo(this, "FooterMappingAD1PIPhoneNumber_Value", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[text()='(950) 009-5000']", 30000, null, "31ebf13b-c620-4b61-b718-7558840f409d");
+                _footermappingad1piemail_usetype_valueInfo = new RepoItemInfo(this, "FooterMappingAD1PIEmail_UseType_Value", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//div[3]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[text()='Personal']", 30000, null, "62d81e61-1a59-4d8d-a88c-abed2b6ac27c");
+                _footermappingad1piemail_source_valueInfo = new RepoItemInfo(this, "FooterMappingAD1PIEmail_Source_Value", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//div[3]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[text()='Direct']", 30000, null, "2823ef47-2a1e-49b0-8b21-c20433f605f4");
+                _footermappingad1piemail_emailid_valueInfo = new RepoItemInfo(this, "FooterMappingAD1PIEmail_EmailID_Value", ".//a[@innertext='ad1PIemail@gmail.com']", 30000, null, "54362071-7624-4c63-8328-416170a0bea3");
+                _footermappingad1adphonenumber_valueInfo = new RepoItemInfo(this, "FooterMappingAD1ADPhoneNumber_Value", ".//span[text()='(950) 009-5002']", 30000, null, "7fa99369-1d09-49e4-a1a1-1ab1024ae868");
+                _footermappingao1piphonenumber_valueInfo = new RepoItemInfo(this, "FooterMappingAO1PIPhoneNumber_Value", ".//span[text()='(950) 009-5004']", 30000, null, "d1d59d89-4367-4ff9-bc9d-b36b7017cd04");
+                _footermappingao1adphonenumber_valueInfo = new RepoItemInfo(this, "FooterMappingAO1ADPhoneNumber_Value", ".//span[text()='(950) 009-5006']", 30000, null, "7ea6eee4-95e4-478f-8819-0c02a9a013a9");
                 _footermappinginsuranceinformation2Info = new RepoItemInfo(this, "FooterMappingInsuranceInformation2", ".//h2[@innertext='Insurance Information']", 30000, null, "a622d6dc-80b8-45bb-8643-4f3ee37dffff");
                 _footermappinginsurance_companyInfo = new RepoItemInfo(this, "FooterMappingInsurance_Company", ".//span[@innertext='Insurance Company']", 30000, null, "229d8d82-0cb3-441f-b352-8ef9a6aaaf1c");
                 _footermappingtransguardinsuranceInfo = new RepoItemInfo(this, "FooterMappingTRANSGUARDINSURANCE", ".//span[@innertext='TRANSGUARD INSURANCE']", 30000, null, "9b237d00-9f5b-40e3-b2e9-675327744345");
@@ -1501,19 +1515,23 @@ namespace SubmissionCase_E2E
                 _footermappingad1licityInfo = new RepoItemInfo(this, "FooterMappingAD1LICity", ".//span[@innertext='AD1_LI_City']", 30000, null, "3fef4122-9321-4d12-b6c9-04c56f510260");
                 _footermappingad1liphoneinformationInfo = new RepoItemInfo(this, "FooterMappingAD1LIPhoneInformation", ".//h2[@innertext='Phone/Fax Information']", 30000, null, "4a81c876-45cf-4ac1-a43c-814c76402b29");
                 _footermappingad1liusetypeInfo = new RepoItemInfo(this, "FooterMappingAD1LIUseType", ".//span[@innertext='Use Type']", 30000, null, "874c3194-ed63-42c8-94e8-23778797cfda");
-                _footermappingad1libusinessInfo = new RepoItemInfo(this, "FooterMappingAD1LIBusiness", ".//span[@innertext='Business']", 30000, null, "28765c01-3529-4334-bc8f-5eb46fa0f773");
+                _footermappingad1libusinessInfo = new RepoItemInfo(this, "FooterMappingAD1LIBusiness", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Business']", 30000, null, "28765c01-3529-4334-bc8f-5eb46fa0f773");
                 _footermappingad1liphonetypeInfo = new RepoItemInfo(this, "FooterMappingAD1LIPhoneType", ".//span[@innertext='Phone Type']", 30000, null, "28e6008a-a8ed-4045-9078-8ea335d8388c");
-                _footermappingad1licellInfo = new RepoItemInfo(this, "FooterMappingAD1LICell", ".//span[@innertext='Cell']", 30000, null, "2662251a-4ce7-47e8-9ca4-c357011cb599");
+                _footermappingad1licellInfo = new RepoItemInfo(this, "FooterMappingAD1LICell", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='VOIP']", 30000, null, "2662251a-4ce7-47e8-9ca4-c357011cb599");
                 _footermappingad1lisourceInfo = new RepoItemInfo(this, "FooterMappingAD1LISource", ".//span[@innertext='Source']", 30000, null, "dc4d3187-a384-4bb4-811a-4b21d30c5b0c");
-                _footermappingad1liskiptraceInfo = new RepoItemInfo(this, "FooterMappingAD1LISkipTrace", ".//span[@innertext='Skip Trace']", 30000, null, "56573b7b-328b-4944-a9d5-59bf8524c1fe");
+                _footermappingad1liskiptraceInfo = new RepoItemInfo(this, "FooterMappingAD1LISkipTrace", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Skip Trace']", 30000, null, "56573b7b-328b-4944-a9d5-59bf8524c1fe");
                 _footermappingad1liphonenumber1Info = new RepoItemInfo(this, "FooterMappingAD1LIPhoneNumber1", ".//span[@innertext='Phone number']", 30000, null, "b766930f-9ca9-4cf4-b584-b14e201f24cb");
                 _footermappingad1liphonenumberInfo = new RepoItemInfo(this, "FooterMappingAD1LIPhoneNumber", ".//span[@innertext='(950) 009-5001']", 30000, null, "e4191e4a-13e5-4267-b489-fc6c5e419557");
+                _footermappingad1liemail_usetype_valueInfo = new RepoItemInfo(this, "FooterMappingAD1LIEmail_UseType_Value", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBB_1']//div[4]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Business']", 30000, null, "7993e4d2-ef65-42f8-bd80-1ad60453bc9e");
+                _footermappingad1liemail_source_valueInfo = new RepoItemInfo(this, "FooterMappingAD1LIEmail_Source_Value", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBB_1']//div[4]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Skip Trace']", 30000, null, "b87cc21b-c55b-4af7-8418-013dffb71978");
+                _footermappingad1liemail_valueInfo = new RepoItemInfo(this, "FooterMappingAD1LIEmail_Value", ".//a[@innertext='AD1LIEmail@gmail.com']", 30000, null, "09c1f3cd-4eac-4fde-ad91-aa4faaaf3825");
                 _footermappingattorneyinformationInfo = new RepoItemInfo(this, "FooterMappingAttorneyInformation", ".//h2[@innertext='Attorney Information']", 30000, null, "77e5bd67-bd10-4dbc-b269-f66b77ec98e2");
                 _footermappingfirm_nameInfo = new RepoItemInfo(this, "FooterMappingFirm_Name", ".//span[@innertext='Firm Name']", 30000, null, "b7d622dc-1ead-4645-815d-cb80772945a4");
                 _footermappingad1attorneyfirmnameInfo = new RepoItemInfo(this, "FooterMappingAD1AttorneyFirmName", ".//span[@innertext='AD_Attorney_FirmName']", 30000, null, "80f85a86-68b4-48c9-b1aa-e82e17e893cb");
                 _footermappingad1attorneyfirstnameInfo = new RepoItemInfo(this, "FooterMappingAD1AttorneyFirstName", ".//span[@innertext='AD_Attorney_FirstName']", 30000, null, "151c37a4-8e91-4849-a920-d921d99ac1fd");
                 _footermappingad1attorneylastnameInfo = new RepoItemInfo(this, "FooterMappingAD1AttorneyLastName", ".//span[@innertext='AD_Attorney_LastName']", 30000, null, "9c896a3d-9cb2-4d5f-82fa-75bf07ebd59c");
                 _footermappingemailInfo = new RepoItemInfo(this, "FooterMappingEmail", ".//span[@innertext='Email ID']", 30000, null, "f8bc6234-f789-410c-965b-ea28f4a1d7d4");
+                _email_information_footerInfo = new RepoItemInfo(this, "Email_Information_Footer", ".//span[@innertext='Email ID']", 30000, null, "2eebeed3-8a33-45b1-99ac-7c6d34f176d4");
                 _footermappingattorney1atgmailcomInfo = new RepoItemInfo(this, "FooterMappingAttorney1AtgmailCom", ".//a[@innertext='attorney1@gmail.com']", 30000, null, "f54a0386-97a6-4159-9f1a-1504efbe888d");
                 _footermappingrepresentationdateInfo = new RepoItemInfo(this, "FooterMappingRepresentationDate", ".//span[@innertext='Representation Date']", 30000, null, "754713b6-3e34-4a7c-8c74-d02ec45913af");
                 _footermappingad1attorneyrepresentation_dateInfo = new RepoItemInfo(this, "FooterMappingAD1AttorneyRepresentation_Date", ".//span[@innertext='02/02/19']", 30000, null, "ce0d823d-b2c9-4ae6-8994-2a1806e62d68");
@@ -1524,6 +1542,13 @@ namespace SubmissionCase_E2E
                 _footermappingad1attorneystateInfo = new RepoItemInfo(this, "FooterMappingAD1AttorneyState", ".//span[@innertext='LA']", 30000, null, "30dc88e2-77d0-40fd-bf76-aafe1c585963");
                 _footermappingad1attorneyzipInfo = new RepoItemInfo(this, "FooterMappingAD1AttorneyZip", ".//span[@innertext='12345-5432']", 30000, null, "84104d40-ca91-4f8b-92bd-02ab8af5d06d");
                 _footermappingphoneinformation2Info = new RepoItemInfo(this, "FooterMappingPhoneInformation2", ".//h2[@innertext='Phone/Fax Information']", 30000, null, "5a71cf36-9481-4698-8ad9-bc6e8104b7a2");
+                _footermappingad1adphone_usetype_valueInfo = new RepoItemInfo(this, "FooterMappingAD1ADPhone_UseType_Value", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Personal']", 30000, null, "c3e16c12-6cc1-436d-9abd-a1f0c92039e0");
+                _footermappingad1adphone_phonetype_valueInfo = new RepoItemInfo(this, "FooterMappingAD1ADPhone_PhoneType_Value", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Cell']", 30000, null, "01a87559-16ea-4e65-9e8c-00c2f5f014f9");
+                _footermappingad1adphone_source_valueInfo = new RepoItemInfo(this, "FooterMappingAD1ADPhone_Source_Value", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Caller ID']", 30000, null, "c20ec275-8dd3-4a74-bef4-3cd953f9598a");
+                _footermappingad1adphone_phonenumberInfo = new RepoItemInfo(this, "FooterMappingAD1ADPhone_PhoneNumber", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='(950) 009-5002']", 30000, null, "eed89e41-dfe5-4ece-9b51-ea8c0d29509a");
+                _footermappingad1ademail_usetype_valueInfo = new RepoItemInfo(this, "FooterMappingAD1ADEmail_UseType_Value", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[4]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Business']", 30000, null, "3cd4c6c9-0e2c-4f2a-b8fd-3cef16d928ea");
+                _footermappingad1ademail_source_valueInfo = new RepoItemInfo(this, "FooterMappingAD1ADEmail_Source_Value", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[4]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Direct']", 30000, null, "9c7efd44-73c1-4bfe-86e0-61469eeed44a");
+                _footermappingad1ademail_emailid_valueInfo = new RepoItemInfo(this, "FooterMappingAD1ADEmail_EmailID_Value", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[4]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//a[@innertext='attorney1@gmail.com']", 30000, null, "06e5d743-ef7b-49ca-97bb-22db8d890d95");
                 _licenseinformation2Info = new RepoItemInfo(this, "LicenseInformation2", ".//h2[@innertext='License Information']", 30000, null, "f63f9e69-d2f4-423b-a597-9e0bdcc3b0df");
                 _footermappingdrivers_license_numberInfo = new RepoItemInfo(this, "FooterMappingDrivers_License_Number", ".//span[@innertext='Drivers License Number']", 30000, null, "a8d7e00c-ec72-4b2f-aa0a-aee656f95560");
                 _footermappingad1lilicensenumberInfo = new RepoItemInfo(this, "FooterMappingAD1LILicenseNumber", ".//span[@innertext='LICNO50001']", 30000, null, "a71888b8-e283-430a-9edc-31d554a7a76a");
@@ -1587,6 +1612,8 @@ namespace SubmissionCase_E2E
                 _footermappingao1_phoneinformation2Info = new RepoItemInfo(this, "FooterMappingAO1_PhoneInformation2", ".//h2[@innertext='Phone/Fax Information']", 30000, null, "989da6fb-be5d-4f1e-af6d-bfd5412a9ebb");
                 _footermappingao1_attorneyusetypeInfo = new RepoItemInfo(this, "FooterMappingAO1_AttorneyUseType", ".//span[@innertext='Use Type']", 30000, null, "533a881a-9f7c-4c6c-8d77-66e393ea0876");
                 _footermappingao1_attorneypersonalInfo = new RepoItemInfo(this, "FooterMappingAO1_AttorneyPersonal", ".//span[@innertext='Personal']", 30000, null, "6c99f59f-8e98-4917-bbc2-056893029ebd");
+                _copy_of_footermappingao1_attorneypersonalInfo = new RepoItemInfo(this, "Copy_of_FooterMappingAO1_AttorneyPersonal", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//span[@data-test-id='201801040250510263390925' and text()='AD1_PI_FirstName']", 30000, null, "3ee3e096-2519-40f1-8266-f8024387291a");
+                _copy_of_copy_of_footermappingao1_attorneypersonalInfo = new RepoItemInfo(this, "Copy_of_Copy_of_FooterMappingAO1_AttorneyPersonal", ".//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//div[3]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[text()='Personal']", 30000, null, "615c1976-bb21-4673-b4d3-45b015c8fa99");
                 _footermappingao1_attorneyphonetypeInfo = new RepoItemInfo(this, "FooterMappingAO1_AttorneyPhoneType", ".//span[@innertext='Phone Type']", 30000, null, "6e5d3827-fdf0-4e85-8d47-8e16c9d10d65");
                 _footermappingao1_attorneycellInfo = new RepoItemInfo(this, "FooterMappingAO1_AttorneyCell", ".//span[@innertext='Cell']", 30000, null, "85494cb1-e941-4292-9d00-a1c3328c2b52");
                 _footermappingao1_attorneyemailInfo = new RepoItemInfo(this, "FooterMappingAO1_AttorneyEmail", ".//span[@innertext='Email ID']", 30000, null, "48dee268-1e5f-4bc5-9deb-83b1c4bde946");
@@ -10071,30 +10098,6 @@ namespace SubmissionCase_E2E
             }
 
             /// <summary>
-            /// The EmailID_Header item.
-            /// </summary>
-            [RepositoryItem("82e7a244-081d-45d3-9f59-21633badb21b")]
-            public virtual Ranorex.LabelTag EmailID_Header
-            {
-                get
-                {
-                    return _emailid_headerInfo.CreateAdapter<Ranorex.LabelTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The EmailID_Header item info.
-            /// </summary>
-            [RepositoryItemInfo("82e7a244-081d-45d3-9f59-21633badb21b")]
-            public virtual RepoItemInfo EmailID_HeaderInfo
-            {
-                get
-                {
-                    return _emailid_headerInfo;
-                }
-            }
-
-            /// <summary>
             /// The ID_CI_EmailSource item.
             /// </summary>
             [RepositoryItem("d8d65f90-5160-4842-829a-f66cb5a81137")]
@@ -10139,6 +10142,30 @@ namespace SubmissionCase_E2E
                 get
                 {
                     return _id_ci_emailidInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EmailID_Header item.
+            /// </summary>
+            [RepositoryItem("82e7a244-081d-45d3-9f59-21633badb21b")]
+            public virtual Ranorex.H2Tag EmailID_Header
+            {
+                get
+                {
+                    return _emailid_headerInfo.CreateAdapter<Ranorex.H2Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EmailID_Header item info.
+            /// </summary>
+            [RepositoryItemInfo("82e7a244-081d-45d3-9f59-21633badb21b")]
+            public virtual RepoItemInfo EmailID_HeaderInfo
+            {
+                get
+                {
+                    return _emailid_headerInfo;
                 }
             }
 
@@ -13023,26 +13050,26 @@ namespace SubmissionCase_E2E
             }
 
             /// <summary>
-            /// The Toyota__2019_MH15_HJ_1001 item.
+            /// The Adverse_Information___AD1_PI_FirstName_AD1_PI_LastName item.
             /// </summary>
             [RepositoryItem("8976d355-d18a-490b-9893-97f0e7102206")]
-            public virtual Ranorex.H2Tag Toyota__2019_MH15_HJ_1001
+            public virtual Ranorex.H2Tag Adverse_Information___AD1_PI_FirstName_AD1_PI_LastName
             {
                 get
                 {
-                    return _toyota__2019_mh15_hj_1001Info.CreateAdapter<Ranorex.H2Tag>(true);
+                    return _adverse_information___ad1_pi_firstname_ad1_pi_lastnameInfo.CreateAdapter<Ranorex.H2Tag>(true);
                 }
             }
 
             /// <summary>
-            /// The Toyota__2019_MH15_HJ_1001 item info.
+            /// The Adverse_Information___AD1_PI_FirstName_AD1_PI_LastName item info.
             /// </summary>
             [RepositoryItemInfo("8976d355-d18a-490b-9893-97f0e7102206")]
-            public virtual RepoItemInfo Toyota__2019_MH15_HJ_1001Info
+            public virtual RepoItemInfo Adverse_Information___AD1_PI_FirstName_AD1_PI_LastNameInfo
             {
                 get
                 {
-                    return _toyota__2019_mh15_hj_1001Info;
+                    return _adverse_information___ad1_pi_firstname_ad1_pi_lastnameInfo;
                 }
             }
 
@@ -13839,26 +13866,26 @@ namespace SubmissionCase_E2E
             }
 
             /// <summary>
-            /// The FooterMappingAO1_PI_PhoneType_LandLine item.
+            /// The FooterMappingAD1_PI_PhoneType_LandLine item.
             /// </summary>
             [RepositoryItem("c1b52e15-0ef8-4da5-9096-64843a5e81b2")]
-            public virtual Ranorex.SpanTag FooterMappingAO1_PI_PhoneType_LandLine
+            public virtual Ranorex.SpanTag FooterMappingAD1_PI_PhoneType_LandLine
             {
                 get
                 {
-                    return _footermappingao1_pi_phonetype_landlineInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                    return _footermappingad1_pi_phonetype_landlineInfo.CreateAdapter<Ranorex.SpanTag>(true);
                 }
             }
 
             /// <summary>
-            /// The FooterMappingAO1_PI_PhoneType_LandLine item info.
+            /// The FooterMappingAD1_PI_PhoneType_LandLine item info.
             /// </summary>
             [RepositoryItemInfo("c1b52e15-0ef8-4da5-9096-64843a5e81b2")]
-            public virtual RepoItemInfo FooterMappingAO1_PI_PhoneType_LandLineInfo
+            public virtual RepoItemInfo FooterMappingAD1_PI_PhoneType_LandLineInfo
             {
                 get
                 {
-                    return _footermappingao1_pi_phonetype_landlineInfo;
+                    return _footermappingad1_pi_phonetype_landlineInfo;
                 }
             }
 
@@ -13955,6 +13982,150 @@ namespace SubmissionCase_E2E
                 get
                 {
                     return _footermappingad1piphonenumber_valueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1PIEmail_UseType_Value item.
+            /// </summary>
+            [RepositoryItem("62d81e61-1a59-4d8d-a88c-abed2b6ac27c")]
+            public virtual Ranorex.SpanTag FooterMappingAD1PIEmail_UseType_Value
+            {
+                get
+                {
+                    return _footermappingad1piemail_usetype_valueInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1PIEmail_UseType_Value item info.
+            /// </summary>
+            [RepositoryItemInfo("62d81e61-1a59-4d8d-a88c-abed2b6ac27c")]
+            public virtual RepoItemInfo FooterMappingAD1PIEmail_UseType_ValueInfo
+            {
+                get
+                {
+                    return _footermappingad1piemail_usetype_valueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1PIEmail_Source_Value item.
+            /// </summary>
+            [RepositoryItem("2823ef47-2a1e-49b0-8b21-c20433f605f4")]
+            public virtual Ranorex.SpanTag FooterMappingAD1PIEmail_Source_Value
+            {
+                get
+                {
+                    return _footermappingad1piemail_source_valueInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1PIEmail_Source_Value item info.
+            /// </summary>
+            [RepositoryItemInfo("2823ef47-2a1e-49b0-8b21-c20433f605f4")]
+            public virtual RepoItemInfo FooterMappingAD1PIEmail_Source_ValueInfo
+            {
+                get
+                {
+                    return _footermappingad1piemail_source_valueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1PIEmail_EmailID_Value item.
+            /// </summary>
+            [RepositoryItem("54362071-7624-4c63-8328-416170a0bea3")]
+            public virtual Ranorex.ATag FooterMappingAD1PIEmail_EmailID_Value
+            {
+                get
+                {
+                    return _footermappingad1piemail_emailid_valueInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1PIEmail_EmailID_Value item info.
+            /// </summary>
+            [RepositoryItemInfo("54362071-7624-4c63-8328-416170a0bea3")]
+            public virtual RepoItemInfo FooterMappingAD1PIEmail_EmailID_ValueInfo
+            {
+                get
+                {
+                    return _footermappingad1piemail_emailid_valueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1ADPhoneNumber_Value item.
+            /// </summary>
+            [RepositoryItem("7fa99369-1d09-49e4-a1a1-1ab1024ae868")]
+            public virtual Ranorex.SpanTag FooterMappingAD1ADPhoneNumber_Value
+            {
+                get
+                {
+                    return _footermappingad1adphonenumber_valueInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1ADPhoneNumber_Value item info.
+            /// </summary>
+            [RepositoryItemInfo("7fa99369-1d09-49e4-a1a1-1ab1024ae868")]
+            public virtual RepoItemInfo FooterMappingAD1ADPhoneNumber_ValueInfo
+            {
+                get
+                {
+                    return _footermappingad1adphonenumber_valueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAO1PIPhoneNumber_Value item.
+            /// </summary>
+            [RepositoryItem("d1d59d89-4367-4ff9-bc9d-b36b7017cd04")]
+            public virtual Ranorex.SpanTag FooterMappingAO1PIPhoneNumber_Value
+            {
+                get
+                {
+                    return _footermappingao1piphonenumber_valueInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAO1PIPhoneNumber_Value item info.
+            /// </summary>
+            [RepositoryItemInfo("d1d59d89-4367-4ff9-bc9d-b36b7017cd04")]
+            public virtual RepoItemInfo FooterMappingAO1PIPhoneNumber_ValueInfo
+            {
+                get
+                {
+                    return _footermappingao1piphonenumber_valueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAO1ADPhoneNumber_Value item.
+            /// </summary>
+            [RepositoryItem("7ea6eee4-95e4-478f-8819-0c02a9a013a9")]
+            public virtual Ranorex.SpanTag FooterMappingAO1ADPhoneNumber_Value
+            {
+                get
+                {
+                    return _footermappingao1adphonenumber_valueInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAO1ADPhoneNumber_Value item info.
+            /// </summary>
+            [RepositoryItemInfo("7ea6eee4-95e4-478f-8819-0c02a9a013a9")]
+            public virtual RepoItemInfo FooterMappingAO1ADPhoneNumber_ValueInfo
+            {
+                get
+                {
+                    return _footermappingao1adphonenumber_valueInfo;
                 }
             }
 
@@ -14583,6 +14754,78 @@ namespace SubmissionCase_E2E
             }
 
             /// <summary>
+            /// The FooterMappingAD1LIEmail_UseType_Value item.
+            /// </summary>
+            [RepositoryItem("7993e4d2-ef65-42f8-bd80-1ad60453bc9e")]
+            public virtual Ranorex.SpanTag FooterMappingAD1LIEmail_UseType_Value
+            {
+                get
+                {
+                    return _footermappingad1liemail_usetype_valueInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1LIEmail_UseType_Value item info.
+            /// </summary>
+            [RepositoryItemInfo("7993e4d2-ef65-42f8-bd80-1ad60453bc9e")]
+            public virtual RepoItemInfo FooterMappingAD1LIEmail_UseType_ValueInfo
+            {
+                get
+                {
+                    return _footermappingad1liemail_usetype_valueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1LIEmail_Source_Value item.
+            /// </summary>
+            [RepositoryItem("b87cc21b-c55b-4af7-8418-013dffb71978")]
+            public virtual Ranorex.SpanTag FooterMappingAD1LIEmail_Source_Value
+            {
+                get
+                {
+                    return _footermappingad1liemail_source_valueInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1LIEmail_Source_Value item info.
+            /// </summary>
+            [RepositoryItemInfo("b87cc21b-c55b-4af7-8418-013dffb71978")]
+            public virtual RepoItemInfo FooterMappingAD1LIEmail_Source_ValueInfo
+            {
+                get
+                {
+                    return _footermappingad1liemail_source_valueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1LIEmail_Value item.
+            /// </summary>
+            [RepositoryItem("09c1f3cd-4eac-4fde-ad91-aa4faaaf3825")]
+            public virtual Ranorex.ATag FooterMappingAD1LIEmail_Value
+            {
+                get
+                {
+                    return _footermappingad1liemail_valueInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1LIEmail_Value item info.
+            /// </summary>
+            [RepositoryItemInfo("09c1f3cd-4eac-4fde-ad91-aa4faaaf3825")]
+            public virtual RepoItemInfo FooterMappingAD1LIEmail_ValueInfo
+            {
+                get
+                {
+                    return _footermappingad1liemail_valueInfo;
+                }
+            }
+
+            /// <summary>
             /// The FooterMappingAttorneyInformation item.
             /// </summary>
             [RepositoryItem("77e5bd67-bd10-4dbc-b269-f66b77ec98e2")]
@@ -14723,6 +14966,30 @@ namespace SubmissionCase_E2E
                 get
                 {
                     return _footermappingemailInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Email_Information_Footer item.
+            /// </summary>
+            [RepositoryItem("2eebeed3-8a33-45b1-99ac-7c6d34f176d4")]
+            public virtual Ranorex.SpanTag Email_Information_Footer
+            {
+                get
+                {
+                    return _email_information_footerInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Email_Information_Footer item info.
+            /// </summary>
+            [RepositoryItemInfo("2eebeed3-8a33-45b1-99ac-7c6d34f176d4")]
+            public virtual RepoItemInfo Email_Information_FooterInfo
+            {
+                get
+                {
+                    return _email_information_footerInfo;
                 }
             }
 
@@ -14963,6 +15230,174 @@ namespace SubmissionCase_E2E
                 get
                 {
                     return _footermappingphoneinformation2Info;
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1ADPhone_UseType_Value item.
+            /// </summary>
+            [RepositoryItem("c3e16c12-6cc1-436d-9abd-a1f0c92039e0")]
+            public virtual Ranorex.SpanTag FooterMappingAD1ADPhone_UseType_Value
+            {
+                get
+                {
+                    return _footermappingad1adphone_usetype_valueInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1ADPhone_UseType_Value item info.
+            /// </summary>
+            [RepositoryItemInfo("c3e16c12-6cc1-436d-9abd-a1f0c92039e0")]
+            public virtual RepoItemInfo FooterMappingAD1ADPhone_UseType_ValueInfo
+            {
+                get
+                {
+                    return _footermappingad1adphone_usetype_valueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1ADPhone_PhoneType_Value item.
+            /// </summary>
+            [RepositoryItem("01a87559-16ea-4e65-9e8c-00c2f5f014f9")]
+            public virtual Ranorex.SpanTag FooterMappingAD1ADPhone_PhoneType_Value
+            {
+                get
+                {
+                    return _footermappingad1adphone_phonetype_valueInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1ADPhone_PhoneType_Value item info.
+            /// </summary>
+            [RepositoryItemInfo("01a87559-16ea-4e65-9e8c-00c2f5f014f9")]
+            public virtual RepoItemInfo FooterMappingAD1ADPhone_PhoneType_ValueInfo
+            {
+                get
+                {
+                    return _footermappingad1adphone_phonetype_valueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1ADPhone_Source_Value item.
+            /// </summary>
+            [RepositoryItem("c20ec275-8dd3-4a74-bef4-3cd953f9598a")]
+            public virtual Ranorex.SpanTag FooterMappingAD1ADPhone_Source_Value
+            {
+                get
+                {
+                    return _footermappingad1adphone_source_valueInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1ADPhone_Source_Value item info.
+            /// </summary>
+            [RepositoryItemInfo("c20ec275-8dd3-4a74-bef4-3cd953f9598a")]
+            public virtual RepoItemInfo FooterMappingAD1ADPhone_Source_ValueInfo
+            {
+                get
+                {
+                    return _footermappingad1adphone_source_valueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1ADPhone_PhoneNumber item.
+            /// </summary>
+            [RepositoryItem("eed89e41-dfe5-4ece-9b51-ea8c0d29509a")]
+            public virtual Ranorex.SpanTag FooterMappingAD1ADPhone_PhoneNumber
+            {
+                get
+                {
+                    return _footermappingad1adphone_phonenumberInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1ADPhone_PhoneNumber item info.
+            /// </summary>
+            [RepositoryItemInfo("eed89e41-dfe5-4ece-9b51-ea8c0d29509a")]
+            public virtual RepoItemInfo FooterMappingAD1ADPhone_PhoneNumberInfo
+            {
+                get
+                {
+                    return _footermappingad1adphone_phonenumberInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1ADEmail_UseType_Value item.
+            /// </summary>
+            [RepositoryItem("3cd4c6c9-0e2c-4f2a-b8fd-3cef16d928ea")]
+            public virtual Ranorex.SpanTag FooterMappingAD1ADEmail_UseType_Value
+            {
+                get
+                {
+                    return _footermappingad1ademail_usetype_valueInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1ADEmail_UseType_Value item info.
+            /// </summary>
+            [RepositoryItemInfo("3cd4c6c9-0e2c-4f2a-b8fd-3cef16d928ea")]
+            public virtual RepoItemInfo FooterMappingAD1ADEmail_UseType_ValueInfo
+            {
+                get
+                {
+                    return _footermappingad1ademail_usetype_valueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1ADEmail_Source_Value item.
+            /// </summary>
+            [RepositoryItem("9c7efd44-73c1-4bfe-86e0-61469eeed44a")]
+            public virtual Ranorex.SpanTag FooterMappingAD1ADEmail_Source_Value
+            {
+                get
+                {
+                    return _footermappingad1ademail_source_valueInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1ADEmail_Source_Value item info.
+            /// </summary>
+            [RepositoryItemInfo("9c7efd44-73c1-4bfe-86e0-61469eeed44a")]
+            public virtual RepoItemInfo FooterMappingAD1ADEmail_Source_ValueInfo
+            {
+                get
+                {
+                    return _footermappingad1ademail_source_valueInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1ADEmail_EmailID_Value item.
+            /// </summary>
+            [RepositoryItem("06e5d743-ef7b-49ca-97bb-22db8d890d95")]
+            public virtual Ranorex.ATag FooterMappingAD1ADEmail_EmailID_Value
+            {
+                get
+                {
+                    return _footermappingad1ademail_emailid_valueInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FooterMappingAD1ADEmail_EmailID_Value item info.
+            /// </summary>
+            [RepositoryItemInfo("06e5d743-ef7b-49ca-97bb-22db8d890d95")]
+            public virtual RepoItemInfo FooterMappingAD1ADEmail_EmailID_ValueInfo
+            {
+                get
+                {
+                    return _footermappingad1ademail_emailid_valueInfo;
                 }
             }
 
@@ -16475,6 +16910,54 @@ namespace SubmissionCase_E2E
                 get
                 {
                     return _footermappingao1_attorneypersonalInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FooterMappingAO1_AttorneyPersonal item.
+            /// </summary>
+            [RepositoryItem("3ee3e096-2519-40f1-8266-f8024387291a")]
+            public virtual Ranorex.SpanTag Copy_of_FooterMappingAO1_AttorneyPersonal
+            {
+                get
+                {
+                    return _copy_of_footermappingao1_attorneypersonalInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_FooterMappingAO1_AttorneyPersonal item info.
+            /// </summary>
+            [RepositoryItemInfo("3ee3e096-2519-40f1-8266-f8024387291a")]
+            public virtual RepoItemInfo Copy_of_FooterMappingAO1_AttorneyPersonalInfo
+            {
+                get
+                {
+                    return _copy_of_footermappingao1_attorneypersonalInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_Copy_of_FooterMappingAO1_AttorneyPersonal item.
+            /// </summary>
+            [RepositoryItem("615c1976-bb21-4673-b4d3-45b015c8fa99")]
+            public virtual Ranorex.SpanTag Copy_of_Copy_of_FooterMappingAO1_AttorneyPersonal
+            {
+                get
+                {
+                    return _copy_of_copy_of_footermappingao1_attorneypersonalInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_Copy_of_FooterMappingAO1_AttorneyPersonal item info.
+            /// </summary>
+            [RepositoryItemInfo("615c1976-bb21-4673-b4d3-45b015c8fa99")]
+            public virtual RepoItemInfo Copy_of_Copy_of_FooterMappingAO1_AttorneyPersonalInfo
+            {
+                get
+                {
+                    return _copy_of_copy_of_footermappingao1_attorneypersonalInfo;
                 }
             }
 
@@ -20196,72 +20679,6 @@ namespace SubmissionCase_E2E
                 get
                 {
                     return _selfInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The SBRLT045AppFolder folder.
-        /// </summary>
-        [RepositoryFolder("dc1cca4e-5096-467f-b9f7-38c8256a2d72")]
-        public partial class SBRLT045AppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _sbrlt045Info;
-
-            /// <summary>
-            /// Creates a new SBRLT045  folder.
-            /// </summary>
-            public SBRLT045AppFolder(RepoGenBaseFolder parentFolder) :
-                    base("SBRLT045", "", parentFolder, 30000, null, true, "dc1cca4e-5096-467f-b9f7-38c8256a2d72", "")
-            {
-                _sbrlt045Info = new RepoItemInfo(this, "SBRLT045", "", 30000, null, "e43feca9-5243-48ba-bab6-df0e3f19e3d1");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("dc1cca4e-5096-467f-b9f7-38c8256a2d72")]
-            public virtual Ranorex.Host Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Host>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("dc1cca4e-5096-467f-b9f7-38c8256a2d72")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SBRLT045 item.
-            /// </summary>
-            [RepositoryItem("e43feca9-5243-48ba-bab6-df0e3f19e3d1")]
-            public virtual Ranorex.Host SBRLT045
-            {
-                get
-                {
-                    return _sbrlt045Info.CreateAdapter<Ranorex.Host>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SBRLT045 item info.
-            /// </summary>
-            [RepositoryItemInfo("e43feca9-5243-48ba-bab6-df0e3f19e3d1")]
-            public virtual RepoItemInfo SBRLT045Info
-            {
-                get
-                {
-                    return _sbrlt045Info;
                 }
             }
         }

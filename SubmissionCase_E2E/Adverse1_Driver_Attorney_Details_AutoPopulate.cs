@@ -231,19 +231,27 @@ namespace SubmissionCase_E2E
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(12));
             Delay.Duration(500, false);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$AD1_AD_EmailUseType' on item 'ApplicationUnderTest.AD1_AD_EmailUseType'.", repo.ApplicationUnderTest.AD1_AD_EmailUseTypeInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AD1_AD_EmailUseType' at Center.", repo.ApplicationUnderTest.AD1_AD_EmailUseTypeInfo, new RecordItemIndex(13));
+            repo.ApplicationUnderTest.AD1_AD_EmailUseType.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Tab' Press.", new RecordItemIndex(14));
+            Keyboard.Press(System.Windows.Forms.Keys.Tab, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$AD1_AD_EmailUseType' on item 'ApplicationUnderTest.AD1_AD_EmailUseType'.", repo.ApplicationUnderTest.AD1_AD_EmailUseTypeInfo, new RecordItemIndex(15));
             repo.ApplicationUnderTest.AD1_AD_EmailUseType.Element.SetAttributeValue("TagValue", AD1_AD_EmailUseType);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$AD1_AD_EmailSource' on item 'ApplicationUnderTest.AD1_AD_EmailSource'.", repo.ApplicationUnderTest.AD1_AD_EmailSourceInfo, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$AD1_AD_EmailSource' on item 'ApplicationUnderTest.AD1_AD_EmailSource'.", repo.ApplicationUnderTest.AD1_AD_EmailSourceInfo, new RecordItemIndex(16));
             repo.ApplicationUnderTest.AD1_AD_EmailSource.Element.SetAttributeValue("TagValue", AD1_AD_EmailSource);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$AD1_Attorney_RepDate' with focus on 'ApplicationUnderTest.AD1_Attorney_RepDate'.", repo.ApplicationUnderTest.AD1_Attorney_RepDateInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$AD1_Attorney_RepDate' with focus on 'ApplicationUnderTest.AD1_Attorney_RepDate'.", repo.ApplicationUnderTest.AD1_Attorney_RepDateInfo, new RecordItemIndex(17));
             repo.ApplicationUnderTest.AD1_Attorney_RepDate.PressKeys(AD1_Attorney_RepDate);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Tab' Press.", new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Tab' Press.", new RecordItemIndex(18));
             Keyboard.Press(System.Windows.Forms.Keys.Tab, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             

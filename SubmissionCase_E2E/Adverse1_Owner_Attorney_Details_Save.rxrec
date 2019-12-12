@@ -592,6 +592,30 @@ mode="Global">
 				</path>
 			</info>
 		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ddd9806e-cf87-41f9-ac6f-e3e8ba08d38f"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4e0a5fe2-b006-42c3-8e45-9b307705c460"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleOwnerInformation$pAttorneyDetails$pEmailInfo$l1$ppyEmail']
+				</path>
+			</info>
+		</mouseitem>
 		<getvaluerecorditem
 		attrname="TagValue"
 		enabled="True"

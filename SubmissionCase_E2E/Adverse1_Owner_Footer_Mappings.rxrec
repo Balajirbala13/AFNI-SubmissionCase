@@ -153,15 +153,15 @@ mode="Global">
 		</var>
 		<var
 		id="a75d3adf-f447-47ca-9806-4594037f9a57"
-		name="AO1_Attorney_UseType1">
+		name="AO_AD_UseType">
 		</var>
 		<var
 		id="aa48783e-03d3-461d-b8da-c7179d5ebb96"
-		name="AO1_Attorney_PhoneType">
+		name="AO_AD_PhoneType">
 		</var>
 		<var
 		id="cf042d6e-d251-4ea9-9273-a6c6e1a5e8b5"
-		name="AO1_Attorney_Source">
+		name="AO_AD_Source">
 		</var>
 		<var
 		id="7c4456bc-3cf3-4b74-bad4-899893c1d1d5"
@@ -169,11 +169,11 @@ mode="Global">
 		</var>
 		<var
 		id="c01da0ee-f1af-46c4-894c-3ee81aa04df8"
-		name="AO1_Attorney_EmailUseType">
+		name="AO_AD_EmailUseType">
 		</var>
 		<var
 		id="73299edf-913d-4584-a2b5-088a05d152d5"
-		name="AO1_Attorney_EmailSource">
+		name="AO_AD_EmailSource">
 		</var>
 		<var
 		id="890135ad-c663-45b1-a452-de7f6375c5f2"
@@ -194,6 +194,22 @@ mode="Global">
 		<var
 		id="1b86930a-74c3-4537-b4ac-68f0ebfec246"
 		name="AO_LI_Company_Name">
+		</var>
+		<var
+		id="070524ff-97c6-4ba1-af9d-390e2be7af76"
+		name="AO_PI_PhoneUseType">
+		</var>
+		<var
+		id="a99f8aef-d0d8-4d02-b42b-dfa00f2793f9"
+		name="AO_PI_PhoneSource">
+		</var>
+		<var
+		id="f6f5e413-53eb-4db0-921b-484b6fcbe870"
+		name="AO_LI_PhoneUseType">
+		</var>
+		<var
+		id="e7c5fbed-ea65-4e3e-8ab7-02a611fff089"
+		name="AO_LI_PhoneSource">
 		</var>
 	</variables>
 	<recorditems>
@@ -217,6 +233,30 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</separatoritem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="bd9efc42-dc7e-4206-830f-e9f38f1d4edd"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d1d59d89-4367-4ff9-bc9d-b36b7017cd04"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='(950) 009-5004']
+				</path>
+			</info>
+		</mouseitem>
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
@@ -842,24 +882,6 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 				State
 			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="InnerText"
-		enabled="True"
-		optional="False"
-		searchpropertyid="e000a1b1-7f52-40c7-aebd-86f764ef59d4"
-		varname="AO_PI_USStateCode">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="170e2f02-9329-4e79-a6c5-3b5f92a114d9"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='ID']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
@@ -928,24 +950,6 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 				Zip
 			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="InnerText"
-		enabled="True"
-		optional="False"
-		searchpropertyid="e000a1b1-7f52-40c7-aebd-86f764ef59d4"
-		varname="AO_PI_ZipCode">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="b52b9552-d07e-47c1-9e6a-ef42f6904e23"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='10001']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<validationitem
 		action="AttributeEqual"
 		enabled="True"
@@ -1035,40 +1039,6 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 				Use Type
 			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="InnerText"
-		enabled="True"
-		optional="False"
-		searchpropertyid="e000a1b1-7f52-40c7-aebd-86f764ef59d4"
-		varname="AO_PI_UseType">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="59e9369a-85a3-4045-8b65-f856bf40e36a"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='Personal']
-				</path>
-			</info>
-		</getvaluerecorditem>
-		<loggingrecorditem
-		category="User"
-		enabled="True"
-		message=""
-		optional="False"
-		reportlevel="Info;20"
-		searchpropertyid="cdf05776-3625-4405-b5d1-bcc65fb8ca3c">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="Message"
-				variable="AO_PI_UseType">
-				</binding>
-			</bindings>
-		</loggingrecorditem>
 		<validationitem
 		action="AttributeEqual"
 		enabled="True"
@@ -1079,7 +1049,7 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AO_PI_UseType">
+				variable="AO_PI_PhoneUseType">
 				</binding>
 			</bindings>
 			<info
@@ -1096,6 +1066,22 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 				Personal
 			</matchvalue>
 		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="cdf05776-3625-4405-b5d1-bcc65fb8ca3c">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AO_PI_PhoneUseType">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
 		<validationitem
 		action="AttributeEqual"
 		enabled="True"
@@ -1119,24 +1105,33 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 				Phone Type
 			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="InnerText"
+		<validationitem
+		action="AttributeEqual"
 		enabled="True"
 		optional="False"
-		searchpropertyid="e000a1b1-7f52-40c7-aebd-86f764ef59d4"
-		varname="AO_PI_PhoneType">
+		searchpropertyid="cbb3286a-60da-4f28-a1c9-5f34be2d145d">
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AO_PI_PhoneType">
+				</binding>
 			</bindings>
 			<info
 			id="c1b52e15-0ef8-4da5-9096-64843a5e81b2"
-			sourcename="RepositoryEditor">
+			sourcename="ItemRecorderEditor">
 				<path>
 					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='Land Line']
 				</path>
 			</info>
-		</getvaluerecorditem>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Land Line
+			</matchvalue>
+		</validationitem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -1163,29 +1158,6 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<bindings>
 			</bindings>
 			<info
-			id="c1b52e15-0ef8-4da5-9096-64843a5e81b2"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='Land Line']
-				</path>
-			</info>
-			<matchname>
-				InnerText
-			</matchname>
-			<matchvalue>
-				Land Line
-			</matchvalue>
-		</validationitem>
-		<validationitem
-		action="AttributeEqual"
-		enabled="True"
-		optional="False"
-		searchpropertyid="cbb3286a-60da-4f28-a1c9-5f34be2d145d">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
 			id="0d734680-b9da-4a49-a05d-b9753746af18"
 			sourcename="ItemRecorderEditor">
 				<path>
@@ -1199,40 +1171,6 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 				Source
 			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="InnerText"
-		enabled="True"
-		optional="False"
-		searchpropertyid="e000a1b1-7f52-40c7-aebd-86f764ef59d4"
-		varname="AO_PI_Source">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="af097b09-33d1-483e-95a1-29ba324705cb"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='Direct']
-				</path>
-			</info>
-		</getvaluerecorditem>
-		<loggingrecorditem
-		category="User"
-		enabled="True"
-		message=""
-		optional="False"
-		reportlevel="Info;20"
-		searchpropertyid="cdf05776-3625-4405-b5d1-bcc65fb8ca3c">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="Message"
-				variable="AO_PI_Source">
-				</binding>
-			</bindings>
-		</loggingrecorditem>
 		<validationitem
 		action="AttributeEqual"
 		enabled="True"
@@ -1241,6 +1179,10 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AO_PI_PhoneSource">
+				</binding>
 			</bindings>
 			<info
 			id="af097b09-33d1-483e-95a1-29ba324705cb"
@@ -1256,6 +1198,22 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 				Direct
 			</matchvalue>
 		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="cdf05776-3625-4405-b5d1-bcc65fb8ca3c">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AO_PI_PhoneSource">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
 		<validationitem
 		action="AttributeEqual"
 		enabled="True"
@@ -1403,10 +1361,6 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="MatchValue"
-				variable="AO_LI_Company_Name">
-				</binding>
 			</bindings>
 			<info
 			id="847e1614-fe0d-49a7-ab0f-70a2e6477eda"
@@ -1425,17 +1379,13 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 		<loggingrecorditem
 		category="User"
 		enabled="True"
-		message=""
+		message="DEWITT INSURANCE"
 		optional="False"
 		reportlevel="Info;20"
 		searchpropertyid="cdf05776-3625-4405-b5d1-bcc65fb8ca3c">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="Message"
-				variable="AO_LI_Company_Name">
-				</binding>
 			</bindings>
 		</loggingrecorditem>
 		<validationitem
@@ -2050,24 +2000,6 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 				Use Type
 			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="InnerText"
-		enabled="True"
-		optional="False"
-		searchpropertyid="e000a1b1-7f52-40c7-aebd-86f764ef59d4"
-		varname="AO_LI_UseType">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="470ecff1-8dd5-4b0e-b693-67f714b3090d"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Personal']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -2080,7 +2012,7 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<bindings>
 				<binding
 				target="Message"
-				variable="AO_LI_UseType">
+				variable="AO_LI_PhoneUseType">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -2092,6 +2024,10 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AO_LI_PhoneUseType">
+				</binding>
 			</bindings>
 			<info
 			id="470ecff1-8dd5-4b0e-b693-67f714b3090d"
@@ -2130,24 +2066,6 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 				Phone Type
 			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="InnerText"
-		enabled="True"
-		optional="False"
-		searchpropertyid="e000a1b1-7f52-40c7-aebd-86f764ef59d4"
-		varname="AO_LI_PhoneType">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="ab894384-df05-4a30-8e56-d80a54fb3596"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Cell']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -2214,24 +2132,6 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 				Source
 			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="InnerText"
-		enabled="True"
-		optional="False"
-		searchpropertyid="e000a1b1-7f52-40c7-aebd-86f764ef59d4"
-		varname="AO_LI_Source">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="36a97fb1-30c4-4847-b07e-8b260c56d615"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Caller ID']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -2244,7 +2144,7 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<bindings>
 				<binding
 				target="Message"
-				variable="AO_LI_Source">
+				variable="AO_LI_PhoneSource">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -2258,7 +2158,7 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AO_LI_Source">
+				variable="AO_LI_PhoneSource">
 				</binding>
 			</bindings>
 			<info
@@ -2368,6 +2268,30 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<bindings>
 			</bindings>
 		</separatoritem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="bd9efc42-dc7e-4206-830f-e9f38f1d4edd"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7ea6eee4-95e4-478f-8819-0c02a9a013a9"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='(950) 009-5006']
+				</path>
+			</info>
+		</mouseitem>
 		<validationitem
 		action="AttributeEqual"
 		enabled="True"
@@ -3069,40 +2993,6 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 				Use Type
 			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="InnerText"
-		enabled="True"
-		optional="False"
-		searchpropertyid="e000a1b1-7f52-40c7-aebd-86f764ef59d4"
-		varname="AO1_Attorney_UseType1">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="6c99f59f-8e98-4917-bbc2-056893029ebd"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Personal']
-				</path>
-			</info>
-		</getvaluerecorditem>
-		<loggingrecorditem
-		category="User"
-		enabled="True"
-		message=""
-		optional="False"
-		reportlevel="Info;20"
-		searchpropertyid="cdf05776-3625-4405-b5d1-bcc65fb8ca3c">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="Message"
-				variable="AO1_Attorney_UseType1">
-				</binding>
-			</bindings>
-		</loggingrecorditem>
 		<validationitem
 		action="AttributeEqual"
 		enabled="True"
@@ -3113,7 +3003,7 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AO1_Attorney_UseType1">
+				variable="AO_AD_UseType">
 				</binding>
 			</bindings>
 			<info
@@ -3130,6 +3020,22 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 				Personal
 			</matchvalue>
 		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="cdf05776-3625-4405-b5d1-bcc65fb8ca3c">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AO_AD_UseType">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
 		<validationitem
 		action="AttributeEqual"
 		enabled="True"
@@ -3158,7 +3064,7 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 		enabled="True"
 		optional="False"
 		searchpropertyid="e000a1b1-7f52-40c7-aebd-86f764ef59d4"
-		varname="AO1_Attorney_PhoneType">
+		varname="AO_AD_PhoneType">
 			<comment>
 			</comment>
 			<bindings>
@@ -3183,7 +3089,7 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<bindings>
 				<binding
 				target="Message"
-				variable="AO1_Attorney_PhoneType">
+				variable="AO_AD_PhoneType">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -3197,7 +3103,7 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AO1_Attorney_PhoneType">
+				variable="AO_AD_PhoneType">
 				</binding>
 			</bindings>
 			<info
@@ -3242,7 +3148,7 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 		enabled="True"
 		optional="False"
 		searchpropertyid="e000a1b1-7f52-40c7-aebd-86f764ef59d4"
-		varname="AO1_Attorney_Source">
+		varname="AO_AD_Source">
 			<comment>
 			</comment>
 			<bindings>
@@ -3267,7 +3173,7 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<bindings>
 				<binding
 				target="Message"
-				variable="AO1_Attorney_Source">
+				variable="AO_AD_Source">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -3281,7 +3187,7 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AO1_Attorney_Source">
+				variable="AO_AD_Source">
 				</binding>
 			</bindings>
 			<info
@@ -3339,22 +3245,6 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 				</path>
 			</info>
 		</getvaluerecorditem>
-		<loggingrecorditem
-		category="User"
-		enabled="True"
-		message=""
-		optional="False"
-		reportlevel="Info;20"
-		searchpropertyid="cdf05776-3625-4405-b5d1-bcc65fb8ca3c">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="Message"
-				variable="AO1_Attorney_PhoneNumber">
-				</binding>
-			</bindings>
-		</loggingrecorditem>
 		<validationitem
 		action="AttributeEqual"
 		enabled="True"
@@ -3382,24 +3272,22 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 				(950) 009-5006
 			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="InnerText"
+		<loggingrecorditem
+		category="User"
 		enabled="True"
+		message=""
 		optional="False"
-		searchpropertyid="ed2e9b8f-f111-407f-bd96-f461b9c213c2"
-		varname="AO1_Attorney_EmailUseType">
+		reportlevel="Info;20"
+		searchpropertyid="cdf05776-3625-4405-b5d1-bcc65fb8ca3c">
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="Message"
+				variable="AO1_Attorney_PhoneNumber">
+				</binding>
 			</bindings>
-			<info
-			id="01b3dcb0-82d7-49ec-9e8d-e8414fdc7546"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Personal']
-				</path>
-			</info>
-		</getvaluerecorditem>
+		</loggingrecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -3412,7 +3300,7 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<bindings>
 				<binding
 				target="Message"
-				variable="AO1_Attorney_EmailUseType">
+				variable="AO_AD_EmailUseType">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -3426,7 +3314,7 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AO1_Attorney_EmailUseType">
+				variable="AO_AD_EmailUseType">
 				</binding>
 			</bindings>
 			<info
@@ -3443,24 +3331,6 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 				yourtext
 			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="InnerText"
-		enabled="True"
-		optional="False"
-		searchpropertyid="ed2e9b8f-f111-407f-bd96-f461b9c213c2"
-		varname="AO1_Attorney_EmailSource">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="91995285-166e-43a3-a2f2-728c3f8053f9"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Direct']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<loggingrecorditem
 		category="User"
 		enabled="True"
@@ -3473,7 +3343,7 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<bindings>
 				<binding
 				target="Message"
-				variable="AO1_Attorney_EmailSource">
+				variable="AO_AD_EmailSource">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -3487,7 +3357,7 @@ npmpvsn+nC539IvL249+uas0UAZX9jsq25iuzHLAWw/lg5BPPB6H3p39kf6A9sLlsmXzVkK8g5zz
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AO1_Attorney_EmailSource">
+				variable="AO_AD_EmailSource">
 				</binding>
 			</bindings>
 			<info

@@ -348,89 +348,93 @@ namespace SubmissionCase_E2E
             
             Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(19));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO1_Attorney_RepDate' and assigning its value to variable 'AO1_Attorney_RepDate'.", repo.ApplicationUnderTest.AO1_Attorney_RepDateInfo, new RecordItemIndex(20));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AO_AD_EmailId' at Center.", repo.ApplicationUnderTest.AO_AD_EmailIdInfo, new RecordItemIndex(20));
+            repo.ApplicationUnderTest.AO_AD_EmailId.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO1_Attorney_RepDate' and assigning its value to variable 'AO1_Attorney_RepDate'.", repo.ApplicationUnderTest.AO1_Attorney_RepDateInfo, new RecordItemIndex(21));
             AO1_Attorney_RepDate = repo.ApplicationUnderTest.AO1_Attorney_RepDate.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO1_Attorney_RepDate, new RecordItemIndex(21));
+            Report.Log(ReportLevel.Info, "User", AO1_Attorney_RepDate, new RecordItemIndex(22));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO1_Attorney_RepDate) on item 'ApplicationUnderTest.AO1_Attorney_RepDate'.", repo.ApplicationUnderTest.AO1_Attorney_RepDateInfo, new RecordItemIndex(22));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO1_Attorney_RepDate) on item 'ApplicationUnderTest.AO1_Attorney_RepDate'.", repo.ApplicationUnderTest.AO1_Attorney_RepDateInfo, new RecordItemIndex(23));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO1_Attorney_RepDateInfo, "TagValue", AO1_Attorney_RepDate);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_AD_UseType' and assigning its value to variable 'AO1_Attorney_UseType'.", repo.ApplicationUnderTest.AO_AD_UseTypeInfo, new RecordItemIndex(23));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_AD_UseType' and assigning its value to variable 'AO1_Attorney_UseType'.", repo.ApplicationUnderTest.AO_AD_UseTypeInfo, new RecordItemIndex(24));
             AO1_Attorney_UseType = repo.ApplicationUnderTest.AO_AD_UseType.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO1_Attorney_UseType, new RecordItemIndex(24));
+            Report.Log(ReportLevel.Info, "User", AO1_Attorney_UseType, new RecordItemIndex(25));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO1_Attorney_UseType) on item 'ApplicationUnderTest.AO_AD_UseType'.", repo.ApplicationUnderTest.AO_AD_UseTypeInfo, new RecordItemIndex(25));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO1_Attorney_UseType) on item 'ApplicationUnderTest.AO_AD_UseType'.", repo.ApplicationUnderTest.AO_AD_UseTypeInfo, new RecordItemIndex(26));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_AD_UseTypeInfo, "TagValue", AO1_Attorney_UseType);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_AD_PhoneType' and assigning its value to variable 'AO1_Attorney_PhoneType'.", repo.ApplicationUnderTest.AO_AD_PhoneTypeInfo, new RecordItemIndex(26));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_AD_PhoneType' and assigning its value to variable 'AO1_Attorney_PhoneType'.", repo.ApplicationUnderTest.AO_AD_PhoneTypeInfo, new RecordItemIndex(27));
             AO1_Attorney_PhoneType = repo.ApplicationUnderTest.AO_AD_PhoneType.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO1_Attorney_PhoneType, new RecordItemIndex(27));
+            Report.Log(ReportLevel.Info, "User", AO1_Attorney_PhoneType, new RecordItemIndex(28));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO1_Attorney_PhoneType) on item 'ApplicationUnderTest.AO_AD_PhoneType'.", repo.ApplicationUnderTest.AO_AD_PhoneTypeInfo, new RecordItemIndex(28));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO1_Attorney_PhoneType) on item 'ApplicationUnderTest.AO_AD_PhoneType'.", repo.ApplicationUnderTest.AO_AD_PhoneTypeInfo, new RecordItemIndex(29));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_AD_PhoneTypeInfo, "TagValue", AO1_Attorney_PhoneType);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_AD_Source' and assigning its value to variable 'AO1_Attorney_Source'.", repo.ApplicationUnderTest.AO_AD_SourceInfo, new RecordItemIndex(29));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_AD_Source' and assigning its value to variable 'AO1_Attorney_Source'.", repo.ApplicationUnderTest.AO_AD_SourceInfo, new RecordItemIndex(30));
             AO1_Attorney_Source = repo.ApplicationUnderTest.AO_AD_Source.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO1_Attorney_Source, new RecordItemIndex(30));
+            Report.Log(ReportLevel.Info, "User", AO1_Attorney_Source, new RecordItemIndex(31));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO1_Attorney_Source) on item 'ApplicationUnderTest.AO_AD_Source'.", repo.ApplicationUnderTest.AO_AD_SourceInfo, new RecordItemIndex(31));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO1_Attorney_Source) on item 'ApplicationUnderTest.AO_AD_Source'.", repo.ApplicationUnderTest.AO_AD_SourceInfo, new RecordItemIndex(32));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_AD_SourceInfo, "TagValue", AO1_Attorney_Source);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_AD_PhoneNumber' and assigning its value to variable 'AO1_Attorney_PhoneNumber'.", repo.ApplicationUnderTest.AO_AD_PhoneNumberInfo, new RecordItemIndex(32));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_AD_PhoneNumber' and assigning its value to variable 'AO1_Attorney_PhoneNumber'.", repo.ApplicationUnderTest.AO_AD_PhoneNumberInfo, new RecordItemIndex(33));
             AO1_Attorney_PhoneNumber = repo.ApplicationUnderTest.AO_AD_PhoneNumber.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO1_Attorney_PhoneNumber, new RecordItemIndex(33));
+            Report.Log(ReportLevel.Info, "User", AO1_Attorney_PhoneNumber, new RecordItemIndex(34));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO1_Attorney_PhoneNumber) on item 'ApplicationUnderTest.AO_AD_PhoneNumber'.", repo.ApplicationUnderTest.AO_AD_PhoneNumberInfo, new RecordItemIndex(34));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO1_Attorney_PhoneNumber) on item 'ApplicationUnderTest.AO_AD_PhoneNumber'.", repo.ApplicationUnderTest.AO_AD_PhoneNumberInfo, new RecordItemIndex(35));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_AD_PhoneNumberInfo, "TagValue", AO1_Attorney_PhoneNumber);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_AD_EmailUseType' and assigning its value to variable 'AO1_Attorney_EmailUseType'.", repo.ApplicationUnderTest.AO_AD_EmailUseTypeInfo, new RecordItemIndex(35));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_AD_EmailUseType' and assigning its value to variable 'AO1_Attorney_EmailUseType'.", repo.ApplicationUnderTest.AO_AD_EmailUseTypeInfo, new RecordItemIndex(36));
             AO1_Attorney_EmailUseType = repo.ApplicationUnderTest.AO_AD_EmailUseType.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO1_Attorney_EmailUseType, new RecordItemIndex(36));
+            Report.Log(ReportLevel.Info, "User", AO1_Attorney_EmailUseType, new RecordItemIndex(37));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO1_Attorney_EmailUseType) on item 'ApplicationUnderTest.AO_AD_EmailUseType'.", repo.ApplicationUnderTest.AO_AD_EmailUseTypeInfo, new RecordItemIndex(37));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO1_Attorney_EmailUseType) on item 'ApplicationUnderTest.AO_AD_EmailUseType'.", repo.ApplicationUnderTest.AO_AD_EmailUseTypeInfo, new RecordItemIndex(38));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_AD_EmailUseTypeInfo, "TagValue", AO1_Attorney_EmailUseType);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_AD_EmailSource' and assigning its value to variable 'AO1_Attorney_EmailSource'.", repo.ApplicationUnderTest.AO_AD_EmailSourceInfo, new RecordItemIndex(38));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_AD_EmailSource' and assigning its value to variable 'AO1_Attorney_EmailSource'.", repo.ApplicationUnderTest.AO_AD_EmailSourceInfo, new RecordItemIndex(39));
             AO1_Attorney_EmailSource = repo.ApplicationUnderTest.AO_AD_EmailSource.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO1_Attorney_EmailSource, new RecordItemIndex(39));
+            Report.Log(ReportLevel.Info, "User", AO1_Attorney_EmailSource, new RecordItemIndex(40));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO1_Attorney_EmailSource) on item 'ApplicationUnderTest.AO_AD_EmailSource'.", repo.ApplicationUnderTest.AO_AD_EmailSourceInfo, new RecordItemIndex(40));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO1_Attorney_EmailSource) on item 'ApplicationUnderTest.AO_AD_EmailSource'.", repo.ApplicationUnderTest.AO_AD_EmailSourceInfo, new RecordItemIndex(41));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_AD_EmailSourceInfo, "TagValue", AO1_Attorney_EmailSource);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_AD_EmailId' and assigning its value to variable 'AO1_Attorney_Email'.", repo.ApplicationUnderTest.AO_AD_EmailIdInfo, new RecordItemIndex(41));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_AD_EmailId' and assigning its value to variable 'AO1_Attorney_Email'.", repo.ApplicationUnderTest.AO_AD_EmailIdInfo, new RecordItemIndex(42));
             AO1_Attorney_Email = repo.ApplicationUnderTest.AO_AD_EmailId.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO1_Attorney_Email, new RecordItemIndex(42));
+            Report.Log(ReportLevel.Info, "User", AO1_Attorney_Email, new RecordItemIndex(43));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO1_Attorney_Email) on item 'ApplicationUnderTest.AO_AD_EmailId'.", repo.ApplicationUnderTest.AO_AD_EmailIdInfo, new RecordItemIndex(43));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO1_Attorney_Email) on item 'ApplicationUnderTest.AO_AD_EmailId'.", repo.ApplicationUnderTest.AO_AD_EmailIdInfo, new RecordItemIndex(44));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_AD_EmailIdInfo, "TagValue", AO1_Attorney_Email);
             Delay.Milliseconds(0);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(44));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(45));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubmitButton1' at 46;15.", repo.ApplicationUnderTest.SubmitButton1Info, new RecordItemIndex(45));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubmitButton1' at 46;15.", repo.ApplicationUnderTest.SubmitButton1Info, new RecordItemIndex(46));
             repo.ApplicationUnderTest.SubmitButton1.Click("46;15");
             Delay.Milliseconds(0);
             
