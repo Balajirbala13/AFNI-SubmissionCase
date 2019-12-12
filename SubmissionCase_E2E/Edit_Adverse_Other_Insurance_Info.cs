@@ -719,7 +719,91 @@ namespace SubmissionCase_E2E
             
             Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(76));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Submit_5' at 53;18.", repo.ApplicationUnderTest.Submit_5Info, new RecordItemIndex(77));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='yourtext') on item 'ApplicationUnderTest.OAT_IL_CompName'.", repo.ApplicationUnderTest.OAT_IL_CompNameInfo, new RecordItemIndex(77));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.OAT_IL_CompNameInfo, "Text", "yourtext");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(78));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='yourtext') on item 'ApplicationUnderTest.OAT_IL_PolicyNumber'.", repo.ApplicationUnderTest.OAT_IL_PolicyNumberInfo, new RecordItemIndex(79));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.OAT_IL_PolicyNumberInfo, "Text", "yourtext");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(80));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='yourtext') on item 'ApplicationUnderTest.OAT_IL_ClaimNumber'.", repo.ApplicationUnderTest.OAT_IL_ClaimNumberInfo, new RecordItemIndex(81));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.OAT_IL_ClaimNumberInfo, "Text", "yourtext");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(82));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='yourtext') on item 'ApplicationUnderTest.OAT_IL_ContactName'.", repo.ApplicationUnderTest.OAT_IL_ContactNameInfo, new RecordItemIndex(83));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.OAT_IL_ContactNameInfo, "Text", "yourtext");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(84));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='yourtext') on item 'ApplicationUnderTest.OAT_IL_Address1'.", repo.ApplicationUnderTest.OAT_IL_Address1Info, new RecordItemIndex(85));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.OAT_IL_Address1Info, "Text", "yourtext");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(86));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='yourtext') on item 'ApplicationUnderTest.OAT_IL_Address2'.", repo.ApplicationUnderTest.OAT_IL_Address2Info, new RecordItemIndex(87));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.OAT_IL_Address2Info, "Text", "yourtext");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(88));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='yourtext') on item 'ApplicationUnderTest.OAT_IL_City'.", repo.ApplicationUnderTest.OAT_IL_CityInfo, new RecordItemIndex(89));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.OAT_IL_CityInfo, "Text", "yourtext");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(90));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='yourtext') on item 'ApplicationUnderTest.OAT_IL_State'.", repo.ApplicationUnderTest.OAT_IL_StateInfo, new RecordItemIndex(91));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.OAT_IL_StateInfo, "Text", "yourtext");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(92));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='yourtext') on item 'ApplicationUnderTest.OAT_IL_Zip'.", repo.ApplicationUnderTest.OAT_IL_ZipInfo, new RecordItemIndex(93));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.OAT_IL_ZipInfo, "Text", "yourtext");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(94));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='yourtext') on item 'ApplicationUnderTest.OAT_IL_UseType'.", repo.ApplicationUnderTest.OAT_IL_UseTypeInfo, new RecordItemIndex(95));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.OAT_IL_UseTypeInfo, "Text", "yourtext");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(96));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='yourtext') on item 'ApplicationUnderTest.OAT_IL_PhoneType'.", repo.ApplicationUnderTest.OAT_IL_PhoneTypeInfo, new RecordItemIndex(97));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.OAT_IL_PhoneTypeInfo, "Text", "yourtext");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(98));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='yourtext') on item 'ApplicationUnderTest.OAT_IL_Source'.", repo.ApplicationUnderTest.OAT_IL_SourceInfo, new RecordItemIndex(99));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.OAT_IL_SourceInfo, "Text", "yourtext");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(100));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='yourtext') on item 'ApplicationUnderTest.OAT_IL_PhoneNumber'.", repo.ApplicationUnderTest.OAT_IL_PhoneNumberInfo, new RecordItemIndex(101));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.OAT_IL_PhoneNumberInfo, "Text", "yourtext");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(102));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='yourtext') on item 'ApplicationUnderTest.OAT_IL_ExtNo'.", repo.ApplicationUnderTest.OAT_IL_ExtNoInfo, new RecordItemIndex(103));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.OAT_IL_ExtNoInfo, "Text", "yourtext");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(104));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Submit_5' at 53;18.", repo.ApplicationUnderTest.Submit_5Info, new RecordItemIndex(105));
             repo.ApplicationUnderTest.Submit_5.Click("53;18");
             Delay.Milliseconds(0);
             

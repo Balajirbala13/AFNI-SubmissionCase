@@ -1953,13 +1953,6 @@
       <id>eeecae4e-54f7-43a9-989c-e5d063abbda5</id>
       <recordtableid>ed04540b-6ff1-4c76-884c-7e0f880ad809</recordtableid>
     </None>
-    <Content Include="Parameter_Binding.xlsx">
-      <Link>Parameter_Binding.xlsx</Link>
-      <BoundTo>2fb52081-bab1-4ca9-aedd-599c5acfad2a</BoundTo>
-      <DependentUpon>SubmissionCase_E2E.rxtst</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>6748576c-d07e-447e-ae4d-a7c9628b0542</id>
-    </Content>
     <None Include="Review_ClaimInformation_Page.rxrec">
       <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
       <id>2923269e-dd97-4494-851a-9d4a6b33abb2</id>
@@ -1976,24 +1969,11 @@
       <repoid>d8c4034f-596c-4755-95c6-cc2d7e4fcd20</repoid>
       <reporootid>edc9576f-e82e-4618-86bf-a3926f9358cd</reporootid>
     </None>
-    <Content Include="SubmissionCase_E2E_Databinding.xlsx">
-      <Link>SubmissionCase_E2E_Databinding.xlsx</Link>
-      <BoundTo>2fb52081-bab1-4ca9-aedd-599c5acfad2a</BoundTo>
-      <DependentUpon>SubmissionCase_E2E.rxtst</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>8a8aacba-7269-4250-be6a-7d8c106320dd</id>
-    </Content>
     <None Include="TempRecording_Adverse1.rxrec">
       <BoundTo>eb65e0a6-a019-4870-ac41-01a87076f5a8</BoundTo>
       <id>32d6d5c3-568e-42aa-b5a8-d19bb1ef3199</id>
       <recordtableid>15dfd577-56d5-404e-8d7c-d1bab27100e1</recordtableid>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="SubmissionCase_E2E.rxtst">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>2fb52081-bab1-4ca9-aedd-599c5acfad2a</id>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RanorexAutomationHelpers\Ranorex Automation Helpers.csproj">

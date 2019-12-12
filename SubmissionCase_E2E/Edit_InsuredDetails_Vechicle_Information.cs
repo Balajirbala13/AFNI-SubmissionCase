@@ -183,63 +183,135 @@ namespace SubmissionCase_E2E
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Save_Button' at 6;8.", repo.ApplicationUnderTest.Save_ButtonInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.Save_Button.Click("6;8");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(0));
             Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'ApplicationUnderTest.ID_VI_Header'", repo.ApplicationUnderTest.ID_VI_HeaderInfo, new ActionTimeout(10000), new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'ApplicationUnderTest.ID_VI_Header'", repo.ApplicationUnderTest.ID_VI_HeaderInfo, new ActionTimeout(10000), new RecordItemIndex(1));
             repo.ApplicationUnderTest.ID_VI_HeaderInfo.WaitForExists(10000);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'ApplicationUnderTest.LabelTagNo2'.", repo.ApplicationUnderTest.LabelTagNo2Info, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Enabled='True') on item 'ApplicationUnderTest.LabelTagNo2'.", repo.ApplicationUnderTest.LabelTagNo2Info, new RecordItemIndex(2));
             Validate.AttributeEqual(repo.ApplicationUnderTest.LabelTagNo2Info, "Enabled", "True");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.ID_VI_LicensePlate' and assigning its value to variable 'ID_VI_LicensePlate'.", repo.ApplicationUnderTest.ID_VI_LicensePlateInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.ID_VI_LicensePlate' and assigning its value to variable 'ID_VI_LicensePlate'.", repo.ApplicationUnderTest.ID_VI_LicensePlateInfo, new RecordItemIndex(3));
             ID_VI_LicensePlate = repo.ApplicationUnderTest.ID_VI_LicensePlate.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", ID_VI_LicensePlate, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "User", ID_VI_LicensePlate, new RecordItemIndex(4));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$ID_VI_LicensePlate) on item 'ApplicationUnderTest.ID_VI_LicensePlate'.", repo.ApplicationUnderTest.ID_VI_LicensePlateInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$ID_VI_LicensePlate) on item 'ApplicationUnderTest.ID_VI_LicensePlate'.", repo.ApplicationUnderTest.ID_VI_LicensePlateInfo, new RecordItemIndex(5));
             Validate.AttributeEqual(repo.ApplicationUnderTest.ID_VI_LicensePlateInfo, "TagValue", ID_VI_LicensePlate);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.ID_VI_LicensePlateState' and assigning its value to variable 'ID_VI_LicensePlateState'.", repo.ApplicationUnderTest.ID_VI_LicensePlateStateInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(6));
+            Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(7));
+            Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_ID_VI_LicensePlate' with focus on 'ApplicationUnderTest.ID_VI_LicensePlate'.", repo.ApplicationUnderTest.ID_VI_LicensePlateInfo, new RecordItemIndex(8));
+            repo.ApplicationUnderTest.ID_VI_LicensePlate.PressKeys(Edit_ID_VI_LicensePlate);
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.ID_VI_LicensePlateState' and assigning its value to variable 'ID_VI_LicensePlateState'.", repo.ApplicationUnderTest.ID_VI_LicensePlateStateInfo, new RecordItemIndex(9));
             ID_VI_LicensePlateState = repo.ApplicationUnderTest.ID_VI_LicensePlateState.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", ID_VI_LicensePlateState, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "User", ID_VI_LicensePlateState, new RecordItemIndex(10));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$ID_VI_LicensePlateState) on item 'ApplicationUnderTest.ID_VI_LicensePlateState'.", repo.ApplicationUnderTest.ID_VI_LicensePlateStateInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$ID_VI_LicensePlateState) on item 'ApplicationUnderTest.ID_VI_LicensePlateState'.", repo.ApplicationUnderTest.ID_VI_LicensePlateStateInfo, new RecordItemIndex(11));
             Validate.AttributeEqual(repo.ApplicationUnderTest.ID_VI_LicensePlateStateInfo, "TagValue", ID_VI_LicensePlateState);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.ID_VD_Vin_Year' and assigning its value to variable 'ID_VD_Vin_Year'.", repo.ApplicationUnderTest.ID_VD_Vin_YearInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(12));
+            Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(13));
+            Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Edit_ID_VI_LicensePlateState' on item 'ApplicationUnderTest.ID_VI_LicensePlateState'.", repo.ApplicationUnderTest.ID_VI_LicensePlateStateInfo, new RecordItemIndex(14));
+            repo.ApplicationUnderTest.ID_VI_LicensePlateState.Element.SetAttributeValue("TagValue", Edit_ID_VI_LicensePlateState);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.ID_VD_Vin_Year' and assigning its value to variable 'ID_VD_Vin_Year'.", repo.ApplicationUnderTest.ID_VD_Vin_YearInfo, new RecordItemIndex(15));
             ID_VD_Vin_Year = repo.ApplicationUnderTest.ID_VD_Vin_Year.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", ID_VD_Vin_Year, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "User", ID_VD_Vin_Year, new RecordItemIndex(16));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$ID_VD_Vin_Year) on item 'ApplicationUnderTest.ID_VD_Vin_Year'.", repo.ApplicationUnderTest.ID_VD_Vin_YearInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$ID_VD_Vin_Year) on item 'ApplicationUnderTest.ID_VD_Vin_Year'.", repo.ApplicationUnderTest.ID_VD_Vin_YearInfo, new RecordItemIndex(17));
             Validate.AttributeEqual(repo.ApplicationUnderTest.ID_VD_Vin_YearInfo, "TagValue", ID_VD_Vin_Year);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.ID_VD_VIN_Make' and assigning its value to variable 'ID_VD_VIN_Make'.", repo.ApplicationUnderTest.ID_VD_VIN_MakeInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(18));
+            Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(19));
+            Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_ID_VD_Vin_Year' with focus on 'ApplicationUnderTest.ID_VD_Vin_Year'.", repo.ApplicationUnderTest.ID_VD_Vin_YearInfo, new RecordItemIndex(20));
+            repo.ApplicationUnderTest.ID_VD_Vin_Year.PressKeys(Edit_ID_VD_Vin_Year);
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.ID_VD_VIN_Make' and assigning its value to variable 'ID_VD_VIN_Make'.", repo.ApplicationUnderTest.ID_VD_VIN_MakeInfo, new RecordItemIndex(21));
             ID_VD_VIN_Make = repo.ApplicationUnderTest.ID_VD_VIN_Make.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", ID_VD_VIN_Make, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "User", ID_VD_VIN_Make, new RecordItemIndex(22));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$ID_VD_VIN_Make) on item 'ApplicationUnderTest.ID_VD_VIN_Make'.", repo.ApplicationUnderTest.ID_VD_VIN_MakeInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$ID_VD_VIN_Make) on item 'ApplicationUnderTest.ID_VD_VIN_Make'.", repo.ApplicationUnderTest.ID_VD_VIN_MakeInfo, new RecordItemIndex(23));
             Validate.AttributeEqual(repo.ApplicationUnderTest.ID_VD_VIN_MakeInfo, "TagValue", ID_VD_VIN_Make);
             Delay.Milliseconds(100);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(24));
+            Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Submit_5' at 40;14.", repo.ApplicationUnderTest.Submit_5Info, new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(25));
+            Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_ID_VD_VIN_Make1' with focus on 'ApplicationUnderTest.ID_VD_VIN_Make'.", repo.ApplicationUnderTest.ID_VD_VIN_MakeInfo, new RecordItemIndex(26));
+            repo.ApplicationUnderTest.ID_VD_VIN_Make.PressKeys(Edit_ID_VD_VIN_Make1);
+            Delay.Milliseconds(100);
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(27));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Save_Button' at 6;8.", repo.ApplicationUnderTest.Save_ButtonInfo, new RecordItemIndex(28));
+            repo.ApplicationUnderTest.Save_Button.Click("6;8");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_ID_VI_LicensePlate) on item 'ApplicationUnderTest.ID_VI_LicensePlate'.", repo.ApplicationUnderTest.ID_VI_LicensePlateInfo, new RecordItemIndex(29));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.ID_VI_LicensePlateInfo, "TagValue", Edit_ID_VI_LicensePlate);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_ID_VI_LicensePlate, new RecordItemIndex(30));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_ID_VI_LicensePlateState) on item 'ApplicationUnderTest.ID_VI_LicensePlateState'.", repo.ApplicationUnderTest.ID_VI_LicensePlateStateInfo, new RecordItemIndex(31));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.ID_VI_LicensePlateStateInfo, "TagValue", Edit_ID_VI_LicensePlateState);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_ID_VI_LicensePlateState, new RecordItemIndex(32));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_ID_VD_Vin_Year) on item 'ApplicationUnderTest.ID_VD_Vin_Year'.", repo.ApplicationUnderTest.ID_VD_Vin_YearInfo, new RecordItemIndex(33));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.ID_VD_Vin_YearInfo, "TagValue", Edit_ID_VD_Vin_Year);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_ID_VD_Vin_Year, new RecordItemIndex(34));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_ID_VD_VIN_Make1) on item 'ApplicationUnderTest.ID_VD_VIN_Make'.", repo.ApplicationUnderTest.ID_VD_VIN_MakeInfo, new RecordItemIndex(35));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.ID_VD_VIN_MakeInfo, "TagValue", Edit_ID_VD_VIN_Make1);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_ID_VD_VIN_Make1, new RecordItemIndex(36));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Submit_5' at 40;14.", repo.ApplicationUnderTest.Submit_5Info, new RecordItemIndex(37));
             repo.ApplicationUnderTest.Submit_5.Click("40;14");
             Delay.Milliseconds(200);
             

@@ -536,12 +536,12 @@ namespace SubmissionCase_E2E
             Mouse.ScrollWheel(240);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.Toyota__2019_MH15_HJ_1001'.", repo.ApplicationUnderTest.Toyota__2019_MH15_HJ_1001Info, new RecordItemIndex(7));
-            Validate.Exists(repo.ApplicationUnderTest.Toyota__2019_MH15_HJ_1001Info);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.Adverse_Information___AD1_PI_FirstName_AD1_PI_LastName'.", repo.ApplicationUnderTest.Adverse_Information___AD1_PI_FirstName_AD1_PI_LastNameInfo, new RecordItemIndex(7));
+            Validate.Exists(repo.ApplicationUnderTest.Adverse_Information___AD1_PI_FirstName_AD1_PI_LastNameInfo);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Toyota__2019_MH15_HJ_1001' at 31;9.", repo.ApplicationUnderTest.Toyota__2019_MH15_HJ_1001Info, new RecordItemIndex(8));
-            repo.ApplicationUnderTest.Toyota__2019_MH15_HJ_1001.Click("31;9");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Adverse_Information___AD1_PI_FirstName_AD1_PI_LastName' at 31;9.", repo.ApplicationUnderTest.Adverse_Information___AD1_PI_FirstName_AD1_PI_LastNameInfo, new RecordItemIndex(8));
+            repo.ApplicationUnderTest.Adverse_Information___AD1_PI_FirstName_AD1_PI_LastName.Click("31;9");
             Delay.Milliseconds(200);
             
             // Adverse Driver - Personal Information
@@ -709,12 +709,12 @@ namespace SubmissionCase_E2E
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1PIPhoneTypeInfo, "InnerText", "Phone Type");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAO1_PI_PhoneType_LandLine' and assigning its value to variable 'AD1_PI_PhoneType_LandLine'.", repo.ApplicationUnderTest.FooterMappingAO1_PI_PhoneType_LandLineInfo, new RecordItemIndex(57));
-            AD1_PI_PhoneType_LandLine = repo.ApplicationUnderTest.FooterMappingAO1_PI_PhoneType_LandLine.Element.GetAttributeValueText("InnerText");
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1_PI_PhoneType_LandLine' and assigning its value to variable 'AD1_PI_PhoneType_LandLine'.", repo.ApplicationUnderTest.FooterMappingAD1_PI_PhoneType_LandLineInfo, new RecordItemIndex(57));
+            AD1_PI_PhoneType_LandLine = repo.ApplicationUnderTest.FooterMappingAD1_PI_PhoneType_LandLine.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_PI_PhoneType_LandLine) on item 'ApplicationUnderTest.FooterMappingAO1_PI_PhoneType_LandLine'.", repo.ApplicationUnderTest.FooterMappingAO1_PI_PhoneType_LandLineInfo, new RecordItemIndex(58));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAO1_PI_PhoneType_LandLineInfo, "InnerText", AD1_PI_PhoneType_LandLine);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_PI_PhoneType_LandLine) on item 'ApplicationUnderTest.FooterMappingAD1_PI_PhoneType_LandLine'.", repo.ApplicationUnderTest.FooterMappingAD1_PI_PhoneType_LandLineInfo, new RecordItemIndex(58));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1_PI_PhoneType_LandLineInfo, "InnerText", AD1_PI_PhoneType_LandLine);
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "User", AD1_PI_PhoneType_LandLine, new RecordItemIndex(59));
