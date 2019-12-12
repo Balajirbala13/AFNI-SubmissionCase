@@ -4205,16 +4205,12 @@ rxversion="9.2">
 			type="Recording">
 			</testmodule>
 			<testmodule
-<<<<<<< HEAD
-			enabled="False"
-=======
 			id="348bccfa-13b3-43da-9152-c44770f441c5"
 			name="Edit_Adverse2_Driver_License_Information"
 			ref="1077a5ab-358b-445d-b341-c067bba05569"
 			type="Recording">
 			</testmodule>
 			<testmodule
->>>>>>> 09fc1fae41a893af070a9945e660f2463af0bfdd
 			id="35a9f6b0-b90f-49f7-a908-d7196f5d3d1a"
 			name="Adverse1_Driver_License_Information_Save"
 			ref="a3e70662-7ca9-4bb6-bf93-e1e061a93400"
@@ -4239,7 +4235,6 @@ rxversion="9.2">
 			type="Recording">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="418f942a-b78b-464f-b8a3-cf11abe2ddf2"
 			name="Adverse1_Driver_License_Information"
 			ref="34538f6b-3f56-4ad8-b434-13d951522727"
@@ -4258,7 +4253,6 @@ rxversion="9.2">
 			type="Recording">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="458757ab-304d-4eee-b896-d0b52c3a1f5e"
 			name="Adverse1_Driver_Insurance_Information"
 			ref="634d1a6d-2443-4de7-a76b-09cf1e83720b"
@@ -4279,57 +4273,6 @@ rxversion="9.2">
 			<modulegroupdef
 			id="4f9f2eaf-ebac-41a9-be6b-f4d0b07f9f5a"
 			name="REVIEW_AND_EDIT_CLAIM_DETAILS">
-<<<<<<< HEAD
-			</modulegroupdef>
-			<testmodule
-			enabled="False"
-			id="503e3712-c429-47d9-a249-2f1388e65ab6"
-			name="Adverse1_Driver_Personal_Information_Save"
-			ref="029b2bd7-a05f-49e7-bbcd-2f3e93715d8f"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="572aa670-3aa1-4628-9842-46db84a96c8f"
-			name="Adverse1_Owner_Footer_Mappings"
-			ref="9ce459cf-6be8-42eb-bba8-b07d6ece9668"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="57301cb0-195e-4460-8927-8691ed88d210"
-			name="Adverse_Other_Personal_Info"
-			ref="f71b6cb0-9e7a-4a72-beb1-ceb483f57a48"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="576ea641-0e13-4136-8d93-00a0a1e82dce"
-			name="Adverse1_Owner_License_Information"
-			ref="c179ed09-8eab-4171-83cb-1bf708171bd5"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			enabled="False"
-			id="58326833-cd21-4219-8bf9-d48c1ae23387"
-			name="TempRecording_Adverse1"
-			ref="15dfd577-56d5-404e-8d7c-d1bab27100e1"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="58fa9590-1521-4a03-8fcb-2a3f266326cb"
-			name="Adverse1_Vechicle_FooterMapping"
-			ref="d6259560-508a-4efb-9480-650c5c7802b8"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="647c6dfe-51c5-404f-965b-473b2c8e5d55"
-			name="Adverse1_Driver_Footer_Mapping"
-			ref="33db1389-f568-4ae8-bd5f-0ad42bf67d8f"
-			type="Recording">
-			</testmodule>
-			<modulegroupdef
-			id="670c07c7-33d2-417c-ace9-ffcdd9a63478"
-			name="Initial_Setup">
-=======
->>>>>>> 09fc1fae41a893af070a9945e660f2463af0bfdd
 				<groupvariables>
 					<groupvariable
 					id="d8f21566-a45f-4370-95d7-1a18b06b5097"
@@ -10978,16 +10921,12 @@ rxversion="9.2">
 			type="Recording">
 			</testmodule>
 			<testmodule
-<<<<<<< HEAD
-			enabled="False"
-=======
 			id="a0a2e1c0-1ae0-4bd8-9c46-3a7a0735efa9"
 			name="Edit_InsuredDetails_Vechicle_Information"
 			ref="1658b335-3e7d-4406-83dc-2596ceced0ef"
 			type="Recording">
 			</testmodule>
 			<testmodule
->>>>>>> 09fc1fae41a893af070a9945e660f2463af0bfdd
 			id="a12b5230-f2a9-4749-93f6-b5c3e111ad5e"
 			name="Adverse1_Driver_Insurance_Information_Save"
 			ref="18eaeb8f-95da-4cd2-9d4d-14473f64d4bc"
@@ -11171,7 +11110,6 @@ rxversion="9.2">
 			type="Recording">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="c48eeb9d-a0f9-4f9a-bdb5-5ede61b015e5"
 			name="Adverse1_Driver_Personal_Information"
 			ref="0b05bf14-ad88-44f9-88f4-b2da4d0dd516"

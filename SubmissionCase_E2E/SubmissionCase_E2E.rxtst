@@ -214,7 +214,6 @@
 				</databinding>
 			</modulegroup>
 			<modulegroup
-			enabled="False"
 			id="0f5dd714-dc86-4360-9c58-dd12e0ee37fd"
 			name="CLAIM_INFORMATION_UM"
 			ref="89c07e7b-166a-47e8-8eb7-3a797e2928c7">
@@ -834,7 +833,6 @@
 			ref="125c44a1-f250-45d0-8e11-0bb1e0252fd9">
 			</modulegroup>
 			<modulegroup
-			enabled="False"
 			id="244c48af-d6c2-4d35-9e0e-08f75da75e4f"
 			name="Initial_Setup"
 			ref="670c07c7-33d2-417c-ace9-ffcdd9a63478">
@@ -8963,66 +8961,6 @@
 					variableid="c25d8edf-6324-4694-88e7-170040240440"
 					variablename="AD1_AD_Source">
 					</var>
-					<var
-					dataname="AD1_AD_FirmName"
-					datasourceid="f82ce0b0-18d6-4bb5-a6ee-0a89114bfc7e"
-					variableid="c9d36e8e-a976-423e-a9e6-deab0e56c0ce"
-					variablename="AD1_AD_FirmName">
-					</var>
-					<var
-					dataname="AD1_AD_FirstName"
-					datasourceid="f82ce0b0-18d6-4bb5-a6ee-0a89114bfc7e"
-					variableid="402c261c-28e1-4bf4-bb7b-2af2a8b552d9"
-					variablename="AD1_AD_FirstName">
-					</var>
-					<var
-					dataname="AD1_AD_LastName"
-					datasourceid="f82ce0b0-18d6-4bb5-a6ee-0a89114bfc7e"
-					variableid="81d4e431-6934-4dae-963a-1ed58e0acef2"
-					variablename="AD1_AD_LastName">
-					</var>
-					<var
-					dataname="AD1_AD_Address1"
-					datasourceid="f82ce0b0-18d6-4bb5-a6ee-0a89114bfc7e"
-					variableid="d8043c3b-767e-4871-a571-97e570568ad1"
-					variablename="AD1_AD_Address1">
-					</var>
-					<var
-					dataname="AD1_AD_Address2"
-					datasourceid="f82ce0b0-18d6-4bb5-a6ee-0a89114bfc7e"
-					variableid="371ae194-19dd-4bd1-90a6-18a755d2ebc7"
-					variablename="AD1_AD_Address2">
-					</var>
-					<var
-					dataname="AD1_Attorney_City"
-					datasourceid="f82ce0b0-18d6-4bb5-a6ee-0a89114bfc7e"
-					variableid="4b0559ee-dac9-476f-87bc-87d689d26598"
-					variablename="AD1_Attorney_City">
-					</var>
-					<var
-					dataname="AD1_AD_State"
-					datasourceid="f82ce0b0-18d6-4bb5-a6ee-0a89114bfc7e"
-					variableid="db5f6003-d6d9-40e6-8591-ca3da6c41df2"
-					variablename="AD1_AD_State">
-					</var>
-					<var
-					dataname="AD1_AD_Zip"
-					datasourceid="f82ce0b0-18d6-4bb5-a6ee-0a89114bfc7e"
-					variableid="0c63f6dc-e585-4802-9814-74218479512f"
-					variablename="AD1_AD_Zip">
-					</var>
-					<var
-					dataname="AD1_AD_Phone"
-					datasourceid="f82ce0b0-18d6-4bb5-a6ee-0a89114bfc7e"
-					variableid="25f213ef-dee0-491b-85c1-2b5c45bf9358"
-					variablename="AD1_AD_Phone">
-					</var>
-					<var
-					dataname="AD1_AD_EmailID"
-					datasourceid="f82ce0b0-18d6-4bb5-a6ee-0a89114bfc7e"
-					variableid="93fba9c5-d675-4355-978c-551f038e6459"
-					variablename="AD1_AD_EmailID">
-					</var>
 				</databinding>
 			</modulegroup>
 			<modulegroup
@@ -13047,7 +12985,6 @@
 			ref="053c43d8-c68c-4d2d-aead-ff82fbe42068">
 			</modulegroup>
 			<modulegroup
-			enabled="False"
 			id="f3cb07bd-7e74-4f25-959e-757b7eaf7be1"
 			name="AdverseTypes"
 			ref="053c43d8-c68c-4d2d-aead-ff82fbe42068">
@@ -13801,30 +13738,6 @@
 					AD1_LI_Email
 				</column>
 				<column>
-					AD1_AD_FirmName
-				</column>
-				<column>
-					AD1_AD_FirstName
-				</column>
-				<column>
-					AD1_AD_LastName
-				</column>
-				<column>
-					AD1_AD_Address1
-				</column>
-				<column>
-					AD1_AD_Address2
-				</column>
-				<column>
-					AD1_Attorney_City
-				</column>
-				<column>
-					AD1_AD_State
-				</column>
-				<column>
-					AD1_AD_Zip
-				</column>
-				<column>
 					AD1_Attorney_RepDate
 				</column>
 				<column>
@@ -13837,16 +13750,10 @@
 					AD1_AD_Source
 				</column>
 				<column>
-					AD1_AD_Phone
-				</column>
-				<column>
 					AD1_AD_EmailUseType
 				</column>
 				<column>
 					AD1_AD_EmailSource
-				</column>
-				<column>
-					AD1_AD_EmailID
 				</column>
 				<column>
 					AO_PI_BusinessName
