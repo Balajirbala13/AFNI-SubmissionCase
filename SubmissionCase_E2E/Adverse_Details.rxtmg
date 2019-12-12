@@ -4185,6 +4185,7 @@ rxversion="9.2">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="35a9f6b0-b90f-49f7-a908-d7196f5d3d1a"
 			name="Adverse1_Driver_License_Information_Save"
 			ref="a3e70662-7ca9-4bb6-bf93-e1e061a93400"
@@ -4209,6 +4210,7 @@ rxversion="9.2">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="418f942a-b78b-464f-b8a3-cf11abe2ddf2"
 			name="Adverse1_Driver_License_Information"
 			ref="34538f6b-3f56-4ad8-b434-13d951522727"
@@ -4227,6 +4229,7 @@ rxversion="9.2">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="458757ab-304d-4eee-b896-d0b52c3a1f5e"
 			name="Adverse1_Driver_Insurance_Information"
 			ref="634d1a6d-2443-4de7-a76b-09cf1e83720b"
@@ -4249,6 +4252,7 @@ rxversion="9.2">
 			name="REVIEW_AND_EDIT_CLAIM_DETAILS">
 			</modulegroupdef>
 			<testmodule
+			enabled="False"
 			id="503e3712-c429-47d9-a249-2f1388e65ab6"
 			name="Adverse1_Driver_Personal_Information_Save"
 			ref="029b2bd7-a05f-49e7-bbcd-2f3e93715d8f"
@@ -5650,6 +5654,7 @@ rxversion="9.2">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="a12b5230-f2a9-4749-93f6-b5c3e111ad5e"
 			name="Adverse1_Driver_Insurance_Information_Save"
 			ref="18eaeb8f-95da-4cd2-9d4d-14473f64d4bc"
@@ -5805,6 +5810,7 @@ rxversion="9.2">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="c48eeb9d-a0f9-4f9a-bdb5-5ede61b015e5"
 			name="Adverse1_Driver_Personal_Information"
 			ref="0b05bf14-ad88-44f9-88f4-b2da4d0dd516"

@@ -217,84 +217,84 @@
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_Attorney_FirmName_getValue">
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_EmailSource">
             <summary>
-            Gets or sets the value of variable AD1_Attorney_FirmName_getValue.
+            Gets or sets the value of variable AD1_AD_EmailSource.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_Attorney_FirstName_getValue">
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_EmailUseType">
             <summary>
-            Gets or sets the value of variable AD1_Attorney_FirstName_getValue.
+            Gets or sets the value of variable AD1_AD_EmailUseType.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_Attorney_LastName_getValue">
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_Phone">
             <summary>
-            Gets or sets the value of variable AD1_Attorney_LastName_getValue.
+            Gets or sets the value of variable AD1_AD_Phone.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_Attorney_Address1_getValue">
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_Source">
             <summary>
-            Gets or sets the value of variable AD1_Attorney_Address1_getValue.
+            Gets or sets the value of variable AD1_AD_Source.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_Attorney_Address2_getValue">
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_PhoneType">
             <summary>
-            Gets or sets the value of variable AD1_Attorney_Address2_getValue.
+            Gets or sets the value of variable AD1_AD_PhoneType.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_Attorney_City_getValue">
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_UseType">
             <summary>
-            Gets or sets the value of variable AD1_Attorney_City_getValue.
+            Gets or sets the value of variable AD1_AD_UseType.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_Attorney_State_getValue">
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_Attorney_RepDate">
             <summary>
-            Gets or sets the value of variable AD1_Attorney_State_getValue.
+            Gets or sets the value of variable AD1_Attorney_RepDate.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_Attorney_Zip_getValue">
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_EmailID">
             <summary>
-            Gets or sets the value of variable AD1_Attorney_Zip_getValue.
+            Gets or sets the value of variable AD1_AD_EmailID.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_Email_getValue">
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_Zip">
             <summary>
-            Gets or sets the value of variable AD1_AD_Email_getValue.
+            Gets or sets the value of variable AD1_AD_Zip.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_UseType_getValue">
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_State">
             <summary>
-            Gets or sets the value of variable AD1_AD_UseType_getValue.
+            Gets or sets the value of variable AD1_AD_State.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_PhoneType_getValue">
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_Attorney_City">
             <summary>
-            Gets or sets the value of variable AD1_AD_PhoneType_getValue.
+            Gets or sets the value of variable AD1_Attorney_City.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_Source_getValue">
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_Address2">
             <summary>
-            Gets or sets the value of variable AD1_AD_Source_getValue.
+            Gets or sets the value of variable AD1_AD_Address2.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_PhoneNumber_getValue">
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_Address1">
             <summary>
-            Gets or sets the value of variable AD1_AD_PhoneNumber_getValue.
+            Gets or sets the value of variable AD1_AD_Address1.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_Attorney_RepDate_getValue">
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_LastName">
             <summary>
-            Gets or sets the value of variable AD1_Attorney_RepDate_getValue.
+            Gets or sets the value of variable AD1_AD_LastName.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_EmailUseType_getValue">
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_FirstName">
             <summary>
-            Gets or sets the value of variable AD1_AD_EmailUseType_getValue.
+            Gets or sets the value of variable AD1_AD_FirstName.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_EmailSource_getValue">
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.AD1_AD_FirmName">
             <summary>
-            Gets or sets the value of variable AD1_AD_EmailSource_getValue.
+            Gets or sets the value of variable AD1_AD_FirmName.
             </summary>
         </member>
         <member name="M:SubmissionCase_E2E.Adverse1_Driver_Attorney_Details_Save.Start">
@@ -1205,9 +1205,9 @@
             Gets or sets the value of variable AD1_AD_Address2.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Footer_Mapping.AD1_Attorney_City">
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Footer_Mapping.AD1_AD_City">
             <summary>
-            Gets or sets the value of variable AD1_Attorney_City.
+            Gets or sets the value of variable AD1_AD_City.
             </summary>
         </member>
         <member name="P:SubmissionCase_E2E.Adverse1_Driver_Footer_Mapping.AD1_AD_State">
@@ -1468,6 +1468,31 @@
         <member name="P:SubmissionCase_E2E.Adverse1_Driver_Footer_Mapping.AD1_AD_Source">
             <summary>
             Gets or sets the value of variable AD1_AD_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Footer_Mapping.AD1_Attorney_RepDate">
+            <summary>
+            Gets or sets the value of variable AD1_Attorney_RepDate.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Footer_Mapping.AD1_AD_Phone">
+            <summary>
+            Gets or sets the value of variable AD1_AD_Phone.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Footer_Mapping.AD1_AD_EmailUseType">
+            <summary>
+            Gets or sets the value of variable AD1_AD_EmailUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Footer_Mapping.AD1_AD_EmailSource">
+            <summary>
+            Gets or sets the value of variable AD1_AD_EmailSource.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Adverse1_Driver_Footer_Mapping.AD1_AD_EmailID">
+            <summary>
+            Gets or sets the value of variable AD1_AD_EmailID.
             </summary>
         </member>
         <member name="M:SubmissionCase_E2E.Adverse1_Driver_Footer_Mapping.Start">
