@@ -274,15 +274,15 @@ namespace SubmissionCase_E2E
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Save_Button' at 6;8.", repo.ApplicationUnderTest.Save_ButtonInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.AD2_PI_FirstName'", repo.ApplicationUnderTest.AD2_PI_FirstNameInfo, new ActionTimeout(30000), new RecordItemIndex(0));
+            repo.ApplicationUnderTest.AD2_PI_FirstNameInfo.WaitForExists(30000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Save_Button' at 6;8.", repo.ApplicationUnderTest.Save_ButtonInfo, new RecordItemIndex(1));
             repo.ApplicationUnderTest.Save_Button.Click("6;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(2));
             Delay.Duration(5000, false);
-            
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.AD2_PI_FirstName'", repo.ApplicationUnderTest.AD2_PI_FirstNameInfo, new ActionTimeout(30000), new RecordItemIndex(2));
-            repo.ApplicationUnderTest.AD2_PI_FirstNameInfo.WaitForExists(30000);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD2_PI_FirstName) on item 'ApplicationUnderTest.AD2_PI_FirstName'.", repo.ApplicationUnderTest.AD2_PI_FirstNameInfo, new RecordItemIndex(3));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD2_PI_FirstNameInfo, "TagValue", AD2_PI_FirstName);

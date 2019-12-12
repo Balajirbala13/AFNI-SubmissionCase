@@ -59,18 +59,18 @@ namespace SubmissionCase_E2E
             AD1_LI_Email_getValue = "";
             Edit_AD1_LI_ClaimNumber = "Edit_AD1_LI_ClaimNumber";
             Edit_AD1_LI_ContactName = "Edit_AD1_LI_ContactName";
-            Edit_AD1_LI_USStateCode = "Edit_AD1_LI_USStateCode";
+            Edit_AD1_LI_USStateCode = "FA";
             Edit_AD1_LI_Address1 = "Edit_AD1_LI_Address1";
             Edit_AD1_LI_Address2 = "Edit_AD1_LI_Address2";
             Edit_AD1_LI_City = "Edit_AD1_LI_City";
-            Edit_AD1_LI_ZipCode = "Edit_AD1_LI_ZipCode";
-            Edit_AD1_LI_PhoneUseType_getValue = "Edit_AD1_LI_PhoneUseType_getValue";
-            Edit_AD1_LI_PhoneType_getValue = "Edit_AD1_LI_PhoneType_getValue";
-            Edit_AD1_LI_PhoneSource_getValue = "Edit_AD1_LI_PhoneSource_getValue";
-            Edit_AD1_LI_PhoneNumber_getValue = "Edit_AD1_LI_PhoneNumber_getValue";
-            Edit_AD1_LI_EmailUseType_getValue = "Edit_AD1_LI_EmailUseType_getValue";
-            Edit_AD1_LI_EmailSource_getValue = "Edit_AD1_LI_EmailSource_getValue";
-            Edit_AD1_LI_Email_getValue = "Edit_AD1_LI_Email_getValue";
+            Edit_AD1_LI_ZipCode = "20002";
+            Edit_AD1_LI_PhoneUseType_getValue = "Business";
+            Edit_AD1_LI_PhoneType_getValue = "VOIP";
+            Edit_AD1_LI_PhoneSource_getValue = "Caller ID";
+            Edit_AD1_LI_PhoneNumber_getValue = "9500095001";
+            Edit_AD1_LI_EmailUseType_getValue = "Personal";
+            Edit_AD1_LI_EmailSource_getValue = "Direct";
+            Edit_AD1_LI_Email_getValue = "EditAD1LIEmail@gmail.com";
             Edit_AD1_LI_CompanyName = "Edit_AD1_LI_CompanyName";
             Edit_AD1_LI_PolicyNumber = "Edit_AD1_LI_PolicyNumber";
         }
@@ -495,363 +495,466 @@ namespace SubmissionCase_E2E
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.InsuranceInformation' at 80;21.", repo.ApplicationUnderTest.InsuranceInformationInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.InsuranceInformation.Click("80;21");
-            Delay.Milliseconds(200);
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_EmailSource_getValue, new RecordItemIndex(0));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_CompanyName) on item 'ApplicationUnderTest.AD1_LI_CompanyName'.", repo.ApplicationUnderTest.AD1_LI_CompanyNameInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
+            Delay.Duration(5000, false);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_CompanyName) on item 'ApplicationUnderTest.AD1_LI_CompanyName'.", repo.ApplicationUnderTest.AD1_LI_CompanyNameInfo, new RecordItemIndex(2));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_CompanyNameInfo, "TagValue", AD1_LI_CompanyName);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_CompanyName, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_CompanyName, new RecordItemIndex(3));
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(4));
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(5));
             Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_CompanyName' with focus on 'ApplicationUnderTest.AD1_LI_CompanyName'.", repo.ApplicationUnderTest.AD1_LI_CompanyNameInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_CompanyName' with focus on 'ApplicationUnderTest.AD1_LI_CompanyName'.", repo.ApplicationUnderTest.AD1_LI_CompanyNameInfo, new RecordItemIndex(6));
             repo.ApplicationUnderTest.AD1_LI_CompanyName.PressKeys(Edit_AD1_LI_CompanyName);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_CompanyName, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_CompanyName, new RecordItemIndex(7));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_PolicyNumber) on item 'ApplicationUnderTest.AD1_LI_PolicyNumber'.", repo.ApplicationUnderTest.AD1_LI_PolicyNumberInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_PolicyNumber) on item 'ApplicationUnderTest.AD1_LI_PolicyNumber'.", repo.ApplicationUnderTest.AD1_LI_PolicyNumberInfo, new RecordItemIndex(8));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_PolicyNumberInfo, "TagValue", AD1_LI_PolicyNumber);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_PolicyNumber, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_PolicyNumber, new RecordItemIndex(9));
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(10));
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(11));
             Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_PolicyNumber' with focus on 'ApplicationUnderTest.AD1_LI_PolicyNumber'.", repo.ApplicationUnderTest.AD1_LI_PolicyNumberInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_PolicyNumber' with focus on 'ApplicationUnderTest.AD1_LI_PolicyNumber'.", repo.ApplicationUnderTest.AD1_LI_PolicyNumberInfo, new RecordItemIndex(12));
             repo.ApplicationUnderTest.AD1_LI_PolicyNumber.PressKeys(Edit_AD1_LI_PolicyNumber);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_PolicyNumber, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_PolicyNumber, new RecordItemIndex(13));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_ClaimNumber) on item 'ApplicationUnderTest.AD1_LI_ClaimNumber'.", repo.ApplicationUnderTest.AD1_LI_ClaimNumberInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_ClaimNumber) on item 'ApplicationUnderTest.AD1_LI_ClaimNumber'.", repo.ApplicationUnderTest.AD1_LI_ClaimNumberInfo, new RecordItemIndex(14));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_ClaimNumberInfo, "TagValue", AD1_LI_ClaimNumber);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_ClaimNumber, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_ClaimNumber, new RecordItemIndex(15));
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(16));
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(17));
             Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_ClaimNumber' with focus on 'ApplicationUnderTest.AD1_LI_ClaimNumber'.", repo.ApplicationUnderTest.AD1_LI_ClaimNumberInfo, new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_ClaimNumber' with focus on 'ApplicationUnderTest.AD1_LI_ClaimNumber'.", repo.ApplicationUnderTest.AD1_LI_ClaimNumberInfo, new RecordItemIndex(18));
             repo.ApplicationUnderTest.AD1_LI_ClaimNumber.PressKeys(Edit_AD1_LI_ClaimNumber);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_ClaimNumber, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_ClaimNumber, new RecordItemIndex(19));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_ContactName) on item 'ApplicationUnderTest.AD1_LI_ContactName'.", repo.ApplicationUnderTest.AD1_LI_ContactNameInfo, new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_ContactName) on item 'ApplicationUnderTest.AD1_LI_ContactName'.", repo.ApplicationUnderTest.AD1_LI_ContactNameInfo, new RecordItemIndex(20));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_ContactNameInfo, "TagValue", AD1_LI_ContactName);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_ContactName, new RecordItemIndex(20));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_ContactName, new RecordItemIndex(21));
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(21));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(22));
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(22));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(23));
             Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_ContactName' with focus on 'ApplicationUnderTest.AD1_LI_ContactName'.", repo.ApplicationUnderTest.AD1_LI_ContactNameInfo, new RecordItemIndex(23));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_ContactName' with focus on 'ApplicationUnderTest.AD1_LI_ContactName'.", repo.ApplicationUnderTest.AD1_LI_ContactNameInfo, new RecordItemIndex(24));
             repo.ApplicationUnderTest.AD1_LI_ContactName.PressKeys(Edit_AD1_LI_ContactName);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_ContactName, new RecordItemIndex(24));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_ContactName, new RecordItemIndex(25));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_USStateCode) on item 'ApplicationUnderTest.AD1_LI_USStateCode'.", repo.ApplicationUnderTest.AD1_LI_USStateCodeInfo, new RecordItemIndex(25));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_USStateCode) on item 'ApplicationUnderTest.AD1_LI_USStateCode'.", repo.ApplicationUnderTest.AD1_LI_USStateCodeInfo, new RecordItemIndex(26));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_USStateCodeInfo, "TagValue", AD1_LI_USStateCode);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_USStateCode, new RecordItemIndex(26));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_USStateCode, new RecordItemIndex(27));
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(27));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(28));
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(28));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(29));
             Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Edit_AD1_LI_USStateCode' on item 'ApplicationUnderTest.AD1_LI_USStateCode'.", repo.ApplicationUnderTest.AD1_LI_USStateCodeInfo, new RecordItemIndex(29));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Edit_AD1_LI_USStateCode' on item 'ApplicationUnderTest.AD1_LI_USStateCode'.", repo.ApplicationUnderTest.AD1_LI_USStateCodeInfo, new RecordItemIndex(30));
             repo.ApplicationUnderTest.AD1_LI_USStateCode.Element.SetAttributeValue("TagValue", Edit_AD1_LI_USStateCode);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_USStateCode, new RecordItemIndex(30));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_USStateCode, new RecordItemIndex(31));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_Address1) on item 'ApplicationUnderTest.AD1_LI_Address1'.", repo.ApplicationUnderTest.AD1_LI_Address1Info, new RecordItemIndex(31));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_Address1) on item 'ApplicationUnderTest.AD1_LI_Address1'.", repo.ApplicationUnderTest.AD1_LI_Address1Info, new RecordItemIndex(32));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_Address1Info, "TagValue", AD1_LI_Address1);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_Address1, new RecordItemIndex(32));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_Address1, new RecordItemIndex(33));
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(33));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(34));
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(34));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(35));
             Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_Address1' with focus on 'ApplicationUnderTest.AD1_LI_Address1'.", repo.ApplicationUnderTest.AD1_LI_Address1Info, new RecordItemIndex(35));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_Address1' with focus on 'ApplicationUnderTest.AD1_LI_Address1'.", repo.ApplicationUnderTest.AD1_LI_Address1Info, new RecordItemIndex(36));
             repo.ApplicationUnderTest.AD1_LI_Address1.PressKeys(Edit_AD1_LI_Address1);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_Address1, new RecordItemIndex(36));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_Address1, new RecordItemIndex(37));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_Address2) on item 'ApplicationUnderTest.AD1_LI_Address2'.", repo.ApplicationUnderTest.AD1_LI_Address2Info, new RecordItemIndex(37));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_Address2) on item 'ApplicationUnderTest.AD1_LI_Address2'.", repo.ApplicationUnderTest.AD1_LI_Address2Info, new RecordItemIndex(38));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_Address2Info, "TagValue", AD1_LI_Address2);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_Address2, new RecordItemIndex(38));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_Address2, new RecordItemIndex(39));
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(39));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(40));
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(40));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(41));
             Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_Address2' with focus on 'ApplicationUnderTest.AD1_LI_Address2'.", repo.ApplicationUnderTest.AD1_LI_Address2Info, new RecordItemIndex(41));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_Address2' with focus on 'ApplicationUnderTest.AD1_LI_Address2'.", repo.ApplicationUnderTest.AD1_LI_Address2Info, new RecordItemIndex(42));
             repo.ApplicationUnderTest.AD1_LI_Address2.PressKeys(Edit_AD1_LI_Address2);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_Address2, new RecordItemIndex(42));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_Address2, new RecordItemIndex(43));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_City) on item 'ApplicationUnderTest.AD1_LI_City'.", repo.ApplicationUnderTest.AD1_LI_CityInfo, new RecordItemIndex(43));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_City) on item 'ApplicationUnderTest.AD1_LI_City'.", repo.ApplicationUnderTest.AD1_LI_CityInfo, new RecordItemIndex(44));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_CityInfo, "TagValue", AD1_LI_City);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_City, new RecordItemIndex(44));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_City, new RecordItemIndex(45));
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(45));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(46));
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(46));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(47));
             Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_City' with focus on 'ApplicationUnderTest.AD1_LI_City'.", repo.ApplicationUnderTest.AD1_LI_CityInfo, new RecordItemIndex(47));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_City' with focus on 'ApplicationUnderTest.AD1_LI_City'.", repo.ApplicationUnderTest.AD1_LI_CityInfo, new RecordItemIndex(48));
             repo.ApplicationUnderTest.AD1_LI_City.PressKeys(Edit_AD1_LI_City);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_City, new RecordItemIndex(48));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_City, new RecordItemIndex(49));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_ZipCode' and assigning its value to variable 'AD1_LI_ZipCode'.", repo.ApplicationUnderTest.AD1_LI_ZipCodeInfo, new RecordItemIndex(49));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_ZipCode' and assigning its value to variable 'AD1_LI_ZipCode'.", repo.ApplicationUnderTest.AD1_LI_ZipCodeInfo, new RecordItemIndex(50));
             AD1_LI_ZipCode = repo.ApplicationUnderTest.AD1_LI_ZipCode.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_ZipCode) on item 'ApplicationUnderTest.AD1_LI_ZipCode'.", repo.ApplicationUnderTest.AD1_LI_ZipCodeInfo, new RecordItemIndex(50));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_ZipCode) on item 'ApplicationUnderTest.AD1_LI_ZipCode'.", repo.ApplicationUnderTest.AD1_LI_ZipCodeInfo, new RecordItemIndex(51));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_ZipCodeInfo, "TagValue", AD1_LI_ZipCode);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_ZipCode, new RecordItemIndex(51));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_ZipCode, new RecordItemIndex(52));
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(52));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(53));
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(53));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(54));
             Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_ZipCode' with focus on 'ApplicationUnderTest.AD1_LI_ZipCode'.", repo.ApplicationUnderTest.AD1_LI_ZipCodeInfo, new RecordItemIndex(54));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_ZipCode' with focus on 'ApplicationUnderTest.AD1_LI_ZipCode'.", repo.ApplicationUnderTest.AD1_LI_ZipCodeInfo, new RecordItemIndex(55));
             repo.ApplicationUnderTest.AD1_LI_ZipCode.PressKeys(Edit_AD1_LI_ZipCode);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_ZipCode, new RecordItemIndex(55));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_ZipCode, new RecordItemIndex(56));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_PhoneUseType' and assigning its value to variable 'AD1_LI_PhoneUseType_getValue'.", repo.ApplicationUnderTest.AD1_LI_PhoneUseTypeInfo, new RecordItemIndex(56));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_PhoneUseType' and assigning its value to variable 'AD1_LI_PhoneUseType_getValue'.", repo.ApplicationUnderTest.AD1_LI_PhoneUseTypeInfo, new RecordItemIndex(57));
             AD1_LI_PhoneUseType_getValue = repo.ApplicationUnderTest.AD1_LI_PhoneUseType.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_PhoneUseType_getValue, new RecordItemIndex(57));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_PhoneUseType_getValue, new RecordItemIndex(58));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_PhoneUseType_getValue) on item 'ApplicationUnderTest.AD1_LI_PhoneUseType'.", repo.ApplicationUnderTest.AD1_LI_PhoneUseTypeInfo, new RecordItemIndex(58));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_PhoneUseType_getValue) on item 'ApplicationUnderTest.AD1_LI_PhoneUseType'.", repo.ApplicationUnderTest.AD1_LI_PhoneUseTypeInfo, new RecordItemIndex(59));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_PhoneUseTypeInfo, "TagValue", AD1_LI_PhoneUseType_getValue);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(59));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(60));
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(60));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(61));
             Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Edit_AD1_LI_PhoneUseType_getValue' on item 'ApplicationUnderTest.AD1_LI_PhoneUseType'.", repo.ApplicationUnderTest.AD1_LI_PhoneUseTypeInfo, new RecordItemIndex(61));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Edit_AD1_LI_PhoneUseType_getValue' on item 'ApplicationUnderTest.AD1_LI_PhoneUseType'.", repo.ApplicationUnderTest.AD1_LI_PhoneUseTypeInfo, new RecordItemIndex(62));
             repo.ApplicationUnderTest.AD1_LI_PhoneUseType.Element.SetAttributeValue("TagValue", Edit_AD1_LI_PhoneUseType_getValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_PhoneUseType_getValue, new RecordItemIndex(62));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_PhoneUseType_getValue, new RecordItemIndex(63));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_PhoneType' and assigning its value to variable 'AD1_LI_PhoneType_getValue'.", repo.ApplicationUnderTest.AD1_LI_PhoneTypeInfo, new RecordItemIndex(63));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_PhoneType' and assigning its value to variable 'AD1_LI_PhoneType_getValue'.", repo.ApplicationUnderTest.AD1_LI_PhoneTypeInfo, new RecordItemIndex(64));
             AD1_LI_PhoneType_getValue = repo.ApplicationUnderTest.AD1_LI_PhoneType.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_PhoneType_getValue, new RecordItemIndex(64));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_PhoneType_getValue, new RecordItemIndex(65));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_PhoneType_getValue) on item 'ApplicationUnderTest.AD1_LI_PhoneType'.", repo.ApplicationUnderTest.AD1_LI_PhoneTypeInfo, new RecordItemIndex(65));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_PhoneType_getValue) on item 'ApplicationUnderTest.AD1_LI_PhoneType'.", repo.ApplicationUnderTest.AD1_LI_PhoneTypeInfo, new RecordItemIndex(66));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_PhoneTypeInfo, "TagValue", AD1_LI_PhoneType_getValue);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(66));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(67));
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(67));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(68));
             Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Edit_AD1_LI_PhoneType_getValue' on item 'ApplicationUnderTest.AD1_LI_PhoneType'.", repo.ApplicationUnderTest.AD1_LI_PhoneTypeInfo, new RecordItemIndex(68));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Edit_AD1_LI_PhoneType_getValue' on item 'ApplicationUnderTest.AD1_LI_PhoneType'.", repo.ApplicationUnderTest.AD1_LI_PhoneTypeInfo, new RecordItemIndex(69));
             repo.ApplicationUnderTest.AD1_LI_PhoneType.Element.SetAttributeValue("TagValue", Edit_AD1_LI_PhoneType_getValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_PhoneType_getValue, new RecordItemIndex(69));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_PhoneType_getValue, new RecordItemIndex(70));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_PhoneSource' and assigning its value to variable 'AD1_LI_PhoneSource_getValue'.", repo.ApplicationUnderTest.AD1_LI_PhoneSourceInfo, new RecordItemIndex(70));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_PhoneSource' and assigning its value to variable 'AD1_LI_PhoneSource_getValue'.", repo.ApplicationUnderTest.AD1_LI_PhoneSourceInfo, new RecordItemIndex(71));
             AD1_LI_PhoneSource_getValue = repo.ApplicationUnderTest.AD1_LI_PhoneSource.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_PhoneSource_getValue, new RecordItemIndex(71));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_PhoneSource_getValue, new RecordItemIndex(72));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_PhoneSource_getValue) on item 'ApplicationUnderTest.AD1_LI_PhoneSource'.", repo.ApplicationUnderTest.AD1_LI_PhoneSourceInfo, new RecordItemIndex(72));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_PhoneSource_getValue) on item 'ApplicationUnderTest.AD1_LI_PhoneSource'.", repo.ApplicationUnderTest.AD1_LI_PhoneSourceInfo, new RecordItemIndex(73));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_PhoneSourceInfo, "TagValue", AD1_LI_PhoneSource_getValue);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(73));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(74));
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(74));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(75));
             Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Edit_AD1_LI_PhoneSource_getValue' on item 'ApplicationUnderTest.AD1_LI_PhoneSource'.", repo.ApplicationUnderTest.AD1_LI_PhoneSourceInfo, new RecordItemIndex(75));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Edit_AD1_LI_PhoneSource_getValue' on item 'ApplicationUnderTest.AD1_LI_PhoneSource'.", repo.ApplicationUnderTest.AD1_LI_PhoneSourceInfo, new RecordItemIndex(76));
             repo.ApplicationUnderTest.AD1_LI_PhoneSource.Element.SetAttributeValue("TagValue", Edit_AD1_LI_PhoneSource_getValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_PhoneSource_getValue, new RecordItemIndex(76));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_PhoneSource_getValue, new RecordItemIndex(77));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_PhoneNumber' and assigning its value to variable 'AD1_LI_PhoneNumber_getValue'.", repo.ApplicationUnderTest.AD1_LI_PhoneNumberInfo, new RecordItemIndex(77));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_PhoneNumber' and assigning its value to variable 'AD1_LI_PhoneNumber_getValue'.", repo.ApplicationUnderTest.AD1_LI_PhoneNumberInfo, new RecordItemIndex(78));
             AD1_LI_PhoneNumber_getValue = repo.ApplicationUnderTest.AD1_LI_PhoneNumber.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_PhoneNumber_getValue, new RecordItemIndex(78));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_PhoneNumber_getValue, new RecordItemIndex(79));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_PhoneNumber_getValue) on item 'ApplicationUnderTest.AD1_LI_PhoneNumber'.", repo.ApplicationUnderTest.AD1_LI_PhoneNumberInfo, new RecordItemIndex(79));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_PhoneNumber_getValue) on item 'ApplicationUnderTest.AD1_LI_PhoneNumber'.", repo.ApplicationUnderTest.AD1_LI_PhoneNumberInfo, new RecordItemIndex(80));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_PhoneNumberInfo, "TagValue", AD1_LI_PhoneNumber_getValue);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(80));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(81));
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(81));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(82));
             Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Edit_AD1_LI_PhoneNumber_getValue' on item 'ApplicationUnderTest.AD1_LI_PhoneNumber'.", repo.ApplicationUnderTest.AD1_LI_PhoneNumberInfo, new RecordItemIndex(82));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Edit_AD1_LI_PhoneNumber_getValue' on item 'ApplicationUnderTest.AD1_LI_PhoneNumber'.", repo.ApplicationUnderTest.AD1_LI_PhoneNumberInfo, new RecordItemIndex(83));
             repo.ApplicationUnderTest.AD1_LI_PhoneNumber.Element.SetAttributeValue("TagValue", Edit_AD1_LI_PhoneNumber_getValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_PhoneNumber_getValue, new RecordItemIndex(83));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_PhoneNumber_getValue, new RecordItemIndex(84));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_EmailUseType' and assigning its value to variable 'AD1_LI_EmailUseType_getValue'.", repo.ApplicationUnderTest.AD1_LI_EmailUseTypeInfo, new RecordItemIndex(84));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_EmailUseType' and assigning its value to variable 'AD1_LI_EmailUseType_getValue'.", repo.ApplicationUnderTest.AD1_LI_EmailUseTypeInfo, new RecordItemIndex(85));
             AD1_LI_EmailUseType_getValue = repo.ApplicationUnderTest.AD1_LI_EmailUseType.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_EmailUseType_getValue, new RecordItemIndex(85));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_EmailUseType_getValue, new RecordItemIndex(86));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_EmailUseType_getValue) on item 'ApplicationUnderTest.AD1_LI_EmailUseType'.", repo.ApplicationUnderTest.AD1_LI_EmailUseTypeInfo, new RecordItemIndex(86));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_EmailUseType_getValue) on item 'ApplicationUnderTest.AD1_LI_EmailUseType'.", repo.ApplicationUnderTest.AD1_LI_EmailUseTypeInfo, new RecordItemIndex(87));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_EmailUseTypeInfo, "TagValue", AD1_LI_EmailUseType_getValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(87));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(88));
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(88));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(89));
             Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Edit_AD1_LI_EmailUseType_getValue' on item 'ApplicationUnderTest.AD1_LI_EmailUseType'.", repo.ApplicationUnderTest.AD1_LI_EmailUseTypeInfo, new RecordItemIndex(89));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Edit_AD1_LI_EmailUseType_getValue' on item 'ApplicationUnderTest.AD1_LI_EmailUseType'.", repo.ApplicationUnderTest.AD1_LI_EmailUseTypeInfo, new RecordItemIndex(90));
             repo.ApplicationUnderTest.AD1_LI_EmailUseType.Element.SetAttributeValue("TagValue", Edit_AD1_LI_EmailUseType_getValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_EmailUseType_getValue, new RecordItemIndex(90));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_EmailUseType_getValue, new RecordItemIndex(91));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_EmailSource' and assigning its value to variable 'AD1_LI_EmailSource_getValue'.", repo.ApplicationUnderTest.AD1_LI_EmailSourceInfo, new RecordItemIndex(91));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_EmailSource' and assigning its value to variable 'AD1_LI_EmailSource_getValue'.", repo.ApplicationUnderTest.AD1_LI_EmailSourceInfo, new RecordItemIndex(92));
             AD1_LI_EmailSource_getValue = repo.ApplicationUnderTest.AD1_LI_EmailSource.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_EmailSource_getValue, new RecordItemIndex(92));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_EmailSource_getValue, new RecordItemIndex(93));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_EmailSource_getValue) on item 'ApplicationUnderTest.AD1_LI_EmailSource'.", repo.ApplicationUnderTest.AD1_LI_EmailSourceInfo, new RecordItemIndex(93));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_EmailSource_getValue) on item 'ApplicationUnderTest.AD1_LI_EmailSource'.", repo.ApplicationUnderTest.AD1_LI_EmailSourceInfo, new RecordItemIndex(94));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_EmailSourceInfo, "TagValue", AD1_LI_EmailSource_getValue);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(94));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(95));
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(95));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(96));
             Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Edit_AD1_LI_EmailSource_getValue' on item 'ApplicationUnderTest.AD1_LI_EmailSource'.", repo.ApplicationUnderTest.AD1_LI_EmailSourceInfo, new RecordItemIndex(96));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Edit_AD1_LI_EmailSource_getValue' on item 'ApplicationUnderTest.AD1_LI_EmailSource'.", repo.ApplicationUnderTest.AD1_LI_EmailSourceInfo, new RecordItemIndex(97));
             repo.ApplicationUnderTest.AD1_LI_EmailSource.Element.SetAttributeValue("TagValue", Edit_AD1_LI_EmailSource_getValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_EmailSource_getValue, new RecordItemIndex(97));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_EmailSource_getValue, new RecordItemIndex(98));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_Email' and assigning its value to variable 'AD1_LI_Email_getValue'.", repo.ApplicationUnderTest.AD1_LI_EmailInfo, new RecordItemIndex(98));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_Email' and assigning its value to variable 'AD1_LI_Email_getValue'.", repo.ApplicationUnderTest.AD1_LI_EmailInfo, new RecordItemIndex(99));
             AD1_LI_Email_getValue = repo.ApplicationUnderTest.AD1_LI_Email.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_Email_getValue, new RecordItemIndex(99));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_Email_getValue, new RecordItemIndex(100));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_Email_getValue) on item 'ApplicationUnderTest.AD1_LI_Email'.", repo.ApplicationUnderTest.AD1_LI_EmailInfo, new RecordItemIndex(100));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_Email_getValue) on item 'ApplicationUnderTest.AD1_LI_Email'.", repo.ApplicationUnderTest.AD1_LI_EmailInfo, new RecordItemIndex(101));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_EmailInfo, "TagValue", AD1_LI_Email_getValue);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(101));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press.", new RecordItemIndex(102));
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(102));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Delete' Press.", new RecordItemIndex(103));
             Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_Email' and assigning its value to variable 'Edit_AD1_LI_Email_getValue'.", repo.ApplicationUnderTest.AD1_LI_EmailInfo, new RecordItemIndex(103));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_LI_Email' and assigning its value to variable 'Edit_AD1_LI_Email_getValue'.", repo.ApplicationUnderTest.AD1_LI_EmailInfo, new RecordItemIndex(104));
             Edit_AD1_LI_Email_getValue = repo.ApplicationUnderTest.AD1_LI_Email.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_Email_getValue, new RecordItemIndex(104));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_Email_getValue, new RecordItemIndex(105));
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(105));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(106));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Save_Button' at 6;8.", repo.ApplicationUnderTest.Save_ButtonInfo, new RecordItemIndex(107));
+            repo.ApplicationUnderTest.Save_Button.Click("6;8");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_CompanyName) on item 'ApplicationUnderTest.AD1_LI_CompanyName'.", repo.ApplicationUnderTest.AD1_LI_CompanyNameInfo, new RecordItemIndex(108));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_CompanyNameInfo, "TagValue", Edit_AD1_LI_CompanyName);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_CompanyName, new RecordItemIndex(109));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_PolicyNumber) on item 'ApplicationUnderTest.AD1_LI_PolicyNumber'.", repo.ApplicationUnderTest.AD1_LI_PolicyNumberInfo, new RecordItemIndex(110));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_PolicyNumberInfo, "TagValue", Edit_AD1_LI_PolicyNumber);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_PolicyNumber, new RecordItemIndex(111));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_ClaimNumber) on item 'ApplicationUnderTest.AD1_LI_ClaimNumber'.", repo.ApplicationUnderTest.AD1_LI_ClaimNumberInfo, new RecordItemIndex(112));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_ClaimNumberInfo, "TagValue", Edit_AD1_LI_ClaimNumber);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_ClaimNumber, new RecordItemIndex(113));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_ContactName) on item 'ApplicationUnderTest.AD1_LI_ContactName'.", repo.ApplicationUnderTest.AD1_LI_ContactNameInfo, new RecordItemIndex(114));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_ContactNameInfo, "TagValue", Edit_AD1_LI_ContactName);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_ContactName, new RecordItemIndex(115));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_USStateCode) on item 'ApplicationUnderTest.AD1_LI_USStateCode'.", repo.ApplicationUnderTest.AD1_LI_USStateCodeInfo, new RecordItemIndex(116));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_USStateCodeInfo, "TagValue", Edit_AD1_LI_USStateCode);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_USStateCode, new RecordItemIndex(117));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_Address1) on item 'ApplicationUnderTest.AD1_LI_Address1'.", repo.ApplicationUnderTest.AD1_LI_Address1Info, new RecordItemIndex(118));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_Address1Info, "TagValue", Edit_AD1_LI_Address1);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_Address1, new RecordItemIndex(119));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_Address2) on item 'ApplicationUnderTest.AD1_LI_Address2'.", repo.ApplicationUnderTest.AD1_LI_Address2Info, new RecordItemIndex(120));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_Address2Info, "TagValue", Edit_AD1_LI_Address2);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_Address1, new RecordItemIndex(121));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_City) on item 'ApplicationUnderTest.AD1_LI_City'.", repo.ApplicationUnderTest.AD1_LI_CityInfo, new RecordItemIndex(122));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_CityInfo, "TagValue", Edit_AD1_LI_City);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_City, new RecordItemIndex(123));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_ZipCode) on item 'ApplicationUnderTest.AD1_LI_ZipCode'.", repo.ApplicationUnderTest.AD1_LI_ZipCodeInfo, new RecordItemIndex(124));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_ZipCodeInfo, "TagValue", Edit_AD1_LI_ZipCode);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_ZipCode, new RecordItemIndex(125));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_PhoneUseType_getValue) on item 'ApplicationUnderTest.AD1_LI_PhoneUseType'.", repo.ApplicationUnderTest.AD1_LI_PhoneUseTypeInfo, new RecordItemIndex(126));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_PhoneUseTypeInfo, "TagValue", Edit_AD1_LI_PhoneUseType_getValue);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_PhoneUseType_getValue, new RecordItemIndex(127));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_PhoneType_getValue) on item 'ApplicationUnderTest.AD1_LI_PhoneType'.", repo.ApplicationUnderTest.AD1_LI_PhoneTypeInfo, new RecordItemIndex(128));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_PhoneTypeInfo, "TagValue", Edit_AD1_LI_PhoneType_getValue);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_PhoneType_getValue, new RecordItemIndex(129));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_PhoneSource_getValue) on item 'ApplicationUnderTest.AD1_LI_PhoneSource'.", repo.ApplicationUnderTest.AD1_LI_PhoneSourceInfo, new RecordItemIndex(130));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_PhoneSourceInfo, "TagValue", Edit_AD1_LI_PhoneSource_getValue);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_PhoneSource_getValue, new RecordItemIndex(131));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_PhoneNumber_getValue) on item 'ApplicationUnderTest.AD1_LI_PhoneNumber'.", repo.ApplicationUnderTest.AD1_LI_PhoneNumberInfo, new RecordItemIndex(132));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_PhoneNumberInfo, "TagValue", Edit_AD1_LI_PhoneNumber_getValue);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_PhoneNumber_getValue, new RecordItemIndex(133));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_EmailUseType_getValue) on item 'ApplicationUnderTest.AD1_LI_EmailUseType'.", repo.ApplicationUnderTest.AD1_LI_EmailUseTypeInfo, new RecordItemIndex(134));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_EmailUseTypeInfo, "TagValue", Edit_AD1_LI_EmailUseType_getValue);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_EmailUseType_getValue, new RecordItemIndex(135));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_EmailSource_getValue) on item 'ApplicationUnderTest.AD1_LI_EmailSource'.", repo.ApplicationUnderTest.AD1_LI_EmailSourceInfo, new RecordItemIndex(136));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_EmailSourceInfo, "TagValue", Edit_AD1_LI_EmailSource_getValue);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_EmailSource_getValue, new RecordItemIndex(137));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_Email_getValue) on item 'ApplicationUnderTest.AD1_LI_Email'.", repo.ApplicationUnderTest.AD1_LI_EmailInfo, new RecordItemIndex(138));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_EmailInfo, "TagValue", Edit_AD1_LI_Email_getValue);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubmitButton1' at 46;15.", repo.ApplicationUnderTest.SubmitButton1Info, new RecordItemIndex(139));
+            repo.ApplicationUnderTest.SubmitButton1.Click("46;15");
+            Delay.Milliseconds(0);
             
         }
 

@@ -65,7 +65,7 @@ mode="Global">
 		</var>
 		<var
 		id="1a758864-6c88-4ac3-8903-8f5291186549"
-		name="Edit_AD1_LI_RevocationDate_getValue1">
+		name="Edit_AD1_LI_RevocationDate_getValue">
 			4/2/1994
 		</var>
 	</variables>
@@ -1655,7 +1655,7 @@ ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/9k=
 			<bindings>
 				<binding
 				target="KeySequence"
-				variable="Edit_AD1_LI_RevocationDate_getValue1">
+				variable="Edit_AD1_LI_RevocationDate_getValue">
 				</binding>
 			</bindings>
 		</keysequenceitem>
@@ -1671,7 +1671,7 @@ ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/9k=
 			<bindings>
 				<binding
 				target="Message"
-				variable="Edit_AD1_LI_RevocationDate_getValue1">
+				variable="Edit_AD1_LI_RevocationDate_getValue">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -2058,6 +2058,221 @@ UlFAEawQqcrEgPqFFSUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH
 					/form[@processname='chrome' and @class='Chrome_WidgetWin_1' and @instance='0']/container[@accessiblename&gt;'Pega Case Manager Portal -']/container/container[1]
 				</path>
 			</info>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="dd6321a7-8792-4b9b-8b9c-a3e380f7cc0f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="Edit_AD1_LI_LicenseNumber">
+				</binding>
+			</bindings>
+			<info
+			id="0f3e07d6-acaf-45ae-9066-9457dde24d90"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@id='fbd533b1']
+				</path>
+			</info>
+			<matchname>
+				TagValue
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="ae168b44-cf52-4cfc-bc54-ea5cde75359a">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="Edit_AD1_LI_LicenseNumber">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="dd6321a7-8792-4b9b-8b9c-a3e380f7cc0f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="Edit_AD1_LI_DriversLicenseState">
+				</binding>
+			</bindings>
+			<info
+			id="7777c958-851c-4cee-a1a8-596b5d56423e"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@id='6bea39f6']
+				</path>
+			</info>
+			<matchname>
+				TagValue
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="ae168b44-cf52-4cfc-bc54-ea5cde75359a">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="Edit_AD1_LI_DriversLicenseState">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="dd6321a7-8792-4b9b-8b9c-a3e380f7cc0f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="Edit_AD1_LI_SSN_getValue">
+				</binding>
+			</bindings>
+			<info
+			id="282d56f6-c3e9-49a0-b21d-5809a18bc33f"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@id='54f3651d']
+				</path>
+			</info>
+			<matchname>
+				TagValue
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="ae168b44-cf52-4cfc-bc54-ea5cde75359a">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="Edit_AD1_LI_SSN_getValue">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="dd6321a7-8792-4b9b-8b9c-a3e380f7cc0f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="Edit_AD1_LI_DOB_getValue">
+				</binding>
+			</bindings>
+			<info
+			id="939d6689-750b-4c2f-9acd-94e4b7ff43b4"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pPersonalInfo$pDateOfBirth']
+				</path>
+			</info>
+			<matchname>
+				TagValue
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="ae168b44-cf52-4cfc-bc54-ea5cde75359a">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="Edit_AD1_LI_DOB_getValue">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="dd6321a7-8792-4b9b-8b9c-a3e380f7cc0f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="Edit_AD1_LI_RevocationDate_getValue">
+				</binding>
+			</bindings>
+			<info
+			id="1076298a-bb32-4061-a4c3-0a49386a8002"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pRevocationDate']
+				</path>
+			</info>
+			<matchname>
+				TagValue
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="ae168b44-cf52-4cfc-bc54-ea5cde75359a">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="Edit_AD1_LI_RevocationDate_getValue">
+				</binding>
+			</bindings>
 		</loggingrecorditem>
 	</recorditems>
 	<repository

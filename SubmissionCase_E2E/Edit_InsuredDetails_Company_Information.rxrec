@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="17533c3e-be47-446e-af92-559dd1b52b4b"
+id="826c07c6-24b8-4995-87f3-aa6c7a220965"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,90 +19,129 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Adverse2_Driver_Personal_Information_Save"
+	classname="Edit_InsuredDetails_Company_Information"
 	namespace="SubmissionCase_E2E">
 	</codegen>
 	<variables>
 		<var
-		id="4b98f022-99e9-416b-96e6-9f31b288c06d"
-		name="AD2_PI_FirstName">
+		id="bf19f2a4-17bc-4b30-bb67-17be7861e145"
+		name="ID_CI_CompName">
 		</var>
 		<var
-		id="a5b5e373-d116-4e89-b155-3a9ded4e75a0"
-		name="AD2_PI_LastName">
+		id="8c9d6465-6770-4396-a243-ec7e661416b9"
+		name="ID_CI_PolicyNumber">
 		</var>
 		<var
-		id="0571f418-8092-4ee3-bebd-a18e591bd8b0"
-		name="AD2_PI_POE">
+		id="b5688e81-b2b6-4bc0-be2f-bf2c72382311"
+		name="ID_CI_ContactNumber">
 		</var>
 		<var
-		id="dbe3bea1-4977-48a0-a1b1-f9fc88334cc9"
-		name="AD2_PI_Address1">
+		id="b27784d5-23d3-47f1-89df-4f8768307c4c"
+		name="ID_CI_State">
 		</var>
 		<var
-		id="d47a0af2-219a-4304-99f3-6221ffc72cf7"
-		name="AD2_PI_Address2">
+		id="18648afa-27fa-4be6-b08f-54c5d9efc5dd"
+		name="ID_CI_Address1">
 		</var>
 		<var
-		id="d8079812-0821-4609-a3cb-ec3113e4d32c"
-		name="AD2_PI_City">
+		id="72a8b91a-0f48-4144-acb8-d8ad2960a9ed"
+		name="ID_CI_Address2">
 		</var>
 		<var
-		id="953980cb-95c5-4a70-bf47-2fb16fc105fb"
-		name="AD2_PI_State">
+		id="feb38672-0b95-452d-bf4d-c11b673e83a2"
+		name="ID_CI_City">
 		</var>
 		<var
-		id="323f3265-ef34-48b2-89de-8cbf33995a75"
-		name="AD2_PI_Zip">
+		id="60d1ae37-5a06-49be-b626-15130e9f4bd8"
+		name="ID_CI_Zip">
 		</var>
 		<var
-		id="0fd4fdf3-8ecd-4341-af00-3e18efdbe6f9"
-		name="AD2_PI_UseType">
+		id="4adbe739-23e4-4d0e-9266-c3fbbe89c832"
+		name="ID_CI_UseType">
 		</var>
 		<var
-		id="fe5cff7e-430a-4b4b-962d-e8918362dfe5"
-		name="AD2_PI_PhoneType">
+		id="ee096856-3cdc-4eb9-84d5-719b4f69eb35"
+		name="ID_CI_PhoneType">
 		</var>
 		<var
-		id="e6254e10-3585-4b3a-a6f9-85b52ec89b46"
-		name="AD2_PI_Source">
+		id="bd0e03ff-e057-4629-a425-3f59fe764237"
+		name="ID_CI_Source">
 		</var>
 		<var
-		id="f1466a2e-16ac-41b5-a32c-7c2c1186ac30"
-		name="AD2_PI_PhoneNumber">
+		id="20e66191-a56d-4910-9fa2-bf982d41895c"
+		name="ID_CI_PhoneNumber">
 		</var>
 		<var
-		id="1863a871-c478-4c79-8206-52db38430af3"
-		name="AD2_PI_EmailUseType">
+		id="b6962dc1-7487-4552-a59e-80686c872baa"
+		name="Edit_ID_CI_CompName">
+			Edit_ID_CI_CompName
 		</var>
 		<var
-		id="8b771bb6-6deb-4b20-bf0d-d0c89919b0c9"
-		name="AD2_PI_EmailSource">
+		id="099116c9-d5ea-4d3b-a126-a537ed4b8d45"
+		name="Edit_ID_CI_PolicyNumber">
+			Edit_ID_CI_PolicyNumber
 		</var>
 		<var
-		id="cde21a07-79c5-484d-aaa2-51102c47bfa0"
-		name="AD2_PI_Email">
+		id="983951a7-86e5-46d5-8e91-69d4a10d46f2"
+		name="Edit_ID_CI_ContactNumber">
+			Edit_ID_CI_ContactNumber
+		</var>
+		<var
+		id="84c191e2-349a-489b-9b53-774be5e9bf64"
+		name="Edit_ID_CI_State">
+			DE
+		</var>
+		<var
+		id="45cf687f-e414-40dd-abc9-d9e474e9ee3e"
+		name="Edit_ID_CI_Address1">
+			Edit_ID_CI_Address1
+		</var>
+		<var
+		id="94ca793c-fe65-4cad-8b2e-bca3fa5cc090"
+		name="Edit_ID_CI_Address2">
+			Edit_ID_CI_Address2
+		</var>
+		<var
+		id="a8f236cc-654c-497c-ae9b-e51d6c23ea71"
+		name="Edit_ID_CI_City">
+			Edit_ID_CI_City
+		</var>
+		<var
+		id="2b1e3f3a-82c5-4d6b-a4f6-40267dd143ed"
+		name="Edit_ID_CI_Zip">
+			50006
+		</var>
+		<var
+		id="6d91a980-b7f3-45c8-89e3-d64bff16c8c2"
+		name="Edit_ID_CI_UseType">
+			Personal
+		</var>
+		<var
+		id="8d8b022d-8e2d-4ddb-a65a-347a459b1910"
+		name="Edit_ID_CI_PhoneType">
+			Cell
+		</var>
+		<var
+		id="c46a080c-b813-4963-8f9b-63c8fc242d9f"
+		name="Edit_ID_CI_Source">
+			Direct
+		</var>
+		<var
+		id="a5c1fa3d-a5a0-427b-9cd1-bec002cb14eb"
+		name="Edit_ID_CI_PhoneNumber">
+			9600095012
 		</var>
 	</variables>
 	<recorditems>
-		<WaitForRecordItem
+		<explicitdelayitem
+		duration="5000ms"
 		enabled="True"
-		optional="False"
-		searchpropertyid="85725ffa-7fba-4113-8b7c-94e9ab7c0f4b"
-		waitaction="Exists"
-		waittimeout="30000ms">
+		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<info
-			id="bf438958-619b-4930-a1da-02c86219e3d3"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@id='5aac7369' and @name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pFirstName']
-				</path>
-			</info>
-		</WaitForRecordItem>
+		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -216,6 +255,33 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="False"
+		optional="False"
+		searchpropertyid="db749e1d-f094-4a0c-aa07-2eceda60f627"
+		waitaction="Exists"
+		waittimeout="10000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8ee0b06c-adc9-4549-a5e8-77e00a178e22"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pCompName']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
@@ -227,21 +293,21 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD2_PI_FirstName">
+				variable="ID_CI_CompName">
 				</binding>
 			</bindings>
 			<info
-			id="bf438958-619b-4930-a1da-02c86219e3d3"
+			id="fee355c5-aa3f-4036-8e60-c4d307ba348d"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@id='5aac7369' and @name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pFirstName']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pCompName']
 				</path>
 			</info>
 			<matchname>
 				TagValue
 			</matchname>
 			<matchvalue>
-				AD2_PI_FirstName
+				NATIONAL UNITY INSURANCE CO
 			</matchvalue>
 		</validationitem>
 		<loggingrecorditem
@@ -250,13 +316,13 @@ mode="Global">
 		message=""
 		optional="False"
 		reportlevel="Info;20"
-		searchpropertyid="09586264-4b01-4edb-a69c-81f79eb31d58">
+		searchpropertyid="b7d7dac9-96df-4e8b-ac59-a4ef61169935">
 			<comment>
 			</comment>
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD2_PI_FirstName">
+				variable="ID_CI_CompName">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -271,21 +337,21 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD2_PI_LastName">
+				variable="ID_CI_PolicyNumber">
 				</binding>
 			</bindings>
 			<info
-			id="64c57a33-021e-43e5-835a-31a4960df8d5"
+			id="30ce925b-b477-4b36-8bcf-87348a9c448c"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@id='737c8181' and @name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pLastName']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pPolicyNumber']
 				</path>
 			</info>
 			<matchname>
 				TagValue
 			</matchname>
 			<matchvalue>
-				AD2_PI_LastName
+				ID_CI_PolicyNumber
 			</matchvalue>
 		</validationitem>
 		<loggingrecorditem
@@ -294,13 +360,13 @@ mode="Global">
 		message=""
 		optional="False"
 		reportlevel="Info;20"
-		searchpropertyid="09586264-4b01-4edb-a69c-81f79eb31d58">
+		searchpropertyid="b7d7dac9-96df-4e8b-ac59-a4ef61169935">
 			<comment>
 			</comment>
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD2_PI_LastName">
+				variable="ID_CI_PolicyNumber">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -315,21 +381,21 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD2_PI_POE">
+				variable="ID_CI_ContactNumber">
 				</binding>
 			</bindings>
 			<info
-			id="cb61a463-205c-4837-ba20-d508afebf2be"
+			id="86db5c21-8279-47eb-a63c-c6d24dd56bfa"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pEmploymentPlace']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pName']
 				</path>
 			</info>
 			<matchname>
 				TagValue
 			</matchname>
 			<matchvalue>
-				AD2_PI_POE
+				ID_CI_ContactNumber
 			</matchvalue>
 		</validationitem>
 		<loggingrecorditem
@@ -338,13 +404,13 @@ mode="Global">
 		message=""
 		optional="False"
 		reportlevel="Info;20"
-		searchpropertyid="09586264-4b01-4edb-a69c-81f79eb31d58">
+		searchpropertyid="b7d7dac9-96df-4e8b-ac59-a4ef61169935">
 			<comment>
 			</comment>
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD2_PI_POE">
+				variable="ID_CI_ContactNumber">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -359,21 +425,21 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD2_PI_Address1">
+				variable="ID_CI_State">
 				</binding>
 			</bindings>
 			<info
-			id="7920bde2-c437-4fcf-adf1-c9189d650df9"
+			id="3ceb793e-2591-4d71-b363-1142833d37cd"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pAddressInfo$pAddressLine1']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pAddressInfo$pUSStateCode']
 				</path>
 			</info>
 			<matchname>
 				TagValue
 			</matchname>
 			<matchvalue>
-				AD2_PI_Address1
+				OH
 			</matchvalue>
 		</validationitem>
 		<loggingrecorditem
@@ -382,13 +448,13 @@ mode="Global">
 		message=""
 		optional="False"
 		reportlevel="Info;20"
-		searchpropertyid="09586264-4b01-4edb-a69c-81f79eb31d58">
+		searchpropertyid="b7d7dac9-96df-4e8b-ac59-a4ef61169935">
 			<comment>
 			</comment>
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD2_PI_Address1">
+				variable="ID_CI_State">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -403,21 +469,21 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD2_PI_Address2">
+				variable="ID_CI_Address1">
 				</binding>
 			</bindings>
 			<info
-			id="878494f3-3375-43ee-b367-2f217c69a2b9"
+			id="9368b1bc-43ac-44e5-885e-f09b19b4e675"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pAddressInfo$pAddressLine2']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pAddressInfo$pAddressLine1']
 				</path>
 			</info>
 			<matchname>
 				TagValue
 			</matchname>
 			<matchvalue>
-				AD2_PI_Address2
+				ID_CI_Address1
 			</matchvalue>
 		</validationitem>
 		<loggingrecorditem
@@ -426,13 +492,13 @@ mode="Global">
 		message=""
 		optional="False"
 		reportlevel="Info;20"
-		searchpropertyid="09586264-4b01-4edb-a69c-81f79eb31d58">
+		searchpropertyid="b7d7dac9-96df-4e8b-ac59-a4ef61169935">
 			<comment>
 			</comment>
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD2_PI_Address2">
+				variable="ID_CI_Address1">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -447,21 +513,21 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD2_PI_City">
+				variable="ID_CI_Address2">
 				</binding>
 			</bindings>
 			<info
-			id="3f5fe85b-6647-433b-aec0-a4d65746d7e6"
+			id="bf4865e7-4224-4940-85c3-429f4fde2a4c"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pAddressInfo$pcity']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pAddressInfo$pAddressLine2']
 				</path>
 			</info>
 			<matchname>
 				TagValue
 			</matchname>
 			<matchvalue>
-				AD2_PI_City
+				ID_CI_Address2
 			</matchvalue>
 		</validationitem>
 		<loggingrecorditem
@@ -470,13 +536,13 @@ mode="Global">
 		message=""
 		optional="False"
 		reportlevel="Info;20"
-		searchpropertyid="09586264-4b01-4edb-a69c-81f79eb31d58">
+		searchpropertyid="b7d7dac9-96df-4e8b-ac59-a4ef61169935">
 			<comment>
 			</comment>
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD2_PI_City">
+				variable="ID_CI_Address2">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -491,21 +557,21 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD2_PI_State">
+				variable="ID_CI_City">
 				</binding>
 			</bindings>
 			<info
-			id="bb63368d-f6bf-4cdb-ada1-2f2f9af5a11a"
+			id="dd42e125-a2a0-4f7e-988c-155efd0981b5"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pAddressInfo$pUSStateCode']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pAddressInfo$pcity']
 				</path>
 			</info>
 			<matchname>
 				TagValue
 			</matchname>
 			<matchvalue>
-				AB
+				ID_CI_City
 			</matchvalue>
 		</validationitem>
 		<loggingrecorditem
@@ -514,13 +580,57 @@ mode="Global">
 		message=""
 		optional="False"
 		reportlevel="Info;20"
-		searchpropertyid="09586264-4b01-4edb-a69c-81f79eb31d58">
+		searchpropertyid="b7d7dac9-96df-4e8b-ac59-a4ef61169935">
 			<comment>
 			</comment>
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD2_PI_State">
+				variable="ID_CI_City">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="4ea690ee-2072-4756-9b7c-83a4b4c6c44f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ID_CI_Zip">
+				</binding>
+			</bindings>
+			<info
+			id="b1b0ae6e-a20a-4ad5-800c-850986f5d0fd"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pAddressInfo$pZipCode']
+				</path>
+			</info>
+			<matchname>
+				TagValue
+			</matchname>
+			<matchvalue>
+				40006
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="b7d7dac9-96df-4e8b-ac59-a4ef61169935">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="ID_CI_Zip">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -548,17 +658,79 @@ mode="Global">
 		attrname="TagValue"
 		enabled="True"
 		optional="False"
-		searchpropertyid="a05ef3ea-482c-438f-b226-6d7c47a5fbf5"
-		varname="AD2_PI_Zip">
+		searchpropertyid="b91dd7e7-660a-4c06-a847-225c9631b6c9"
+		varname="ID_CI_UseType">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="77db5fd9-ed9f-4d98-aad8-00bf059fbd4b"
+			id="d1c03fd6-7362-439b-8f60-6842a8ad73a7"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pAddressInfo$pZipCode']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pPhoneInfo$l1$pPhoneUseType']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="4ea690ee-2072-4756-9b7c-83a4b4c6c44f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ID_CI_UseType">
+				</binding>
+			</bindings>
+			<info
+			id="d1c03fd6-7362-439b-8f60-6842a8ad73a7"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pPhoneInfo$l1$pPhoneUseType']
+				</path>
+			</info>
+			<matchname>
+				TagValue
+			</matchname>
+			<matchvalue>
+				Business
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="b7d7dac9-96df-4e8b-ac59-a4ef61169935">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="ID_CI_UseType">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<getvaluerecorditem
+		attrname="TagValue"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b91dd7e7-660a-4c06-a847-225c9631b6c9"
+		varname="ID_CI_PhoneType">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8f61f091-11ce-4133-81d5-1648c38ef0f0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pPhoneInfo$l1$pPhoneType']
 				</path>
 			</info>
 		</getvaluerecorditem>
@@ -568,13 +740,13 @@ mode="Global">
 		message=""
 		optional="False"
 		reportlevel="Info;20"
-		searchpropertyid="09586264-4b01-4edb-a69c-81f79eb31d58">
+		searchpropertyid="b7d7dac9-96df-4e8b-ac59-a4ef61169935">
 			<comment>
 			</comment>
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD2_PI_Zip">
+				variable="ID_CI_PhoneType">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -589,38 +761,38 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD2_PI_Zip">
+				variable="ID_CI_PhoneType">
 				</binding>
 			</bindings>
 			<info
-			id="77db5fd9-ed9f-4d98-aad8-00bf059fbd4b"
+			id="8f61f091-11ce-4133-81d5-1648c38ef0f0"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pAddressInfo$pZipCode']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pPhoneInfo$l1$pPhoneType']
 				</path>
 			</info>
 			<matchname>
 				TagValue
 			</matchname>
 			<matchvalue>
-				90003
+				Cell
 			</matchvalue>
 		</validationitem>
 		<getvaluerecorditem
 		attrname="TagValue"
 		enabled="True"
 		optional="False"
-		searchpropertyid="a05ef3ea-482c-438f-b226-6d7c47a5fbf5"
-		varname="AD2_PI_UseType">
+		searchpropertyid="b91dd7e7-660a-4c06-a847-225c9631b6c9"
+		varname="ID_CI_Source">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="af4bb1d0-2f20-40db-88d7-6ba410efeeac"
+			id="e12fadbc-b310-4708-96ff-7f22f6bf5258"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pPersonalInfo$pPhoneInfo$l1$pPhoneUseType']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pPhoneInfo$l1$pPhoneSource']
 				</path>
 			</info>
 		</getvaluerecorditem>
@@ -630,13 +802,13 @@ mode="Global">
 		message=""
 		optional="False"
 		reportlevel="Info;20"
-		searchpropertyid="09586264-4b01-4edb-a69c-81f79eb31d58">
+		searchpropertyid="b7d7dac9-96df-4e8b-ac59-a4ef61169935">
 			<comment>
 			</comment>
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD2_PI_UseType">
+				variable="ID_CI_Source">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -651,38 +823,38 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD2_PI_UseType">
+				variable="ID_CI_Source">
 				</binding>
 			</bindings>
 			<info
-			id="af4bb1d0-2f20-40db-88d7-6ba410efeeac"
+			id="e12fadbc-b310-4708-96ff-7f22f6bf5258"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pPersonalInfo$pPhoneInfo$l1$pPhoneUseType']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pPhoneInfo$l1$pPhoneSource']
 				</path>
 			</info>
 			<matchname>
 				TagValue
 			</matchname>
 			<matchvalue>
-				Personal
+				Caller ID
 			</matchvalue>
 		</validationitem>
 		<getvaluerecorditem
 		attrname="TagValue"
 		enabled="True"
 		optional="False"
-		searchpropertyid="a05ef3ea-482c-438f-b226-6d7c47a5fbf5"
-		varname="AD2_PI_PhoneType">
+		searchpropertyid="b91dd7e7-660a-4c06-a847-225c9631b6c9"
+		varname="ID_CI_PhoneNumber">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="51e45b4f-3838-4ba1-916b-87465b9d4af9"
+			id="60d1d2a8-06b3-4c4e-9f8c-70301295aada"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pPersonalInfo$pPhoneInfo$l1$pPhoneType']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pPhoneInfo$l1$pPhoneNumber']
 				</path>
 			</info>
 		</getvaluerecorditem>
@@ -692,13 +864,13 @@ mode="Global">
 		message=""
 		optional="False"
 		reportlevel="Info;20"
-		searchpropertyid="09586264-4b01-4edb-a69c-81f79eb31d58">
+		searchpropertyid="b7d7dac9-96df-4e8b-ac59-a4ef61169935">
 			<comment>
 			</comment>
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD2_PI_PhoneType">
+				variable="ID_CI_PhoneNumber">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -713,38 +885,38 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD2_PI_PhoneType">
+				variable="ID_CI_PhoneNumber">
 				</binding>
 			</bindings>
 			<info
-			id="51e45b4f-3838-4ba1-916b-87465b9d4af9"
+			id="60d1d2a8-06b3-4c4e-9f8c-70301295aada"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pPersonalInfo$pPhoneInfo$l1$pPhoneType']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pPhoneInfo$l1$pPhoneNumber']
 				</path>
 			</info>
 			<matchname>
 				TagValue
 			</matchname>
 			<matchvalue>
-				Land Line
+				(950) 009-5012
 			</matchvalue>
 		</validationitem>
 		<getvaluerecorditem
 		attrname="TagValue"
 		enabled="True"
 		optional="False"
-		searchpropertyid="a05ef3ea-482c-438f-b226-6d7c47a5fbf5"
-		varname="AD2_PI_Source">
+		searchpropertyid="b91dd7e7-660a-4c06-a847-225c9631b6c9"
+		varname="ID_CI_PhoneNumber">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="983ce04a-f945-484c-bde9-6f95d72f3dcd"
+			id="798b2cde-57ac-491f-a0da-602033d6581a"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pPersonalInfo$pPhoneInfo$l1$pPhoneSource']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pEmailInfo$l1$pEmailUseType']
 				</path>
 			</info>
 		</getvaluerecorditem>
@@ -754,13 +926,13 @@ mode="Global">
 		message=""
 		optional="False"
 		reportlevel="Info;20"
-		searchpropertyid="09586264-4b01-4edb-a69c-81f79eb31d58">
+		searchpropertyid="b7d7dac9-96df-4e8b-ac59-a4ef61169935">
 			<comment>
 			</comment>
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD2_PI_Source">
+				variable="ID_CI_PhoneNumber">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -775,38 +947,38 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD2_PI_Source">
+				variable="ID_CI_PhoneNumber">
 				</binding>
 			</bindings>
 			<info
-			id="983ce04a-f945-484c-bde9-6f95d72f3dcd"
+			id="798b2cde-57ac-491f-a0da-602033d6581a"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pPersonalInfo$pPhoneInfo$l1$pPhoneSource']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pEmailInfo$l1$pEmailUseType']
 				</path>
 			</info>
 			<matchname>
 				TagValue
 			</matchname>
 			<matchvalue>
-				Direct
+				(950) 009-5012
 			</matchvalue>
 		</validationitem>
 		<getvaluerecorditem
 		attrname="TagValue"
 		enabled="True"
 		optional="False"
-		searchpropertyid="a05ef3ea-482c-438f-b226-6d7c47a5fbf5"
-		varname="AD2_PI_PhoneNumber">
+		searchpropertyid="b91dd7e7-660a-4c06-a847-225c9631b6c9"
+		varname="ID_CI_PhoneNumber">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="0d22c15c-dcb3-4578-a996-252a1377c03c"
+			id="d8d65f90-5160-4842-829a-f66cb5a81137"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pPersonalInfo$pPhoneInfo$l1$pPhoneNumber']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pEmailInfo$l1$pEmailSource']
 				</path>
 			</info>
 		</getvaluerecorditem>
@@ -816,13 +988,13 @@ mode="Global">
 		message=""
 		optional="False"
 		reportlevel="Info;20"
-		searchpropertyid="09586264-4b01-4edb-a69c-81f79eb31d58">
+		searchpropertyid="b7d7dac9-96df-4e8b-ac59-a4ef61169935">
 			<comment>
 			</comment>
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD2_PI_PhoneNumber">
+				variable="ID_CI_PhoneNumber">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -837,42 +1009,87 @@ mode="Global">
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD2_PI_PhoneNumber">
+				variable="ID_CI_PhoneNumber">
 				</binding>
 			</bindings>
 			<info
-			id="0d22c15c-dcb3-4578-a996-252a1377c03c"
+			id="d8d65f90-5160-4842-829a-f66cb5a81137"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pPersonalInfo$pPhoneInfo$l1$pPhoneNumber']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//select[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pEmailInfo$l1$pEmailSource']
 				</path>
 			</info>
 			<matchname>
 				TagValue
 			</matchname>
 			<matchvalue>
-				(950) 009-5004
+				(950) 009-5012
 			</matchvalue>
 		</validationitem>
 		<getvaluerecorditem
 		attrname="TagValue"
 		enabled="True"
 		optional="False"
-		searchpropertyid="8f3d0e36-aaa5-4bab-b45f-b95aee33b87e"
-		varname="AD2_PI_EmailUseType">
+		searchpropertyid="b91dd7e7-660a-4c06-a847-225c9631b6c9"
+		varname="ID_CI_PhoneNumber">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="1c901f78-c29f-4166-b988-8baf4294a180"
+			id="17b4be69-d083-4ed4-a10d-d731ca787a73"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pPersonalInfo$pEmailInfo$l1$pEmailUseType']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pEmailInfo$l1$ppyEmail']
 				</path>
 			</info>
 		</getvaluerecorditem>
 		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="b7d7dac9-96df-4e8b-ac59-a4ef61169935">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="ID_CI_PhoneNumber">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="4ea690ee-2072-4756-9b7c-83a4b4c6c44f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ID_CI_PhoneNumber">
+				</binding>
+			</bindings>
+			<info
+			id="17b4be69-d083-4ed4-a10d-d731ca787a73"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//input[@name='$PpyWorkPage$pInsuredInfo$pInsuranceInfo$pEmailInfo$l1$ppyEmail']
+				</path>
+			</info>
+			<matchname>
+				TagValue
+			</matchname>
+			<matchvalue>
+				(950) 009-5012
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		action="Screenshot"
 		category="User"
 		enabled="True"
 		message=""
@@ -882,10 +1099,6 @@ mode="Global">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="Message"
-				variable="AD2_PI_EmailUseType">
-				</binding>
 			</bindings>
 			<info
 			id="1f787bea-3f17-410d-8158-87a941bdcbef"
@@ -895,179 +1108,16 @@ mode="Global">
 				</path>
 			</info>
 		</loggingrecorditem>
-		<validationitem
-		action="AttributeEqual"
-		enabled="True"
-		optional="False"
-		searchpropertyid="d4c4cf21-7cc3-4614-a1a1-0a45e9c40f1f">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="MatchValue"
-				variable="AD2_PI_EmailUseType">
-				</binding>
-			</bindings>
-			<info
-			id="1c901f78-c29f-4166-b988-8baf4294a180"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pPersonalInfo$pEmailInfo$l1$pEmailUseType']
-				</path>
-			</info>
-			<matchname>
-				TagValue
-			</matchname>
-			<matchvalue>
-				yourtext
-			</matchvalue>
-		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="8f3d0e36-aaa5-4bab-b45f-b95aee33b87e"
-		varname="AD2_PI_EmailSource">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="7a79c739-be1f-4f3b-9755-c742e9d337ee"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pPersonalInfo$pEmailInfo$l1$pEmailSource']
-				</path>
-			</info>
-		</getvaluerecorditem>
-		<loggingrecorditem
-		category="User"
-		enabled="True"
-		message=""
-		optional="False"
-		reportlevel="Info;20"
-		searchpropertyid="23ff739d-3daa-4030-b76e-25d64637451c">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="Message"
-				variable="AD2_PI_EmailSource">
-				</binding>
-			</bindings>
-			<info
-			id="1f787bea-3f17-410d-8158-87a941bdcbef"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@processname='chrome' and @class='Chrome_WidgetWin_1' and @instance='0']/container[@accessiblename&gt;'Pega Case Manager Portal -']/container/container[1]
-				</path>
-			</info>
-		</loggingrecorditem>
-		<validationitem
-		action="AttributeEqual"
-		enabled="True"
-		optional="False"
-		searchpropertyid="d4c4cf21-7cc3-4614-a1a1-0a45e9c40f1f">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="MatchValue"
-				variable="AD2_PI_EmailSource">
-				</binding>
-			</bindings>
-			<info
-			id="7a79c739-be1f-4f3b-9755-c742e9d337ee"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pPersonalInfo$pEmailInfo$l1$pEmailSource']
-				</path>
-			</info>
-			<matchname>
-				TagValue
-			</matchname>
-			<matchvalue>
-				yourtext
-			</matchvalue>
-		</validationitem>
-		<getvaluerecorditem
-		attrname="TagValue"
-		enabled="True"
-		optional="False"
-		searchpropertyid="8f3d0e36-aaa5-4bab-b45f-b95aee33b87e"
-		varname="AD2_PI_Email">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="8e324ad4-13e6-4aed-9461-190ca5335fc8"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pPersonalInfo$pEmailInfo$l1$ppyEmail']
-				</path>
-			</info>
-		</getvaluerecorditem>
-		<loggingrecorditem
-		category="User"
-		enabled="True"
-		message=""
-		optional="False"
-		reportlevel="Info;20"
-		searchpropertyid="23ff739d-3daa-4030-b76e-25d64637451c">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="Message"
-				variable="AD2_PI_Email">
-				</binding>
-			</bindings>
-			<info
-			id="1f787bea-3f17-410d-8158-87a941bdcbef"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@processname='chrome' and @class='Chrome_WidgetWin_1' and @instance='0']/container[@accessiblename&gt;'Pega Case Manager Portal -']/container/container[1]
-				</path>
-			</info>
-		</loggingrecorditem>
-		<validationitem
-		action="AttributeEqual"
-		enabled="True"
-		optional="False"
-		searchpropertyid="d4c4cf21-7cc3-4614-a1a1-0a45e9c40f1f">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="MatchValue"
-				variable="AD2_PI_Email">
-				</binding>
-			</bindings>
-			<info
-			id="8e324ad4-13e6-4aed-9461-190ca5335fc8"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pPersonalInfo$pEmailInfo$l1$ppyEmail']
-				</path>
-			</info>
-			<matchname>
-				TagValue
-			</matchname>
-			<matchvalue>
-				yourtext
-			</matchvalue>
-		</validationitem>
 		<mouseitem
 		action="Click"
 		button="Left"
-		duration="100ms"
+		duration="500ms"
 		enabled="True"
-		loc="46;15"
+		loc="52;15"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="c9440f47-bdc3-4a3c-9a64-9740fd942403"
-		sx="1286"
+		searchpropertyid="bf56074b-9483-4f51-9dd0-9b6b40acce6d"
+		sx="1292"
 		sy="699"
 		warnoutofbounds="False">
 			<comment>
@@ -1075,8 +1125,8 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="957c24ba-66d5-4078-b172-5189085310f9"
-			sourcename="Recorder">
+			id="008dcb6f-bc29-4773-951b-a2f6d98da603"
+			sourcename="RepositoryEditor">
 				<path>
 					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//button[text()='Continue' and @name='pyCaseActionAreaButtons_pyWorkPage_18']
 				</path>
@@ -1098,7 +1148,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Adverse2_Driver_Personal_Information_Save.UserCode.cs
+		Edit_InsuredDetails_Company_Information.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>
