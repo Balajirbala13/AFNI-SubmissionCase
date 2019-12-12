@@ -403,79 +403,83 @@ namespace SubmissionCase_E2E
             
             Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(30));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_LI_PhoneUseType' and assigning its value to variable 'AO_LI_PhoneUseType_getValue'.", repo.ApplicationUnderTest.AO_LI_PhoneUseTypeInfo, new RecordItemIndex(31));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AO_LI_EmailId' at Center.", repo.ApplicationUnderTest.AO_LI_EmailIdInfo, new RecordItemIndex(31));
+            repo.ApplicationUnderTest.AO_LI_EmailId.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_LI_PhoneUseType' and assigning its value to variable 'AO_LI_PhoneUseType_getValue'.", repo.ApplicationUnderTest.AO_LI_PhoneUseTypeInfo, new RecordItemIndex(32));
             AO_LI_PhoneUseType_getValue = repo.ApplicationUnderTest.AO_LI_PhoneUseType.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO_LI_PhoneUseType_getValue, new RecordItemIndex(32));
+            Report.Log(ReportLevel.Info, "User", AO_LI_PhoneUseType_getValue, new RecordItemIndex(33));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_LI_PhoneUseType_getValue) on item 'ApplicationUnderTest.AO_LI_PhoneUseType'.", repo.ApplicationUnderTest.AO_LI_PhoneUseTypeInfo, new RecordItemIndex(33));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_LI_PhoneUseType_getValue) on item 'ApplicationUnderTest.AO_LI_PhoneUseType'.", repo.ApplicationUnderTest.AO_LI_PhoneUseTypeInfo, new RecordItemIndex(34));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_LI_PhoneUseTypeInfo, "TagValue", AO_LI_PhoneUseType_getValue);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_LI_PhoneType' and assigning its value to variable 'AO_LI_PhoneType_getValue'.", repo.ApplicationUnderTest.AO_LI_PhoneTypeInfo, new RecordItemIndex(34));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_LI_PhoneType' and assigning its value to variable 'AO_LI_PhoneType_getValue'.", repo.ApplicationUnderTest.AO_LI_PhoneTypeInfo, new RecordItemIndex(35));
             AO_LI_PhoneType_getValue = repo.ApplicationUnderTest.AO_LI_PhoneType.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO_LI_PhoneType_getValue, new RecordItemIndex(35));
+            Report.Log(ReportLevel.Info, "User", AO_LI_PhoneType_getValue, new RecordItemIndex(36));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_LI_PhoneType_getValue) on item 'ApplicationUnderTest.AO_LI_PhoneType'.", repo.ApplicationUnderTest.AO_LI_PhoneTypeInfo, new RecordItemIndex(36));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_LI_PhoneType_getValue) on item 'ApplicationUnderTest.AO_LI_PhoneType'.", repo.ApplicationUnderTest.AO_LI_PhoneTypeInfo, new RecordItemIndex(37));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_LI_PhoneTypeInfo, "TagValue", AO_LI_PhoneType_getValue);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_LI_PhoneSource' and assigning its value to variable 'AO_LI_PhoneSource_getValue'.", repo.ApplicationUnderTest.AO_LI_PhoneSourceInfo, new RecordItemIndex(37));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_LI_PhoneSource' and assigning its value to variable 'AO_LI_PhoneSource_getValue'.", repo.ApplicationUnderTest.AO_LI_PhoneSourceInfo, new RecordItemIndex(38));
             AO_LI_PhoneSource_getValue = repo.ApplicationUnderTest.AO_LI_PhoneSource.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO_LI_PhoneSource_getValue, new RecordItemIndex(38));
+            Report.Log(ReportLevel.Info, "User", AO_LI_PhoneSource_getValue, new RecordItemIndex(39));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_LI_PhoneSource_getValue) on item 'ApplicationUnderTest.AO_LI_PhoneSource'.", repo.ApplicationUnderTest.AO_LI_PhoneSourceInfo, new RecordItemIndex(39));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_LI_PhoneSource_getValue) on item 'ApplicationUnderTest.AO_LI_PhoneSource'.", repo.ApplicationUnderTest.AO_LI_PhoneSourceInfo, new RecordItemIndex(40));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_LI_PhoneSourceInfo, "TagValue", AO_LI_PhoneSource_getValue);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_LI_PhoneNumber' and assigning its value to variable 'AO_LI_PhoneNumber_getValue'.", repo.ApplicationUnderTest.AO_LI_PhoneNumberInfo, new RecordItemIndex(40));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_LI_PhoneNumber' and assigning its value to variable 'AO_LI_PhoneNumber_getValue'.", repo.ApplicationUnderTest.AO_LI_PhoneNumberInfo, new RecordItemIndex(41));
             AO_LI_PhoneNumber_getValue = repo.ApplicationUnderTest.AO_LI_PhoneNumber.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO_LI_PhoneNumber_getValue, new RecordItemIndex(41));
+            Report.Log(ReportLevel.Info, "User", AO_LI_PhoneNumber_getValue, new RecordItemIndex(42));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_LI_PhoneNumber_getValue) on item 'ApplicationUnderTest.AO_LI_PhoneNumber'.", repo.ApplicationUnderTest.AO_LI_PhoneNumberInfo, new RecordItemIndex(42));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_LI_PhoneNumber_getValue) on item 'ApplicationUnderTest.AO_LI_PhoneNumber'.", repo.ApplicationUnderTest.AO_LI_PhoneNumberInfo, new RecordItemIndex(43));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_LI_PhoneNumberInfo, "TagValue", AO_LI_PhoneNumber_getValue);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_LI_EmailUseType' and assigning its value to variable 'AO_LI_EmailUseType_getValue'.", repo.ApplicationUnderTest.AO_LI_EmailUseTypeInfo, new RecordItemIndex(43));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_LI_EmailUseType' and assigning its value to variable 'AO_LI_EmailUseType_getValue'.", repo.ApplicationUnderTest.AO_LI_EmailUseTypeInfo, new RecordItemIndex(44));
             AO_LI_EmailUseType_getValue = repo.ApplicationUnderTest.AO_LI_EmailUseType.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO_LI_EmailUseType_getValue, new RecordItemIndex(44));
+            Report.Log(ReportLevel.Info, "User", AO_LI_EmailUseType_getValue, new RecordItemIndex(45));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_LI_EmailUseType_getValue) on item 'ApplicationUnderTest.AO_LI_EmailUseType'.", repo.ApplicationUnderTest.AO_LI_EmailUseTypeInfo, new RecordItemIndex(45));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_LI_EmailUseType_getValue) on item 'ApplicationUnderTest.AO_LI_EmailUseType'.", repo.ApplicationUnderTest.AO_LI_EmailUseTypeInfo, new RecordItemIndex(46));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_LI_EmailUseTypeInfo, "TagValue", AO_LI_EmailUseType_getValue);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_LI_EmailSource' and assigning its value to variable 'AO_LI_EmailSource_getValue'.", repo.ApplicationUnderTest.AO_LI_EmailSourceInfo, new RecordItemIndex(46));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_LI_EmailSource' and assigning its value to variable 'AO_LI_EmailSource_getValue'.", repo.ApplicationUnderTest.AO_LI_EmailSourceInfo, new RecordItemIndex(47));
             AO_LI_EmailSource_getValue = repo.ApplicationUnderTest.AO_LI_EmailSource.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO_LI_EmailSource_getValue, new RecordItemIndex(47));
+            Report.Log(ReportLevel.Info, "User", AO_LI_EmailSource_getValue, new RecordItemIndex(48));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_LI_EmailSource_getValue) on item 'ApplicationUnderTest.AO_LI_EmailSource'.", repo.ApplicationUnderTest.AO_LI_EmailSourceInfo, new RecordItemIndex(48));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_LI_EmailSource_getValue) on item 'ApplicationUnderTest.AO_LI_EmailSource'.", repo.ApplicationUnderTest.AO_LI_EmailSourceInfo, new RecordItemIndex(49));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_LI_EmailSourceInfo, "TagValue", AO_LI_EmailSource_getValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_LI_EmailId' and assigning its value to variable 'AO_LI_EmailId_getValue'.", repo.ApplicationUnderTest.AO_LI_EmailIdInfo, new RecordItemIndex(49));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AO_LI_EmailId' and assigning its value to variable 'AO_LI_EmailId_getValue'.", repo.ApplicationUnderTest.AO_LI_EmailIdInfo, new RecordItemIndex(50));
             AO_LI_EmailId_getValue = repo.ApplicationUnderTest.AO_LI_EmailId.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AO_LI_EmailId_getValue, new RecordItemIndex(50));
+            Report.Log(ReportLevel.Info, "User", AO_LI_EmailId_getValue, new RecordItemIndex(51));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_LI_EmailId_getValue) on item 'ApplicationUnderTest.AO_LI_EmailId'.", repo.ApplicationUnderTest.AO_LI_EmailIdInfo, new RecordItemIndex(51));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AO_LI_EmailId_getValue) on item 'ApplicationUnderTest.AO_LI_EmailId'.", repo.ApplicationUnderTest.AO_LI_EmailIdInfo, new RecordItemIndex(52));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AO_LI_EmailIdInfo, "TagValue", AO_LI_EmailId_getValue);
             Delay.Milliseconds(0);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(52));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(53));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubmitButton1' at 46;15.", repo.ApplicationUnderTest.SubmitButton1Info, new RecordItemIndex(53));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubmitButton1' at 46;15.", repo.ApplicationUnderTest.SubmitButton1Info, new RecordItemIndex(54));
             repo.ApplicationUnderTest.SubmitButton1.Click("46;15");
             Delay.Milliseconds(0);
             

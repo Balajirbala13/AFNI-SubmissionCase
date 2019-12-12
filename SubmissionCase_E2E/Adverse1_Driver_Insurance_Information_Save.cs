@@ -392,15 +392,19 @@ namespace SubmissionCase_E2E
             
             Report.Log(ReportLevel.Info, "User", AD1_LI_EmailSource, new RecordItemIndex(33));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_Email) on item 'ApplicationUnderTest.AD1_LI_Email'.", repo.ApplicationUnderTest.AD1_LI_EmailInfo, new RecordItemIndex(34));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AD1_LI_Email' at Center.", repo.ApplicationUnderTest.AD1_LI_EmailInfo, new RecordItemIndex(34));
+            repo.ApplicationUnderTest.AD1_LI_Email.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_LI_Email) on item 'ApplicationUnderTest.AD1_LI_Email'.", repo.ApplicationUnderTest.AD1_LI_EmailInfo, new RecordItemIndex(35));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_EmailInfo, "TagValue", AD1_LI_Email);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_Email, new RecordItemIndex(35));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_Email, new RecordItemIndex(36));
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(36));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(37));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubmitButton1' at 46;15.", repo.ApplicationUnderTest.SubmitButton1Info, new RecordItemIndex(37));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubmitButton1' at 46;15.", repo.ApplicationUnderTest.SubmitButton1Info, new RecordItemIndex(38));
             repo.ApplicationUnderTest.SubmitButton1.Click("46;15");
             Delay.Milliseconds(0);
             

@@ -61,6 +61,7 @@ namespace SubmissionCase_E2E
             AD1_PI_EmailUseType = "";
             AD1_PI_EmailSource = "";
             AD1_PI_Email = "";
+            Test = "AD1_PI_BankruptcyCaseNo";
         }
 
         /// <summary>
@@ -313,6 +314,18 @@ namespace SubmissionCase_E2E
             set { _AD1_PI_Email = value; }
         }
 
+        string _Test;
+
+        /// <summary>
+        /// Gets or sets the value of variable Test.
+        /// </summary>
+        [TestVariable("66b85ec6-4d51-4a15-8548-67a42ffbbe1d")]
+        public string Test
+        {
+            get { return _Test; }
+            set { _Test = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -471,15 +484,23 @@ namespace SubmissionCase_E2E
             
             Report.Log(ReportLevel.Info, "User", AD1_PI_EmailSource, new RecordItemIndex(42));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_PI_Email) on item 'ApplicationUnderTest.AD1_PI_Email'.", repo.ApplicationUnderTest.AD1_PI_EmailInfo, new RecordItemIndex(43));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 12000 units.", new RecordItemIndex(43));
+            Mouse.ScrollWheel(12000);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AD1_PI_Email' at Center.", repo.ApplicationUnderTest.AD1_PI_EmailInfo, new RecordItemIndex(44));
+            repo.ApplicationUnderTest.AD1_PI_Email.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_PI_Email) on item 'ApplicationUnderTest.AD1_PI_Email'.", repo.ApplicationUnderTest.AD1_PI_EmailInfo, new RecordItemIndex(45));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_EmailInfo, "TagValue", AD1_PI_Email);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AD1_PI_Email, new RecordItemIndex(44));
+            Report.Log(ReportLevel.Info, "User", AD1_PI_Email, new RecordItemIndex(46));
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(45));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(47));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubmitButton1' at 46;15.", repo.ApplicationUnderTest.SubmitButton1Info, new RecordItemIndex(46));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubmitButton1' at 46;15.", repo.ApplicationUnderTest.SubmitButton1Info, new RecordItemIndex(48));
             repo.ApplicationUnderTest.SubmitButton1.Click("46;15");
             Delay.Milliseconds(0);
             

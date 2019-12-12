@@ -41,22 +41,22 @@ namespace SubmissionCase_E2E
         /// </summary>
         public Adverse1_Driver_Attorney_Details_Save()
         {
-            AD1_Attorney_FirmName_getValue = "";
-            AD1_Attorney_FirstName_getValue = "";
-            AD1_Attorney_LastName_getValue = "";
-            AD1_Attorney_Address1_getValue = "";
-            AD1_Attorney_Address2_getValue = "";
-            AD1_Attorney_City_getValue = "";
-            AD1_Attorney_State_getValue = "";
-            AD1_Attorney_Zip_getValue = "";
-            AD1_AD_Email_getValue = "";
-            AD1_AD_UseType_getValue = "";
-            AD1_AD_PhoneType_getValue = "";
-            AD1_AD_Source_getValue = "";
-            AD1_AD_PhoneNumber_getValue = "";
-            AD1_Attorney_RepDate_getValue = "";
-            AD1_AD_EmailUseType_getValue = "";
-            AD1_AD_EmailSource_getValue = "";
+            AD1_AD_EmailSource = "";
+            AD1_AD_EmailUseType = "";
+            AD1_AD_Phone = "";
+            AD1_AD_Source = "";
+            AD1_AD_PhoneType = "";
+            AD1_AD_UseType = "";
+            AD1_Attorney_RepDate = "";
+            AD1_AD_EmailID = "";
+            AD1_AD_Zip = "";
+            AD1_AD_State = "";
+            AD1_Attorney_City = "";
+            AD1_AD_Address2 = "";
+            AD1_AD_Address1 = "";
+            AD1_AD_LastName = "";
+            AD1_AD_FirstName = "";
+            AD1_AD_FirmName = "";
         }
 
         /// <summary>
@@ -69,196 +69,196 @@ namespace SubmissionCase_E2E
 
 #region Variables
 
-        string _AD1_Attorney_FirmName_getValue;
+        string _AD1_AD_EmailSource;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_FirmName_getValue.
+        /// Gets or sets the value of variable AD1_AD_EmailSource.
         /// </summary>
-        [TestVariable("bf1b19f0-4377-4e33-9352-b2ec3cfce70a")]
-        public string AD1_Attorney_FirmName_getValue
+        [TestVariable("10741fbc-e54d-4de9-b9d5-467c215aedaf")]
+        public string AD1_AD_EmailSource
         {
-            get { return _AD1_Attorney_FirmName_getValue; }
-            set { _AD1_Attorney_FirmName_getValue = value; }
+            get { return _AD1_AD_EmailSource; }
+            set { _AD1_AD_EmailSource = value; }
         }
 
-        string _AD1_Attorney_FirstName_getValue;
+        string _AD1_AD_EmailUseType;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_FirstName_getValue.
+        /// Gets or sets the value of variable AD1_AD_EmailUseType.
         /// </summary>
-        [TestVariable("a9cdc641-3245-4a9b-891e-97c5755a91d5")]
-        public string AD1_Attorney_FirstName_getValue
+        [TestVariable("ecef9adc-d3ab-4dab-9e4d-bbdbb9a1273f")]
+        public string AD1_AD_EmailUseType
         {
-            get { return _AD1_Attorney_FirstName_getValue; }
-            set { _AD1_Attorney_FirstName_getValue = value; }
+            get { return _AD1_AD_EmailUseType; }
+            set { _AD1_AD_EmailUseType = value; }
         }
 
-        string _AD1_Attorney_LastName_getValue;
+        string _AD1_AD_Phone;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_LastName_getValue.
+        /// Gets or sets the value of variable AD1_AD_Phone.
         /// </summary>
-        [TestVariable("034ebd01-90bf-4fa7-a75f-63a9add2f3e8")]
-        public string AD1_Attorney_LastName_getValue
+        [TestVariable("6a8a744e-c6d5-44b3-846b-d697837eab23")]
+        public string AD1_AD_Phone
         {
-            get { return _AD1_Attorney_LastName_getValue; }
-            set { _AD1_Attorney_LastName_getValue = value; }
+            get { return _AD1_AD_Phone; }
+            set { _AD1_AD_Phone = value; }
         }
 
-        string _AD1_Attorney_Address1_getValue;
+        string _AD1_AD_Source;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_Address1_getValue.
+        /// Gets or sets the value of variable AD1_AD_Source.
         /// </summary>
-        [TestVariable("9ff374a7-8817-4641-80c5-7ecaf1532382")]
-        public string AD1_Attorney_Address1_getValue
+        [TestVariable("31d001e6-5976-4daf-a867-56949d55f9cb")]
+        public string AD1_AD_Source
         {
-            get { return _AD1_Attorney_Address1_getValue; }
-            set { _AD1_Attorney_Address1_getValue = value; }
+            get { return _AD1_AD_Source; }
+            set { _AD1_AD_Source = value; }
         }
 
-        string _AD1_Attorney_Address2_getValue;
+        string _AD1_AD_PhoneType;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_Address2_getValue.
+        /// Gets or sets the value of variable AD1_AD_PhoneType.
         /// </summary>
-        [TestVariable("7597a7ab-30ed-4686-b5f8-eb9ea5729a38")]
-        public string AD1_Attorney_Address2_getValue
+        [TestVariable("a6dbbd1b-6c0c-4e5b-ba94-f4c73031e0dd")]
+        public string AD1_AD_PhoneType
         {
-            get { return _AD1_Attorney_Address2_getValue; }
-            set { _AD1_Attorney_Address2_getValue = value; }
+            get { return _AD1_AD_PhoneType; }
+            set { _AD1_AD_PhoneType = value; }
         }
 
-        string _AD1_Attorney_City_getValue;
+        string _AD1_AD_UseType;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_City_getValue.
+        /// Gets or sets the value of variable AD1_AD_UseType.
         /// </summary>
-        [TestVariable("af595d0f-37d2-4a20-a51c-c17a13046312")]
-        public string AD1_Attorney_City_getValue
+        [TestVariable("aacad5b1-0f92-43bb-93b4-fca02967d834")]
+        public string AD1_AD_UseType
         {
-            get { return _AD1_Attorney_City_getValue; }
-            set { _AD1_Attorney_City_getValue = value; }
+            get { return _AD1_AD_UseType; }
+            set { _AD1_AD_UseType = value; }
         }
 
-        string _AD1_Attorney_State_getValue;
+        string _AD1_Attorney_RepDate;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_State_getValue.
+        /// Gets or sets the value of variable AD1_Attorney_RepDate.
         /// </summary>
-        [TestVariable("4e44a6c7-af6d-45fe-ad9c-0f8548ed78fa")]
-        public string AD1_Attorney_State_getValue
+        [TestVariable("8d05cab7-e748-4ecd-92ae-d94a44998d2b")]
+        public string AD1_Attorney_RepDate
         {
-            get { return _AD1_Attorney_State_getValue; }
-            set { _AD1_Attorney_State_getValue = value; }
+            get { return _AD1_Attorney_RepDate; }
+            set { _AD1_Attorney_RepDate = value; }
         }
 
-        string _AD1_Attorney_Zip_getValue;
+        string _AD1_AD_EmailID;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_Zip_getValue.
+        /// Gets or sets the value of variable AD1_AD_EmailID.
         /// </summary>
-        [TestVariable("5094a1c5-e7ef-472f-b674-d5c7353afc9f")]
-        public string AD1_Attorney_Zip_getValue
+        [TestVariable("8ddaf5fa-7de0-452c-82e7-63f3a82e5ae3")]
+        public string AD1_AD_EmailID
         {
-            get { return _AD1_Attorney_Zip_getValue; }
-            set { _AD1_Attorney_Zip_getValue = value; }
+            get { return _AD1_AD_EmailID; }
+            set { _AD1_AD_EmailID = value; }
         }
 
-        string _AD1_AD_Email_getValue;
+        string _AD1_AD_Zip;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_AD_Email_getValue.
+        /// Gets or sets the value of variable AD1_AD_Zip.
         /// </summary>
-        [TestVariable("c56e9be5-ba65-4552-946c-ed124b789ab5")]
-        public string AD1_AD_Email_getValue
+        [TestVariable("c58a6e74-459b-4364-9426-cac5921ab8b1")]
+        public string AD1_AD_Zip
         {
-            get { return _AD1_AD_Email_getValue; }
-            set { _AD1_AD_Email_getValue = value; }
+            get { return _AD1_AD_Zip; }
+            set { _AD1_AD_Zip = value; }
         }
 
-        string _AD1_AD_UseType_getValue;
+        string _AD1_AD_State;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_AD_UseType_getValue.
+        /// Gets or sets the value of variable AD1_AD_State.
         /// </summary>
-        [TestVariable("b5816266-bd4a-41b2-9db7-c3376bc1830c")]
-        public string AD1_AD_UseType_getValue
+        [TestVariable("09208e6c-6f92-41b1-ab38-c73c68bca6cf")]
+        public string AD1_AD_State
         {
-            get { return _AD1_AD_UseType_getValue; }
-            set { _AD1_AD_UseType_getValue = value; }
+            get { return _AD1_AD_State; }
+            set { _AD1_AD_State = value; }
         }
 
-        string _AD1_AD_PhoneType_getValue;
+        string _AD1_Attorney_City;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_AD_PhoneType_getValue.
+        /// Gets or sets the value of variable AD1_Attorney_City.
         /// </summary>
-        [TestVariable("7e1fbecb-58cd-49a3-acf8-9ec01336bd8c")]
-        public string AD1_AD_PhoneType_getValue
+        [TestVariable("ddf1ba6b-b24e-45b8-a10f-b6f94fde7b5d")]
+        public string AD1_Attorney_City
         {
-            get { return _AD1_AD_PhoneType_getValue; }
-            set { _AD1_AD_PhoneType_getValue = value; }
+            get { return _AD1_Attorney_City; }
+            set { _AD1_Attorney_City = value; }
         }
 
-        string _AD1_AD_Source_getValue;
+        string _AD1_AD_Address2;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_AD_Source_getValue.
+        /// Gets or sets the value of variable AD1_AD_Address2.
         /// </summary>
-        [TestVariable("1fd2d584-b670-4913-a91c-f77ac86de856")]
-        public string AD1_AD_Source_getValue
+        [TestVariable("73fc8b62-15e1-4ee2-bdc6-4988f45ea3eb")]
+        public string AD1_AD_Address2
         {
-            get { return _AD1_AD_Source_getValue; }
-            set { _AD1_AD_Source_getValue = value; }
+            get { return _AD1_AD_Address2; }
+            set { _AD1_AD_Address2 = value; }
         }
 
-        string _AD1_AD_PhoneNumber_getValue;
+        string _AD1_AD_Address1;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_AD_PhoneNumber_getValue.
+        /// Gets or sets the value of variable AD1_AD_Address1.
         /// </summary>
-        [TestVariable("fe553a6a-e651-4403-9470-eef14a5734d0")]
-        public string AD1_AD_PhoneNumber_getValue
+        [TestVariable("1de464ef-928a-409b-a407-5a1624d5188e")]
+        public string AD1_AD_Address1
         {
-            get { return _AD1_AD_PhoneNumber_getValue; }
-            set { _AD1_AD_PhoneNumber_getValue = value; }
+            get { return _AD1_AD_Address1; }
+            set { _AD1_AD_Address1 = value; }
         }
 
-        string _AD1_Attorney_RepDate_getValue;
+        string _AD1_AD_LastName;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_RepDate_getValue.
+        /// Gets or sets the value of variable AD1_AD_LastName.
         /// </summary>
-        [TestVariable("bc1a3312-4570-4c11-9f54-f366298904c5")]
-        public string AD1_Attorney_RepDate_getValue
+        [TestVariable("672df4c3-c53f-4ca3-b10d-007740f28da1")]
+        public string AD1_AD_LastName
         {
-            get { return _AD1_Attorney_RepDate_getValue; }
-            set { _AD1_Attorney_RepDate_getValue = value; }
+            get { return _AD1_AD_LastName; }
+            set { _AD1_AD_LastName = value; }
         }
 
-        string _AD1_AD_EmailUseType_getValue;
+        string _AD1_AD_FirstName;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_AD_EmailUseType_getValue.
+        /// Gets or sets the value of variable AD1_AD_FirstName.
         /// </summary>
-        [TestVariable("757dfd87-c304-47ae-8821-3ddd7c1f7d27")]
-        public string AD1_AD_EmailUseType_getValue
+        [TestVariable("13722b4c-51a8-45cc-a4fa-813c96fec387")]
+        public string AD1_AD_FirstName
         {
-            get { return _AD1_AD_EmailUseType_getValue; }
-            set { _AD1_AD_EmailUseType_getValue = value; }
+            get { return _AD1_AD_FirstName; }
+            set { _AD1_AD_FirstName = value; }
         }
 
-        string _AD1_AD_EmailSource_getValue;
+        string _AD1_AD_FirmName;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_AD_EmailSource_getValue.
+        /// Gets or sets the value of variable AD1_AD_FirmName.
         /// </summary>
-        [TestVariable("cc328106-82bc-44de-aa4c-8b89dcadd7e9")]
-        public string AD1_AD_EmailSource_getValue
+        [TestVariable("eecfe4c4-6ce3-427e-9058-f2ca16ca2561")]
+        public string AD1_AD_FirmName
         {
-            get { return _AD1_AD_EmailSource_getValue; }
-            set { _AD1_AD_EmailSource_getValue = value; }
+            get { return _AD1_AD_FirmName; }
+            set { _AD1_AD_FirmName = value; }
         }
 
 #endregion
@@ -294,179 +294,109 @@ namespace SubmissionCase_E2E
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
             Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_Attorney_FirmName' and assigning its value to variable 'AD1_Attorney_FirmName_getValue'.", repo.ApplicationUnderTest.AD1_Attorney_FirmNameInfo, new RecordItemIndex(2));
-            AD1_Attorney_FirmName_getValue = repo.ApplicationUnderTest.AD1_Attorney_FirmName.Element.GetAttributeValueText("TagValue");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "User", AD1_Attorney_FirmName_getValue, new RecordItemIndex(3));
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_Attorney_FirmName_getValue) on item 'ApplicationUnderTest.AD1_Attorney_FirmName'.", repo.ApplicationUnderTest.AD1_Attorney_FirmNameInfo, new RecordItemIndex(4));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_FirmNameInfo, "TagValue", AD1_Attorney_FirmName_getValue);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_FirmName) on item 'ApplicationUnderTest.AD1_Attorney_FirmName'.", repo.ApplicationUnderTest.AD1_Attorney_FirmNameInfo, new RecordItemIndex(2));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_FirmNameInfo, "TagValue", AD1_AD_FirmName);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_Attorney_FirstName' and assigning its value to variable 'AD1_Attorney_FirstName_getValue'.", repo.ApplicationUnderTest.AD1_Attorney_FirstNameInfo, new RecordItemIndex(5));
-            AD1_Attorney_FirstName_getValue = repo.ApplicationUnderTest.AD1_Attorney_FirstName.Element.GetAttributeValueText("TagValue");
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "User", AD1_AD_FirmName, new RecordItemIndex(3));
             
-            Report.Log(ReportLevel.Info, "User", AD1_Attorney_FirstName_getValue, new RecordItemIndex(6));
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_Attorney_FirstName_getValue) on item 'ApplicationUnderTest.AD1_Attorney_FirstName'.", repo.ApplicationUnderTest.AD1_Attorney_FirstNameInfo, new RecordItemIndex(7));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_FirstNameInfo, "TagValue", AD1_Attorney_FirstName_getValue);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_FirstName) on item 'ApplicationUnderTest.AD1_Attorney_FirstName'.", repo.ApplicationUnderTest.AD1_Attorney_FirstNameInfo, new RecordItemIndex(4));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_FirstNameInfo, "TagValue", AD1_AD_FirstName);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_Attorney_LastName' and assigning its value to variable 'AD1_Attorney_LastName_getValue'.", repo.ApplicationUnderTest.AD1_Attorney_LastNameInfo, new RecordItemIndex(8));
-            AD1_Attorney_LastName_getValue = repo.ApplicationUnderTest.AD1_Attorney_LastName.Element.GetAttributeValueText("TagValue");
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "User", AD1_AD_FirstName, new RecordItemIndex(5));
             
-            Report.Log(ReportLevel.Info, "User", AD1_Attorney_LastName_getValue, new RecordItemIndex(9));
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_Attorney_LastName_getValue) on item 'ApplicationUnderTest.AD1_Attorney_LastName'.", repo.ApplicationUnderTest.AD1_Attorney_LastNameInfo, new RecordItemIndex(10));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_LastNameInfo, "TagValue", AD1_Attorney_LastName_getValue);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_LastName) on item 'ApplicationUnderTest.AD1_Attorney_LastName'.", repo.ApplicationUnderTest.AD1_Attorney_LastNameInfo, new RecordItemIndex(6));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_LastNameInfo, "TagValue", AD1_AD_LastName);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_Attorney_Address1' and assigning its value to variable 'AD1_Attorney_Address1_getValue'.", repo.ApplicationUnderTest.AD1_Attorney_Address1Info, new RecordItemIndex(11));
-            AD1_Attorney_Address1_getValue = repo.ApplicationUnderTest.AD1_Attorney_Address1.Element.GetAttributeValueText("TagValue");
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "User", AD1_AD_LastName, new RecordItemIndex(7));
             
-            Report.Log(ReportLevel.Info, "User", AD1_Attorney_Address1_getValue, new RecordItemIndex(12));
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_Attorney_Address1_getValue) on item 'ApplicationUnderTest.AD1_Attorney_Address1'.", repo.ApplicationUnderTest.AD1_Attorney_Address1Info, new RecordItemIndex(13));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_Address1Info, "TagValue", AD1_Attorney_Address1_getValue);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_Address1) on item 'ApplicationUnderTest.AD1_Attorney_Address1'.", repo.ApplicationUnderTest.AD1_Attorney_Address1Info, new RecordItemIndex(8));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_Address1Info, "TagValue", AD1_AD_Address1);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_Attorney_Address2' and assigning its value to variable 'AD1_Attorney_Address2_getValue'.", repo.ApplicationUnderTest.AD1_Attorney_Address2Info, new RecordItemIndex(14));
-            AD1_Attorney_Address2_getValue = repo.ApplicationUnderTest.AD1_Attorney_Address2.Element.GetAttributeValueText("TagValue");
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "User", AD1_AD_Address1, new RecordItemIndex(9));
             
-            Report.Log(ReportLevel.Info, "User", AD1_Attorney_Address2_getValue, new RecordItemIndex(15));
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_Attorney_Address2_getValue) on item 'ApplicationUnderTest.AD1_Attorney_Address2'.", repo.ApplicationUnderTest.AD1_Attorney_Address2Info, new RecordItemIndex(16));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_Address2Info, "TagValue", AD1_Attorney_Address2_getValue);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_Address2) on item 'ApplicationUnderTest.AD1_Attorney_Address2'.", repo.ApplicationUnderTest.AD1_Attorney_Address2Info, new RecordItemIndex(10));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_Address2Info, "TagValue", AD1_AD_Address2);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_Attorney_City' and assigning its value to variable 'AD1_Attorney_City_getValue'.", repo.ApplicationUnderTest.AD1_Attorney_CityInfo, new RecordItemIndex(17));
-            AD1_Attorney_City_getValue = repo.ApplicationUnderTest.AD1_Attorney_City.Element.GetAttributeValueText("TagValue");
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "User", AD1_AD_Address2, new RecordItemIndex(11));
             
-            Report.Log(ReportLevel.Info, "User", AD1_Attorney_City_getValue, new RecordItemIndex(18));
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_Attorney_City_getValue) on item 'ApplicationUnderTest.AD1_Attorney_City'.", repo.ApplicationUnderTest.AD1_Attorney_CityInfo, new RecordItemIndex(19));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_CityInfo, "TagValue", AD1_Attorney_City_getValue);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_Attorney_City) on item 'ApplicationUnderTest.AD1_Attorney_City'.", repo.ApplicationUnderTest.AD1_Attorney_CityInfo, new RecordItemIndex(12));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_CityInfo, "TagValue", AD1_Attorney_City);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_Attorney_State' and assigning its value to variable 'AD1_Attorney_State_getValue'.", repo.ApplicationUnderTest.AD1_Attorney_StateInfo, new RecordItemIndex(20));
-            AD1_Attorney_State_getValue = repo.ApplicationUnderTest.AD1_Attorney_State.Element.GetAttributeValueText("TagValue");
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(13));
             
-            Report.Log(ReportLevel.Info, "User", AD1_Attorney_State_getValue, new RecordItemIndex(21));
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_Attorney_State_getValue) on item 'ApplicationUnderTest.AD1_Attorney_State'.", repo.ApplicationUnderTest.AD1_Attorney_StateInfo, new RecordItemIndex(22));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_StateInfo, "TagValue", AD1_Attorney_State_getValue);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_State) on item 'ApplicationUnderTest.AD1_Attorney_State'.", repo.ApplicationUnderTest.AD1_Attorney_StateInfo, new RecordItemIndex(14));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_StateInfo, "TagValue", AD1_AD_State);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_Attorney_Zip' and assigning its value to variable 'AD1_Attorney_Zip_getValue'.", repo.ApplicationUnderTest.AD1_Attorney_ZipInfo, new RecordItemIndex(23));
-            AD1_Attorney_Zip_getValue = repo.ApplicationUnderTest.AD1_Attorney_Zip.Element.GetAttributeValueText("TagValue");
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "User", AD1_AD_State, new RecordItemIndex(15));
             
-            Report.Log(ReportLevel.Info, "User", AD1_Attorney_Zip_getValue, new RecordItemIndex(24));
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_Attorney_Zip_getValue) on item 'ApplicationUnderTest.AD1_Attorney_Zip'.", repo.ApplicationUnderTest.AD1_Attorney_ZipInfo, new RecordItemIndex(25));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_ZipInfo, "TagValue", AD1_Attorney_Zip_getValue);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_Zip) on item 'ApplicationUnderTest.AD1_Attorney_Zip'.", repo.ApplicationUnderTest.AD1_Attorney_ZipInfo, new RecordItemIndex(16));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_ZipInfo, "TagValue", AD1_AD_Zip);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_AD_Email' and assigning its value to variable 'AD1_AD_Email_getValue'.", repo.ApplicationUnderTest.AD1_AD_EmailInfo, new RecordItemIndex(26));
-            AD1_AD_Email_getValue = repo.ApplicationUnderTest.AD1_AD_Email.Element.GetAttributeValueText("TagValue");
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "User", AD1_AD_Zip, new RecordItemIndex(17));
             
-            Report.Log(ReportLevel.Info, "User", AD1_AD_Email_getValue, new RecordItemIndex(27));
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_Email_getValue) on item 'ApplicationUnderTest.AD1_AD_Email'.", repo.ApplicationUnderTest.AD1_AD_EmailInfo, new RecordItemIndex(28));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_AD_EmailInfo, "TagValue", AD1_AD_Email_getValue);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_Attorney_RepDate) on item 'ApplicationUnderTest.AD1_Attorney_RepDate'.", repo.ApplicationUnderTest.AD1_Attorney_RepDateInfo, new RecordItemIndex(18));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_RepDateInfo, "TagValue", AD1_Attorney_RepDate);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_Attorney_RepDate' and assigning its value to variable 'AD1_Attorney_RepDate_getValue'.", repo.ApplicationUnderTest.AD1_Attorney_RepDateInfo, new RecordItemIndex(29));
-            AD1_Attorney_RepDate_getValue = repo.ApplicationUnderTest.AD1_Attorney_RepDate.Element.GetAttributeValueText("TagValue");
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "User", AD1_Attorney_RepDate, new RecordItemIndex(19));
             
-            Report.Log(ReportLevel.Info, "User", AD1_Attorney_RepDate_getValue, new RecordItemIndex(30));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AD1_AD_Email' at Center.", repo.ApplicationUnderTest.AD1_AD_EmailInfo, new RecordItemIndex(20));
+            repo.ApplicationUnderTest.AD1_AD_Email.Click();
+            Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_Attorney_RepDate_getValue) on item 'ApplicationUnderTest.AD1_Attorney_RepDate'.", repo.ApplicationUnderTest.AD1_Attorney_RepDateInfo, new RecordItemIndex(31));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_Attorney_RepDateInfo, "TagValue", AD1_Attorney_RepDate_getValue);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_UseType) on item 'ApplicationUnderTest.AD1_AD_UseType'.", repo.ApplicationUnderTest.AD1_AD_UseTypeInfo, new RecordItemIndex(21));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_AD_UseTypeInfo, "TagValue", AD1_AD_UseType);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_AD_UseType' and assigning its value to variable 'AD1_AD_UseType_getValue'.", repo.ApplicationUnderTest.AD1_AD_UseTypeInfo, new RecordItemIndex(32));
-            AD1_AD_UseType_getValue = repo.ApplicationUnderTest.AD1_AD_UseType.Element.GetAttributeValueText("TagValue");
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "User", AD1_AD_UseType, new RecordItemIndex(22));
             
-            Report.Log(ReportLevel.Info, "User", AD1_AD_UseType_getValue, new RecordItemIndex(33));
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_UseType_getValue) on item 'ApplicationUnderTest.AD1_AD_UseType'.", repo.ApplicationUnderTest.AD1_AD_UseTypeInfo, new RecordItemIndex(34));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_AD_UseTypeInfo, "TagValue", AD1_AD_UseType_getValue);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_PhoneType) on item 'ApplicationUnderTest.AD1_AD_PhoneType'.", repo.ApplicationUnderTest.AD1_AD_PhoneTypeInfo, new RecordItemIndex(23));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_AD_PhoneTypeInfo, "TagValue", AD1_AD_PhoneType);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_AD_PhoneType' and assigning its value to variable 'AD1_AD_PhoneType_getValue'.", repo.ApplicationUnderTest.AD1_AD_PhoneTypeInfo, new RecordItemIndex(35));
-            AD1_AD_PhoneType_getValue = repo.ApplicationUnderTest.AD1_AD_PhoneType.Element.GetAttributeValueText("TagValue");
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "User", AD1_AD_PhoneType, new RecordItemIndex(24));
             
-            Report.Log(ReportLevel.Info, "User", AD1_AD_PhoneType_getValue, new RecordItemIndex(36));
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_PhoneType_getValue) on item 'ApplicationUnderTest.AD1_AD_PhoneType'.", repo.ApplicationUnderTest.AD1_AD_PhoneTypeInfo, new RecordItemIndex(37));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_AD_PhoneTypeInfo, "TagValue", AD1_AD_PhoneType_getValue);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_Source) on item 'ApplicationUnderTest.AD1_AD_Source'.", repo.ApplicationUnderTest.AD1_AD_SourceInfo, new RecordItemIndex(25));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_AD_SourceInfo, "TagValue", AD1_AD_Source);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_AD_Source' and assigning its value to variable 'AD1_AD_Source_getValue'.", repo.ApplicationUnderTest.AD1_AD_SourceInfo, new RecordItemIndex(38));
-            AD1_AD_Source_getValue = repo.ApplicationUnderTest.AD1_AD_Source.Element.GetAttributeValueText("TagValue");
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "User", AD1_AD_Source, new RecordItemIndex(26));
             
-            Report.Log(ReportLevel.Info, "User", AD1_AD_Source_getValue, new RecordItemIndex(39));
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_Source_getValue) on item 'ApplicationUnderTest.AD1_AD_Source'.", repo.ApplicationUnderTest.AD1_AD_SourceInfo, new RecordItemIndex(40));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_AD_SourceInfo, "TagValue", AD1_AD_Source_getValue);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_Phone) on item 'ApplicationUnderTest.AD1_AD_PhoneNumber'.", repo.ApplicationUnderTest.AD1_AD_PhoneNumberInfo, new RecordItemIndex(27));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_AD_PhoneNumberInfo, "TagValue", AD1_AD_Phone);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_AD_PhoneNumber' and assigning its value to variable 'AD1_AD_PhoneNumber_getValue'.", repo.ApplicationUnderTest.AD1_AD_PhoneNumberInfo, new RecordItemIndex(41));
-            AD1_AD_PhoneNumber_getValue = repo.ApplicationUnderTest.AD1_AD_PhoneNumber.Element.GetAttributeValueText("TagValue");
+            Report.Log(ReportLevel.Info, "User", AD1_AD_Phone, new RecordItemIndex(28));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_EmailUseType) on item 'ApplicationUnderTest.AD1_AD_EmailUseType'.", repo.ApplicationUnderTest.AD1_AD_EmailUseTypeInfo, new RecordItemIndex(29));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_AD_EmailUseTypeInfo, "TagValue", AD1_AD_EmailUseType);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AD1_AD_PhoneNumber_getValue, new RecordItemIndex(42));
+            Report.Log(ReportLevel.Info, "User", AD1_AD_EmailUseType, new RecordItemIndex(30));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_PhoneNumber_getValue) on item 'ApplicationUnderTest.AD1_AD_PhoneNumber'.", repo.ApplicationUnderTest.AD1_AD_PhoneNumberInfo, new RecordItemIndex(43));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_AD_PhoneNumberInfo, "TagValue", AD1_AD_PhoneNumber_getValue);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_EmailSource) on item 'ApplicationUnderTest.AD1_AD_EmailSource'.", repo.ApplicationUnderTest.AD1_AD_EmailSourceInfo, new RecordItemIndex(31));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_AD_EmailSourceInfo, "TagValue", AD1_AD_EmailSource);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(32));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_EmailID) on item 'ApplicationUnderTest.AD1_AD_Email'.", repo.ApplicationUnderTest.AD1_AD_EmailInfo, new RecordItemIndex(33));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_AD_EmailInfo, "TagValue", AD1_AD_EmailID);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_AD_EmailUseType' and assigning its value to variable 'AD1_AD_EmailUseType_getValue'.", repo.ApplicationUnderTest.AD1_AD_EmailUseTypeInfo, new RecordItemIndex(44));
-            AD1_AD_EmailUseType_getValue = repo.ApplicationUnderTest.AD1_AD_EmailUseType.Element.GetAttributeValueText("TagValue");
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "User", AD1_AD_EmailID, new RecordItemIndex(34));
             
-            Report.Log(ReportLevel.Info, "User", AD1_AD_EmailUseType_getValue, new RecordItemIndex(45));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(35));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_EmailUseType_getValue) on item 'ApplicationUnderTest.AD1_AD_EmailUseType'.", repo.ApplicationUnderTest.AD1_AD_EmailUseTypeInfo, new RecordItemIndex(46));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_AD_EmailUseTypeInfo, "TagValue", AD1_AD_EmailUseType_getValue);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_AD_EmailSource' and assigning its value to variable 'AD1_AD_EmailSource_getValue'.", repo.ApplicationUnderTest.AD1_AD_EmailSourceInfo, new RecordItemIndex(47));
-            AD1_AD_EmailSource_getValue = repo.ApplicationUnderTest.AD1_AD_EmailSource.Element.GetAttributeValueText("TagValue");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "User", AD1_AD_EmailSource_getValue, new RecordItemIndex(48));
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_EmailSource_getValue) on item 'ApplicationUnderTest.AD1_AD_EmailSource'.", repo.ApplicationUnderTest.AD1_AD_EmailSourceInfo, new RecordItemIndex(49));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_AD_EmailSourceInfo, "TagValue", AD1_AD_EmailSource_getValue);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'ApplicationUnderTest.AD1_AD_Email' and assigning its value to variable 'AD1_AD_Email_getValue'.", repo.ApplicationUnderTest.AD1_AD_EmailInfo, new RecordItemIndex(50));
-            AD1_AD_Email_getValue = repo.ApplicationUnderTest.AD1_AD_Email.Element.GetAttributeValueText("TagValue");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "User", AD1_AD_Email_getValue, new RecordItemIndex(51));
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$AD1_AD_Email_getValue) on item 'ApplicationUnderTest.AD1_AD_Email'.", repo.ApplicationUnderTest.AD1_AD_EmailInfo, new RecordItemIndex(52));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_AD_EmailInfo, "TagValue", AD1_AD_Email_getValue);
-            Delay.Milliseconds(0);
-            
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(53));
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubmitButton1' at 46;15.", repo.ApplicationUnderTest.SubmitButton1Info, new RecordItemIndex(54));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubmitButton1' at 46;15.", repo.ApplicationUnderTest.SubmitButton1Info, new RecordItemIndex(36));
             repo.ApplicationUnderTest.SubmitButton1.Click("46;15");
             Delay.Milliseconds(0);
             

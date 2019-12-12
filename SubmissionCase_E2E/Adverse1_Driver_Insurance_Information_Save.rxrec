@@ -893,6 +893,30 @@ mode="Global">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c73a1b73-4b66-4fc8-9104-ca50bb00a1e9"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1032c423-e48b-4a96-9ffc-f534fecb91f0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pSingleDriverInformation$pInsuranceInfo$pEmailInfo$l1$ppyEmail']
+				</path>
+			</info>
+		</mouseitem>
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"

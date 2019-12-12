@@ -145,15 +145,15 @@ mode="Global">
 		</var>
 		<var
 		id="d11a45d9-5a7a-4443-bbfb-08b3204eb30b"
-		name="AD1_Attorney_FirmName">
+		name="AD1_AD_FirmName">
 		</var>
 		<var
 		id="dc95d870-de36-41ca-a191-179a0dc8363d"
-		name="AD1_Attorney_FirstName">
+		name="AD1_AD_FirstName">
 		</var>
 		<var
 		id="6924457a-2b31-4615-8539-04702b17979f"
-		name="AD1_Attorney_LastName">
+		name="AD1_AD_LastName">
 		</var>
 		<var
 		id="c2da0ca6-ac8e-4970-9ea3-43928289681d"
@@ -174,6 +174,7 @@ mode="Global">
 		<var
 		id="2aaac87f-0b9d-4630-931d-256f0cd516df"
 		name="AD1_PI_Personal">
+			Personal
 		</var>
 		<var
 		id="7e9471ab-0eae-49a0-b89a-b9ece112ae70"
@@ -189,31 +190,31 @@ mode="Global">
 		</var>
 		<var
 		id="fedcd47c-6f05-4241-bf23-a96d7fdb188b"
-		name="AD1_Attorney_Email">
+		name="AD1_AD_Email">
 		</var>
 		<var
 		id="42358da7-bca8-46c3-8405-636b5de90ce4"
-		name="AD1_Attorney_RepDate">
+		name="AD1_AD_RepDate">
 		</var>
 		<var
 		id="57a46ca1-7c84-4c99-9264-7d8fb4f63ee2"
-		name="AD1_Attorney_Address1">
+		name="AD1_AD_Address1">
 		</var>
 		<var
 		id="5fce2dc2-df5c-4768-aaa3-e9f986b0936a"
-		name="AD1_Attorney_Address2">
+		name="AD1_AD_Address2">
 		</var>
 		<var
 		id="97896acc-9c38-45c8-9281-4c91972c1278"
-		name="AD1_Attorney_City">
+		name="AD1_AD_City">
 		</var>
 		<var
 		id="d0b30729-4119-4a74-af75-26fb94197491"
-		name="AD1_Attorney_State">
+		name="AD1_AD_State">
 		</var>
 		<var
 		id="1b2b3569-7148-4003-9fb6-ac616ef44206"
-		name="AD1_Attorney_Zip">
+		name="AD1_AD_Zip">
 		</var>
 		<var
 		id="ec1fcea0-2abc-4d4a-af85-f3f5573034ed"
@@ -391,6 +392,50 @@ mode="Global">
 		id="f1e81127-3524-4b45-8075-66f61ee0fa03"
 		name="AD1_Attorney_FirmName_getValue">
 		</var>
+		<var
+		id="d5164675-9ea5-412b-9723-20e624db77df"
+		name="AD1_PI_EmailUseType">
+		</var>
+		<var
+		id="ab011f52-03a3-4f4b-a1a7-c3fb12806800"
+		name="AD1_PI_EmailSource">
+		</var>
+		<var
+		id="a07c36a7-29d4-4a9f-8392-7ded07faa206"
+		name="AD1_PI_Email">
+		</var>
+		<var
+		id="8b2fc1e4-87a5-4b2f-ab73-7e7dbca113c8"
+		name="AD1_AD_UseType">
+		</var>
+		<var
+		id="b2ae1a5c-89e4-4ee0-acff-e42bfe0b8b42"
+		name="AD1_AD_PhoneType">
+		</var>
+		<var
+		id="179d8fd0-31a6-41cd-8147-c92d79f72c65"
+		name="AD1_AD_Source">
+		</var>
+		<var
+		id="c3b03acf-b49e-4525-8ba5-b98a483a5539"
+		name="AD1_Attorney_RepDate">
+		</var>
+		<var
+		id="e18d171e-c04b-4638-aabc-c3356e9f35b7"
+		name="AD1_AD_Phone">
+		</var>
+		<var
+		id="a6a66f19-1750-4b04-bc19-bb83db326fa2"
+		name="AD1_AD_EmailUseType">
+		</var>
+		<var
+		id="aa5e2b4e-74b4-4834-8e5e-c2645d7447c8"
+		name="AD1_AD_EmailSource">
+		</var>
+		<var
+		id="dcb6f5f9-bf60-451c-81d0-25803592e088"
+		name="AD1_AD_EmailID">
+		</var>
 	</variables>
 	<recorditems>
 		<mousewheelitem
@@ -404,30 +449,6 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</mousewheelitem>
-		<validationitem
-		action="AttributeEqual"
-		duration="100ms"
-		enabled="True"
-		optional="False"
-		searchpropertyid="7e0c0027-3d42-450a-80e2-b66cc349b72c">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="a76b460e-535e-422e-a118-35ece40b2b82"
-			sourcename="ElementTree">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Address line 1']
-				</path>
-			</info>
-			<matchname>
-				InnerText
-			</matchname>
-			<matchvalue>
-				Address line 1
-			</matchvalue>
-		</validationitem>
 		<mousewheelitem
 		delta="-480"
 		duration="500ms"
@@ -1382,6 +1403,30 @@ hkGiOKOFAkSKiDoqjAqNruFJfLLHdkAkKSoJ6AnGAfrS/aoeP3g5UsOD0HWgCWioPtkHm+VvO7IB
 				</binding>
 			</bindings>
 		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="bd9efc42-dc7e-4206-830f-e9f38f1d4edd"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="31ebf13b-c620-4b61-b718-7558840f409d"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='(950) 009-5000']
+				</path>
+			</info>
+		</mouseitem>
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
@@ -3058,24 +3103,6 @@ nqTU1FAFe4sba5kDzR7mAxncRx+FFWKKAP/Z
 				Use Type
 			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="InnerText"
-		enabled="True"
-		optional="False"
-		searchpropertyid="e000a1b1-7f52-40c7-aebd-86f764ef59d4"
-		varname="AD1_PI_Personal">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="e6f89c14-1596-484c-a26f-38dee5a7fc9b"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='Personal']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
@@ -3087,7 +3114,7 @@ nqTU1FAFe4sba5kDzR7mAxncRx+FFWKKAP/Z
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_PI_Personal">
+				variable="AD1_PI_PhoneUseType">
 				</binding>
 			</bindings>
 			<info
@@ -3186,7 +3213,7 @@ RQAUUUUAFFFFABRRRQB//9k=
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD1_PI_Personal">
+				variable="AD1_PI_PhoneUseType">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -3305,24 +3332,6 @@ QBA1nC0rSZlDMcnbM6gn6A4p4t4g4cL8wYtnJ6nrUlFAELWkLJtKkDcWBViCCeuCDmpIo0iQIgwB
 				Phone Type
 			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="InnerText"
-		enabled="True"
-		optional="False"
-		searchpropertyid="e000a1b1-7f52-40c7-aebd-86f764ef59d4"
-		varname="AD1_PI_PhoneType_LandLine">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="c1b52e15-0ef8-4da5-9096-64843a5e81b2"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='Land Line']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
@@ -3334,7 +3343,7 @@ QBA1nC0rSZlDMcnbM6gn6A4p4t4g4cL8wYtnJ6nrUlFAELWkLJtKkDcWBViCCeuCDmpIo0iQIgwB
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_PI_PhoneType_LandLine">
+				variable="AD1_PI_PhoneType">
 				</binding>
 			</bindings>
 			<info
@@ -3363,7 +3372,7 @@ QBA1nC0rSZlDMcnbM6gn6A4p4t4g4cL8wYtnJ6nrUlFAELWkLJtKkDcWBViCCeuCDmpIo0iQIgwB
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD1_PI_PhoneType_LandLine">
+				variable="AD1_PI_PhoneType">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -3475,24 +3484,6 @@ EcipKKAIXtYpXEkiHdxkBztOPUdD+Ioe1heXzGU7uCQGIBx6jOD+NTUUAQvawvKJGU7uD94gHHTI
 				Source
 			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="InnerText"
-		enabled="True"
-		optional="False"
-		searchpropertyid="e000a1b1-7f52-40c7-aebd-86f764ef59d4"
-		varname="AD1_PI_Direct">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="a07533be-0fca-44c5-a225-4ed0a8a62915"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='Direct']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
@@ -3504,7 +3495,7 @@ EcipKKAIXtYpXEkiHdxkBztOPUdD+Ioe1heXzGU7uCQGIBx6jOD+NTUUAQvawvKJGU7uD94gHHTI
 			<bindings>
 				<binding
 				target="MatchValue"
-				variable="AD1_PI_Direct">
+				variable="AD1_PI_PhoneSource">
 				</binding>
 			</bindings>
 			<info
@@ -3593,7 +3584,7 @@ H8v/ALGtOily+ZPJ5mZ5Gsf8/UP5f/Y0eRrH/P1D+X/2NadFHL5hyeZkzWeqTxGOW5hZG6jGP/Za
 			<bindings>
 				<binding
 				target="Message"
-				variable="AD1_PI_Direct">
+				variable="AD1_PI_PhoneSource">
 				</binding>
 			</bindings>
 		</loggingrecorditem>
@@ -3683,6 +3674,240 @@ H8v/ALGtOily+ZPJ5mZ5Gsf8/UP5f/Y0eRrH/P1D+X/2NadFHL5hyeZkzWeqTxGOW5hZG6jGP/Za
 				</binding>
 			</bindings>
 		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b04cf8dd-ba4f-455b-a99b-729e05117559">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_PI_EmailUseType">
+				</binding>
+			</bindings>
+			<info
+			id="62d81e61-1a59-4d8d-a88c-abed2b6ac27c"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="183,666,55,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Personal
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//div[3]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[text()='Personal']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				(950) 009-5000
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="30d99106-e043-4dc1-9fd4-88839048204c">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AD1_PI_EmailUseType">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b04cf8dd-ba4f-455b-a99b-729e05117559">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_PI_EmailSource">
+				</binding>
+			</bindings>
+			<info
+			id="2823ef47-2a1e-49b0-8b21-c20433f605f4"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="250,666,37,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Direct
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//div[3]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[text()='Direct']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				(950) 009-5000
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="30d99106-e043-4dc1-9fd4-88839048204c">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AD1_PI_EmailSource">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b04cf8dd-ba4f-455b-a99b-729e05117559">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_PI_Email">
+				</binding>
+			</bindings>
+			<info
+			id="54362071-7624-4c63-8328-416170a0bea3"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="250,666,37,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Direct
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBB_1']//div[3]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[text()='Direct']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				(950) 009-5000
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="30d99106-e043-4dc1-9fd4-88839048204c">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AD1_PI_Email">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
 		<separatoritem
 		enabled="True"
 		optional="False">
@@ -3692,6 +3917,64 @@ H8v/ALGtOily+ZPJ5mZ5Gsf8/UP5f/Y0eRrH/P1D+X/2NadFHL5hyeZkzWeqTxGOW5hZG6jGP/Za
 			<bindings>
 			</bindings>
 		</separatoritem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="bd9efc42-dc7e-4206-830f-e9f38f1d4edd"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7fa99369-1d09-49e4-a1a1-1ab1024ae868"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="395,428,96,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						(950) 009-5002
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='(950) 009-5002']
+				</path>
+			</info>
+		</mouseitem>
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
@@ -6164,24 +6447,6 @@ VNRQB//Z
 				Phone Type
 			</matchvalue>
 		</validationitem>
-		<getvaluerecorditem
-		attrname="InnerText"
-		enabled="True"
-		optional="False"
-		searchpropertyid="e000a1b1-7f52-40c7-aebd-86f764ef59d4"
-		varname="AD1_LI_PhoneType">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="2662251a-4ce7-47e8-9ca4-c357011cb599"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Cell']
-				</path>
-			</info>
-		</getvaluerecorditem>
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
@@ -6717,6 +6982,116 @@ AFFFFABRRRQB/9k=
 				</binding>
 			</bindings>
 		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="63c18441-ffb8-4f00-98a2-a354e4082aa8">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_LI_PhoneNumber">
+				</binding>
+			</bindings>
+			<info
+			id="e4191e4a-13e5-4267-b489-fc6c5e419557"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="965,575,96,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						(950) 009-5001
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[#'workarea']/div[2]/div/div[1]/div[4]/iframe[@name='PegaGadget1Ifr']/body/div[2]/form[@name='main']/div[3]/div/section/div/div[3]/div/div/div/div/div/div/div/div/div[10]/div[2]/div/div/div/div/div/div[1]/div/div/div/div/div[2]/div/div/div/div/div/div/div[1]/div/div[2]/div/div[1]/div/div/div/div/div/div/div/div[2]/div/div[2]/div/div[3]/div[2]/div/div/div[2]/table[@id='gridLayoutTable']/?/?/tr/td[2]/div[@id='gridBody_right']/table[@id='bodyTbl_right']/tbody/tr[2]/td/div/div/div/div/div[4]/div/span[@innertext='(950) 009-5001']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="d3fc16b4-fc24-40c1-869f-ff538de02b87">
+				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
+AFFFFABRRRQB/9k=
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				(950) 009-5001
+			</matchvalue>
+		</validationitem>
 		<separatoritem
 		enabled="True"
 		optional="False">
@@ -7008,6 +7383,10 @@ iigD/9k=
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_AD_FirmName">
+				</binding>
 			</bindings>
 			<info
 			id="80f85a86-68b4-48c9-b1aa-e82e17e893cb"
@@ -7209,6 +7588,10 @@ wfyp0EKwptBZiTlmbqx9TQBJRRRQAUUUUAf/2Q==
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_AD_FirstName">
+				</binding>
 			</bindings>
 			<info
 			id="151c37a4-8e91-4849-a920-d921d99ac1fd"
@@ -7398,6 +7781,10 @@ AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_AD_LastName">
+				</binding>
 			</bindings>
 			<info
 			id="9c896a3d-9cb2-4d5f-82fa-75bf07ebd59c"
@@ -7560,6 +7947,10 @@ FFABRRRQB//Z
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_Attorney_RepDate">
+				</binding>
 			</bindings>
 			<info
 			id="ce0d823d-b2c9-4ae6-8994-2a1806e62d68"
@@ -7863,6 +8254,10 @@ cc+tFFFAH//Z
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_AD_Address1">
+				</binding>
 			</bindings>
 			<info
 			id="52be9758-514f-4d02-962f-cc3a45d51c88"
@@ -8033,6 +8428,10 @@ Wv8Avv8A+hGtKgAooooAKKKKACiiigAooooAKKKKAP/Z
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_AD_Address2">
+				</binding>
 			</bindings>
 			<info
 			id="0e51a54f-edda-4936-a0a2-57a235c6f649"
@@ -8199,6 +8598,10 @@ FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_AD_City">
+				</binding>
 			</bindings>
 			<info
 			id="42785410-d4e3-4065-818a-1327dfdb40d5"
@@ -8357,6 +8760,10 @@ gAooooAKKKKAP//Z
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_AD_State">
+				</binding>
 			</bindings>
 			<info
 			id="30dc88e2-77d0-40fd-bf76-aafe1c585963"
@@ -8488,6 +8895,10 @@ KKKKACiiigAooooA/9k=
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_AD_Zip">
+				</binding>
 			</bindings>
 			<info
 			id="84104d40-ca91-4f8b-92bd-02ab8af5d06d"
@@ -8599,30 +9010,6 @@ KKKACiiigAooooAKKKKACiiigAooooA//9k=
 			<bindings>
 			</bindings>
 		</loggingrecorditem>
-		<validationitem
-		action="AttributeEqual"
-		duration="100ms"
-		enabled="True"
-		optional="False"
-		searchpropertyid="ff6f1df1-9a63-403e-b00c-f7522e1bd19c">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="f8bc6234-f789-410c-965b-ea28f4a1d7d4"
-			sourcename="ElementTree">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='E-Mail']
-				</path>
-			</info>
-			<matchname>
-				InnerText
-			</matchname>
-			<matchvalue>
-				Email ID
-			</matchvalue>
-		</validationitem>
 		<mousewheelitem
 		delta="-240"
 		duration="500ms"
@@ -8813,6 +9200,539 @@ wmSIG4815DiSIAfujgnHAyOmOaiD3zDdm9XPOAkWB+Yz+dAH/9k=
 				Phone/Fax Information
 			</matchvalue>
 		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="d28d9437-1f0f-41bc-8835-68cc9b326804">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_AD_UseType">
+				</binding>
+			</bindings>
+			<info
+			id="c3e16c12-6cc1-436d-9abd-a1f0c92039e0"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="183,651,55,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Personal
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Personal']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Phone/Fax Information
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="17290f2d-4fc5-4e29-a3d1-e39a570a9f53">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AD1_AD_UseType">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="d28d9437-1f0f-41bc-8835-68cc9b326804">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_AD_PhoneType">
+				</binding>
+			</bindings>
+			<info
+			id="01a87559-16ea-4e65-9e8c-00c2f5f014f9"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="250,651,24,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Cell
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Cell']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Phone/Fax Information
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="17290f2d-4fc5-4e29-a3d1-e39a570a9f53">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AD1_AD_PhoneType">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="d28d9437-1f0f-41bc-8835-68cc9b326804">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_AD_Source">
+				</binding>
+			</bindings>
+			<info
+			id="c20ec275-8dd3-4a74-bef4-3cd953f9598a"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="334,651,54,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Caller ID
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Caller ID']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Phone/Fax Information
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="17290f2d-4fc5-4e29-a3d1-e39a570a9f53">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AD1_AD_Source">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="d28d9437-1f0f-41bc-8835-68cc9b326804">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_AD_Phone">
+				</binding>
+			</bindings>
+			<info
+			id="eed89e41-dfe5-4ece-9b51-ea8c0d29509a"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="395,651,96,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						(950) 009-5002
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[2]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='(950) 009-5002']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Phone/Fax Information
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="17290f2d-4fc5-4e29-a3d1-e39a570a9f53">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AD1_AD_Phone">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="d28d9437-1f0f-41bc-8835-68cc9b326804">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_AD_EmailUseType">
+				</binding>
+			</bindings>
+			<info
+			id="3cd4c6c9-0e2c-4f2a-b8fd-3cef16d928ea"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[4]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Business']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Phone/Fax Information
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="17290f2d-4fc5-4e29-a3d1-e39a570a9f53">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AD1_PI_EmailUseType">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="d28d9437-1f0f-41bc-8835-68cc9b326804">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_AD_EmailSource">
+				</binding>
+			</bindings>
+			<info
+			id="9c7efd44-73c1-4bfe-86e0-61469eeed44a"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="250,743,37,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Direct
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[4]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//span[@innertext='Direct']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Phone/Fax Information
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="17290f2d-4fc5-4e29-a3d1-e39a570a9f53">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AD1_PI_EmailSource">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="d28d9437-1f0f-41bc-8835-68cc9b326804">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_AD_EmailID">
+				</binding>
+			</bindings>
+			<info
+			id="06e5d743-ef7b-49ca-97bb-22db8d890d95"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="305,743,136,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						null
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						attorney1@gmail.com
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						null
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						mailto:attorney1@gmail.com
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-rel"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[@param_name='EXPANDEDSubSectionAdverseDriverInfoReadOnlyBBBB_1']//div[4]//div[@id='gridBody_right']//table[@class='gridTable ']//tr[2]//td[1]//a[@innertext='attorney1@gmail.com']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Phone/Fax Information
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="17290f2d-4fc5-4e29-a3d1-e39a570a9f53">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AD1_PI_Email">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
 		<separatoritem
 		enabled="True"
 		optional="False">
@@ -9175,22 +10095,6 @@ AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 				</path>
 			</info>
 		</getvaluerecorditem>
-		<loggingrecorditem
-		category="User"
-		enabled="True"
-		message=""
-		optional="False"
-		reportlevel="Info;20"
-		searchpropertyid="cdf05776-3625-4405-b5d1-bcc65fb8ca3c">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="Message"
-				variable="AD1_LI_DOB">
-				</binding>
-			</bindings>
-		</loggingrecorditem>
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
@@ -9297,6 +10201,22 @@ BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//2Q==
 				2/1/92
 			</matchvalue>
 		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="cdf05776-3625-4405-b5d1-bcc65fb8ca3c">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AD1_LI_DOB">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"

@@ -71,24 +71,24 @@ namespace SubmissionCase_E2E
             AD1_LI_PhoneType = "";
             AD1_LI_PhoneSource = "";
             AD1_LI_PhoneNumber = "";
-            AD1_Attorney_FirmName = "";
-            AD1_Attorney_FirstName = "";
-            AD1_Attorney_LastName = "";
+            AD1_AD_FirmName = "";
+            AD1_AD_FirstName = "";
+            AD1_AD_LastName = "";
             AD1_PI_BankruptcyCounty = "";
             AD1_PI_BankruptcyDistrict = "";
             AD1_PI_BankruptcyChapter = "";
             AD1_PI_BankruptcyCaseNo = "";
-            AD1_PI_Personal = "";
+            AD1_PI_Personal = "Personal";
             AD1_PI_PhoneType_LandLine = "";
             AD1_PI_Direct = "";
             AD1_PI_PhoneNumber_Value = "";
-            AD1_Attorney_Email = "";
-            AD1_Attorney_RepDate = "";
-            AD1_Attorney_Address1 = "";
-            AD1_Attorney_Address2 = "";
-            AD1_Attorney_City = "";
-            AD1_Attorney_State = "";
-            AD1_Attorney_Zip = "";
+            AD1_AD_Email = "";
+            AD1_AD_RepDate = "";
+            AD1_AD_Address1 = "";
+            AD1_AD_Address2 = "";
+            AD1_AD_City = "";
+            AD1_AD_State = "";
+            AD1_AD_Zip = "";
             AO_PI_FirstName = "";
             AO_PI_LastName = "";
             AO_PI_Address1 = "";
@@ -133,6 +133,17 @@ namespace SubmissionCase_E2E
             AO1_Attorney_EmailUseType = "";
             AO1_Attorney_EmailSource = "";
             AD1_Attorney_FirmName_getValue = "";
+            AD1_PI_EmailUseType = "";
+            AD1_PI_EmailSource = "";
+            AD1_PI_Email = "";
+            AD1_AD_UseType = "";
+            AD1_AD_PhoneType = "";
+            AD1_AD_Source = "";
+            AD1_Attorney_RepDate = "";
+            AD1_AD_Phone = "";
+            AD1_AD_EmailUseType = "";
+            AD1_AD_EmailSource = "";
+            AD1_AD_EmailID = "";
         }
 
         /// <summary>
@@ -505,40 +516,40 @@ namespace SubmissionCase_E2E
             set { _AD1_LI_PhoneNumber = value; }
         }
 
-        string _AD1_Attorney_FirmName;
+        string _AD1_AD_FirmName;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_FirmName.
+        /// Gets or sets the value of variable AD1_AD_FirmName.
         /// </summary>
         [TestVariable("d11a45d9-5a7a-4443-bbfb-08b3204eb30b")]
-        public string AD1_Attorney_FirmName
+        public string AD1_AD_FirmName
         {
-            get { return _AD1_Attorney_FirmName; }
-            set { _AD1_Attorney_FirmName = value; }
+            get { return _AD1_AD_FirmName; }
+            set { _AD1_AD_FirmName = value; }
         }
 
-        string _AD1_Attorney_FirstName;
+        string _AD1_AD_FirstName;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_FirstName.
+        /// Gets or sets the value of variable AD1_AD_FirstName.
         /// </summary>
         [TestVariable("dc95d870-de36-41ca-a191-179a0dc8363d")]
-        public string AD1_Attorney_FirstName
+        public string AD1_AD_FirstName
         {
-            get { return _AD1_Attorney_FirstName; }
-            set { _AD1_Attorney_FirstName = value; }
+            get { return _AD1_AD_FirstName; }
+            set { _AD1_AD_FirstName = value; }
         }
 
-        string _AD1_Attorney_LastName;
+        string _AD1_AD_LastName;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_LastName.
+        /// Gets or sets the value of variable AD1_AD_LastName.
         /// </summary>
         [TestVariable("6924457a-2b31-4615-8539-04702b17979f")]
-        public string AD1_Attorney_LastName
+        public string AD1_AD_LastName
         {
-            get { return _AD1_Attorney_LastName; }
-            set { _AD1_Attorney_LastName = value; }
+            get { return _AD1_AD_LastName; }
+            set { _AD1_AD_LastName = value; }
         }
 
         string _AD1_PI_BankruptcyCounty;
@@ -637,88 +648,88 @@ namespace SubmissionCase_E2E
             set { _AD1_PI_PhoneNumber_Value = value; }
         }
 
-        string _AD1_Attorney_Email;
+        string _AD1_AD_Email;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_Email.
+        /// Gets or sets the value of variable AD1_AD_Email.
         /// </summary>
         [TestVariable("fedcd47c-6f05-4241-bf23-a96d7fdb188b")]
-        public string AD1_Attorney_Email
+        public string AD1_AD_Email
         {
-            get { return _AD1_Attorney_Email; }
-            set { _AD1_Attorney_Email = value; }
+            get { return _AD1_AD_Email; }
+            set { _AD1_AD_Email = value; }
         }
 
-        string _AD1_Attorney_RepDate;
+        string _AD1_AD_RepDate;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_RepDate.
+        /// Gets or sets the value of variable AD1_AD_RepDate.
         /// </summary>
         [TestVariable("42358da7-bca8-46c3-8405-636b5de90ce4")]
-        public string AD1_Attorney_RepDate
+        public string AD1_AD_RepDate
         {
-            get { return _AD1_Attorney_RepDate; }
-            set { _AD1_Attorney_RepDate = value; }
+            get { return _AD1_AD_RepDate; }
+            set { _AD1_AD_RepDate = value; }
         }
 
-        string _AD1_Attorney_Address1;
+        string _AD1_AD_Address1;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_Address1.
+        /// Gets or sets the value of variable AD1_AD_Address1.
         /// </summary>
         [TestVariable("57a46ca1-7c84-4c99-9264-7d8fb4f63ee2")]
-        public string AD1_Attorney_Address1
+        public string AD1_AD_Address1
         {
-            get { return _AD1_Attorney_Address1; }
-            set { _AD1_Attorney_Address1 = value; }
+            get { return _AD1_AD_Address1; }
+            set { _AD1_AD_Address1 = value; }
         }
 
-        string _AD1_Attorney_Address2;
+        string _AD1_AD_Address2;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_Address2.
+        /// Gets or sets the value of variable AD1_AD_Address2.
         /// </summary>
         [TestVariable("5fce2dc2-df5c-4768-aaa3-e9f986b0936a")]
-        public string AD1_Attorney_Address2
+        public string AD1_AD_Address2
         {
-            get { return _AD1_Attorney_Address2; }
-            set { _AD1_Attorney_Address2 = value; }
+            get { return _AD1_AD_Address2; }
+            set { _AD1_AD_Address2 = value; }
         }
 
-        string _AD1_Attorney_City;
+        string _AD1_AD_City;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_City.
+        /// Gets or sets the value of variable AD1_AD_City.
         /// </summary>
         [TestVariable("97896acc-9c38-45c8-9281-4c91972c1278")]
-        public string AD1_Attorney_City
+        public string AD1_AD_City
         {
-            get { return _AD1_Attorney_City; }
-            set { _AD1_Attorney_City = value; }
+            get { return _AD1_AD_City; }
+            set { _AD1_AD_City = value; }
         }
 
-        string _AD1_Attorney_State;
+        string _AD1_AD_State;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_State.
+        /// Gets or sets the value of variable AD1_AD_State.
         /// </summary>
         [TestVariable("d0b30729-4119-4a74-af75-26fb94197491")]
-        public string AD1_Attorney_State
+        public string AD1_AD_State
         {
-            get { return _AD1_Attorney_State; }
-            set { _AD1_Attorney_State = value; }
+            get { return _AD1_AD_State; }
+            set { _AD1_AD_State = value; }
         }
 
-        string _AD1_Attorney_Zip;
+        string _AD1_AD_Zip;
 
         /// <summary>
-        /// Gets or sets the value of variable AD1_Attorney_Zip.
+        /// Gets or sets the value of variable AD1_AD_Zip.
         /// </summary>
         [TestVariable("1b2b3569-7148-4003-9fb6-ac616ef44206")]
-        public string AD1_Attorney_Zip
+        public string AD1_AD_Zip
         {
-            get { return _AD1_Attorney_Zip; }
-            set { _AD1_Attorney_Zip = value; }
+            get { return _AD1_AD_Zip; }
+            set { _AD1_AD_Zip = value; }
         }
 
         string _AO_PI_FirstName;
@@ -1249,6 +1260,138 @@ namespace SubmissionCase_E2E
             set { _AD1_Attorney_FirmName_getValue = value; }
         }
 
+        string _AD1_PI_EmailUseType;
+
+        /// <summary>
+        /// Gets or sets the value of variable AD1_PI_EmailUseType.
+        /// </summary>
+        [TestVariable("d5164675-9ea5-412b-9723-20e624db77df")]
+        public string AD1_PI_EmailUseType
+        {
+            get { return _AD1_PI_EmailUseType; }
+            set { _AD1_PI_EmailUseType = value; }
+        }
+
+        string _AD1_PI_EmailSource;
+
+        /// <summary>
+        /// Gets or sets the value of variable AD1_PI_EmailSource.
+        /// </summary>
+        [TestVariable("ab011f52-03a3-4f4b-a1a7-c3fb12806800")]
+        public string AD1_PI_EmailSource
+        {
+            get { return _AD1_PI_EmailSource; }
+            set { _AD1_PI_EmailSource = value; }
+        }
+
+        string _AD1_PI_Email;
+
+        /// <summary>
+        /// Gets or sets the value of variable AD1_PI_Email.
+        /// </summary>
+        [TestVariable("a07c36a7-29d4-4a9f-8392-7ded07faa206")]
+        public string AD1_PI_Email
+        {
+            get { return _AD1_PI_Email; }
+            set { _AD1_PI_Email = value; }
+        }
+
+        string _AD1_AD_UseType;
+
+        /// <summary>
+        /// Gets or sets the value of variable AD1_AD_UseType.
+        /// </summary>
+        [TestVariable("8b2fc1e4-87a5-4b2f-ab73-7e7dbca113c8")]
+        public string AD1_AD_UseType
+        {
+            get { return _AD1_AD_UseType; }
+            set { _AD1_AD_UseType = value; }
+        }
+
+        string _AD1_AD_PhoneType;
+
+        /// <summary>
+        /// Gets or sets the value of variable AD1_AD_PhoneType.
+        /// </summary>
+        [TestVariable("b2ae1a5c-89e4-4ee0-acff-e42bfe0b8b42")]
+        public string AD1_AD_PhoneType
+        {
+            get { return _AD1_AD_PhoneType; }
+            set { _AD1_AD_PhoneType = value; }
+        }
+
+        string _AD1_AD_Source;
+
+        /// <summary>
+        /// Gets or sets the value of variable AD1_AD_Source.
+        /// </summary>
+        [TestVariable("179d8fd0-31a6-41cd-8147-c92d79f72c65")]
+        public string AD1_AD_Source
+        {
+            get { return _AD1_AD_Source; }
+            set { _AD1_AD_Source = value; }
+        }
+
+        string _AD1_Attorney_RepDate;
+
+        /// <summary>
+        /// Gets or sets the value of variable AD1_Attorney_RepDate.
+        /// </summary>
+        [TestVariable("c3b03acf-b49e-4525-8ba5-b98a483a5539")]
+        public string AD1_Attorney_RepDate
+        {
+            get { return _AD1_Attorney_RepDate; }
+            set { _AD1_Attorney_RepDate = value; }
+        }
+
+        string _AD1_AD_Phone;
+
+        /// <summary>
+        /// Gets or sets the value of variable AD1_AD_Phone.
+        /// </summary>
+        [TestVariable("e18d171e-c04b-4638-aabc-c3356e9f35b7")]
+        public string AD1_AD_Phone
+        {
+            get { return _AD1_AD_Phone; }
+            set { _AD1_AD_Phone = value; }
+        }
+
+        string _AD1_AD_EmailUseType;
+
+        /// <summary>
+        /// Gets or sets the value of variable AD1_AD_EmailUseType.
+        /// </summary>
+        [TestVariable("a6a66f19-1750-4b04-bc19-bb83db326fa2")]
+        public string AD1_AD_EmailUseType
+        {
+            get { return _AD1_AD_EmailUseType; }
+            set { _AD1_AD_EmailUseType = value; }
+        }
+
+        string _AD1_AD_EmailSource;
+
+        /// <summary>
+        /// Gets or sets the value of variable AD1_AD_EmailSource.
+        /// </summary>
+        [TestVariable("aa5e2b4e-74b4-4834-8e5e-c2645d7447c8")]
+        public string AD1_AD_EmailSource
+        {
+            get { return _AD1_AD_EmailSource; }
+            set { _AD1_AD_EmailSource = value; }
+        }
+
+        string _AD1_AD_EmailID;
+
+        /// <summary>
+        /// Gets or sets the value of variable AD1_AD_EmailID.
+        /// </summary>
+        [TestVariable("dcb6f5f9-bf60-451c-81d0-25803592e088")]
+        public string AD1_AD_EmailID
+        {
+            get { return _AD1_AD_EmailID; }
+            set { _AD1_AD_EmailID = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -1279,58 +1422,58 @@ namespace SubmissionCase_E2E
             Mouse.ScrollWheel(720);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Address line 1') on item 'ApplicationUnderTest.FooterMappingAddress_line1'.", repo.ApplicationUnderTest.FooterMappingAddress_line1Info, new RecordItemIndex(1));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAddress_line1Info, "InnerText", "Address line 1");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -480 units.", new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -480 units.", new RecordItemIndex(1));
             Mouse.ScrollWheel(-480);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Footer_ClaimInfo' at 50;13.", repo.ApplicationUnderTest.Footer_ClaimInfoInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Footer_ClaimInfo' at 50;13.", repo.ApplicationUnderTest.Footer_ClaimInfoInfo, new RecordItemIndex(2));
             repo.ApplicationUnderTest.Footer_ClaimInfo.Click("50;13");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AdverseInformation1' at 56;6.", repo.ApplicationUnderTest.AdverseInformation1Info, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AdverseInformation1' at 56;6.", repo.ApplicationUnderTest.AdverseInformation1Info, new RecordItemIndex(3));
             repo.ApplicationUnderTest.AdverseInformation1.Click("56;6");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -120 units.", new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -120 units.", new RecordItemIndex(4));
             Mouse.ScrollWheel(-120);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 240 units.", new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 240 units.", new RecordItemIndex(5));
             Mouse.ScrollWheel(240);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.Toyota__2019_MH15_HJ_1001'.", repo.ApplicationUnderTest.Toyota__2019_MH15_HJ_1001Info, new RecordItemIndex(7));
-            Validate.Exists(repo.ApplicationUnderTest.Toyota__2019_MH15_HJ_1001Info);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.Adverse_Information___AD1_PI_FirstName_AD1_PI_LastName'.", repo.ApplicationUnderTest.Adverse_Information___AD1_PI_FirstName_AD1_PI_LastNameInfo, new RecordItemIndex(6));
+            Validate.Exists(repo.ApplicationUnderTest.Adverse_Information___AD1_PI_FirstName_AD1_PI_LastNameInfo);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Toyota__2019_MH15_HJ_1001' at 31;9.", repo.ApplicationUnderTest.Toyota__2019_MH15_HJ_1001Info, new RecordItemIndex(8));
-            repo.ApplicationUnderTest.Toyota__2019_MH15_HJ_1001.Click("31;9");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Adverse_Information___AD1_PI_FirstName_AD1_PI_LastName' at 31;9.", repo.ApplicationUnderTest.Adverse_Information___AD1_PI_FirstName_AD1_PI_LastNameInfo, new RecordItemIndex(7));
+            repo.ApplicationUnderTest.Adverse_Information___AD1_PI_FirstName_AD1_PI_LastName.Click("31;9");
             Delay.Milliseconds(200);
             
             // Adverse Driver - Personal Information
-            Report.Log(ReportLevel.Info, "Section", "Adverse Driver - Personal Information", new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Section", "Adverse Driver - Personal Information", new RecordItemIndex(8));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Driver Information') on item 'ApplicationUnderTest.FooterMappingAD1PIDriverInformation1'.", repo.ApplicationUnderTest.FooterMappingAD1PIDriverInformation1Info, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Driver Information') on item 'ApplicationUnderTest.FooterMappingAD1PIDriverInformation1'.", repo.ApplicationUnderTest.FooterMappingAD1PIDriverInformation1Info, new RecordItemIndex(9));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1PIDriverInformation1Info, "InnerText", "Driver Information");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Adverse Driver Information') on item 'ApplicationUnderTest.FooterMappingAD1PIAdverse_Driver_Information'.", repo.ApplicationUnderTest.FooterMappingAD1PIAdverse_Driver_InformationInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Adverse Driver Information') on item 'ApplicationUnderTest.FooterMappingAD1PIAdverse_Driver_Information'.", repo.ApplicationUnderTest.FooterMappingAD1PIAdverse_Driver_InformationInfo, new RecordItemIndex(10));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1PIAdverse_Driver_InformationInfo, "InnerText", "Adverse Driver Information");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='First name') on item 'ApplicationUnderTest.FooterMappingFirstName'.", repo.ApplicationUnderTest.FooterMappingFirstNameInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='First name') on item 'ApplicationUnderTest.FooterMappingFirstName'.", repo.ApplicationUnderTest.FooterMappingFirstNameInfo, new RecordItemIndex(11));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingFirstNameInfo, "InnerText", "First name");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_PI_FirstName) on item 'ApplicationUnderTest.FooterMappingAD1PIFirstName'.", repo.ApplicationUnderTest.FooterMappingAD1PIFirstNameInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_PI_FirstName) on item 'ApplicationUnderTest.FooterMappingAD1PIFirstName'.", repo.ApplicationUnderTest.FooterMappingAD1PIFirstNameInfo, new RecordItemIndex(12));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1PIFirstNameInfo, "InnerText", AD1_PI_FirstName);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_PI_FirstName, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "User", AD1_PI_FirstName, new RecordItemIndex(13));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FooterMappingAD1PIPhoneNumber_Value' at Center.", repo.ApplicationUnderTest.FooterMappingAD1PIPhoneNumber_ValueInfo, new RecordItemIndex(14));
+            repo.ApplicationUnderTest.FooterMappingAD1PIPhoneNumber_Value.Click();
+            Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Last Name') on item 'ApplicationUnderTest.FooterMappingLastName'.", repo.ApplicationUnderTest.FooterMappingLastNameInfo, new RecordItemIndex(15));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingLastNameInfo, "InnerText", "Last Name");
@@ -1462,406 +1605,454 @@ namespace SubmissionCase_E2E
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1PIUseTypeInfo, "InnerText", "Use Type");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1PIPersonal' and assigning its value to variable 'AD1_PI_Personal'.", repo.ApplicationUnderTest.FooterMappingAD1PIPersonalInfo, new RecordItemIndex(53));
-            AD1_PI_Personal = repo.ApplicationUnderTest.FooterMappingAD1PIPersonal.Element.GetAttributeValueText("InnerText");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_PI_Personal) on item 'ApplicationUnderTest.FooterMappingAD1PIPersonal'.", repo.ApplicationUnderTest.FooterMappingAD1PIPersonalInfo, new RecordItemIndex(54));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1PIPersonalInfo, "InnerText", AD1_PI_Personal);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_PI_PhoneUseType) on item 'ApplicationUnderTest.FooterMappingAD1PIPersonal'.", repo.ApplicationUnderTest.FooterMappingAD1PIPersonalInfo, new RecordItemIndex(53));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1PIPersonalInfo, "InnerText", AD1_PI_PhoneUseType);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_PI_Personal, new RecordItemIndex(55));
+            Report.Log(ReportLevel.Info, "User", AD1_PI_PhoneUseType, new RecordItemIndex(54));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Phone Type') on item 'ApplicationUnderTest.FooterMappingAD1PIPhoneType'.", repo.ApplicationUnderTest.FooterMappingAD1PIPhoneTypeInfo, new RecordItemIndex(56));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Phone Type') on item 'ApplicationUnderTest.FooterMappingAD1PIPhoneType'.", repo.ApplicationUnderTest.FooterMappingAD1PIPhoneTypeInfo, new RecordItemIndex(55));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1PIPhoneTypeInfo, "InnerText", "Phone Type");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAO1_PI_PhoneType_LandLine' and assigning its value to variable 'AD1_PI_PhoneType_LandLine'.", repo.ApplicationUnderTest.FooterMappingAO1_PI_PhoneType_LandLineInfo, new RecordItemIndex(57));
-            AD1_PI_PhoneType_LandLine = repo.ApplicationUnderTest.FooterMappingAO1_PI_PhoneType_LandLine.Element.GetAttributeValueText("InnerText");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_PI_PhoneType_LandLine) on item 'ApplicationUnderTest.FooterMappingAO1_PI_PhoneType_LandLine'.", repo.ApplicationUnderTest.FooterMappingAO1_PI_PhoneType_LandLineInfo, new RecordItemIndex(58));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAO1_PI_PhoneType_LandLineInfo, "InnerText", AD1_PI_PhoneType_LandLine);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_PI_PhoneType) on item 'ApplicationUnderTest.FooterMappingAD1_PI_PhoneType_LandLine'.", repo.ApplicationUnderTest.FooterMappingAD1_PI_PhoneType_LandLineInfo, new RecordItemIndex(56));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1_PI_PhoneType_LandLineInfo, "InnerText", AD1_PI_PhoneType);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_PI_PhoneType_LandLine, new RecordItemIndex(59));
+            Report.Log(ReportLevel.Info, "User", AD1_PI_PhoneType, new RecordItemIndex(57));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Source') on item 'ApplicationUnderTest.FooterMappingAD1PISource'.", repo.ApplicationUnderTest.FooterMappingAD1PISourceInfo, new RecordItemIndex(60));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Source') on item 'ApplicationUnderTest.FooterMappingAD1PISource'.", repo.ApplicationUnderTest.FooterMappingAD1PISourceInfo, new RecordItemIndex(58));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1PISourceInfo, "InnerText", "Source");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1PIDirect' and assigning its value to variable 'AD1_PI_Direct'.", repo.ApplicationUnderTest.FooterMappingAD1PIDirectInfo, new RecordItemIndex(61));
-            AD1_PI_Direct = repo.ApplicationUnderTest.FooterMappingAD1PIDirect.Element.GetAttributeValueText("InnerText");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_PI_Direct) on item 'ApplicationUnderTest.FooterMappingAD1PIDirect'.", repo.ApplicationUnderTest.FooterMappingAD1PIDirectInfo, new RecordItemIndex(62));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1PIDirectInfo, "InnerText", AD1_PI_Direct);
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_PI_PhoneSource) on item 'ApplicationUnderTest.FooterMappingAD1PIDirect'.", repo.ApplicationUnderTest.FooterMappingAD1PIDirectInfo, new RecordItemIndex(59));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1PIDirectInfo, "InnerText", AD1_PI_PhoneSource);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_PI_Direct, new RecordItemIndex(63));
+            Report.Log(ReportLevel.Info, "User", AD1_PI_PhoneSource, new RecordItemIndex(60));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Phone number') on item 'ApplicationUnderTest.FooterMappingAD1PIPhoneNumber'.", repo.ApplicationUnderTest.FooterMappingAD1PIPhoneNumberInfo, new RecordItemIndex(64));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Phone number') on item 'ApplicationUnderTest.FooterMappingAD1PIPhoneNumber'.", repo.ApplicationUnderTest.FooterMappingAD1PIPhoneNumberInfo, new RecordItemIndex(61));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1PIPhoneNumberInfo, "InnerText", "Phone number");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1PIPhoneNumber_Value' and assigning its value to variable 'AD1_PI_PhoneNumber_Value'.", repo.ApplicationUnderTest.FooterMappingAD1PIPhoneNumber_ValueInfo, new RecordItemIndex(65));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1PIPhoneNumber_Value' and assigning its value to variable 'AD1_PI_PhoneNumber_Value'.", repo.ApplicationUnderTest.FooterMappingAD1PIPhoneNumber_ValueInfo, new RecordItemIndex(62));
             AD1_PI_PhoneNumber_Value = repo.ApplicationUnderTest.FooterMappingAD1PIPhoneNumber_Value.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_PI_PhoneNumber_Value) on item 'ApplicationUnderTest.FooterMappingAD1PIPhoneNumber_Value'.", repo.ApplicationUnderTest.FooterMappingAD1PIPhoneNumber_ValueInfo, new RecordItemIndex(66));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_PI_PhoneNumber_Value) on item 'ApplicationUnderTest.FooterMappingAD1PIPhoneNumber_Value'.", repo.ApplicationUnderTest.FooterMappingAD1PIPhoneNumber_ValueInfo, new RecordItemIndex(63));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1PIPhoneNumber_ValueInfo, "InnerText", AD1_PI_PhoneNumber_Value);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_PI_PhoneNumber_Value, new RecordItemIndex(67));
+            Report.Log(ReportLevel.Info, "User", AD1_PI_PhoneNumber_Value, new RecordItemIndex(64));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_PI_EmailUseType) on item 'ApplicationUnderTest.FooterMappingAD1PIEmail_UseType_Value'.", repo.ApplicationUnderTest.FooterMappingAD1PIEmail_UseType_ValueInfo, new RecordItemIndex(65));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1PIEmail_UseType_ValueInfo, "InnerText", AD1_PI_EmailUseType);
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "User", AD1_PI_EmailUseType, new RecordItemIndex(66));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_PI_EmailSource) on item 'ApplicationUnderTest.FooterMappingAD1PIEmail_Source_Value'.", repo.ApplicationUnderTest.FooterMappingAD1PIEmail_Source_ValueInfo, new RecordItemIndex(67));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1PIEmail_Source_ValueInfo, "InnerText", AD1_PI_EmailSource);
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "User", AD1_PI_EmailSource, new RecordItemIndex(68));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_PI_Email) on item 'ApplicationUnderTest.FooterMappingAD1PIEmail_EmailID_Value'.", repo.ApplicationUnderTest.FooterMappingAD1PIEmail_EmailID_ValueInfo, new RecordItemIndex(69));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1PIEmail_EmailID_ValueInfo, "InnerText", AD1_PI_Email);
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "User", AD1_PI_Email, new RecordItemIndex(70));
             
             // Adverse Driver 1 - Insurance Information
-            Report.Log(ReportLevel.Info, "Section", "Adverse Driver 1 - Insurance Information", new RecordItemIndex(68));
+            Report.Log(ReportLevel.Info, "Section", "Adverse Driver 1 - Insurance Information", new RecordItemIndex(71));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Insurance Information') on item 'ApplicationUnderTest.FooterMappingInsuranceInformation2'.", repo.ApplicationUnderTest.FooterMappingInsuranceInformation2Info, new RecordItemIndex(69));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FooterMappingAD1ADPhoneNumber_Value' at Center.", repo.ApplicationUnderTest.FooterMappingAD1ADPhoneNumber_ValueInfo, new RecordItemIndex(72));
+            repo.ApplicationUnderTest.FooterMappingAD1ADPhoneNumber_Value.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Insurance Information') on item 'ApplicationUnderTest.FooterMappingInsuranceInformation2'.", repo.ApplicationUnderTest.FooterMappingInsuranceInformation2Info, new RecordItemIndex(73));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingInsuranceInformation2Info, "InnerText", "Insurance Information");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Insurance Company') on item 'ApplicationUnderTest.FooterMappingInsurance_Company'.", repo.ApplicationUnderTest.FooterMappingInsurance_CompanyInfo, new RecordItemIndex(70));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Insurance Company') on item 'ApplicationUnderTest.FooterMappingInsurance_Company'.", repo.ApplicationUnderTest.FooterMappingInsurance_CompanyInfo, new RecordItemIndex(74));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingInsurance_CompanyInfo, "InnerText", "Insurance Company");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_CompanyName) on item 'ApplicationUnderTest.FooterMappingTRANSGUARDINSURANCE'.", repo.ApplicationUnderTest.FooterMappingTRANSGUARDINSURANCEInfo, new RecordItemIndex(71));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_CompanyName) on item 'ApplicationUnderTest.FooterMappingTRANSGUARDINSURANCE'.", repo.ApplicationUnderTest.FooterMappingTRANSGUARDINSURANCEInfo, new RecordItemIndex(75));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingTRANSGUARDINSURANCEInfo, "InnerText", AD1_LI_CompanyName);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_CompanyName, new RecordItemIndex(72));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_CompanyName, new RecordItemIndex(76));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Policy Number') on item 'ApplicationUnderTest.FooterMappingPolicy_Number'.", repo.ApplicationUnderTest.FooterMappingPolicy_NumberInfo, new RecordItemIndex(73));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Policy Number') on item 'ApplicationUnderTest.FooterMappingPolicy_Number'.", repo.ApplicationUnderTest.FooterMappingPolicy_NumberInfo, new RecordItemIndex(77));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingPolicy_NumberInfo, "InnerText", "Policy Number");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_PolicyNumber) on item 'ApplicationUnderTest.FooterMappingAD1PolicyNumber1'.", repo.ApplicationUnderTest.FooterMappingAD1PolicyNumber1Info, new RecordItemIndex(74));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_PolicyNumber) on item 'ApplicationUnderTest.FooterMappingAD1PolicyNumber1'.", repo.ApplicationUnderTest.FooterMappingAD1PolicyNumber1Info, new RecordItemIndex(78));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1PolicyNumber1Info, "InnerText", AD1_LI_PolicyNumber);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_PolicyNumber, new RecordItemIndex(75));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_PolicyNumber, new RecordItemIndex(79));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Claim Number') on item 'ApplicationUnderTest.FooterMappingClaim_Number'.", repo.ApplicationUnderTest.FooterMappingClaim_NumberInfo, new RecordItemIndex(76));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Claim Number') on item 'ApplicationUnderTest.FooterMappingClaim_Number'.", repo.ApplicationUnderTest.FooterMappingClaim_NumberInfo, new RecordItemIndex(80));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingClaim_NumberInfo, "InnerText", "Claim Number");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_ClaimNumber) on item 'ApplicationUnderTest.FooterMappingAD1ClaimNumber1'.", repo.ApplicationUnderTest.FooterMappingAD1ClaimNumber1Info, new RecordItemIndex(77));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_ClaimNumber) on item 'ApplicationUnderTest.FooterMappingAD1ClaimNumber1'.", repo.ApplicationUnderTest.FooterMappingAD1ClaimNumber1Info, new RecordItemIndex(81));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1ClaimNumber1Info, "InnerText", AD1_LI_ClaimNumber);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_ClaimNumber, new RecordItemIndex(78));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_ClaimNumber, new RecordItemIndex(82));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Adjuster Information') on item 'ApplicationUnderTest.FooterMappingAdjusterInformation'.", repo.ApplicationUnderTest.FooterMappingAdjusterInformationInfo, new RecordItemIndex(79));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Adjuster Information') on item 'ApplicationUnderTest.FooterMappingAdjusterInformation'.", repo.ApplicationUnderTest.FooterMappingAdjusterInformationInfo, new RecordItemIndex(83));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAdjusterInformationInfo, "InnerText", "Adjuster Information");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Contact Name') on item 'ApplicationUnderTest.FooterMappingContact_Name'.", repo.ApplicationUnderTest.FooterMappingContact_NameInfo, new RecordItemIndex(80));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Contact Name') on item 'ApplicationUnderTest.FooterMappingContact_Name'.", repo.ApplicationUnderTest.FooterMappingContact_NameInfo, new RecordItemIndex(84));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingContact_NameInfo, "InnerText", "Contact Name");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_ContactName) on item 'ApplicationUnderTest.FooterMappingAD1LIContactName'.", repo.ApplicationUnderTest.FooterMappingAD1LIContactNameInfo, new RecordItemIndex(81));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_ContactName) on item 'ApplicationUnderTest.FooterMappingAD1LIContactName'.", repo.ApplicationUnderTest.FooterMappingAD1LIContactNameInfo, new RecordItemIndex(85));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1LIContactNameInfo, "InnerText", AD1_LI_ContactName);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_ContactName, new RecordItemIndex(82));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_ContactName, new RecordItemIndex(86));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='State') on item 'ApplicationUnderTest.FooterMappingState'.", repo.ApplicationUnderTest.FooterMappingStateInfo, new RecordItemIndex(83));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='State') on item 'ApplicationUnderTest.FooterMappingState'.", repo.ApplicationUnderTest.FooterMappingStateInfo, new RecordItemIndex(87));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingStateInfo, "InnerText", "State");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1LIState' and assigning its value to variable 'AD1_LI_USStateCode'.", repo.ApplicationUnderTest.FooterMappingAD1LIStateInfo, new RecordItemIndex(84));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1LIState' and assigning its value to variable 'AD1_LI_USStateCode'.", repo.ApplicationUnderTest.FooterMappingAD1LIStateInfo, new RecordItemIndex(88));
             AD1_LI_USStateCode = repo.ApplicationUnderTest.FooterMappingAD1LIState.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_USStateCode) on item 'ApplicationUnderTest.FooterMappingAD1LIState'.", repo.ApplicationUnderTest.FooterMappingAD1LIStateInfo, new RecordItemIndex(85));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_USStateCode) on item 'ApplicationUnderTest.FooterMappingAD1LIState'.", repo.ApplicationUnderTest.FooterMappingAD1LIStateInfo, new RecordItemIndex(89));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1LIStateInfo, "InnerText", AD1_LI_USStateCode);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_USStateCode, new RecordItemIndex(86));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_USStateCode, new RecordItemIndex(90));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Address1') on item 'ApplicationUnderTest.FooterMappingAddress1'.", repo.ApplicationUnderTest.FooterMappingAddress1Info, new RecordItemIndex(87));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Address1') on item 'ApplicationUnderTest.FooterMappingAddress1'.", repo.ApplicationUnderTest.FooterMappingAddress1Info, new RecordItemIndex(91));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAddress1Info, "InnerText", "Address1");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_Address1) on item 'ApplicationUnderTest.FooterMappingAD1LIAddress1'.", repo.ApplicationUnderTest.FooterMappingAD1LIAddress1Info, new RecordItemIndex(88));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_Address1) on item 'ApplicationUnderTest.FooterMappingAD1LIAddress1'.", repo.ApplicationUnderTest.FooterMappingAD1LIAddress1Info, new RecordItemIndex(92));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1LIAddress1Info, "InnerText", AD1_LI_Address1);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_Address1, new RecordItemIndex(89));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_Address1, new RecordItemIndex(93));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Address2') on item 'ApplicationUnderTest.FooterMappingAddress2'.", repo.ApplicationUnderTest.FooterMappingAddress2Info, new RecordItemIndex(90));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Address2') on item 'ApplicationUnderTest.FooterMappingAddress2'.", repo.ApplicationUnderTest.FooterMappingAddress2Info, new RecordItemIndex(94));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAddress2Info, "InnerText", "Address2");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_Address2) on item 'ApplicationUnderTest.FooterMappingAD1LIAddress2'.", repo.ApplicationUnderTest.FooterMappingAD1LIAddress2Info, new RecordItemIndex(91));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_Address2) on item 'ApplicationUnderTest.FooterMappingAD1LIAddress2'.", repo.ApplicationUnderTest.FooterMappingAD1LIAddress2Info, new RecordItemIndex(95));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1LIAddress2Info, "InnerText", AD1_LI_Address2);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_Address2, new RecordItemIndex(92));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_Address2, new RecordItemIndex(96));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Zip') on item 'ApplicationUnderTest.FooterMappingZip'.", repo.ApplicationUnderTest.FooterMappingZipInfo, new RecordItemIndex(93));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Zip') on item 'ApplicationUnderTest.FooterMappingZip'.", repo.ApplicationUnderTest.FooterMappingZipInfo, new RecordItemIndex(97));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingZipInfo, "InnerText", "Zip");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1LIZip' and assigning its value to variable 'AD1_LI_ZipCode'.", repo.ApplicationUnderTest.FooterMappingAD1LIZipInfo, new RecordItemIndex(94));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1LIZip' and assigning its value to variable 'AD1_LI_ZipCode'.", repo.ApplicationUnderTest.FooterMappingAD1LIZipInfo, new RecordItemIndex(98));
             AD1_LI_ZipCode = repo.ApplicationUnderTest.FooterMappingAD1LIZip.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_ZipCode) on item 'ApplicationUnderTest.FooterMappingAD1LIZip'.", repo.ApplicationUnderTest.FooterMappingAD1LIZipInfo, new RecordItemIndex(95));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_ZipCode) on item 'ApplicationUnderTest.FooterMappingAD1LIZip'.", repo.ApplicationUnderTest.FooterMappingAD1LIZipInfo, new RecordItemIndex(99));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1LIZipInfo, "InnerText", AD1_LI_ZipCode);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_ZipCode, new RecordItemIndex(96));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_ZipCode, new RecordItemIndex(100));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='City') on item 'ApplicationUnderTest.FooterMappingAddress_City'.", repo.ApplicationUnderTest.FooterMappingAddress_CityInfo, new RecordItemIndex(97));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='City') on item 'ApplicationUnderTest.FooterMappingAddress_City'.", repo.ApplicationUnderTest.FooterMappingAddress_CityInfo, new RecordItemIndex(101));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAddress_CityInfo, "InnerText", "City");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_City) on item 'ApplicationUnderTest.FooterMappingAD1LICity'.", repo.ApplicationUnderTest.FooterMappingAD1LICityInfo, new RecordItemIndex(98));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_City) on item 'ApplicationUnderTest.FooterMappingAD1LICity'.", repo.ApplicationUnderTest.FooterMappingAD1LICityInfo, new RecordItemIndex(102));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1LICityInfo, "InnerText", AD1_LI_City);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_City, new RecordItemIndex(99));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_City, new RecordItemIndex(103));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Phone/Fax Information') on item 'ApplicationUnderTest.FooterMappingAD1LIPhoneInformation'.", repo.ApplicationUnderTest.FooterMappingAD1LIPhoneInformationInfo, new RecordItemIndex(100));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Phone/Fax Information') on item 'ApplicationUnderTest.FooterMappingAD1LIPhoneInformation'.", repo.ApplicationUnderTest.FooterMappingAD1LIPhoneInformationInfo, new RecordItemIndex(104));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1LIPhoneInformationInfo, "InnerText", "Phone/Fax Information");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Use Type') on item 'ApplicationUnderTest.FooterMappingAD1LIUseType'.", repo.ApplicationUnderTest.FooterMappingAD1LIUseTypeInfo, new RecordItemIndex(101));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Use Type') on item 'ApplicationUnderTest.FooterMappingAD1LIUseType'.", repo.ApplicationUnderTest.FooterMappingAD1LIUseTypeInfo, new RecordItemIndex(105));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1LIUseTypeInfo, "InnerText", "Use Type");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1LIBusiness' and assigning its value to variable 'AD1_LI_PhoneUseType'.", repo.ApplicationUnderTest.FooterMappingAD1LIBusinessInfo, new RecordItemIndex(102));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1LIBusiness' and assigning its value to variable 'AD1_LI_PhoneUseType'.", repo.ApplicationUnderTest.FooterMappingAD1LIBusinessInfo, new RecordItemIndex(106));
             AD1_LI_PhoneUseType = repo.ApplicationUnderTest.FooterMappingAD1LIBusiness.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_PhoneUseType) on item 'ApplicationUnderTest.FooterMappingAD1LIBusiness'.", repo.ApplicationUnderTest.FooterMappingAD1LIBusinessInfo, new RecordItemIndex(103));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_PhoneUseType) on item 'ApplicationUnderTest.FooterMappingAD1LIBusiness'.", repo.ApplicationUnderTest.FooterMappingAD1LIBusinessInfo, new RecordItemIndex(107));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1LIBusinessInfo, "InnerText", AD1_LI_PhoneUseType);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_PhoneUseType, new RecordItemIndex(104));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_PhoneUseType, new RecordItemIndex(108));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Phone Type') on item 'ApplicationUnderTest.FooterMappingAD1LIPhoneType'.", repo.ApplicationUnderTest.FooterMappingAD1LIPhoneTypeInfo, new RecordItemIndex(105));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Phone Type') on item 'ApplicationUnderTest.FooterMappingAD1LIPhoneType'.", repo.ApplicationUnderTest.FooterMappingAD1LIPhoneTypeInfo, new RecordItemIndex(109));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1LIPhoneTypeInfo, "InnerText", "Phone Type");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1LICell' and assigning its value to variable 'AD1_LI_PhoneType'.", repo.ApplicationUnderTest.FooterMappingAD1LICellInfo, new RecordItemIndex(106));
-            AD1_LI_PhoneType = repo.ApplicationUnderTest.FooterMappingAD1LICell.Element.GetAttributeValueText("InnerText");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_PhoneType) on item 'ApplicationUnderTest.FooterMappingAD1LICell'.", repo.ApplicationUnderTest.FooterMappingAD1LICellInfo, new RecordItemIndex(107));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_PhoneType) on item 'ApplicationUnderTest.FooterMappingAD1LICell'.", repo.ApplicationUnderTest.FooterMappingAD1LICellInfo, new RecordItemIndex(110));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1LICellInfo, "InnerText", AD1_LI_PhoneType);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_PhoneType, new RecordItemIndex(108));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_PhoneType, new RecordItemIndex(111));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Source') on item 'ApplicationUnderTest.FooterMappingAD1LISource'.", repo.ApplicationUnderTest.FooterMappingAD1LISourceInfo, new RecordItemIndex(109));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Source') on item 'ApplicationUnderTest.FooterMappingAD1LISource'.", repo.ApplicationUnderTest.FooterMappingAD1LISourceInfo, new RecordItemIndex(112));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1LISourceInfo, "InnerText", "Source");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_PhoneSource, new RecordItemIndex(110));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_PhoneSource, new RecordItemIndex(113));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_PhoneSource) on item 'ApplicationUnderTest.FooterMappingAD1LISkipTrace'.", repo.ApplicationUnderTest.FooterMappingAD1LISkipTraceInfo, new RecordItemIndex(111));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_PhoneSource) on item 'ApplicationUnderTest.FooterMappingAD1LISkipTrace'.", repo.ApplicationUnderTest.FooterMappingAD1LISkipTraceInfo, new RecordItemIndex(114));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1LISkipTraceInfo, "InnerText", AD1_LI_PhoneSource);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1LISkipTrace' and assigning its value to variable 'AD1_LI_PhoneSource'.", repo.ApplicationUnderTest.FooterMappingAD1LISkipTraceInfo, new RecordItemIndex(112));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1LISkipTrace' and assigning its value to variable 'AD1_LI_PhoneSource'.", repo.ApplicationUnderTest.FooterMappingAD1LISkipTraceInfo, new RecordItemIndex(115));
             AD1_LI_PhoneSource = repo.ApplicationUnderTest.FooterMappingAD1LISkipTrace.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Phone number') on item 'ApplicationUnderTest.FooterMappingAD1LIPhoneNumber1'.", repo.ApplicationUnderTest.FooterMappingAD1LIPhoneNumber1Info, new RecordItemIndex(113));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Phone number') on item 'ApplicationUnderTest.FooterMappingAD1LIPhoneNumber1'.", repo.ApplicationUnderTest.FooterMappingAD1LIPhoneNumber1Info, new RecordItemIndex(116));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1LIPhoneNumber1Info, "InnerText", "Phone number");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1LIPhoneNumber' and assigning its value to variable 'AD1_LI_PhoneNumber'.", repo.ApplicationUnderTest.FooterMappingAD1LIPhoneNumberInfo, new RecordItemIndex(114));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1LIPhoneNumber' and assigning its value to variable 'AD1_LI_PhoneNumber'.", repo.ApplicationUnderTest.FooterMappingAD1LIPhoneNumberInfo, new RecordItemIndex(117));
             AD1_LI_PhoneNumber = repo.ApplicationUnderTest.FooterMappingAD1LIPhoneNumber.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_PhoneNumber) on item 'ApplicationUnderTest.FooterMappingAD1LIPhoneNumber'.", repo.ApplicationUnderTest.FooterMappingAD1LIPhoneNumberInfo, new RecordItemIndex(115));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_PhoneNumber) on item 'ApplicationUnderTest.FooterMappingAD1LIPhoneNumber'.", repo.ApplicationUnderTest.FooterMappingAD1LIPhoneNumberInfo, new RecordItemIndex(118));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1LIPhoneNumberInfo, "InnerText", AD1_LI_PhoneNumber);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_PhoneNumber, new RecordItemIndex(116));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_PhoneNumber, new RecordItemIndex(119));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_PhoneNumber) on item 'ApplicationUnderTest.FooterMappingAD1LIPhoneNumber'.", repo.ApplicationUnderTest.FooterMappingAD1LIPhoneNumberInfo, new RecordItemIndex(120));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1LIPhoneNumberInfo, "InnerText", AD1_LI_PhoneNumber);
+            Delay.Milliseconds(100);
             
             // Adverse Driver 1 - Attorney Information
-            Report.Log(ReportLevel.Info, "Section", "Adverse Driver 1 - Attorney Information", new RecordItemIndex(117));
+            Report.Log(ReportLevel.Info, "Section", "Adverse Driver 1 - Attorney Information", new RecordItemIndex(121));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Attorney Information') on item 'ApplicationUnderTest.FooterMappingAttorneyInformation'.", repo.ApplicationUnderTest.FooterMappingAttorneyInformationInfo, new RecordItemIndex(118));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Attorney Information') on item 'ApplicationUnderTest.FooterMappingAttorneyInformation'.", repo.ApplicationUnderTest.FooterMappingAttorneyInformationInfo, new RecordItemIndex(122));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAttorneyInformationInfo, "InnerText", "Attorney Information");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Firm Name') on item 'ApplicationUnderTest.FooterMappingFirm_Name'.", repo.ApplicationUnderTest.FooterMappingFirm_NameInfo, new RecordItemIndex(119));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Firm Name') on item 'ApplicationUnderTest.FooterMappingFirm_Name'.", repo.ApplicationUnderTest.FooterMappingFirm_NameInfo, new RecordItemIndex(123));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingFirm_NameInfo, "InnerText", "Firm Name");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='AD_Attorney_FirmName') on item 'ApplicationUnderTest.FooterMappingAD1AttorneyFirmName'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyFirmNameInfo, new RecordItemIndex(120));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyFirmNameInfo, "InnerText", "AD_Attorney_FirmName");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_AD_FirmName) on item 'ApplicationUnderTest.FooterMappingAD1AttorneyFirmName'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyFirmNameInfo, new RecordItemIndex(124));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyFirmNameInfo, "InnerText", AD1_AD_FirmName);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", "AD_Attorney_FirmName", new RecordItemIndex(121));
+            Report.Log(ReportLevel.Info, "User", "AD_Attorney_FirmName", new RecordItemIndex(125));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='First name') on item 'ApplicationUnderTest.FooterMappingFirstName'.", repo.ApplicationUnderTest.FooterMappingFirstNameInfo, new RecordItemIndex(122));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='First name') on item 'ApplicationUnderTest.FooterMappingFirstName'.", repo.ApplicationUnderTest.FooterMappingFirstNameInfo, new RecordItemIndex(126));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingFirstNameInfo, "InnerText", "First name");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='AD_Attorney_FirstName') on item 'ApplicationUnderTest.FooterMappingAD1AttorneyFirstName'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyFirstNameInfo, new RecordItemIndex(123));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyFirstNameInfo, "InnerText", "AD_Attorney_FirstName");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_AD_FirstName) on item 'ApplicationUnderTest.FooterMappingAD1AttorneyFirstName'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyFirstNameInfo, new RecordItemIndex(127));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyFirstNameInfo, "InnerText", AD1_AD_FirstName);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", "AD_Attorney_FirstName", new RecordItemIndex(124));
+            Report.Log(ReportLevel.Info, "User", "AD_Attorney_FirstName", new RecordItemIndex(128));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Last Name') on item 'ApplicationUnderTest.FooterMappingLastName'.", repo.ApplicationUnderTest.FooterMappingLastNameInfo, new RecordItemIndex(125));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Last Name') on item 'ApplicationUnderTest.FooterMappingLastName'.", repo.ApplicationUnderTest.FooterMappingLastNameInfo, new RecordItemIndex(129));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingLastNameInfo, "InnerText", "Last Name");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='AD_Attorney_LastName') on item 'ApplicationUnderTest.FooterMappingAD1AttorneyLastName'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyLastNameInfo, new RecordItemIndex(126));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyLastNameInfo, "InnerText", "AD_Attorney_LastName");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_AD_LastName) on item 'ApplicationUnderTest.FooterMappingAD1AttorneyLastName'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyLastNameInfo, new RecordItemIndex(130));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyLastNameInfo, "InnerText", AD1_AD_LastName);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", "AD_Attorney_LastName", new RecordItemIndex(127));
+            Report.Log(ReportLevel.Info, "User", "AD_Attorney_LastName", new RecordItemIndex(131));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Representation Date') on item 'ApplicationUnderTest.FooterMappingRepresentationDate'.", repo.ApplicationUnderTest.FooterMappingRepresentationDateInfo, new RecordItemIndex(128));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Representation Date') on item 'ApplicationUnderTest.FooterMappingRepresentationDate'.", repo.ApplicationUnderTest.FooterMappingRepresentationDateInfo, new RecordItemIndex(132));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingRepresentationDateInfo, "InnerText", "Representation Date");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='02/02/19') on item 'ApplicationUnderTest.FooterMappingAD1AttorneyRepresentation_Date'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyRepresentation_DateInfo, new RecordItemIndex(129));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyRepresentation_DateInfo, "InnerText", "02/02/19");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_Attorney_RepDate) on item 'ApplicationUnderTest.FooterMappingAD1AttorneyRepresentation_Date'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyRepresentation_DateInfo, new RecordItemIndex(133));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyRepresentation_DateInfo, "InnerText", AD1_Attorney_RepDate);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", "02/02/19", new RecordItemIndex(130));
+            Report.Log(ReportLevel.Info, "User", "02/02/19", new RecordItemIndex(134));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Address Info') on item 'ApplicationUnderTest.AddressInfo'.", repo.ApplicationUnderTest.AddressInfoInfo, new RecordItemIndex(131));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Address Info') on item 'ApplicationUnderTest.AddressInfo'.", repo.ApplicationUnderTest.AddressInfoInfo, new RecordItemIndex(135));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AddressInfoInfo, "InnerText", "Address Info");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Address1') on item 'ApplicationUnderTest.FooterMappingAddress1'.", repo.ApplicationUnderTest.FooterMappingAddress1Info, new RecordItemIndex(132));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Address1') on item 'ApplicationUnderTest.FooterMappingAddress1'.", repo.ApplicationUnderTest.FooterMappingAddress1Info, new RecordItemIndex(136));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAddress1Info, "InnerText", "Address1");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='AD_Attorney_Address1') on item 'ApplicationUnderTest.FooterMappingAD1AttorneyAddress1'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyAddress1Info, new RecordItemIndex(133));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyAddress1Info, "InnerText", "AD_Attorney_Address1");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_AD_Address1) on item 'ApplicationUnderTest.FooterMappingAD1AttorneyAddress1'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyAddress1Info, new RecordItemIndex(137));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyAddress1Info, "InnerText", AD1_AD_Address1);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", "AD_Attorney_Address1", new RecordItemIndex(134));
+            Report.Log(ReportLevel.Info, "User", "AD_Attorney_Address1", new RecordItemIndex(138));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Address2') on item 'ApplicationUnderTest.FooterMappingAddress2'.", repo.ApplicationUnderTest.FooterMappingAddress2Info, new RecordItemIndex(135));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Address2') on item 'ApplicationUnderTest.FooterMappingAddress2'.", repo.ApplicationUnderTest.FooterMappingAddress2Info, new RecordItemIndex(139));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAddress2Info, "InnerText", "Address2");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='AD_Attorney_Address2') on item 'ApplicationUnderTest.FooterMappingAD1AttorneyAddress2'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyAddress2Info, new RecordItemIndex(136));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyAddress2Info, "InnerText", "AD_Attorney_Address2");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_AD_Address2) on item 'ApplicationUnderTest.FooterMappingAD1AttorneyAddress2'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyAddress2Info, new RecordItemIndex(140));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyAddress2Info, "InnerText", AD1_AD_Address2);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", "AD_Attorney_Address2", new RecordItemIndex(137));
+            Report.Log(ReportLevel.Info, "User", "AD_Attorney_Address2", new RecordItemIndex(141));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='City') on item 'ApplicationUnderTest.FooterMappingAddress_City'.", repo.ApplicationUnderTest.FooterMappingAddress_CityInfo, new RecordItemIndex(138));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='City') on item 'ApplicationUnderTest.FooterMappingAddress_City'.", repo.ApplicationUnderTest.FooterMappingAddress_CityInfo, new RecordItemIndex(142));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAddress_CityInfo, "InnerText", "City");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='AD_Attorney_City') on item 'ApplicationUnderTest.FooterMappingAD1AttorneyCity'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyCityInfo, new RecordItemIndex(139));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyCityInfo, "InnerText", "AD_Attorney_City");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_AD_City) on item 'ApplicationUnderTest.FooterMappingAD1AttorneyCity'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyCityInfo, new RecordItemIndex(143));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyCityInfo, "InnerText", AD1_AD_City);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", "AD_Attorney_City", new RecordItemIndex(140));
+            Report.Log(ReportLevel.Info, "User", "AD_Attorney_City", new RecordItemIndex(144));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='State') on item 'ApplicationUnderTest.FooterMappingState'.", repo.ApplicationUnderTest.FooterMappingStateInfo, new RecordItemIndex(141));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='State') on item 'ApplicationUnderTest.FooterMappingState'.", repo.ApplicationUnderTest.FooterMappingStateInfo, new RecordItemIndex(145));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingStateInfo, "InnerText", "State");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='LA') on item 'ApplicationUnderTest.FooterMappingAD1AttorneyState'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyStateInfo, new RecordItemIndex(142));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyStateInfo, "InnerText", "LA");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_AD_State) on item 'ApplicationUnderTest.FooterMappingAD1AttorneyState'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyStateInfo, new RecordItemIndex(146));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyStateInfo, "InnerText", AD1_AD_State);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", "LA", new RecordItemIndex(143));
+            Report.Log(ReportLevel.Info, "User", "LA", new RecordItemIndex(147));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Zip') on item 'ApplicationUnderTest.FooterMappingZip'.", repo.ApplicationUnderTest.FooterMappingZipInfo, new RecordItemIndex(144));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Zip') on item 'ApplicationUnderTest.FooterMappingZip'.", repo.ApplicationUnderTest.FooterMappingZipInfo, new RecordItemIndex(148));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingZipInfo, "InnerText", "Zip");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='12345-5432') on item 'ApplicationUnderTest.FooterMappingAD1AttorneyZip'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyZipInfo, new RecordItemIndex(145));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyZipInfo, "InnerText", "12345-5432");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_AD_Zip) on item 'ApplicationUnderTest.FooterMappingAD1AttorneyZip'.", repo.ApplicationUnderTest.FooterMappingAD1AttorneyZipInfo, new RecordItemIndex(149));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1AttorneyZipInfo, "InnerText", AD1_AD_Zip);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", "12345-5432", new RecordItemIndex(146));
+            Report.Log(ReportLevel.Info, "User", "12345-5432", new RecordItemIndex(150));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Email ID') on item 'ApplicationUnderTest.FooterMappingEmail'.", repo.ApplicationUnderTest.FooterMappingEmailInfo, new RecordItemIndex(147));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingEmailInfo, "InnerText", "Email ID");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -240 units.", new RecordItemIndex(148));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -240 units.", new RecordItemIndex(151));
             Mouse.ScrollWheel(-240);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Phone/Fax Information') on item 'ApplicationUnderTest.FooterMappingPhoneInformation2'.", repo.ApplicationUnderTest.FooterMappingPhoneInformation2Info, new RecordItemIndex(149));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Phone/Fax Information') on item 'ApplicationUnderTest.FooterMappingPhoneInformation2'.", repo.ApplicationUnderTest.FooterMappingPhoneInformation2Info, new RecordItemIndex(152));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingPhoneInformation2Info, "InnerText", "Phone/Fax Information");
             Delay.Milliseconds(100);
             
-            // Adverse Driver 1 - License Information
-            Report.Log(ReportLevel.Info, "Section", "Adverse Driver 1 - License Information", new RecordItemIndex(150));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_AD_UseType) on item 'ApplicationUnderTest.FooterMappingAD1ADPhone_UseType_Value'.", repo.ApplicationUnderTest.FooterMappingAD1ADPhone_UseType_ValueInfo, new RecordItemIndex(153));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1ADPhone_UseType_ValueInfo, "InnerText", AD1_AD_UseType);
+            Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='License Information') on item 'ApplicationUnderTest.LicenseInformation2'.", repo.ApplicationUnderTest.LicenseInformation2Info, new RecordItemIndex(151));
+            Report.Log(ReportLevel.Info, "User", AD1_AD_UseType, new RecordItemIndex(154));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_AD_PhoneType) on item 'ApplicationUnderTest.FooterMappingAD1ADPhone_PhoneType_Value'.", repo.ApplicationUnderTest.FooterMappingAD1ADPhone_PhoneType_ValueInfo, new RecordItemIndex(155));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1ADPhone_PhoneType_ValueInfo, "InnerText", AD1_AD_PhoneType);
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "User", AD1_AD_PhoneType, new RecordItemIndex(156));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_AD_Source) on item 'ApplicationUnderTest.FooterMappingAD1ADPhone_Source_Value'.", repo.ApplicationUnderTest.FooterMappingAD1ADPhone_Source_ValueInfo, new RecordItemIndex(157));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1ADPhone_Source_ValueInfo, "InnerText", AD1_AD_Source);
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "User", AD1_AD_Source, new RecordItemIndex(158));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_AD_Phone) on item 'ApplicationUnderTest.FooterMappingAD1ADPhone_PhoneNumber'.", repo.ApplicationUnderTest.FooterMappingAD1ADPhone_PhoneNumberInfo, new RecordItemIndex(159));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1ADPhone_PhoneNumberInfo, "InnerText", AD1_AD_Phone);
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "User", AD1_AD_Phone, new RecordItemIndex(160));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_AD_EmailUseType) on item 'ApplicationUnderTest.FooterMappingAD1ADEmail_UseType_Value'.", repo.ApplicationUnderTest.FooterMappingAD1ADEmail_UseType_ValueInfo, new RecordItemIndex(161));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1ADEmail_UseType_ValueInfo, "InnerText", AD1_AD_EmailUseType);
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "User", AD1_PI_EmailUseType, new RecordItemIndex(162));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_AD_EmailSource) on item 'ApplicationUnderTest.FooterMappingAD1ADEmail_Source_Value'.", repo.ApplicationUnderTest.FooterMappingAD1ADEmail_Source_ValueInfo, new RecordItemIndex(163));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1ADEmail_Source_ValueInfo, "InnerText", AD1_AD_EmailSource);
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "User", AD1_PI_EmailSource, new RecordItemIndex(164));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_AD_EmailID) on item 'ApplicationUnderTest.FooterMappingAD1ADEmail_EmailID_Value'.", repo.ApplicationUnderTest.FooterMappingAD1ADEmail_EmailID_ValueInfo, new RecordItemIndex(165));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1ADEmail_EmailID_ValueInfo, "InnerText", AD1_AD_EmailID);
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "User", AD1_PI_Email, new RecordItemIndex(166));
+            
+            // Adverse Driver 1 - License Information
+            Report.Log(ReportLevel.Info, "Section", "Adverse Driver 1 - License Information", new RecordItemIndex(167));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='License Information') on item 'ApplicationUnderTest.LicenseInformation2'.", repo.ApplicationUnderTest.LicenseInformation2Info, new RecordItemIndex(168));
             Validate.AttributeEqual(repo.ApplicationUnderTest.LicenseInformation2Info, "InnerText", "License Information");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='SSN') on item 'ApplicationUnderTest.FooterMappingSSN'.", repo.ApplicationUnderTest.FooterMappingSSNInfo, new RecordItemIndex(152));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='SSN') on item 'ApplicationUnderTest.FooterMappingSSN'.", repo.ApplicationUnderTest.FooterMappingSSNInfo, new RecordItemIndex(169));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingSSNInfo, "InnerText", "SSN");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='XXX-XX-1SSN') on item 'ApplicationUnderTest.FooterMappingAD1_LI_LicenseSSN'.", repo.ApplicationUnderTest.FooterMappingAD1_LI_LicenseSSNInfo, new RecordItemIndex(153));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='XXX-XX-1SSN') on item 'ApplicationUnderTest.FooterMappingAD1_LI_LicenseSSN'.", repo.ApplicationUnderTest.FooterMappingAD1_LI_LicenseSSNInfo, new RecordItemIndex(170));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1_LI_LicenseSSNInfo, "InnerText", "XXX-XX-1SSN");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", "XXX-XX-1SSN", new RecordItemIndex(154));
+            Report.Log(ReportLevel.Info, "User", "XXX-XX-1SSN", new RecordItemIndex(171));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Date of Birth') on item 'ApplicationUnderTest.FooterMappingAD1_LI_LicenseDateofBirth'.", repo.ApplicationUnderTest.FooterMappingAD1_LI_LicenseDateofBirthInfo, new RecordItemIndex(155));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Date of Birth') on item 'ApplicationUnderTest.FooterMappingAD1_LI_LicenseDateofBirth'.", repo.ApplicationUnderTest.FooterMappingAD1_LI_LicenseDateofBirthInfo, new RecordItemIndex(172));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1_LI_LicenseDateofBirthInfo, "InnerText", "Date of Birth");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1_LI_LicenseDOB' and assigning its value to variable 'AD1_LI_DOB'.", repo.ApplicationUnderTest.FooterMappingAD1_LI_LicenseDOBInfo, new RecordItemIndex(156));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1_LI_LicenseDOB' and assigning its value to variable 'AD1_LI_DOB'.", repo.ApplicationUnderTest.FooterMappingAD1_LI_LicenseDOBInfo, new RecordItemIndex(173));
             AD1_LI_DOB = repo.ApplicationUnderTest.FooterMappingAD1_LI_LicenseDOB.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_DOB, new RecordItemIndex(157));
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_DOB) on item 'ApplicationUnderTest.FooterMappingAD1_LI_LicenseDOB'.", repo.ApplicationUnderTest.FooterMappingAD1_LI_LicenseDOBInfo, new RecordItemIndex(158));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_DOB) on item 'ApplicationUnderTest.FooterMappingAD1_LI_LicenseDOB'.", repo.ApplicationUnderTest.FooterMappingAD1_LI_LicenseDOBInfo, new RecordItemIndex(174));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1_LI_LicenseDOBInfo, "InnerText", AD1_LI_DOB);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Drivers License Number') on item 'ApplicationUnderTest.FooterMappingDrivers_License_Number'.", repo.ApplicationUnderTest.FooterMappingDrivers_License_NumberInfo, new RecordItemIndex(159));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_DOB, new RecordItemIndex(175));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Drivers License Number') on item 'ApplicationUnderTest.FooterMappingDrivers_License_Number'.", repo.ApplicationUnderTest.FooterMappingDrivers_License_NumberInfo, new RecordItemIndex(176));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingDrivers_License_NumberInfo, "InnerText", "Drivers License Number");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_LicenseNumber) on item 'ApplicationUnderTest.FooterMappingAD1LILicenseNumber'.", repo.ApplicationUnderTest.FooterMappingAD1LILicenseNumberInfo, new RecordItemIndex(160));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_LicenseNumber) on item 'ApplicationUnderTest.FooterMappingAD1LILicenseNumber'.", repo.ApplicationUnderTest.FooterMappingAD1LILicenseNumberInfo, new RecordItemIndex(177));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1LILicenseNumberInfo, "InnerText", AD1_LI_LicenseNumber);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_LicenseNumber, new RecordItemIndex(161));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_LicenseNumber, new RecordItemIndex(178));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Drivers License State') on item 'ApplicationUnderTest.FooterMappingDrivers_License_State'.", repo.ApplicationUnderTest.FooterMappingDrivers_License_StateInfo, new RecordItemIndex(162));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Drivers License State') on item 'ApplicationUnderTest.FooterMappingDrivers_License_State'.", repo.ApplicationUnderTest.FooterMappingDrivers_License_StateInfo, new RecordItemIndex(179));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingDrivers_License_StateInfo, "InnerText", "Drivers License State");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_DriversLicenseState) on item 'ApplicationUnderTest.FooterMappingAD1_LI_LicenseDriverState'.", repo.ApplicationUnderTest.FooterMappingAD1_LI_LicenseDriverStateInfo, new RecordItemIndex(163));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_DriversLicenseState) on item 'ApplicationUnderTest.FooterMappingAD1_LI_LicenseDriverState'.", repo.ApplicationUnderTest.FooterMappingAD1_LI_LicenseDriverStateInfo, new RecordItemIndex(180));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1_LI_LicenseDriverStateInfo, "InnerText", AD1_LI_DriversLicenseState);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_DriversLicenseState, new RecordItemIndex(164));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_DriversLicenseState, new RecordItemIndex(181));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Revocation Date') on item 'ApplicationUnderTest.FooterMappingRevocationDate'.", repo.ApplicationUnderTest.FooterMappingRevocationDateInfo, new RecordItemIndex(165));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Revocation Date') on item 'ApplicationUnderTest.FooterMappingRevocationDate'.", repo.ApplicationUnderTest.FooterMappingRevocationDateInfo, new RecordItemIndex(182));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingRevocationDateInfo, "InnerText", "Revocation Date");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1_LI_RevocationDate' and assigning its value to variable 'AD1_LI_RevocationDate'.", repo.ApplicationUnderTest.FooterMappingAD1_LI_RevocationDateInfo, new RecordItemIndex(166));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.FooterMappingAD1_LI_RevocationDate' and assigning its value to variable 'AD1_LI_RevocationDate'.", repo.ApplicationUnderTest.FooterMappingAD1_LI_RevocationDateInfo, new RecordItemIndex(183));
             AD1_LI_RevocationDate = repo.ApplicationUnderTest.FooterMappingAD1_LI_RevocationDate.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", AD1_LI_RevocationDate, new RecordItemIndex(167));
+            Report.Log(ReportLevel.Info, "User", AD1_LI_RevocationDate, new RecordItemIndex(184));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_RevocationDate) on item 'ApplicationUnderTest.FooterMappingAD1_LI_RevocationDate'.", repo.ApplicationUnderTest.FooterMappingAD1_LI_RevocationDateInfo, new RecordItemIndex(168));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_LI_RevocationDate) on item 'ApplicationUnderTest.FooterMappingAD1_LI_RevocationDate'.", repo.ApplicationUnderTest.FooterMappingAD1_LI_RevocationDateInfo, new RecordItemIndex(185));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD1_LI_RevocationDateInfo, "InnerText", AD1_LI_RevocationDate);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Revoked') on item 'ApplicationUnderTest.FooterMappingRevoked'.", repo.ApplicationUnderTest.FooterMappingRevokedInfo, new RecordItemIndex(169));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Revoked') on item 'ApplicationUnderTest.FooterMappingRevoked'.", repo.ApplicationUnderTest.FooterMappingRevokedInfo, new RecordItemIndex(186));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingRevokedInfo, "InnerText", "Revoked");
             Delay.Milliseconds(0);
             

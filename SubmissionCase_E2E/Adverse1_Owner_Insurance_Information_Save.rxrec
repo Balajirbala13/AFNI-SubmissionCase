@@ -978,6 +978,30 @@ FFFFMYUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/9k=
 				</path>
 			</info>
 		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="80dfa889-156a-4b39-81d3-3894404aeffe"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0009b7ac-1742-4fb6-b9ec-1e8cba18d998"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@id='2b50cc3e' and @name='$PpyWorkPage$pAdverseInfo$l1$pSingleOwnerInformation$pInsuranceInfo$pEmailInfo$l1$ppyEmail']
+				</path>
+			</info>
+		</mouseitem>
 		<getvaluerecorditem
 		attrname="TagValue"
 		enabled="True"

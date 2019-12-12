@@ -1,15 +1,15 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="Adverse1_Driver_Insurance_Information.rxrec" />
+    <Element value="SubmissionCase_E2E.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="SubmissionCase_E2E.rxtst" />
-    <Element value="Adverse1_Driver_Insurance_Information.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
+    <Array name="recentusercodeselections" />
   </Properties>
 </Properties>

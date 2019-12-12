@@ -148,67 +148,71 @@ namespace SubmissionCase_E2E
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingVehicle_InformationInfo, "InnerText", "Vehicle Information");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Do you have VIN Number?') on item 'ApplicationUnderTest.FooterMappingDo_you_have_VIN_Number'.", repo.ApplicationUnderTest.FooterMappingDo_you_have_VIN_NumberInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.FooterMappingAD_Model' at Center.", repo.ApplicationUnderTest.FooterMappingAD_ModelInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.FooterMappingAD_Model.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Do you have VIN Number?') on item 'ApplicationUnderTest.FooterMappingDo_you_have_VIN_Number'.", repo.ApplicationUnderTest.FooterMappingDo_you_have_VIN_NumberInfo, new RecordItemIndex(2));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingDo_you_have_VIN_NumberInfo, "InnerText", "Do you have VIN Number?");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='No') on item 'ApplicationUnderTest.FooterMappingNo'.", repo.ApplicationUnderTest.FooterMappingNoInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='No') on item 'ApplicationUnderTest.FooterMappingNo'.", repo.ApplicationUnderTest.FooterMappingNoInfo, new RecordItemIndex(3));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingNoInfo, "InnerText", "No");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='License Plate State') on item 'ApplicationUnderTest.FooterMappingLicense_Plate_State'.", repo.ApplicationUnderTest.FooterMappingLicense_Plate_StateInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='License Plate State') on item 'ApplicationUnderTest.FooterMappingLicense_Plate_State'.", repo.ApplicationUnderTest.FooterMappingLicense_Plate_StateInfo, new RecordItemIndex(4));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingLicense_Plate_StateInfo, "InnerText", "License Plate State");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$Adverse1_LicensePlateState) on item 'ApplicationUnderTest.FooterMappingdriverVechicleState'.", repo.ApplicationUnderTest.FooterMappingdriverVechicleStateInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$Adverse1_LicensePlateState) on item 'ApplicationUnderTest.FooterMappingdriverVechicleState'.", repo.ApplicationUnderTest.FooterMappingdriverVechicleStateInfo, new RecordItemIndex(5));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingdriverVechicleStateInfo, "InnerText", Adverse1_LicensePlateState);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='License plate') on item 'ApplicationUnderTest.FooterMappingLicense_plate'.", repo.ApplicationUnderTest.FooterMappingLicense_plateInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='License plate') on item 'ApplicationUnderTest.FooterMappingLicense_plate'.", repo.ApplicationUnderTest.FooterMappingLicense_plateInfo, new RecordItemIndex(6));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingLicense_plateInfo, "InnerText", "License plate");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$Adverse1_LicensePlate) on item 'ApplicationUnderTest.FooterMappingdriverVechicleLicensePlate'.", repo.ApplicationUnderTest.FooterMappingdriverVechicleLicensePlateInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$Adverse1_LicensePlate) on item 'ApplicationUnderTest.FooterMappingdriverVechicleLicensePlate'.", repo.ApplicationUnderTest.FooterMappingdriverVechicleLicensePlateInfo, new RecordItemIndex(7));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingdriverVechicleLicensePlateInfo, "InnerText", Adverse1_LicensePlate);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Enter model details manually') on item 'ApplicationUnderTest.FooterMapping_Enter_model_details_manually'.", repo.ApplicationUnderTest.FooterMapping_Enter_model_details_manuallyInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Enter model details manually') on item 'ApplicationUnderTest.FooterMapping_Enter_model_details_manually'.", repo.ApplicationUnderTest.FooterMapping_Enter_model_details_manuallyInfo, new RecordItemIndex(8));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMapping_Enter_model_details_manuallyInfo, "InnerText", "Enter model details manually");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='') on item 'ApplicationUnderTest.False'.", repo.ApplicationUnderTest.FalseInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='') on item 'ApplicationUnderTest.False'.", repo.ApplicationUnderTest.FalseInfo, new RecordItemIndex(9));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FalseInfo, "InnerText", "");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAIAAAC0D9CtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACBSURBVDhP7ZIhDgUhDAUROEKwKAzBch4wcIF1hKsguACCQ/LfJk3WsejNH9E0L52momyt1XsXQrADlFJzTtZak1JSdoDWmjrv/XWAc44EUGvFka/knEkA2EHxlhACCeDvfM8ppVC8JaV0T3POUfF8MUas2YABY8ztjDGe9z7AWvsDXwbznPPLSlMAAAAASUVORK5CYII=') on item 'ApplicationUnderTest.False'.", repo.ApplicationUnderTest.FalseInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAIAAAC0D9CtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACBSURBVDhP7ZIhDgUhDAUROEKwKAzBch4wcIF1hKsguACCQ/LfJk3WsejNH9E0L52momyt1XsXQrADlFJzTtZak1JSdoDWmjrv/XWAc44EUGvFka/knEkA2EHxlhACCeDvfM8ppVC8JaV0T3POUfF8MUas2YABY8ztjDGe9z7AWvsDXwbznPPLSlMAAAAASUVORK5CYII=') on item 'ApplicationUnderTest.False'.", repo.ApplicationUnderTest.FalseInfo, new RecordItemIndex(10));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FalseInfo, "Src", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAIAAAC0D9CtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACBSURBVDhP7ZIhDgUhDAUROEKwKAzBch4wcIF1hKsguACCQ/LfJk3WsejNH9E0L52momyt1XsXQrADlFJzTtZak1JSdoDWmjrv/XWAc44EUGvFka/knEkA2EHxlhACCeDvfM8ppVC8JaV0T3POUfF8MUas2YABY8ztjDGe9z7AWvsDXwbznPPLSlMAAAAASUVORK5CYII=");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Year') on item 'ApplicationUnderTest.FooterMappingYear'.", repo.ApplicationUnderTest.FooterMappingYearInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Year') on item 'ApplicationUnderTest.FooterMappingYear'.", repo.ApplicationUnderTest.FooterMappingYearInfo, new RecordItemIndex(11));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingYearInfo, "InnerText", "Year");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_Vin_Year) on item 'ApplicationUnderTest.FooterMappingdriverVechicleYearValue'.", repo.ApplicationUnderTest.FooterMappingdriverVechicleYearValueInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_Vin_Year) on item 'ApplicationUnderTest.FooterMappingdriverVechicleYearValue'.", repo.ApplicationUnderTest.FooterMappingdriverVechicleYearValueInfo, new RecordItemIndex(12));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingdriverVechicleYearValueInfo, "InnerText", AD1_Vin_Year);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Make') on item 'ApplicationUnderTest.FooterMappingMake'.", repo.ApplicationUnderTest.FooterMappingMakeInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Make') on item 'ApplicationUnderTest.FooterMappingMake'.", repo.ApplicationUnderTest.FooterMappingMakeInfo, new RecordItemIndex(13));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingMakeInfo, "InnerText", "Make");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_VIN_Make) on item 'ApplicationUnderTest.FooterMappingdriverVechicleMakeName'.", repo.ApplicationUnderTest.FooterMappingdriverVechicleMakeNameInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_VIN_Make) on item 'ApplicationUnderTest.FooterMappingdriverVechicleMakeName'.", repo.ApplicationUnderTest.FooterMappingdriverVechicleMakeNameInfo, new RecordItemIndex(14));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingdriverVechicleMakeNameInfo, "InnerText", AD1_VIN_Make);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Model') on item 'ApplicationUnderTest.FooterMappingID_Model'.", repo.ApplicationUnderTest.FooterMappingID_ModelInfo, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Model') on item 'ApplicationUnderTest.FooterMappingID_Model'.", repo.ApplicationUnderTest.FooterMappingID_ModelInfo, new RecordItemIndex(15));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingID_ModelInfo, "InnerText", "Model");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_VIN_Model) on item 'ApplicationUnderTest.FooterMappingAD_Model'.", repo.ApplicationUnderTest.FooterMappingAD_ModelInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText=$AD1_VIN_Model) on item 'ApplicationUnderTest.FooterMappingAD_Model'.", repo.ApplicationUnderTest.FooterMappingAD_ModelInfo, new RecordItemIndex(16));
             Validate.AttributeEqual(repo.ApplicationUnderTest.FooterMappingAD_ModelInfo, "InnerText", AD1_VIN_Model);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -720 units.", new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -720 units.", new RecordItemIndex(17));
             Mouse.ScrollWheel(-720);
             Delay.Milliseconds(100);
             

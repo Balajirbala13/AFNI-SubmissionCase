@@ -287,6 +287,47 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</keyitem>
+		<explicitdelayitem
+		duration="500ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<setvaluerecorditem
+		attrname="TagValue"
+		enabled="True"
+		optional="False"
+		searchpropertyid="1896c9c9-17ea-4acf-852c-3780358279c2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="AD1_VIN_Make">
+				</binding>
+			</bindings>
+			<info
+			id="655078fa-5509-4367-bf8d-a2c158e0bdc0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pVehicleInfo$pVehicleMake']
+				</path>
+			</info>
+			<AttributeValue>
+			</AttributeValue>
+		</setvaluerecorditem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -295,7 +336,7 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="6f890463-2295-4620-b326-eb3579147de7"
+		searchpropertyid="a18f8bfa-39aa-44c2-8ca6-82b157370beb"
 		sx="0"
 		sy="0"
 		warnoutofbounds="False">
@@ -307,42 +348,10 @@ mode="Global">
 			id="655078fa-5509-4367-bf8d-a2c158e0bdc0"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@data-test-id='201801040502270001650885']
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l1$pVehicleInfo$pVehicleMake']
 				</path>
 			</info>
 		</mouseitem>
-		<keysequenceitem
-		KeySequence="Toyota"
-		duration="100ms"
-		enabled="True"
-		optional="False"
-		presstime="100ms"
-		searchpropertyid="c75959e3-00e9-44b9-bdd1-865068e41dcb">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="KeySequence"
-				variable="AD1_VIN_Make">
-				</binding>
-			</bindings>
-			<info
-			id="655078fa-5509-4367-bf8d-a2c158e0bdc0"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@data-test-id='201801040502270001650885']
-				</path>
-			</info>
-		</keysequenceitem>
-		<explicitdelayitem
-		duration="5000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
 		<keysequenceitem
 		KeySequence="{Down}"
 		duration="100ms"
@@ -447,24 +456,6 @@ mode="Global">
 				</path>
 			</info>
 		</loggingrecorditem>
-		<WaitForRecordItem
-		enabled="True"
-		optional="False"
-		searchpropertyid="6c8baed4-fdbf-4de7-a68f-89a8724e5cc9"
-		waitaction="Exists"
-		waittimeout="30000ms">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="5cac80d7-0b1d-45af-b2f6-1dd75778e9a8"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//span[@class='match-highlight' and text()='Toyota']
-				</path>
-			</info>
-		</WaitForRecordItem>
 	</recorditems>
 	<repository
 	id="d8c4034f-596c-4755-95c6-cc2d7e4fcd20"
