@@ -5783,6 +5783,125 @@
             Gets or sets the value of variable S_CaseID.
             </summary>
         </member>
+        <member name="T:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details">
+             <summary>
+            The Edit_Adverse1_Attorney_Details recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.AO1_Attorney_FirmName">
+            <summary>
+            Gets or sets the value of variable AO1_Attorney_FirmName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.AO1_Attorney_FirstName">
+            <summary>
+            Gets or sets the value of variable AO1_Attorney_FirstName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.AO1_Attorney_LastName">
+            <summary>
+            Gets or sets the value of variable AO1_Attorney_LastName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.AO1_Attorney_Address1">
+            <summary>
+            Gets or sets the value of variable AO1_Attorney_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.AO1_Attorney_Address2">
+            <summary>
+            Gets or sets the value of variable AO1_Attorney_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.AO1_Attorney_City">
+            <summary>
+            Gets or sets the value of variable AO1_Attorney_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.AO1_Attorney_State">
+            <summary>
+            Gets or sets the value of variable AO1_Attorney_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.AO1_Attorney_Zip">
+            <summary>
+            Gets or sets the value of variable AO1_Attorney_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.AO1_Attorney_RepDate">
+            <summary>
+            Gets or sets the value of variable AO1_Attorney_RepDate.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.AO1_Attorney_UseType">
+            <summary>
+            Gets or sets the value of variable AO1_Attorney_UseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.AO1_Attorney_PhoneType">
+            <summary>
+            Gets or sets the value of variable AO1_Attorney_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.AO1_Attorney_Source">
+            <summary>
+            Gets or sets the value of variable AO1_Attorney_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.AO1_Attorney_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable AO1_Attorney_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.AO1_Attorney_EmailUseType">
+            <summary>
+            Gets or sets the value of variable AO1_Attorney_EmailUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.AO1_Attorney_EmailSource">
+            <summary>
+            Gets or sets the value of variable AO1_Attorney_EmailSource.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Attorney_Details.AO1_Attorney_Email">
+            <summary>
+            Gets or sets the value of variable AO1_Attorney_Email.
+            </summary>
+        </member>
         <member name="T:SubmissionCase_E2E.Edit_Adverse1_Driver_Attorney_Information">
              <summary>
             The Edit_Adverse1_Driver_Attorney_Information recording.
@@ -5900,6 +6019,210 @@
         <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Attorney_Information.AD1_AD_EmailSource_getValue">
             <summary>
             Gets or sets the value of variable AD1_AD_EmailSource_getValue.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping">
+             <summary>
+            The Edit_Adverse1_Driver_Footer_Mapping recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_PI_FirstName">
+            <summary>
+            Gets or sets the value of variable AD1_PI_FirstName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_PI_LastName">
+            <summary>
+            Gets or sets the value of variable AD1_PI_LastName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_PI_Address1">
+            <summary>
+            Gets or sets the value of variable AD1_PI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_PI_Address2">
+            <summary>
+            Gets or sets the value of variable AD1_PI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_PI_City">
+            <summary>
+            Gets or sets the value of variable AD1_PI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_PI_State">
+            <summary>
+            Gets or sets the value of variable AD1_PI_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_PI_Zip">
+            <summary>
+            Gets or sets the value of variable AD1_PI_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_PI_POE">
+            <summary>
+            Gets or sets the value of variable AD1_PI_POE.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_PI_BankruptcyCounty">
+            <summary>
+            Gets or sets the value of variable AD1_PI_BankruptcyCounty.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_PI_BankruptcyDistrict">
+            <summary>
+            Gets or sets the value of variable AD1_PI_BankruptcyDistrict.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_PI_BankruptcyChapter">
+            <summary>
+            Gets or sets the value of variable AD1_PI_BankruptcyChapter.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_PI_BankruptcyCaseNo">
+            <summary>
+            Gets or sets the value of variable AD1_PI_BankruptcyCaseNo.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_PI_Personal">
+            <summary>
+            Gets or sets the value of variable AD1_PI_Personal.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_PI_PhoneType_LandLine">
+            <summary>
+            Gets or sets the value of variable AD1_PI_PhoneType_LandLine.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_PI_Direct">
+            <summary>
+            Gets or sets the value of variable AD1_PI_Direct.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_PI_PhoneNumber_Value">
+            <summary>
+            Gets or sets the value of variable AD1_PI_PhoneNumber_Value.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_LI_CompanyName">
+            <summary>
+            Gets or sets the value of variable AD1_LI_CompanyName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_LI_PolicyNumber">
+            <summary>
+            Gets or sets the value of variable AD1_LI_PolicyNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_LI_ClaimNumber">
+            <summary>
+            Gets or sets the value of variable AD1_LI_ClaimNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_LI_ContactName">
+            <summary>
+            Gets or sets the value of variable AD1_LI_ContactName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_LI_USStateCode">
+            <summary>
+            Gets or sets the value of variable AD1_LI_USStateCode.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_LI_Address1">
+            <summary>
+            Gets or sets the value of variable AD1_LI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_LI_Address2">
+            <summary>
+            Gets or sets the value of variable AD1_LI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_LI_ZipCode">
+            <summary>
+            Gets or sets the value of variable AD1_LI_ZipCode.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_LI_City">
+            <summary>
+            Gets or sets the value of variable AD1_LI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_LI_PhoneUseType">
+            <summary>
+            Gets or sets the value of variable AD1_LI_PhoneUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_LI_PhoneType">
+            <summary>
+            Gets or sets the value of variable AD1_LI_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_LI_PhoneSource">
+            <summary>
+            Gets or sets the value of variable AD1_LI_PhoneSource.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_LI_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable AD1_LI_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_LI_DOB">
+            <summary>
+            Gets or sets the value of variable AD1_LI_DOB.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_LI_LicenseNumber">
+            <summary>
+            Gets or sets the value of variable AD1_LI_LicenseNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_LI_DriversLicenseState">
+            <summary>
+            Gets or sets the value of variable AD1_LI_DriversLicenseState.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_Footer_Mapping.AD1_LI_RevocationDate">
+            <summary>
+            Gets or sets the value of variable AD1_LI_RevocationDate.
             </summary>
         </member>
         <member name="T:SubmissionCase_E2E.Edit_Adverse1_Driver_Insurance_Information">
@@ -6185,9 +6508,9 @@
             Gets or sets the value of variable AD1_LI_RevocationDate_getValue.
             </summary>
         </member>
-        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_License_Information.Edit_AD1_LI_RevocationDate_getValue1">
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Driver_License_Information.Edit_AD1_LI_RevocationDate_getValue">
             <summary>
-            Gets or sets the value of variable Edit_AD1_LI_RevocationDate_getValue1.
+            Gets or sets the value of variable Edit_AD1_LI_RevocationDate_getValue.
             </summary>
         </member>
         <member name="T:SubmissionCase_E2E.Edit_Adverse1_Driver_Personal_">
@@ -6458,6 +6781,1522 @@
             Gets or sets the value of variable Edit_AD1_PI_Email_getValue.
             </summary>
         </member>
+        <member name="T:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping">
+             <summary>
+            The Edit_Adverse1_Owner_Footer_Mapping recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_PI_FirstName">
+            <summary>
+            Gets or sets the value of variable AD1_PI_FirstName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_PI_LastName">
+            <summary>
+            Gets or sets the value of variable AD1_PI_LastName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_PI_Address1">
+            <summary>
+            Gets or sets the value of variable AD1_PI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_PI_Address2">
+            <summary>
+            Gets or sets the value of variable AD1_PI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_PI_City">
+            <summary>
+            Gets or sets the value of variable AD1_PI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_PI_State">
+            <summary>
+            Gets or sets the value of variable AD1_PI_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_PI_Zip">
+            <summary>
+            Gets or sets the value of variable AD1_PI_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_PI_POE">
+            <summary>
+            Gets or sets the value of variable AD1_PI_POE.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_PI_BankruptcyCounty">
+            <summary>
+            Gets or sets the value of variable AD1_PI_BankruptcyCounty.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_PI_BankruptcyDistrict">
+            <summary>
+            Gets or sets the value of variable AD1_PI_BankruptcyDistrict.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_PI_BankruptcyChapter">
+            <summary>
+            Gets or sets the value of variable AD1_PI_BankruptcyChapter.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_PI_BankruptcyCaseNo">
+            <summary>
+            Gets or sets the value of variable AD1_PI_BankruptcyCaseNo.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_PI_Personal">
+            <summary>
+            Gets or sets the value of variable AD1_PI_Personal.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_PI_PhoneType_LandLine">
+            <summary>
+            Gets or sets the value of variable AD1_PI_PhoneType_LandLine.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_PI_Direct">
+            <summary>
+            Gets or sets the value of variable AD1_PI_Direct.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_PI_PhoneNumber_Value">
+            <summary>
+            Gets or sets the value of variable AD1_PI_PhoneNumber_Value.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_LI_CompanyName">
+            <summary>
+            Gets or sets the value of variable AD1_LI_CompanyName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_LI_PolicyNumber">
+            <summary>
+            Gets or sets the value of variable AD1_LI_PolicyNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_LI_ClaimNumber">
+            <summary>
+            Gets or sets the value of variable AD1_LI_ClaimNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_LI_ContactName">
+            <summary>
+            Gets or sets the value of variable AD1_LI_ContactName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_LI_USStateCode">
+            <summary>
+            Gets or sets the value of variable AD1_LI_USStateCode.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_LI_Address1">
+            <summary>
+            Gets or sets the value of variable AD1_LI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_LI_Address2">
+            <summary>
+            Gets or sets the value of variable AD1_LI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_LI_ZipCode">
+            <summary>
+            Gets or sets the value of variable AD1_LI_ZipCode.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_LI_City">
+            <summary>
+            Gets or sets the value of variable AD1_LI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_LI_PhoneUseType">
+            <summary>
+            Gets or sets the value of variable AD1_LI_PhoneUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_LI_PhoneType">
+            <summary>
+            Gets or sets the value of variable AD1_LI_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_LI_PhoneSource">
+            <summary>
+            Gets or sets the value of variable AD1_LI_PhoneSource.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_LI_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable AD1_LI_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_LI_DOB">
+            <summary>
+            Gets or sets the value of variable AD1_LI_DOB.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_LI_LicenseNumber">
+            <summary>
+            Gets or sets the value of variable AD1_LI_LicenseNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_LI_DriversLicenseState">
+            <summary>
+            Gets or sets the value of variable AD1_LI_DriversLicenseState.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Footer_Mapping.AD1_LI_RevocationDate">
+            <summary>
+            Gets or sets the value of variable AD1_LI_RevocationDate.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information">
+             <summary>
+            The Edit_Adverse1_Owner_Insurance_Information recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.AO_LI_Company_Name">
+            <summary>
+            Gets or sets the value of variable AO_LI_Company_Name.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.AO_LI_PolicyNumber">
+            <summary>
+            Gets or sets the value of variable AO_LI_PolicyNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.AO_LI_ClaimNumber">
+            <summary>
+            Gets or sets the value of variable AO_LI_ClaimNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.AO_LI_ContactName">
+            <summary>
+            Gets or sets the value of variable AO_LI_ContactName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.AO_LI_State">
+            <summary>
+            Gets or sets the value of variable AO_LI_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.AO_LI_Address1">
+            <summary>
+            Gets or sets the value of variable AO_LI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.AO_LI_Address2">
+            <summary>
+            Gets or sets the value of variable AO_LI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.AO_LI_City">
+            <summary>
+            Gets or sets the value of variable AO_LI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.AO_LI_Zip">
+            <summary>
+            Gets or sets the value of variable AO_LI_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.AO_LI_PhoneUseType_getValue">
+            <summary>
+            Gets or sets the value of variable AO_LI_PhoneUseType_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.AO_LI_PhoneType_getValue">
+            <summary>
+            Gets or sets the value of variable AO_LI_PhoneType_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.AO_LI_PhoneSource_getValue">
+            <summary>
+            Gets or sets the value of variable AO_LI_PhoneSource_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.AO_LI_PhoneNumber_getValue">
+            <summary>
+            Gets or sets the value of variable AO_LI_PhoneNumber_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.AO_LI_EmailUseType_getValue">
+            <summary>
+            Gets or sets the value of variable AO_LI_EmailUseType_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.AO_LI_EmailSource_getValue">
+            <summary>
+            Gets or sets the value of variable AO_LI_EmailSource_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.AO_LI_EmailId_getValue">
+            <summary>
+            Gets or sets the value of variable AO_LI_EmailId_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Edit_AO_LI_Company_Name">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_Company_Name.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Edit_AO_LI_PolicyNumber">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_PolicyNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Edit_AO_LI_ClaimNumber">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_ClaimNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Edit_AO_LI_ContactName">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_ContactName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Edit_AO_LI_State">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Edit_AO_LI_Address1">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Edit_AO_LI_Address2">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Edit_AO_LI_City">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Edit_AO_LI_Zip">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Edit_AO_LI_PhoneUseType_getValue">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_PhoneUseType_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Edit_AO_LI_PhoneType_getValue">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_PhoneType_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Edit_AO_LI_PhoneSource_getValue">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_PhoneSource_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Edit_AO_LI_PhoneNumber_getValue">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_PhoneNumber_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Edit_AO_LI_EmailUseType_getValue">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_EmailUseType_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Edit_AO_LI_EmailSource_getValue">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_EmailSource_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Insurance_Information.Edit_AO_LI_EmailId_getValue">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_EmailId_getValue.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information">
+             <summary>
+            The Edit_Adverse1_Owner_License_Information recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information.AO_LI_SSN">
+            <summary>
+            Gets or sets the value of variable AO_LI_SSN.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information.AO_LI_DateOfBirth_getValue">
+            <summary>
+            Gets or sets the value of variable AO_LI_DateOfBirth_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information.AO_LI_LicenseNumber">
+            <summary>
+            Gets or sets the value of variable AO_LI_LicenseNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information.AO_LI_LicenseState">
+            <summary>
+            Gets or sets the value of variable AO_LI_LicenseState.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information.AO_LI_RevocationDate_getValue">
+            <summary>
+            Gets or sets the value of variable AO_LI_RevocationDate_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information.Edit_AO_LI_SSN">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_SSN.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information.Edit_AO_LI_DateOfBirth_getValue">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_DateOfBirth_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information.Edit_AO_LI_LicenseNumber">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_LicenseNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information.Edit_AO_LI_LicenseState">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_LicenseState.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_License_Information.Edit_AO_LI_RevocationDate_getValue">
+            <summary>
+            Gets or sets the value of variable Edit_AO_LI_RevocationDate_getValue.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information">
+             <summary>
+            The Edit_Adverse1_Owner_Personal_Information recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_FirstName">
+            <summary>
+            Gets or sets the value of variable AO_PI_FirstName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_LastName">
+            <summary>
+            Gets or sets the value of variable AO_PI_LastName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_BusinessName">
+            <summary>
+            Gets or sets the value of variable AO_PI_BusinessName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_Address1">
+            <summary>
+            Gets or sets the value of variable AO_PI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_Address2">
+            <summary>
+            Gets or sets the value of variable AO_PI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_City">
+            <summary>
+            Gets or sets the value of variable AO_PI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_USStateCode">
+            <summary>
+            Gets or sets the value of variable AO_PI_USStateCode.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_ZipCode">
+            <summary>
+            Gets or sets the value of variable AO_PI_ZipCode.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_Email_getValue">
+            <summary>
+            Gets or sets the value of variable AO_PI_Email_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_BankruptcyCounty">
+            <summary>
+            Gets or sets the value of variable AO_PI_BankruptcyCounty.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_BankruptcyDistrict">
+            <summary>
+            Gets or sets the value of variable AO_PI_BankruptcyDistrict.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_BankruptcyChapter">
+            <summary>
+            Gets or sets the value of variable AO_PI_BankruptcyChapter.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_BankruptcyCaseNo">
+            <summary>
+            Gets or sets the value of variable AO_PI_BankruptcyCaseNo.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_PhoneUseType_getValue">
+            <summary>
+            Gets or sets the value of variable AO_PI_PhoneUseType_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_PhoneType_getValue">
+            <summary>
+            Gets or sets the value of variable AO_PI_PhoneType_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_PhoneSource_getValue">
+            <summary>
+            Gets or sets the value of variable AO_PI_PhoneSource_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_PhoneNumber_getValue">
+            <summary>
+            Gets or sets the value of variable AO_PI_PhoneNumber_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_EmailUseType_getValue">
+            <summary>
+            Gets or sets the value of variable AO_PI_EmailUseType_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_EmailSource_getValue">
+            <summary>
+            Gets or sets the value of variable AO_PI_EmailSource_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.AO_PI_EmailID_getValue">
+            <summary>
+            Gets or sets the value of variable AO_PI_EmailID_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_FirstName">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_FirstName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_LastName">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_LastName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_BusinessName">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_BusinessName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_Address1">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_Address2">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_City">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_USStateCode">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_USStateCode.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_ZipCode">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_ZipCode.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_BankruptcyCounty">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_BankruptcyCounty.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_BankruptcyDistrict">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_BankruptcyDistrict.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_BankruptcyChapter">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_BankruptcyChapter.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_BankruptcyCaseNo">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_BankruptcyCaseNo.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_PhoneUseType_getValue">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_PhoneUseType_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_PhoneType_getValue">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_PhoneType_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_PhoneSource_getValue">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_PhoneSource_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_PhoneNumber_getValue">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_PhoneNumber_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_EmailUseType_getValue">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_EmailUseType_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_EmailSource_getValue">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_EmailSource_getValue.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Owner_Personal_Information.Edit_AO_PI_EmailID_getValue">
+            <summary>
+            Gets or sets the value of variable Edit_AO_PI_EmailID_getValue.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping">
+             <summary>
+            The Edit_Adverse1_Vechicle_FooterMapping recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_PI_FirstName">
+            <summary>
+            Gets or sets the value of variable AD1_PI_FirstName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_PI_LastName">
+            <summary>
+            Gets or sets the value of variable AD1_PI_LastName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_PI_Address1">
+            <summary>
+            Gets or sets the value of variable AD1_PI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_PI_Address2">
+            <summary>
+            Gets or sets the value of variable AD1_PI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_PI_City">
+            <summary>
+            Gets or sets the value of variable AD1_PI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_PI_State">
+            <summary>
+            Gets or sets the value of variable AD1_PI_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_PI_Zip">
+            <summary>
+            Gets or sets the value of variable AD1_PI_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_PI_POE">
+            <summary>
+            Gets or sets the value of variable AD1_PI_POE.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_PI_BankruptcyCounty">
+            <summary>
+            Gets or sets the value of variable AD1_PI_BankruptcyCounty.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_PI_BankruptcyDistrict">
+            <summary>
+            Gets or sets the value of variable AD1_PI_BankruptcyDistrict.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_PI_BankruptcyChapter">
+            <summary>
+            Gets or sets the value of variable AD1_PI_BankruptcyChapter.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_PI_BankruptcyCaseNo">
+            <summary>
+            Gets or sets the value of variable AD1_PI_BankruptcyCaseNo.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_PI_Personal">
+            <summary>
+            Gets or sets the value of variable AD1_PI_Personal.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_PI_PhoneType_LandLine">
+            <summary>
+            Gets or sets the value of variable AD1_PI_PhoneType_LandLine.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_PI_Direct">
+            <summary>
+            Gets or sets the value of variable AD1_PI_Direct.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_PI_PhoneNumber_Value">
+            <summary>
+            Gets or sets the value of variable AD1_PI_PhoneNumber_Value.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_LI_CompanyName">
+            <summary>
+            Gets or sets the value of variable AD1_LI_CompanyName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_LI_PolicyNumber">
+            <summary>
+            Gets or sets the value of variable AD1_LI_PolicyNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_LI_ClaimNumber">
+            <summary>
+            Gets or sets the value of variable AD1_LI_ClaimNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_LI_ContactName">
+            <summary>
+            Gets or sets the value of variable AD1_LI_ContactName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_LI_USStateCode">
+            <summary>
+            Gets or sets the value of variable AD1_LI_USStateCode.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_LI_Address1">
+            <summary>
+            Gets or sets the value of variable AD1_LI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_LI_Address2">
+            <summary>
+            Gets or sets the value of variable AD1_LI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_LI_ZipCode">
+            <summary>
+            Gets or sets the value of variable AD1_LI_ZipCode.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_LI_City">
+            <summary>
+            Gets or sets the value of variable AD1_LI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_LI_PhoneUseType">
+            <summary>
+            Gets or sets the value of variable AD1_LI_PhoneUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_LI_PhoneType">
+            <summary>
+            Gets or sets the value of variable AD1_LI_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_LI_PhoneSource">
+            <summary>
+            Gets or sets the value of variable AD1_LI_PhoneSource.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_LI_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable AD1_LI_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_LI_DOB">
+            <summary>
+            Gets or sets the value of variable AD1_LI_DOB.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_LI_LicenseNumber">
+            <summary>
+            Gets or sets the value of variable AD1_LI_LicenseNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_LI_DriversLicenseState">
+            <summary>
+            Gets or sets the value of variable AD1_LI_DriversLicenseState.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vechicle_FooterMapping.AD1_LI_RevocationDate">
+            <summary>
+            Gets or sets the value of variable AD1_LI_RevocationDate.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details">
+             <summary>
+            The Edit_Adverse1_Vehicle_Details recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details.Adverse1_LicensePlate">
+            <summary>
+            Gets or sets the value of variable Adverse1_LicensePlate.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details.Adverse1_LicensePlateState">
+            <summary>
+            Gets or sets the value of variable Adverse1_LicensePlateState.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details.AD1_Vin_Year">
+            <summary>
+            Gets or sets the value of variable AD1_Vin_Year.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details.AD1_VIN_Make">
+            <summary>
+            Gets or sets the value of variable AD1_VIN_Make.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details.AD1_VIN_Model">
+            <summary>
+            Gets or sets the value of variable AD1_VIN_Model.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details.Edit_Adverse1_LicensePlate">
+            <summary>
+            Gets or sets the value of variable Edit_Adverse1_LicensePlate.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details.Edit_Adverse1_LicensePlateState">
+            <summary>
+            Gets or sets the value of variable Edit_Adverse1_LicensePlateState.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details.Edit_AD1_Vin_Year">
+            <summary>
+            Gets or sets the value of variable Edit_AD1_Vin_Year.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details.Edit_AD1_VIN_Make">
+            <summary>
+            Gets or sets the value of variable Edit_AD1_VIN_Make.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse1_Vehicle_Details.Edit_AD1_VIN_Model">
+            <summary>
+            Gets or sets the value of variable Edit_AD1_VIN_Model.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_Adverse2_Driver_License_Information">
+             <summary>
+            The Edit_Adverse2_Driver_License_Information recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Adverse2_Driver_License_Information.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse2_Driver_License_Information.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse2_Driver_License_Information.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Adverse2_Driver_License_Information.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse2_Driver_License_Information.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse2_Driver_License_Information.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_License_Information.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_License_Information.Edit_AD2_LI_DOB">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_LI_DOB.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_License_Information.Edit_AD2_LI_SSN">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_LI_SSN.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_License_Information.Edit_AD2_LI_DriversLicenseState">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_LI_DriversLicenseState.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_License_Information.Edit_AD2_LI_LicenseNumber">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_LI_LicenseNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_License_Information.AD2_LI_LicenseNumber">
+            <summary>
+            Gets or sets the value of variable AD2_LI_LicenseNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_License_Information.AD2_LI_DriversLicenseState">
+            <summary>
+            Gets or sets the value of variable AD2_LI_DriversLicenseState.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_License_Information.AD2_LI_SSN">
+            <summary>
+            Gets or sets the value of variable AD2_LI_SSN.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_License_Information.AD2_LI_DOB">
+            <summary>
+            Gets or sets the value of variable AD2_LI_DOB.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information">
+             <summary>
+            The Edit_Adverse2_Driver_Personal_Information recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.AD2_PI_FirstName">
+            <summary>
+            Gets or sets the value of variable AD2_PI_FirstName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.AD2_PI_LastName">
+            <summary>
+            Gets or sets the value of variable AD2_PI_LastName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.AD2_PI_POE">
+            <summary>
+            Gets or sets the value of variable AD2_PI_POE.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.AD2_PI_Address1">
+            <summary>
+            Gets or sets the value of variable AD2_PI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.AD2_PI_Address2">
+            <summary>
+            Gets or sets the value of variable AD2_PI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.AD2_PI_City">
+            <summary>
+            Gets or sets the value of variable AD2_PI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.AD2_PI_State">
+            <summary>
+            Gets or sets the value of variable AD2_PI_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.AD2_PI_Zip">
+            <summary>
+            Gets or sets the value of variable AD2_PI_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.AD2_PI_UseType">
+            <summary>
+            Gets or sets the value of variable AD2_PI_UseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.AD2_PI_PhoneType">
+            <summary>
+            Gets or sets the value of variable AD2_PI_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.AD2_PI_Source">
+            <summary>
+            Gets or sets the value of variable AD2_PI_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.AD2_PI_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable AD2_PI_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.AD2_PI_EmailUseType">
+            <summary>
+            Gets or sets the value of variable AD2_PI_EmailUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.AD2_PI_EmailSource">
+            <summary>
+            Gets or sets the value of variable AD2_PI_EmailSource.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.AD2_PI_Email">
+            <summary>
+            Gets or sets the value of variable AD2_PI_Email.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Edit_AD2_PI_FirstName">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_PI_FirstName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Edit_AD2_PI_LastName">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_PI_LastName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Edit_AD2_PI_POE">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_PI_POE.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Edit_AD2_PI_Address1">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_PI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Edit_AD2_PI_Address2">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_PI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Edit_AD2_PI_City">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_PI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Edit_AD2_PI_State">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_PI_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Edit_AD2_PI_Zip">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_PI_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Edit_AD2_PI_UseType">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_PI_UseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Edit_AD2_PI_PhoneType">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_PI_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Edit_AD2_PI_Source">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_PI_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Edit_AD2_PI_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_PI_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Edit_AD2_PI_EmailUseType">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_PI_EmailUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Edit_AD2_PI_EmailSource">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_PI_EmailSource.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_Driver_Personal_Information.Edit_AD2_PI_Email">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_PI_Email.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_Adverse2_FooterMapping">
+             <summary>
+            The Edit_Adverse2_FooterMapping recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_PI_FirstName">
+            <summary>
+            Gets or sets the value of variable AD2_PI_FirstName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_PI_LastName">
+            <summary>
+            Gets or sets the value of variable AD2_PI_LastName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_PI_Address1">
+            <summary>
+            Gets or sets the value of variable AD2_PI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_PI_Address2">
+            <summary>
+            Gets or sets the value of variable AD2_PI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_PI_City">
+            <summary>
+            Gets or sets the value of variable AD2_PI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_PI_State">
+            <summary>
+            Gets or sets the value of variable AD2_PI_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_PI_Zip">
+            <summary>
+            Gets or sets the value of variable AD2_PI_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_PI_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable AD2_PI_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_IL_InsuranceCompany">
+            <summary>
+            Gets or sets the value of variable AD2_IL_InsuranceCompany.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_IL_PolicyNumber">
+            <summary>
+            Gets or sets the value of variable AD2_IL_PolicyNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_IL_ClaimNumber">
+            <summary>
+            Gets or sets the value of variable AD2_IL_ClaimNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_IL_ContactName">
+            <summary>
+            Gets or sets the value of variable AD2_IL_ContactName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_IL_State">
+            <summary>
+            Gets or sets the value of variable AD2_IL_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_IL_Address1">
+            <summary>
+            Gets or sets the value of variable AD2_IL_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_IL_Address2">
+            <summary>
+            Gets or sets the value of variable AD2_IL_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_IL_Zipcode">
+            <summary>
+            Gets or sets the value of variable AD2_IL_Zipcode.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_IL_City">
+            <summary>
+            Gets or sets the value of variable AD2_IL_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_IL_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable AD2_IL_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_AD_Attorney_FirmName">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_FirmName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_AD_Attorney_FirstName">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_FirstName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_AD_Attorney_LastName">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_LastName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_AD_Attorney_Address1">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_AD_Attorney_Address2">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_AD_Attorney_City">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_AD_Attorney_State">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_AD_Attorney_Zip">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_AD_UseType">
+            <summary>
+            Gets or sets the value of variable AD2_AD_UseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_AD_PhoneType">
+            <summary>
+            Gets or sets the value of variable AD2_AD_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_AD_Source">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_AD_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable AD2_AD_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_AD_Attorney_EmailUseType">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_EmailUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_AD_Attorney_EmailSource">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_EmailSource.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_AD_Attorney_Email">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_Email.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD2_AD_Attorney_RepDate">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_RepDate.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD1_LI_LicenseSSN">
+            <summary>
+            Gets or sets the value of variable AD1_LI_LicenseSSN.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD1_LI_LicenseDOB">
+            <summary>
+            Gets or sets the value of variable AD1_LI_LicenseDOB.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD1_LI_LicenseNumber">
+            <summary>
+            Gets or sets the value of variable AD1_LI_LicenseNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse2_FooterMapping.AD1_LI_LicenseDriverState">
+            <summary>
+            Gets or sets the value of variable AD1_LI_LicenseDriverState.
+            </summary>
+        </member>
         <member name="T:SubmissionCase_E2E.Edit_AdverseType">
              <summary>
             The Edit_AdverseType recording.
@@ -6495,6 +8334,890 @@
         <member name="P:SubmissionCase_E2E.Edit_AdverseType.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping">
+             <summary>
+            The Edit_Adverse_Other_FooterMapping recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.OAT_IL_CompName">
+            <summary>
+            Gets or sets the value of variable OAT_IL_CompName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.OAT_IL_PolicyNumber">
+            <summary>
+            Gets or sets the value of variable OAT_IL_PolicyNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.OAT_IL_ClaimNumber">
+            <summary>
+            Gets or sets the value of variable OAT_IL_ClaimNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.OAT_IL_ContactName">
+            <summary>
+            Gets or sets the value of variable OAT_IL_ContactName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.OAT_IL_State">
+            <summary>
+            Gets or sets the value of variable OAT_IL_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.OAT_IL_Address1">
+            <summary>
+            Gets or sets the value of variable OAT_IL_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.OAT_IL_Address2">
+            <summary>
+            Gets or sets the value of variable OAT_IL_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.OAT_IL_City">
+            <summary>
+            Gets or sets the value of variable OAT_IL_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.OAT_IL_Zip">
+            <summary>
+            Gets or sets the value of variable OAT_IL_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.OAT_IL_UseType">
+            <summary>
+            Gets or sets the value of variable OAT_IL_UseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.OAT_IL_PhoneType">
+            <summary>
+            Gets or sets the value of variable OAT_IL_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.OAT_IL_Source">
+            <summary>
+            Gets or sets the value of variable OAT_IL_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.OAT_IL_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable OAT_IL_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_FooterMapping.OAT_IL_ExtNo">
+            <summary>
+            Gets or sets the value of variable OAT_IL_ExtNo.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info">
+             <summary>
+            The Edit_Adverse_Other_Insurance_Info recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.OAT_IL_CompName">
+            <summary>
+            Gets or sets the value of variable OAT_IL_CompName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.OAT_IL_PolicyNumber">
+            <summary>
+            Gets or sets the value of variable OAT_IL_PolicyNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.OAT_IL_ClaimNumber">
+            <summary>
+            Gets or sets the value of variable OAT_IL_ClaimNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.OAT_IL_ContactName">
+            <summary>
+            Gets or sets the value of variable OAT_IL_ContactName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.OAT_IL_State">
+            <summary>
+            Gets or sets the value of variable OAT_IL_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.OAT_IL_Address1">
+            <summary>
+            Gets or sets the value of variable OAT_IL_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.OAT_IL_Address2">
+            <summary>
+            Gets or sets the value of variable OAT_IL_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.OAT_IL_City">
+            <summary>
+            Gets or sets the value of variable OAT_IL_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.OAT_IL_Zip">
+            <summary>
+            Gets or sets the value of variable OAT_IL_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.OAT_IL_UseType">
+            <summary>
+            Gets or sets the value of variable OAT_IL_UseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.OAT_IL_PhoneType">
+            <summary>
+            Gets or sets the value of variable OAT_IL_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.OAT_IL_Source">
+            <summary>
+            Gets or sets the value of variable OAT_IL_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.OAT_IL_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable OAT_IL_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.OAT_IL_ExtNo">
+            <summary>
+            Gets or sets the value of variable OAT_IL_ExtNo.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Edit_OAT_IL_CompName">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_IL_CompName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Edit_OAT_IL_PolicyNumber">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_IL_PolicyNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Edit_OAT_IL_ClaimNumber">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_IL_ClaimNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Edit_OAT_IL_ContactName">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_IL_ContactName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Edit_OAT_IL_State">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_IL_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Edit_OAT_IL_Address1">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_IL_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Edit_OAT_IL_Address2">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_IL_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Edit_OAT_IL_City">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_IL_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Edit_OAT_IL_Zip">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_IL_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Edit_OAT_IL_UseType">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_IL_UseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Edit_OAT_IL_PhoneType">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_IL_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Edit_OAT_IL_Source">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_IL_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Edit_OAT_IL_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_IL_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Insurance_Info.Edit_OAT_IL_ExtNo">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_IL_ExtNo.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info">
+             <summary>
+            The Edit_Adverse_Other_Personal_Info recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.OAT_PI_FirstName">
+            <summary>
+            Gets or sets the value of variable OAT_PI_FirstName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.OAT_PI_LastName">
+            <summary>
+            Gets or sets the value of variable OAT_PI_LastName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.OAT_PI_POE">
+            <summary>
+            Gets or sets the value of variable OAT_PI_POE.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.OAT_PI_Address1">
+            <summary>
+            Gets or sets the value of variable OAT_PI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.OAT_PI_Address2">
+            <summary>
+            Gets or sets the value of variable OAT_PI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.OAT_PI_City">
+            <summary>
+            Gets or sets the value of variable OAT_PI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.OAT_PI_State">
+            <summary>
+            Gets or sets the value of variable OAT_PI_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.OAT_PI_Zip">
+            <summary>
+            Gets or sets the value of variable OAT_PI_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.OAT_PI_UseType">
+            <summary>
+            Gets or sets the value of variable OAT_PI_UseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.OAT_PI_PhoneType">
+            <summary>
+            Gets or sets the value of variable OAT_PI_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.OAT_PI_Source">
+            <summary>
+            Gets or sets the value of variable OAT_PI_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.OAT_PI_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable OAT_PI_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.OAT_PI_EmailUseType">
+            <summary>
+            Gets or sets the value of variable OAT_PI_EmailUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.OAT_PI_EmailSource">
+            <summary>
+            Gets or sets the value of variable OAT_PI_EmailSource.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.OAT_PI_EmailID">
+            <summary>
+            Gets or sets the value of variable OAT_PI_EmailID.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Edit_OAT_PI_FirstName">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_PI_FirstName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Edit_OAT_PI_LastName">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_PI_LastName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Edit_OAT_PI_POE">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_PI_POE.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Edit_OAT_PI_Address1">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_PI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Edit_OAT_PI_Address2">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_PI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Edit_OAT_PI_City">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_PI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Edit_OAT_PI_State">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_PI_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Edit_OAT_PI_Zip">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_PI_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Edit_OAT_PI_UseType">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_PI_UseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Edit_OAT_PI_PhoneType">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_PI_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Edit_OAT_PI_Source">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_PI_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Edit_OAT_PI_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_PI_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Edit_OAT_PI_EmailUseType">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_PI_EmailUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Edit_OAT_PI_EmailSource">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_PI_EmailSource.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Adverse_Other_Personal_Info.Edit_OAT_PI_EmailID">
+            <summary>
+            Gets or sets the value of variable Edit_OAT_PI_EmailID.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails">
+             <summary>
+            The Edit_Advese2_Vechicle_Deatails recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails.LicensePlate1">
+            <summary>
+            Gets or sets the value of variable LicensePlate1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails.LicensePlateState1">
+            <summary>
+            Gets or sets the value of variable LicensePlateState1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails.AD2_Vin_Year">
+            <summary>
+            Gets or sets the value of variable AD2_Vin_Year.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails.AD2_VIN_Make">
+            <summary>
+            Gets or sets the value of variable AD2_VIN_Make.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails.AD2_VIN_Model">
+            <summary>
+            Gets or sets the value of variable AD2_VIN_Model.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails.Edit_LicensePlate1">
+            <summary>
+            Gets or sets the value of variable Edit_LicensePlate1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails.Edit_LicensePlateState1">
+            <summary>
+            Gets or sets the value of variable Edit_LicensePlateState1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails.Edit_AD2_Vin_Year">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_Vin_Year.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails.Edit_AD2_VIN_Make">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_VIN_Make.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advese2_Vechicle_Deatails.Edit_AD2_VIN_Model">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_VIN_Model.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details">
+             <summary>
+            The Edit_Advesre2_Driver_Attorney_Details recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.AD2_AD_Attorney_FirmName">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_FirmName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.AD2_AD_Attorney_FirstName">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_FirstName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.AD2_AD_Attorney_LastName">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_LastName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.AD2_AD_Attorney_Address1">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.AD2_AD_Attorney_Address2">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.AD2_AD_Attorney_City">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.AD2_AD_Attorney_State">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.AD2_AD_Attorney_Zip">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.AD2_AD_Attorney_Email">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Attorney_Email.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.AD2_Attorney_RepDate">
+            <summary>
+            Gets or sets the value of variable AD2_Attorney_RepDate.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.AD2_AD_UseType">
+            <summary>
+            Gets or sets the value of variable AD2_AD_UseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.AD2_AD_PhoneType">
+            <summary>
+            Gets or sets the value of variable AD2_AD_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.AD2_AD_Source">
+            <summary>
+            Gets or sets the value of variable AD2_AD_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.AD2_AD_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable AD2_AD_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.AD2_AD_EmailUseType">
+            <summary>
+            Gets or sets the value of variable AD2_AD_EmailUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Attorney_Details.AD2_AD_EmailSource">
+            <summary>
+            Gets or sets the value of variable AD2_AD_EmailSource.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information">
+             <summary>
+            The Edit_Advesre2_Driver_Insurance_Information recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.AD2_IL_InsuranceCompany">
+            <summary>
+            Gets or sets the value of variable AD2_IL_InsuranceCompany.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.AD2_IL_PolicyNumber">
+            <summary>
+            Gets or sets the value of variable AD2_IL_PolicyNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.AD2_IL_ClaimNumber">
+            <summary>
+            Gets or sets the value of variable AD2_IL_ClaimNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.AD2_IL_ContactName">
+            <summary>
+            Gets or sets the value of variable AD2_IL_ContactName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.AD2_IL_State">
+            <summary>
+            Gets or sets the value of variable AD2_IL_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.AD2_IL_Address1">
+            <summary>
+            Gets or sets the value of variable AD2_IL_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.AD2_IL_Address2">
+            <summary>
+            Gets or sets the value of variable AD2_IL_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.AD2_IL_City">
+            <summary>
+            Gets or sets the value of variable AD2_IL_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.AD2_IL_Zipcode">
+            <summary>
+            Gets or sets the value of variable AD2_IL_Zipcode.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.AD2_IL_PhoneUseType">
+            <summary>
+            Gets or sets the value of variable AD2_IL_PhoneUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.AD2_IL_PhoneType">
+            <summary>
+            Gets or sets the value of variable AD2_IL_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.AD2_IL_PhoneSource">
+            <summary>
+            Gets or sets the value of variable AD2_IL_PhoneSource.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.AD2_IL_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable AD2_IL_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.AD2_IL_EmailUseType">
+            <summary>
+            Gets or sets the value of variable AD2_IL_EmailUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.AD2_IL_EmailSource">
+            <summary>
+            Gets or sets the value of variable AD2_IL_EmailSource.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.AD2_IL_email">
+            <summary>
+            Gets or sets the value of variable AD2_IL_email.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Edit_AD2_IL_InsuranceCompany">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_IL_InsuranceCompany.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Edit_AD2_IL_PolicyNumber">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_IL_PolicyNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Edit_AD2_IL_ClaimNumber">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_IL_ClaimNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Edit_AD2_IL_ContactName">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_IL_ContactName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Edit_AD2_IL_State">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_IL_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Edit_AD2_IL_Address1">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_IL_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Edit_AD2_IL_Address2">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_IL_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Edit_AD2_IL_City">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_IL_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Edit_AD2_IL_Zipcode">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_IL_Zipcode.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Edit_AD2_IL_PhoneUseType">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_IL_PhoneUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Edit_AD2_IL_PhoneType">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_IL_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Edit_AD2_IL_PhoneSource">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_IL_PhoneSource.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Edit_AD2_IL_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_IL_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Edit_AD2_IL_EmailUseType">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_IL_EmailUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Edit_AD2_IL_EmailSource">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_IL_EmailSource.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Advesre2_Driver_Insurance_Information.Edit_AD2_IL_email">
+            <summary>
+            Gets or sets the value of variable Edit_AD2_IL_email.
             </summary>
         </member>
         <member name="T:SubmissionCase_E2E.Edit_ClaimInformation_Page">
@@ -6679,6 +9402,754 @@
         <member name="P:SubmissionCase_E2E.Edit_ClaimInformation_Page.Edit_ClaimInformation_IncidentFacts">
             <summary>
             Gets or sets the value of variable Edit_ClaimInformation_IncidentFacts.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_InsuredDetails_Attorney_Information">
+             <summary>
+            The Edit_InsuredDetails_Attorney_Information recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_InsuredDetails_Attorney_Information.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Attorney_Information.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Attorney_Information.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_InsuredDetails_Attorney_Information.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Attorney_Information.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Attorney_Information.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Attorney_Information.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Attorney_Information.ID_AI_SearchAttorney">
+            <summary>
+            Gets or sets the value of variable ID_AI_SearchAttorney.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Attorney_Information.ID_AI_UseType">
+            <summary>
+            Gets or sets the value of variable ID_AI_UseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Attorney_Information.ID_AI_PhoneType">
+            <summary>
+            Gets or sets the value of variable ID_AI_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Attorney_Information.ID_AI_Source">
+            <summary>
+            Gets or sets the value of variable ID_AI_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Attorney_Information.ID_AI_EmailUseType">
+            <summary>
+            Gets or sets the value of variable ID_AI_EmailUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Attorney_Information.ID_AI_EmailSource">
+            <summary>
+            Gets or sets the value of variable ID_AI_EmailSource.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Attorney_Information.ID_AI_RepresentationDate">
+            <summary>
+            Gets or sets the value of variable ID_AI_RepresentationDate.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information">
+             <summary>
+            The Edit_InsuredDetails_Company_Information recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.ID_CI_CompName">
+            <summary>
+            Gets or sets the value of variable ID_CI_CompName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.ID_CI_PolicyNumber">
+            <summary>
+            Gets or sets the value of variable ID_CI_PolicyNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.ID_CI_ContactNumber">
+            <summary>
+            Gets or sets the value of variable ID_CI_ContactNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.ID_CI_State">
+            <summary>
+            Gets or sets the value of variable ID_CI_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.ID_CI_Address1">
+            <summary>
+            Gets or sets the value of variable ID_CI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.ID_CI_Address2">
+            <summary>
+            Gets or sets the value of variable ID_CI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.ID_CI_City">
+            <summary>
+            Gets or sets the value of variable ID_CI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.ID_CI_Zip">
+            <summary>
+            Gets or sets the value of variable ID_CI_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.ID_CI_UseType">
+            <summary>
+            Gets or sets the value of variable ID_CI_UseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.ID_CI_PhoneType">
+            <summary>
+            Gets or sets the value of variable ID_CI_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.ID_CI_Source">
+            <summary>
+            Gets or sets the value of variable ID_CI_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.ID_CI_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable ID_CI_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.Edit_ID_CI_CompName">
+            <summary>
+            Gets or sets the value of variable Edit_ID_CI_CompName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.Edit_ID_CI_PolicyNumber">
+            <summary>
+            Gets or sets the value of variable Edit_ID_CI_PolicyNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.Edit_ID_CI_ContactNumber">
+            <summary>
+            Gets or sets the value of variable Edit_ID_CI_ContactNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.Edit_ID_CI_State">
+            <summary>
+            Gets or sets the value of variable Edit_ID_CI_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.Edit_ID_CI_Address1">
+            <summary>
+            Gets or sets the value of variable Edit_ID_CI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.Edit_ID_CI_Address2">
+            <summary>
+            Gets or sets the value of variable Edit_ID_CI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.Edit_ID_CI_City">
+            <summary>
+            Gets or sets the value of variable Edit_ID_CI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.Edit_ID_CI_Zip">
+            <summary>
+            Gets or sets the value of variable Edit_ID_CI_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.Edit_ID_CI_UseType">
+            <summary>
+            Gets or sets the value of variable Edit_ID_CI_UseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.Edit_ID_CI_PhoneType">
+            <summary>
+            Gets or sets the value of variable Edit_ID_CI_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.Edit_ID_CI_Source">
+            <summary>
+            Gets or sets the value of variable Edit_ID_CI_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Company_Information.Edit_ID_CI_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable Edit_ID_CI_PhoneNumber.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_InsuredDetails_Personal_">
+             <summary>
+            The Edit_InsuredDetails_Personal_ recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_InsuredDetails_Personal_.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Personal_.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Personal_.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Personal_.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Personal_.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping">
+             <summary>
+            The Edit_InsuredDetails_Personal_Infomation_FooterMapping recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.ID_PI_FirstName">
+            <summary>
+            Gets or sets the value of variable ID_PI_FirstName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.ID_PI_LastName">
+            <summary>
+            Gets or sets the value of variable ID_PI_LastName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.ID_PI_Address1">
+            <summary>
+            Gets or sets the value of variable ID_PI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.ID_PI_Address2">
+            <summary>
+            Gets or sets the value of variable ID_PI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.ID_PI_City">
+            <summary>
+            Gets or sets the value of variable ID_PI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.ID_PI_State">
+            <summary>
+            Gets or sets the value of variable ID_PI_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.ID_PI_Zip">
+            <summary>
+            Gets or sets the value of variable ID_PI_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.AD1_PI_UseType">
+            <summary>
+            Gets or sets the value of variable AD1_PI_UseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.AD1_LI_Busniess">
+            <summary>
+            Gets or sets the value of variable AD1_LI_Busniess.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.AD1_LI_PhoneType">
+            <summary>
+            Gets or sets the value of variable AD1_LI_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.AD1_LI_Cell">
+            <summary>
+            Gets or sets the value of variable AD1_LI_Cell.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.AD1_PI_Source">
+            <summary>
+            Gets or sets the value of variable AD1_PI_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.AO1_LI_CallerID">
+            <summary>
+            Gets or sets the value of variable AO1_LI_CallerID.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Infomation_FooterMapping.ID_PI_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable ID_PI_PhoneNumber.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information">
+             <summary>
+            The Edit_InsuredDetails_Personal_Information recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.ID_PI_FirstName">
+            <summary>
+            Gets or sets the value of variable ID_PI_FirstName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.ID_PI_LastName">
+            <summary>
+            Gets or sets the value of variable ID_PI_LastName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.ID_PI_Address1">
+            <summary>
+            Gets or sets the value of variable ID_PI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.ID_PI_Address2">
+            <summary>
+            Gets or sets the value of variable ID_PI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.ID_PI_City">
+            <summary>
+            Gets or sets the value of variable ID_PI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.ID_PI_State">
+            <summary>
+            Gets or sets the value of variable ID_PI_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.ID_PI_Zip">
+            <summary>
+            Gets or sets the value of variable ID_PI_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.ID_PI_DOB">
+            <summary>
+            Gets or sets the value of variable ID_PI_DOB.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.ID_PI_UseType">
+            <summary>
+            Gets or sets the value of variable ID_PI_UseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.ID_PI_PhoneType">
+            <summary>
+            Gets or sets the value of variable ID_PI_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.ID_PI_Source">
+            <summary>
+            Gets or sets the value of variable ID_PI_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.ID_PI_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable ID_PI_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.ID_PI_EmailUseType">
+            <summary>
+            Gets or sets the value of variable ID_PI_EmailUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.ID_PI_EmailSource">
+            <summary>
+            Gets or sets the value of variable ID_PI_EmailSource.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.ID_PI_EmailID">
+            <summary>
+            Gets or sets the value of variable ID_PI_EmailID.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Edit_ID_PI_FirstName">
+            <summary>
+            Gets or sets the value of variable Edit_ID_PI_FirstName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Edit_ID_PI_LastName">
+            <summary>
+            Gets or sets the value of variable Edit_ID_PI_LastName.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Edit_ID_PI_Address1">
+            <summary>
+            Gets or sets the value of variable Edit_ID_PI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Edit_ID_PI_Address2">
+            <summary>
+            Gets or sets the value of variable Edit_ID_PI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Edit_ID_PI_City">
+            <summary>
+            Gets or sets the value of variable Edit_ID_PI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Edit_ID_PI_State">
+            <summary>
+            Gets or sets the value of variable Edit_ID_PI_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Edit_ID_PI_Zip">
+            <summary>
+            Gets or sets the value of variable Edit_ID_PI_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Edit_ID_PI_DOB">
+            <summary>
+            Gets or sets the value of variable Edit_ID_PI_DOB.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Edit_ID_PI_UseType">
+            <summary>
+            Gets or sets the value of variable Edit_ID_PI_UseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Edit_ID_PI_PhoneType">
+            <summary>
+            Gets or sets the value of variable Edit_ID_PI_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Edit_ID_PI_Source">
+            <summary>
+            Gets or sets the value of variable Edit_ID_PI_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Edit_ID_PI_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable Edit_ID_PI_PhoneNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Edit_ID_PI_EmailUseType">
+            <summary>
+            Gets or sets the value of variable Edit_ID_PI_EmailUseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Edit_IID_PI_EmailSource">
+            <summary>
+            Gets or sets the value of variable Edit_IID_PI_EmailSource.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Personal_Information.Edit_IID_PI_EmailID">
+            <summary>
+            Gets or sets the value of variable Edit_IID_PI_EmailID.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_InsuredDetails_Vechicle_Information">
+             <summary>
+            The Edit_InsuredDetails_Vechicle_Information recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_InsuredDetails_Vechicle_Information.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Vechicle_Information.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Vechicle_Information.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_InsuredDetails_Vechicle_Information.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Vechicle_Information.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_InsuredDetails_Vechicle_Information.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Vechicle_Information.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Vechicle_Information.ID_VI_LicensePlate">
+            <summary>
+            Gets or sets the value of variable ID_VI_LicensePlate.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Vechicle_Information.ID_VI_LicensePlateState">
+            <summary>
+            Gets or sets the value of variable ID_VI_LicensePlateState.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Vechicle_Information.ID_VD_Vin_Year">
+            <summary>
+            Gets or sets the value of variable ID_VD_Vin_Year.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Vechicle_Information.ID_VD_VIN_Make">
+            <summary>
+            Gets or sets the value of variable ID_VD_VIN_Make.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Vechicle_Information.Edit_ID_VI_LicensePlate">
+            <summary>
+            Gets or sets the value of variable Edit_ID_VI_LicensePlate.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Vechicle_Information.Edit_ID_VI_LicensePlateState">
+            <summary>
+            Gets or sets the value of variable Edit_ID_VI_LicensePlateState.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Vechicle_Information.Edit_ID_VD_Vin_Year">
+            <summary>
+            Gets or sets the value of variable Edit_ID_VD_Vin_Year.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_InsuredDetails_Vechicle_Information.Edit_ID_VD_VIN_Make1">
+            <summary>
+            Gets or sets the value of variable Edit_ID_VD_VIN_Make1.
+            </summary>
+        </member>
+        <member name="T:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping">
+             <summary>
+            The Edit_Insured_Company_Information_FooterMapping recording.
+             </summary>
+        </member>
+        <member name="F:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.repo">
+            <summary>
+            Holds an instance of the SubmissionCase_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.ID_CI_ClaimNumber">
+            <summary>
+            Gets or sets the value of variable ID_CI_ClaimNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.ID_CI_PolicyNumber">
+            <summary>
+            Gets or sets the value of variable ID_CI_PolicyNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.ID_CI_ContactNumber">
+            <summary>
+            Gets or sets the value of variable ID_CI_ContactNumber.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.ID_CI_Address1">
+            <summary>
+            Gets or sets the value of variable ID_CI_Address1.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.ID_CI_Address2">
+            <summary>
+            Gets or sets the value of variable ID_CI_Address2.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.ID_CI_City">
+            <summary>
+            Gets or sets the value of variable ID_CI_City.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.ID_CI_State">
+            <summary>
+            Gets or sets the value of variable ID_CI_State.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.ID_CI_Zip">
+            <summary>
+            Gets or sets the value of variable ID_CI_Zip.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.ID_CI_UseType">
+            <summary>
+            Gets or sets the value of variable ID_CI_UseType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.ID_CI_PhoneType">
+            <summary>
+            Gets or sets the value of variable ID_CI_PhoneType.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.ID_CI_Source">
+            <summary>
+            Gets or sets the value of variable ID_CI_Source.
+            </summary>
+        </member>
+        <member name="P:SubmissionCase_E2E.Edit_Insured_Company_Information_FooterMapping.ID_CI_PhoneNumber">
+            <summary>
+            Gets or sets the value of variable ID_CI_PhoneNumber.
             </summary>
         </member>
         <member name="T:SubmissionCase_E2E.InsuredDetails_Agent_Information">

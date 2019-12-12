@@ -5093,7 +5093,7 @@
 			id="8a182074-738f-430a-972c-dcd420d79fc1"
 			junitreport="False"
 			name="SubmissionCase_E2E"
-			reportcompress="True"
+			reportcompress="False"
 			reportdirectoryname="Reports"
 			reportenabled="True"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
@@ -5680,12 +5680,6 @@
 					datasourceid="f82ce0b0-18d6-4bb5-a6ee-0a89114bfc7e"
 					variableid="8b3dc31f-fc89-4722-89db-3cb36bbb4c00"
 					variablename="AO_PI_BusinessName">
-					</var>
-					<var
-					dataname="AO_PI_Email"
-					datasourceid="f82ce0b0-18d6-4bb5-a6ee-0a89114bfc7e"
-					variableid="6bb9de24-38e6-45be-9b68-5041df108cc5"
-					variablename="AO_PI_Email">
 					</var>
 					<var
 					dataname="AO_PI_BankruptcyCounty"
@@ -6687,12 +6681,6 @@
 					datasourceid="f82ce0b0-18d6-4bb5-a6ee-0a89114bfc7e"
 					variableid="8b3dc31f-fc89-4722-89db-3cb36bbb4c00"
 					variablename="AO_PI_BusinessName">
-					</var>
-					<var
-					dataname="AO_PI_Email"
-					datasourceid="f82ce0b0-18d6-4bb5-a6ee-0a89114bfc7e"
-					variableid="6bb9de24-38e6-45be-9b68-5041df108cc5"
-					variablename="AO_PI_Email">
 					</var>
 					<var
 					dataname="AO_PI_BankruptcyCounty"
@@ -9199,12 +9187,6 @@
 					variablename="AO_PI_BankruptcyCounty">
 					</var>
 					<var
-					dataname="AO_PI_Email"
-					datasourceid="f82ce0b0-18d6-4bb5-a6ee-0a89114bfc7e"
-					variableid="6bb9de24-38e6-45be-9b68-5041df108cc5"
-					variablename="AO_PI_Email">
-					</var>
-					<var
 					dataname="AD1_LI_LicenseNumber"
 					datasourceid="f82ce0b0-18d6-4bb5-a6ee-0a89114bfc7e"
 					variableid="264a6b01-e8b3-4310-b68e-52b8d1c89113"
@@ -10304,10 +10286,16 @@
 					ClaimInformation_AmountofLoss
 				</column>
 				<column>
-					ClaimInformation_StateOfLoss
+					ClaimInformation_DeductibleAmount
 				</column>
 				<column>
-					ClaimInformation_DeductibleAmount
+					ClaimInformation_Street
+				</column>
+				<column>
+					ClaimInformation_City
+				</column>
+				<column>
+					ClaimInformation_StateOfLoss
 				</column>
 				<column>
 					ClaimInformation_Police_Report_No
@@ -10317,12 +10305,6 @@
 				</column>
 				<column>
 					ClaimInformation_Client_Liability
-				</column>
-				<column>
-					ClaimInformation_Street
-				</column>
-				<column>
-					ClaimInformation_City
 				</column>
 				<column>
 					ClaimInformation_AccidentType
@@ -10355,15 +10337,6 @@
 					AD1_PI_Zip
 				</column>
 				<column>
-					AD1_PI_EmailUseType
-				</column>
-				<column>
-					AD1_PI_EmailSource
-				</column>
-				<column>
-					AD1_PI_Email
-				</column>
-				<column>
 					AD1_PI_BankruptcyCounty
 				</column>
 				<column>
@@ -10388,16 +10361,25 @@
 					AD1_PI_PhoneNumber
 				</column>
 				<column>
-					AD1_LI_LicenseNumber
+					AD1_PI_EmailUseType
 				</column>
 				<column>
-					AD1_LI_DriversLicenseState
+					AD1_PI_EmailSource
+				</column>
+				<column>
+					AD1_PI_Email
 				</column>
 				<column>
 					AD1_LI_SSN
 				</column>
 				<column>
 					AD1_LI_DOB
+				</column>
+				<column>
+					AD1_LI_LicenseNumber
+				</column>
+				<column>
+					AD1_LI_DriversLicenseState
 				</column>
 				<column>
 					AD1_LI_RevocationDate
@@ -10415,9 +10397,6 @@
 					AD1_LI_ContactName
 				</column>
 				<column>
-					AD1_LI_USStateCode
-				</column>
-				<column>
 					AD1_LI_Address1
 				</column>
 				<column>
@@ -10427,10 +10406,22 @@
 					AD1_LI_City
 				</column>
 				<column>
+					AD1_LI_USStateCode
+				</column>
+				<column>
 					AD1_LI_ZipCode
 				</column>
 				<column>
-					AD1_LI_Email
+					AD1_LI_PhoneUseType
+				</column>
+				<column>
+					AD1_LI_PhoneType
+				</column>
+				<column>
+					AD1_LI_PhoneSource
+				</column>
+				<column>
+					AD1_LI_PhoneNumber
 				</column>
 				<column>
 					AD1_LI_EmailUseType
@@ -10439,10 +10430,7 @@
 					AD1_LI_EmailSource
 				</column>
 				<column>
-					AD1_LI_PhoneSource
-				</column>
-				<column>
-					AD1_LI_PhoneNumber
+					AD1_LI_Email
 				</column>
 				<column>
 					AD1_Attorney_RepDate
@@ -10463,6 +10451,9 @@
 					AD1_AD_EmailSource
 				</column>
 				<column>
+					AO_PI_BusinessName
+				</column>
+				<column>
 					AO_PI_FirstName
 				</column>
 				<column>
@@ -10470,9 +10461,6 @@
 				</column>
 				<column>
 					AO_PI_POE
-				</column>
-				<column>
-					AO_PI_BusinessName
 				</column>
 				<column>
 					AO_PI_Address1
@@ -10488,9 +10476,6 @@
 				</column>
 				<column>
 					AO_PI_ZipCode
-				</column>
-				<column>
-					AO_PI_Email
 				</column>
 				<column>
 					AO_PI_BankruptcyCounty
@@ -10526,9 +10511,6 @@
 					AO_PI_EmailID
 				</column>
 				<column>
-					AO_LI_EmploymentPlace
-				</column>
-				<column>
 					AO_LI_SSN
 				</column>
 				<column>
@@ -10544,19 +10526,16 @@
 					AO_LI_RevocationDate
 				</column>
 				<column>
-					AO_LI_PolicyNumber
+					AO_LI_CompanyName
 				</column>
 				<column>
-					AO_LI_Company_Name
+					AO_LI_PolicyNumber
 				</column>
 				<column>
 					AO_LI_ClaimNumber
 				</column>
 				<column>
 					AO_LI_ContactName
-				</column>
-				<column>
-					AO_LI_State
 				</column>
 				<column>
 					AO_LI_Address1
@@ -10568,16 +10547,10 @@
 					AO_LI_City
 				</column>
 				<column>
+					AO_LI_State
+				</column>
+				<column>
 					AO_LI_Zip
-				</column>
-				<column>
-					AO_LI_EmailUseType
-				</column>
-				<column>
-					AO_LI_EmailSource
-				</column>
-				<column>
-					AO_LI_EmailId
 				</column>
 				<column>
 					AO_LI_PhoneUseType
@@ -10592,6 +10565,45 @@
 					AO_LI_PhoneNumber
 				</column>
 				<column>
+					AO_LI_EmailUseType
+				</column>
+				<column>
+					AO_LI_EmailSource
+				</column>
+				<column>
+					AO_LI_EmailId
+				</column>
+				<column>
+					AO_Search_Attorney
+				</column>
+				<column>
+					AO1_Attorney_FirmName
+				</column>
+				<column>
+					AO1_Attorney_RepDate
+				</column>
+				<column>
+					AO1_Attorney_FirstName
+				</column>
+				<column>
+					AO1_Attorney_LastName
+				</column>
+				<column>
+					AO1_Attorney_Address1
+				</column>
+				<column>
+					AO1_Attorney_Address2
+				</column>
+				<column>
+					AO1_Attorney_City
+				</column>
+				<column>
+					AO1_Attorney_State
+				</column>
+				<column>
+					AO1_Attorney_Zip
+				</column>
+				<column>
 					AO_AD_UseType
 				</column>
 				<column>
@@ -10601,10 +10613,16 @@
 					AO_AD_Source
 				</column>
 				<column>
+					AO1_Attorney_PhoneNumber
+				</column>
+				<column>
 					AO_AD_EmailUseType
 				</column>
 				<column>
 					AO_AD_EmailSource
+				</column>
+				<column>
+					AO1_Attorney_Email
 				</column>
 				<column>
 					Adverse1_LicensePlate
@@ -10646,15 +10664,6 @@
 					AD2_PI_Zip
 				</column>
 				<column>
-					AD2_PI_EmailUseType
-				</column>
-				<column>
-					AD2_PI_EmailSource
-				</column>
-				<column>
-					AD2_PI_Email
-				</column>
-				<column>
 					AD2_PI_BankruptcyCounty
 				</column>
 				<column>
@@ -10679,16 +10688,28 @@
 					AD2_PI_PhoneNumber
 				</column>
 				<column>
-					AD2_LI_LicenseNumber
+					AD2_PI_EmailUseType
 				</column>
 				<column>
-					AD2_LI_DriversLicenseState
+					AD2_PI_EmailSource
+				</column>
+				<column>
+					AD2_PI_Email
 				</column>
 				<column>
 					AD2_LI_SSN
 				</column>
 				<column>
 					AD2_LI_DOB
+				</column>
+				<column>
+					AD2_LI_LicenseNumber
+				</column>
+				<column>
+					AD2_LI_DriversLicenseState
+				</column>
+				<column>
+					AD2_LI_RevocationDate
 				</column>
 				<column>
 					AD2_IL_InsuranceCompany
@@ -10703,9 +10724,6 @@
 					AD2_IL_ContactName
 				</column>
 				<column>
-					AD2_IL_State
-				</column>
-				<column>
 					AD2_IL_Address1
 				</column>
 				<column>
@@ -10715,16 +10733,10 @@
 					AD2_IL_City
 				</column>
 				<column>
+					AD2_IL_State
+				</column>
+				<column>
 					AD2_IL_Zipcode
-				</column>
-				<column>
-					AD2_IL_EmailUseType
-				</column>
-				<column>
-					AD2_IL_EmailSource
-				</column>
-				<column>
-					AD2_IL_email
 				</column>
 				<column>
 					AD2_IL_PhoneUseType
@@ -10739,7 +10751,43 @@
 					AD2_IL_PhoneNumber
 				</column>
 				<column>
-					AD2_Attorney_RepDate
+					AD2_IL_EmailUseType
+				</column>
+				<column>
+					AD2_IL_EmailSource
+				</column>
+				<column>
+					AD2_IL_email
+				</column>
+				<column>
+					AD2_Search_Attorney
+				</column>
+				<column>
+					AD2_AD_Attorney_FirmName
+				</column>
+				<column>
+					AD2_AD_Attorney_RepDate
+				</column>
+				<column>
+					AD2_AD_Attorney_FirstName
+				</column>
+				<column>
+					AD2_AD_Attorney_LastName
+				</column>
+				<column>
+					AD2_AD_Attorney_Address1
+				</column>
+				<column>
+					AD2_AD_Attorney_Address2
+				</column>
+				<column>
+					AD2_AD_Attorney_City
+				</column>
+				<column>
+					AD2_AD_Attorney_State
+				</column>
+				<column>
+					AD2_AD_Attorney_Zip
 				</column>
 				<column>
 					AD2_AD_UseType
@@ -10751,10 +10799,16 @@
 					AD2_AD_Source
 				</column>
 				<column>
-					AD2_AD_EmailUseType
+					AD2_AD_PhoneNumber
 				</column>
 				<column>
-					AD2_AD_EmailSource
+					AD2_AD_Attorney_EmailUseType
+				</column>
+				<column>
+					AD2_AD_Attorney_EmailSource
+				</column>
+				<column>
+					AD2_AD_Attorney_Email
 				</column>
 				<column>
 					LicensePlate1
@@ -10772,13 +10826,13 @@
 					AD2_VIN_Model
 				</column>
 				<column>
+					OAT_PI_BusinessName
+				</column>
+				<column>
 					OAT_PI_FirstName
 				</column>
 				<column>
 					OAT_PI_LastName
-				</column>
-				<column>
-					OAT_PI_BusinessName
 				</column>
 				<column>
 					OAT_PI_Address1
@@ -10794,9 +10848,6 @@
 				</column>
 				<column>
 					OAT_PI_Zip
-				</column>
-				<column>
-					OAT_PI_Email
 				</column>
 				<column>
 					OAT_PI_BankruptcyCounty
@@ -10823,10 +10874,16 @@
 					OAT_PI_PhoneNumber
 				</column>
 				<column>
-					OAT_IL_CompName
+					OAT_PI_EmailUseType
 				</column>
 				<column>
-					OAT_IL_RentalCompany
+					OAT_PI_EmailSource
+				</column>
+				<column>
+					OAT_PI_EmailID
+				</column>
+				<column>
+					OAT_IL_CompName
 				</column>
 				<column>
 					OAT_IL_PolicyNumber
@@ -10838,9 +10895,6 @@
 					OAT_IL_ContactName
 				</column>
 				<column>
-					OAT_IL_State
-				</column>
-				<column>
 					OAT_IL_Address1
 				</column>
 				<column>
@@ -10848,6 +10902,9 @@
 				</column>
 				<column>
 					OAT_IL_City
+				</column>
+				<column>
+					OAT_IL_State
 				</column>
 				<column>
 					OAT_IL_Zip
@@ -10868,40 +10925,19 @@
 					OAT_IL_ExtNo
 				</column>
 				<column>
+					OAT_IL_EmailUseType
+				</column>
+				<column>
+					OAT_IL_EmailSource
+				</column>
+				<column>
+					OAT_IL_EmailID
+				</column>
+				<column>
 					CauseofLoss
 				</column>
 				<column>
 					Accident_description
-				</column>
-				<column>
-					AgentName
-				</column>
-				<column>
-					AD_AddressLine1
-				</column>
-				<column>
-					AD_AddressLine2
-				</column>
-				<column>
-					AD_City
-				</column>
-				<column>
-					AD_State
-				</column>
-				<column>
-					AD_Zipcode
-				</column>
-				<column>
-					AgentDetails_AgentPhone
-				</column>
-				<column>
-					AgentDetails_Email
-				</column>
-				<column>
-					AgentDetails_Ext
-				</column>
-				<column>
-					AgentDetails_FaxNo
 				</column>
 				<column>
 					ID_PI_FirstName
@@ -10940,19 +10976,22 @@
 					ID_PI_PhoneNumber
 				</column>
 				<column>
+					ID_PI_EmailUseType
+				</column>
+				<column>
+					ID_PI_EmailSource
+				</column>
+				<column>
+					ID_PI_EmailID
+				</column>
+				<column>
 					ID_CI_CompName
 				</column>
 				<column>
 					ID_CI_PolicyNumber
 				</column>
 				<column>
-					ID_CI_ClaimNumber
-				</column>
-				<column>
 					ID_CI_ContactNumber
-				</column>
-				<column>
-					ID_CI_State
 				</column>
 				<column>
 					ID_CI_Address1
@@ -10962,6 +11001,9 @@
 				</column>
 				<column>
 					ID_CI_City
+				</column>
+				<column>
+					ID_CI_State
 				</column>
 				<column>
 					ID_CI_Zip
@@ -11003,7 +11045,37 @@
 					ID_VD_VIN_Model
 				</column>
 				<column>
+					AD_Search_Attorney
+				</column>
+				<column>
+					ID_AI_SearchAttorney
+				</column>
+				<column>
 					ID_AI_RepresentationDate
+				</column>
+				<column>
+					ID_AI_FirmName
+				</column>
+				<column>
+					ID_AI_FirstName
+				</column>
+				<column>
+					ID_AI_LastName
+				</column>
+				<column>
+					ID_AI_Address1
+				</column>
+				<column>
+					ID_AI_Address2
+				</column>
+				<column>
+					ID_AI_City
+				</column>
+				<column>
+					ID_AI_State
+				</column>
+				<column>
+					ID_AI_Zipcode
 				</column>
 				<column>
 					ID_AI_UseType
@@ -11015,40 +11087,16 @@
 					ID_AI_Source
 				</column>
 				<column>
+					ID_AI_Phone
+				</column>
+				<column>
+					ID_AI_EmailUseType
+				</column>
+				<column>
 					ID_AI_EmailSource
 				</column>
 				<column>
-					AD_Search_Attorney
-				</column>
-				<column>
-					AO_Search_Attorney
-				</column>
-				<column>
-					AO1_Attorney_FirmName
-				</column>
-				<column>
-					AO1_Attorney_FirstName
-				</column>
-				<column>
-					AO1_Attorney_LastName
-				</column>
-				<column>
-					AO1_Attorney_Address1
-				</column>
-				<column>
-					AO1_Attorney_Address2
-				</column>
-				<column>
-					AO1_Attorney_City
-				</column>
-				<column>
-					AO1_Attorney_State
-				</column>
-				<column>
-					AO1_Attorney_Zip
-				</column>
-				<column>
-					AO1_Attorney_RepDate
+					ID_AI_EmailID
 				</column>
 				<column>
 					AO1_Attorney_UseType
@@ -11060,79 +11108,58 @@
 					AO1_Attorney_Source
 				</column>
 				<column>
-					AO1_Attorney_PhoneNumber
-				</column>
-				<column>
 					AO1_Attorney_EmailUseType
 				</column>
 				<column>
 					AO1_Attorney_EmailSource
 				</column>
 				<column>
-					AO1_Attorney_Email
+					AD2_Attorney_RepDate
 				</column>
 				<column>
-					AD2_LI_RevocationDate
+					AD2_AD_EmailUseType
 				</column>
 				<column>
-					AD2_AD_Attorney_FirmName
+					AD2_AD_EmailSource
 				</column>
 				<column>
-					AD2_AD_Attorney_FirstName
+					OAT_PI_Email
 				</column>
 				<column>
-					AD2_AD_Attorney_LastName
+					OAT_IL_RentalCompany
 				</column>
 				<column>
-					AD2_AD_Attorney_Address1
+					AgentName
 				</column>
 				<column>
-					AD2_AD_Attorney_Address2
+					AD_AddressLine1
 				</column>
 				<column>
-					AD2_AD_Attorney_City
+					AD_AddressLine2
 				</column>
 				<column>
-					AD2_AD_Attorney_State
+					AD_City
 				</column>
 				<column>
-					AD2_AD_Attorney_Zip
+					AD_State
 				</column>
 				<column>
-					AD2_AD_Attorney_EmailUseType
+					AD_Zipcode
 				</column>
 				<column>
-					AD2_AD_Attorney_EmailSource
+					AgentDetails_AgentPhone
 				</column>
 				<column>
-					AD2_AD_Attorney_Email
+					AgentDetails_Email
 				</column>
 				<column>
-					AD2_AD_Attorney_RepDate
+					AgentDetails_Ext
 				</column>
 				<column>
-					AD2_AD_PhoneNumber
+					AgentDetails_FaxNo
 				</column>
 				<column>
-					AD2_Search_Attorney
-				</column>
-				<column>
-					OAT_PI_EmailUseType
-				</column>
-				<column>
-					OAT_PI_EmailSource
-				</column>
-				<column>
-					OAT_PI_EmailID
-				</column>
-				<column>
-					OAT_IL_EmailUseType
-				</column>
-				<column>
-					OAT_IL_EmailSource
-				</column>
-				<column>
-					OAT_IL_EmailID
+					ID_CI_ClaimNumber
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
@@ -11435,9 +11462,6 @@
 				</columnname>
 				<columnname>
 					AO_LI_DateOfBirth
-				</columnname>
-				<columnname>
-					AO_LI_EmploymentPlace
 				</columnname>
 				<columnname>
 					AO_LI_LicenseNumber
@@ -11759,7 +11783,7 @@
 			id="27648a5d-30ae-43d3-9fdd-4f0f43decd35">
 			</testcontainer>
 			<testcontainer
-			id="7aef205c-2957-4eed-8c57-267479146ca3">
+			id="54d8100d-29ef-4020-865a-cbad9abf6542">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

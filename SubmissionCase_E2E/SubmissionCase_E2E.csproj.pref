@@ -1,15 +1,36 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="Adverse1_Driver_Insurance_Information.rxrec" />
+    <Element value="SubmissionCase_E2E.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="SubmissionCase_E2E.rxtst" />
+    <Element value="Edit_InsuredDetails_Company_Information.rxrec" />
+    <Element value="Edit_InsuredDetails_Personal_Information.rxrec" />
+    <Element value="Edit_Adverse1_Driver_Personal_Information.rxrec" />
+    <Element value="Edit_Adverse_Other_Insurance_Info.rxrec" />
+    <Element value="Adverse_Other_Personal_Info_Save.rxrec" />
+    <Element value="Adverse_Details.rxtmg" />
+    <Element value="Edit_Adverse_Other_Personal_Info.rxrec" />
+    <Element value="Edit_Adverse1_Driver_Footer_Mapping.rxrec" />
+    <Element value="Edit_Adverse1_Driver_Attorney_Information.rxrec" />
+    <Element value="Adverse1_Driver_Personal_Information_Save.rxrec" />
     <Element value="Adverse1_Driver_Insurance_Information.rxrec" />
+    <Element value="Adverse1_Driver_Insurance_Information_Save.rxrec" />
+    <Element value="Edit_Adverse2_Driver_License_Information.rxrec" />
+    <Element value="Adverse2_Driver_License_Information_Save.rxrec" />
+    <Element value="Edit_Advesre2_Driver_Insurance_Information.rxrec" />
+    <Element value="Edit_Advese2_Vechicle_Deatails.rxrec" />
+    <Element value="Edit_Adverse2_Driver_Personal_Information.rxrec" />
+    <Element value="Edit_Adverse1_Vehicle_Details.rxrec" />
+    <Element value="Edit_Adverse1_Owner_License_Information.rxrec" />
+    <Element value="Edit_Adverse1_Driver_Insurance_Information.rxrec" />
+    <Element value="Edit_InsuredDetails_Vechicle_Information.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
+    <Array name="recentusercodeselections" />
   </Properties>
 </Properties>

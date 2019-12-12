@@ -50,7 +50,7 @@ namespace SubmissionCase_E2E
             AD1_LI_DOB_getValue = "";
             Edit_AD1_LI_DOB_getValue = "03/02/1993";
             AD1_LI_RevocationDate_getValue = "";
-            Edit_AD1_LI_RevocationDate_getValue1 = "4/2/1994";
+            Edit_AD1_LI_RevocationDate_getValue = "4/2/1994";
         }
 
         /// <summary>
@@ -171,16 +171,16 @@ namespace SubmissionCase_E2E
             set { _AD1_LI_RevocationDate_getValue = value; }
         }
 
-        string _Edit_AD1_LI_RevocationDate_getValue1;
+        string _Edit_AD1_LI_RevocationDate_getValue;
 
         /// <summary>
-        /// Gets or sets the value of variable Edit_AD1_LI_RevocationDate_getValue1.
+        /// Gets or sets the value of variable Edit_AD1_LI_RevocationDate_getValue.
         /// </summary>
         [TestVariable("1a758864-6c88-4ac3-8903-8f5291186549")]
-        public string Edit_AD1_LI_RevocationDate_getValue1
+        public string Edit_AD1_LI_RevocationDate_getValue
         {
-            get { return _Edit_AD1_LI_RevocationDate_getValue1; }
-            set { _Edit_AD1_LI_RevocationDate_getValue1 = value; }
+            get { return _Edit_AD1_LI_RevocationDate_getValue; }
+            set { _Edit_AD1_LI_RevocationDate_getValue = value; }
         }
 
 #endregion
@@ -311,11 +311,11 @@ namespace SubmissionCase_E2E
             Keyboard.Press(System.Windows.Forms.Keys.Delete, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_RevocationDate_getValue1'.", new RecordItemIndex(30));
-            Keyboard.Press(Edit_AD1_LI_RevocationDate_getValue1);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Edit_AD1_LI_RevocationDate_getValue'.", new RecordItemIndex(30));
+            Keyboard.Press(Edit_AD1_LI_RevocationDate_getValue);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_RevocationDate_getValue1, new RecordItemIndex(31));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_RevocationDate_getValue, new RecordItemIndex(31));
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Checked='True') on item 'ApplicationUnderTest.AD1_LI_Revoke_CheckBox'.", repo.ApplicationUnderTest.AD1_LI_Revoke_CheckBoxInfo, new RecordItemIndex(32));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_Revoke_CheckBoxInfo, "Checked", "True");
@@ -326,6 +326,36 @@ namespace SubmissionCase_E2E
             Delay.Milliseconds(100);
             
             Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(34));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_LicenseNumber) on item 'ApplicationUnderTest.AD1_LI_LicenseNumber'.", repo.ApplicationUnderTest.AD1_LI_LicenseNumberInfo, new RecordItemIndex(35));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_LicenseNumberInfo, "TagValue", Edit_AD1_LI_LicenseNumber);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_LicenseNumber, new RecordItemIndex(36));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_DriversLicenseState) on item 'ApplicationUnderTest.AD1_LI_DriversLicenseState'.", repo.ApplicationUnderTest.AD1_LI_DriversLicenseStateInfo, new RecordItemIndex(37));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_DriversLicenseStateInfo, "TagValue", Edit_AD1_LI_DriversLicenseState);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_DriversLicenseState, new RecordItemIndex(38));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_SSN_getValue) on item 'ApplicationUnderTest.AD1_LI_SSN'.", repo.ApplicationUnderTest.AD1_LI_SSNInfo, new RecordItemIndex(39));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_SSNInfo, "TagValue", Edit_AD1_LI_SSN_getValue);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_SSN_getValue, new RecordItemIndex(40));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_DOB_getValue) on item 'ApplicationUnderTest.AD1_LI_DOB'.", repo.ApplicationUnderTest.AD1_LI_DOBInfo, new RecordItemIndex(41));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_DOBInfo, "TagValue", Edit_AD1_LI_DOB_getValue);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_DOB_getValue, new RecordItemIndex(42));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_LI_RevocationDate_getValue) on item 'ApplicationUnderTest.AD1_LI_RevocationDate'.", repo.ApplicationUnderTest.AD1_LI_RevocationDateInfo, new RecordItemIndex(43));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_LI_RevocationDateInfo, "TagValue", Edit_AD1_LI_RevocationDate_getValue);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_LI_RevocationDate_getValue, new RecordItemIndex(44));
             
         }
 

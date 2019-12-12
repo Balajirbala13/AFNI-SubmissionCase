@@ -54,9 +54,9 @@ namespace SubmissionCase_E2E
             AD1_PI_City = "";
             Edit_AD1_PI_City = "Edit_AD1_PI_City";
             AD1_PI_State = "";
-            Edit_AD1_PI_State = "Edit_AD1_PI_State";
+            Edit_AD1_PI_State = "ID";
             AD1_PI_Zip = "";
-            Edit_AD1_PI_Zip = "Edit_AD1_PI_Zip";
+            Edit_AD1_PI_Zip = "20000";
             AD1_PI_BankruptcyCounty = "";
             Edit_AD1_PI_BankruptcyCounty = "Edit_AD1_PI_BankruptcyCounty";
             AD1_PI_BankruptcyDistrict = "";
@@ -945,123 +945,127 @@ namespace SubmissionCase_E2E
             
             Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_Email_getValue, new RecordItemIndex(112));
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(113));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Save_Button' at 6;8.", repo.ApplicationUnderTest.Save_ButtonInfo, new RecordItemIndex(113));
+            repo.ApplicationUnderTest.Save_Button.Click("6;8");
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_FirstName) on item 'ApplicationUnderTest.AD1_PI_FirstName'.", repo.ApplicationUnderTest.AD1_PI_FirstNameInfo, new RecordItemIndex(114));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.PegaCaseManagerPortalGoogleChrome.Screenshot_Window, false, new RecordItemIndex(114));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_FirstName) on item 'ApplicationUnderTest.AD1_PI_FirstName'.", repo.ApplicationUnderTest.AD1_PI_FirstNameInfo, new RecordItemIndex(115));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_FirstNameInfo, "TagValue", Edit_AD1_PI_FirstName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_FirstName, new RecordItemIndex(115));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_FirstName, new RecordItemIndex(116));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_LastName) on item 'ApplicationUnderTest.AD1_PI_LastName'.", repo.ApplicationUnderTest.AD1_PI_LastNameInfo, new RecordItemIndex(116));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_LastName) on item 'ApplicationUnderTest.AD1_PI_LastName'.", repo.ApplicationUnderTest.AD1_PI_LastNameInfo, new RecordItemIndex(117));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_LastNameInfo, "TagValue", Edit_AD1_PI_LastName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_LastName, new RecordItemIndex(117));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_LastName, new RecordItemIndex(118));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_POE) on item 'ApplicationUnderTest.AD1_PI_POE'.", repo.ApplicationUnderTest.AD1_PI_POEInfo, new RecordItemIndex(118));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_POE) on item 'ApplicationUnderTest.AD1_PI_POE'.", repo.ApplicationUnderTest.AD1_PI_POEInfo, new RecordItemIndex(119));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_POEInfo, "TagValue", Edit_AD1_PI_POE);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_POE, new RecordItemIndex(119));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_POE, new RecordItemIndex(120));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_Address1) on item 'ApplicationUnderTest.AD1_PI_Address1'.", repo.ApplicationUnderTest.AD1_PI_Address1Info, new RecordItemIndex(120));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_Address1) on item 'ApplicationUnderTest.AD1_PI_Address1'.", repo.ApplicationUnderTest.AD1_PI_Address1Info, new RecordItemIndex(121));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_Address1Info, "TagValue", Edit_AD1_PI_Address1);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_Address1, new RecordItemIndex(121));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_Address1, new RecordItemIndex(122));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_Address2) on item 'ApplicationUnderTest.AD1_PI_Address2'.", repo.ApplicationUnderTest.AD1_PI_Address2Info, new RecordItemIndex(122));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_Address2) on item 'ApplicationUnderTest.AD1_PI_Address2'.", repo.ApplicationUnderTest.AD1_PI_Address2Info, new RecordItemIndex(123));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_Address2Info, "TagValue", Edit_AD1_PI_Address2);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_Address2, new RecordItemIndex(123));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_Address2, new RecordItemIndex(124));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_City) on item 'ApplicationUnderTest.AD1_PI_City'.", repo.ApplicationUnderTest.AD1_PI_CityInfo, new RecordItemIndex(124));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_City) on item 'ApplicationUnderTest.AD1_PI_City'.", repo.ApplicationUnderTest.AD1_PI_CityInfo, new RecordItemIndex(125));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_CityInfo, "TagValue", Edit_AD1_PI_City);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_City, new RecordItemIndex(125));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_City, new RecordItemIndex(126));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_State) on item 'ApplicationUnderTest.AD1_PI_State'.", repo.ApplicationUnderTest.AD1_PI_StateInfo, new RecordItemIndex(126));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_State) on item 'ApplicationUnderTest.AD1_PI_State'.", repo.ApplicationUnderTest.AD1_PI_StateInfo, new RecordItemIndex(127));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_StateInfo, "TagValue", Edit_AD1_PI_State);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_State, new RecordItemIndex(127));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_State, new RecordItemIndex(128));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_Zip) on item 'ApplicationUnderTest.AD1_PI_Zip'.", repo.ApplicationUnderTest.AD1_PI_ZipInfo, new RecordItemIndex(128));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_Zip) on item 'ApplicationUnderTest.AD1_PI_Zip'.", repo.ApplicationUnderTest.AD1_PI_ZipInfo, new RecordItemIndex(129));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_ZipInfo, "TagValue", Edit_AD1_PI_Zip);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_Zip, new RecordItemIndex(129));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_Zip, new RecordItemIndex(130));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_BankruptcyCounty) on item 'ApplicationUnderTest.AD1_PI_BankruptcyCounty'.", repo.ApplicationUnderTest.AD1_PI_BankruptcyCountyInfo, new RecordItemIndex(130));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_BankruptcyCounty) on item 'ApplicationUnderTest.AD1_PI_BankruptcyCounty'.", repo.ApplicationUnderTest.AD1_PI_BankruptcyCountyInfo, new RecordItemIndex(131));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_BankruptcyCountyInfo, "TagValue", Edit_AD1_PI_BankruptcyCounty);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_BankruptcyCounty, new RecordItemIndex(131));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_BankruptcyCounty, new RecordItemIndex(132));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_BankruptcyDistrict) on item 'ApplicationUnderTest.AD1_PI_BankruptcyDistrict'.", repo.ApplicationUnderTest.AD1_PI_BankruptcyDistrictInfo, new RecordItemIndex(132));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_BankruptcyDistrict) on item 'ApplicationUnderTest.AD1_PI_BankruptcyDistrict'.", repo.ApplicationUnderTest.AD1_PI_BankruptcyDistrictInfo, new RecordItemIndex(133));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_BankruptcyDistrictInfo, "TagValue", Edit_AD1_PI_BankruptcyDistrict);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_BankruptcyDistrict, new RecordItemIndex(133));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_BankruptcyDistrict, new RecordItemIndex(134));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_BankruptcyChapter) on item 'ApplicationUnderTest.AD1_PI_BankruptcyChapter'.", repo.ApplicationUnderTest.AD1_PI_BankruptcyChapterInfo, new RecordItemIndex(134));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_BankruptcyChapter) on item 'ApplicationUnderTest.AD1_PI_BankruptcyChapter'.", repo.ApplicationUnderTest.AD1_PI_BankruptcyChapterInfo, new RecordItemIndex(135));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_BankruptcyChapterInfo, "TagValue", Edit_AD1_PI_BankruptcyChapter);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_BankruptcyChapter, new RecordItemIndex(135));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_BankruptcyChapter, new RecordItemIndex(136));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_BankruptcyCaseNo) on item 'ApplicationUnderTest.AD1_PI_BankruptcyCaseNo'.", repo.ApplicationUnderTest.AD1_PI_BankruptcyCaseNoInfo, new RecordItemIndex(136));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_BankruptcyCaseNo) on item 'ApplicationUnderTest.AD1_PI_BankruptcyCaseNo'.", repo.ApplicationUnderTest.AD1_PI_BankruptcyCaseNoInfo, new RecordItemIndex(137));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_BankruptcyCaseNoInfo, "TagValue", Edit_AD1_PI_BankruptcyCaseNo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_BankruptcyCaseNo, new RecordItemIndex(137));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_BankruptcyCaseNo, new RecordItemIndex(138));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_PhoneUseType_getValue) on item 'ApplicationUnderTest.AD1_PI_PhoneUseType'.", repo.ApplicationUnderTest.AD1_PI_PhoneUseTypeInfo, new RecordItemIndex(138));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_PhoneUseType_getValue) on item 'ApplicationUnderTest.AD1_PI_PhoneUseType'.", repo.ApplicationUnderTest.AD1_PI_PhoneUseTypeInfo, new RecordItemIndex(139));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_PhoneUseTypeInfo, "TagValue", Edit_AD1_PI_PhoneUseType_getValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_PhoneUseType_getValue, new RecordItemIndex(139));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_PhoneUseType_getValue, new RecordItemIndex(140));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_PhoneType_getValue) on item 'ApplicationUnderTest.AD1_PI_PhoneType'.", repo.ApplicationUnderTest.AD1_PI_PhoneTypeInfo, new RecordItemIndex(140));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_PhoneType_getValue) on item 'ApplicationUnderTest.AD1_PI_PhoneType'.", repo.ApplicationUnderTest.AD1_PI_PhoneTypeInfo, new RecordItemIndex(141));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_PhoneTypeInfo, "TagValue", Edit_AD1_PI_PhoneType_getValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_PhoneType_getValue, new RecordItemIndex(141));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_PhoneType_getValue, new RecordItemIndex(142));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_PhoneSource_getValue) on item 'ApplicationUnderTest.AD1_PI_PhoneSource'.", repo.ApplicationUnderTest.AD1_PI_PhoneSourceInfo, new RecordItemIndex(142));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_PhoneSource_getValue) on item 'ApplicationUnderTest.AD1_PI_PhoneSource'.", repo.ApplicationUnderTest.AD1_PI_PhoneSourceInfo, new RecordItemIndex(143));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_PhoneSourceInfo, "TagValue", Edit_AD1_PI_PhoneSource_getValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_PhoneSource_getValue, new RecordItemIndex(143));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_PhoneSource_getValue, new RecordItemIndex(144));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_PhoneNumber_getValue) on item 'ApplicationUnderTest.AD1_PI_PhoneNumber'.", repo.ApplicationUnderTest.AD1_PI_PhoneNumberInfo, new RecordItemIndex(144));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_PhoneNumber_getValue) on item 'ApplicationUnderTest.AD1_PI_PhoneNumber'.", repo.ApplicationUnderTest.AD1_PI_PhoneNumberInfo, new RecordItemIndex(145));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_PhoneNumberInfo, "TagValue", Edit_AD1_PI_PhoneNumber_getValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_PhoneNumber_getValue, new RecordItemIndex(145));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_PhoneNumber_getValue, new RecordItemIndex(146));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_EmailUseType_getvalue) on item 'ApplicationUnderTest.AD1_PI_EmailUseType'.", repo.ApplicationUnderTest.AD1_PI_EmailUseTypeInfo, new RecordItemIndex(146));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_EmailUseType_getvalue) on item 'ApplicationUnderTest.AD1_PI_EmailUseType'.", repo.ApplicationUnderTest.AD1_PI_EmailUseTypeInfo, new RecordItemIndex(147));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_EmailUseTypeInfo, "TagValue", Edit_AD1_PI_EmailUseType_getvalue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_EmailUseType_getvalue, new RecordItemIndex(147));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_EmailUseType_getvalue, new RecordItemIndex(148));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_EmailSource_getValue) on item 'ApplicationUnderTest.AD1_PI_EmailSource'.", repo.ApplicationUnderTest.AD1_PI_EmailSourceInfo, new RecordItemIndex(148));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_EmailSource_getValue) on item 'ApplicationUnderTest.AD1_PI_EmailSource'.", repo.ApplicationUnderTest.AD1_PI_EmailSourceInfo, new RecordItemIndex(149));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_EmailSourceInfo, "TagValue", Edit_AD1_PI_EmailSource_getValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_EmailSource_getValue, new RecordItemIndex(149));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_EmailSource_getValue, new RecordItemIndex(150));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_Email_getValue) on item 'ApplicationUnderTest.AD1_PI_Email'.", repo.ApplicationUnderTest.AD1_PI_EmailInfo, new RecordItemIndex(150));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$Edit_AD1_PI_Email_getValue) on item 'ApplicationUnderTest.AD1_PI_Email'.", repo.ApplicationUnderTest.AD1_PI_EmailInfo, new RecordItemIndex(151));
             Validate.AttributeEqual(repo.ApplicationUnderTest.AD1_PI_EmailInfo, "TagValue", Edit_AD1_PI_Email_getValue);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_Email_getValue, new RecordItemIndex(151));
+            Report.Log(ReportLevel.Info, "User", Edit_AD1_PI_Email_getValue, new RecordItemIndex(152));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubmitButton1' at 46;15.", repo.ApplicationUnderTest.SubmitButton1Info, new RecordItemIndex(152));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubmitButton1' at 46;15.", repo.ApplicationUnderTest.SubmitButton1Info, new RecordItemIndex(153));
             repo.ApplicationUnderTest.SubmitButton1.Click("46;15");
             Delay.Milliseconds(0);
             

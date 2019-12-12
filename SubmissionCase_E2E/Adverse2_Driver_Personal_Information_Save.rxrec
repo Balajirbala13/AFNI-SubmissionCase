@@ -85,6 +85,24 @@ mode="Global">
 		</var>
 	</variables>
 	<recorditems>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="85725ffa-7fba-4113-8b7c-94e9ab7c0f4b"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bf438958-619b-4930-a1da-02c86219e3d3"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@id='5aac7369' and @name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pFirstName']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -198,24 +216,6 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
-		<WaitForRecordItem
-		enabled="True"
-		optional="False"
-		searchpropertyid="85725ffa-7fba-4113-8b7c-94e9ab7c0f4b"
-		waitaction="Exists"
-		waittimeout="30000ms">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="bf438958-619b-4930-a1da-02c86219e3d3"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@id='5aac7369' and @name='$PpyWorkPage$pAdverseInfo$l2$pSingleDriverInformation$pFirstName']
-				</path>
-			</info>
-		</WaitForRecordItem>
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
